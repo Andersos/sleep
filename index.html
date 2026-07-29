@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — raid nights 2019–2021</title>
+<link rel="stylesheet" href="assets/site.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>">
+<script src="assets/shared.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <p class="eyebrow">Razorgore EU · WoW Classic · October 2019 – April 2021</p>
+  <h1>Raid Nights of Sleep, Dusk &amp; Ascension</h1>
+  <p class="lede">
+    Every canonical raid session in the archive, with the story's turning
+    points on the rail above. Hover anything for detail, filter by era or
+    lineage, or search a raider to light up their nights.
+  </p>
+
+  <div class="chipgroup" style="margin-bottom:14px; gap:14px 22px;">
+    <span class="chipgroup" id="ranges" role="group" aria-label="Time range">
+      <span class="grouplabel">Era</span>
+      <button class="chip" data-r="all" aria-pressed="true">Everything</button>
+      <button class="chip" data-r="sleep" aria-pressed="false">Sleep era</button>
+      <button class="chip" data-r="dusk" aria-pressed="false">Dusk &amp; the crisis</button>
+      <button class="chip" data-r="end" aria-pressed="false">Endgame</button>
+    </span>
+    <span class="chipgroup" id="legend" role="group" aria-label="Lineages">
+      <span class="grouplabel">Lineage</span>
+    </span>
+    <span class="chipgroup">
+      <span class="grouplabel">Raider</span>
+      <input id="player" class="text" list="players" placeholder="search a name…"
+             autocomplete="off" spellcheck="false" style="border-radius:999px; width:170px; padding:5px 12px; font-size:12.5px;">
+      <datalist id="players"></datalist>
+      <button class="chip" id="clearplayer" hidden>clear</button>
+    </span>
+  </div>
+  <p id="playerline" style="margin:-6px 0 12px; font-size:13px; color:var(--ink-2);" hidden></p>
+
+  <div class="board"><svg id="viz" role="img" aria-label="Timeline of raid sessions by guild lineage with story milestones"><text x="20" y="40" fill="var(--muted)">loading…</text></svg></div>
+
+  <footer class="site">
+    Generated from the Warcraft Logs archive of the guild (520 reports,
+    deduplicated to canonical sessions). Marks are individual raid
+    sessions; roster size and zone in the tooltip. Milestone dates from
+    the story research record.
+  </footer>
+</div>
+
+<script>
+const MILESTONES = [
+  ["2019-10-02","First raid with Artimis","Mixed-guild Molten Core — the earliest confirmed raid containing Artimis.",0],
+  ["2019-10-13","The hunter diary begins","Onyxia and an 8/10 Molten Core clear; Artimis starts organizing the hunters.",0],
+  ["2019-12-29","Ragnaros down, the Choker drops","The kill screenshot survives; the neck later fuels the guild's first loot dispute.",0],
+  ["2020-02-01","David hands over the guild","Discord ownership transfers; Artimis is guild leader in practice.",1],
+  ["2020-02-05","Deliz quits","Criticism of healers and the caster-first Choker policy; he leaves the game the same night.",1],
+  ["2020-02-13","Blackwing Lair opens","Sleep enters on day one.",0],
+  ["2020-02-23","Nefarian falls","BWL 8/8 within ten days.",1],
+  ["2020-03-18","First Rejuvenating Gem","Shakey wins the roll the day Fnats steps back.",0],
+  ["2020-03-29","Glory's first Binding","Both Garr and Baron Geddon die four times that night across split runs.",0],
+  ["2020-08-02","The baby announcement","Nefarian dies twice; Anders tells the raid he is expecting a child and promotes Divinestorm on the spot.",1],
+  ["2020-08-14","Sleep + Ninjas become Dusk","A new name from a poll, so neither guild absorbs the other.",1],
+  ["2020-08-19","First Dusk AQ40","The preparation machine: resistance sets, rerolled professions, consumable pipelines.",0],
+  ["2020-09-24","The Ninjas bloc departs","Nearly the whole ex-Ninjas core raids its last Dusk night; the merger has failed.",1],
+  ["2020-09-30","GM crisis","Yeat transfers guild master mid-conflict; Divinestorm manages it remotely.",0],
+  ["2020-11-07","Thunderfury","Glory's second Binding drops; the legendary is announced the same evening.",0],
+  ["2020-11-18","Nayla leaves","113 logged sessions; felt unequal to the other tanks.",0],
+  ["2020-12-06","Dusk enters Naxxramas","Three bosses on the first night.",0],
+  ["2020-12-09","Joint raid with Ascension","Exactly 20 from each guild, picking the strongest players.",1],
+  ["2020-12-13","Benched — a strike brews","Artimis organizes a protest over veterans losing seats; a 37-minute call resolves it the next day.",1],
+  ["2020-12-20","Kel'Thuzad dies","Three wipes, then the last boss of vanilla. 43 names.",1],
+  ["2021-04-11","Glory's own Kel'Thuzad","Left out of the first kill, the guild's most-attended raider gets his — in the archive's final report.",1]
+];
+const ERAS = [
+  ["2019-09-15","2020-08-14","the nights of Sleep"],
+  ["2020-08-14","2020-12-09","Dusk"],
+  ["2020-12-09","2021-05-01","with Ascension"]
+];
+const RANGES = {
+  all:   ["2019-09-15","2021-05-01"],
+  sleep: ["2019-09-15","2020-08-20"],
+  dusk:  ["2020-08-01","2020-12-12"],
+  end:   ["2020-11-25","2021-04-20"]
+};
+
+renderNav("index.html");
+
+let SESSIONS = [];
+let PLAYERS = new Map();
+let playerByLower = new Map();
+const visible = Object.fromEntries(LANES.map((l) => [l.key, true]));
+let range = "all";
+let playerSet = null;
+let playerName = null;
+
+const svg = document.getElementById("viz");
+
+function render() {
+  if (!SESSIONS.length) return;
+  svg.innerHTML = "";
+  const [d0, d1] = RANGES[range];
+  const t0 = T(d0), t1 = T(d1);
+  const boardW = Math.max(760, Math.min(1140, svg.parentNode.clientWidth - 12));
+  const left = 118, right = 16, railH = 118, laneH = 46, axisH = 52;
+  const lanes = LANES.filter((l) => visible[l.key]);
+  const H = railH + lanes.length * laneH + axisH;
+  svg.setAttribute("viewBox", `0 0 ${boardW} ${H}`);
+  svg.setAttribute("width", boardW);
+  svg.setAttribute("height", H);
+  const plotW = boardW - left - right;
+  const X = (t) => left + ((t - t0) / (t1 - t0)) * plotW;
+
+  const defs = svgEl("defs", {}, svg);
+  const grad = svgEl("linearGradient", { id: "sky", x1: 0, x2: 1, y1: 0, y2: 0 }, defs);
+  for (const [off, col] of [[0, "var(--sky-a)"], [0.55, "var(--sky-b)"], [1, "var(--sky-c)"]]) {
+    svgEl("stop", { offset: off, "stop-color": col }, grad);
+  }
+  svgEl("rect", { x: left, y: railH - 8, width: plotW, height: lanes.length * laneH + 8, fill: "url(#sky)" }, svg);
+
+  for (const [a, b, name] of ERAS) {
+    const xa = Math.max(left, X(T(a))), xb = Math.min(left + plotW, X(T(b)));
+    if (xb - xa < 30) continue;
+    svgEl("line", { x1: xa, y1: railH - 8, x2: xa, y2: railH + lanes.length * laneH, stroke: "var(--baseline)", "stroke-dasharray": "2 4" }, svg);
+    const label = svgEl("text", { x: (xa + xb) / 2, y: railH + lanes.length * laneH + 36, "text-anchor": "middle", "font-style": "italic", "font-size": "12.5", fill: "var(--muted)", "font-family": '"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif' }, svg);
+    label.textContent = name;
+  }
+  const start = new Date(t0);
+  start.setUTCDate(1);
+  for (let d = new Date(start); d.getTime() <= t1; d.setUTCMonth(d.getUTCMonth() + 1)) {
+    const x = X(d.getTime());
+    if (x < left || x > left + plotW) continue;
+    svgEl("line", { x1: x, y1: railH, x2: x, y2: railH + lanes.length * laneH, stroke: "var(--grid)", "stroke-width": d.getUTCMonth() === 0 ? 1.4 : 0.7 }, svg);
+    const showLabel = range === "all" ? d.getUTCMonth() % 3 === 0 : true;
+    if (showLabel) {
+      const fmt = d.getUTCMonth() === 0
+        ? String(d.getUTCFullYear())
+        : d.toLocaleDateString("en", { month: "short", timeZone: "UTC" }).toLowerCase();
+      const t = svgEl("text", { x: x + 3, y: railH + lanes.length * laneH + 16, "font-size": "10.5", fill: "var(--muted)", "font-family": "ui-monospace,Menlo,monospace" }, svg);
+      t.textContent = fmt;
+      if (d.getUTCMonth() === 0) t.setAttribute("font-weight", "700");
+    }
+  }
+  svgEl("line", { x1: left, y1: railH + lanes.length * laneH, x2: left + plotW, y2: railH + lanes.length * laneH, stroke: "var(--baseline)" }, svg);
+
+  const counts = {};
+  const dayIndex = {};
+  lanes.forEach((lane, i) => {
+    const y = railH + i * laneH;
+    svgEl("line", { x1: left, y1: y + laneH - 6, x2: left + plotW, y2: y + laneH - 6, stroke: "var(--grid)", "stroke-width": 0.6 }, svg);
+    const lab = svgEl("text", { x: 8, y: y + laneH / 2 + 1, "font-size": "12", "font-weight": "600", fill: "var(--ink)" }, svg);
+    lab.textContent = lane.label;
+    counts[lane.key] = { node: svgEl("text", { x: 8, y: y + laneH / 2 + 15, "font-size": "10.5", fill: "var(--muted)", "font-family": "ui-monospace,Menlo,monospace" }, svg), n: 0 };
+  });
+
+  SESSIONS.forEach((s, sIdx) => {
+    if (!visible[s.identity]) return;
+    const t = T(s.date);
+    if (t < t0 || t > t1) return;
+    const laneIndex = lanes.findIndex((l) => l.key === s.identity);
+    if (laneIndex < 0) return;
+    const attended = playerSet ? playerSet.has(sIdx) : true;
+    if (attended) counts[s.identity].n += 1;
+    const dupKey = s.identity + s.date;
+    const dup = (dayIndex[dupKey] = (dayIndex[dupKey] ?? -1) + 1);
+    const laneBase = railH + laneIndex * laneH + laneH - 6;
+    const h = 8 + Math.min(20, s.rosterCount / 2.2);
+    const mark = svgEl("rect", {
+      x: X(t) - 1.5 + dup * 4,
+      y: laneBase - h,
+      width: 3,
+      height: h,
+      rx: 1.5,
+      fill: LANE[s.identity].color,
+      "fill-opacity": attended ? 1 : 0.14,
+      stroke: "rgba(0,0,0,0)",
+      "stroke-width": 7
+    }, svg);
+    const withPlayer = playerSet
+      ? attended ? ` · with ${esc(playerName)}` : ` · without ${esc(playerName)}`
+      : "";
+    const html = `<div class="t-date">${s.date}</div><div class="t-title">${esc(s.zone)}</div>` +
+      `<div>${LANE[s.identity].label} · ${s.rosterCount} in the roster${withPlayer}</div>`;
+    mark.addEventListener("mousemove", (evt) => showTip(html, evt));
+    mark.addEventListener("mouseleave", hideTip);
+  });
+  for (const key of Object.keys(counts)) {
+    counts[key].node.textContent =
+      counts[key].n + (playerSet ? " with " + playerName : " nights");
+  }
+
+  let visibleIndex = 0;
+  for (const [d, title, blurb, major] of MILESTONES) {
+    const t = T(d);
+    if (t < t0 || t > t1) continue;
+    const x = X(t);
+    const row = visibleIndex % 3;
+    visibleIndex += 1;
+    const yDot = railH - 16;
+    svgEl("line", { x1: x, y1: yDot, x2: x, y2: railH + lanes.length * laneH - 20, stroke: "var(--baseline)", "stroke-width": 0.6, "stroke-dasharray": "1 3" }, svg);
+    const dot = svgEl("rect", { x: x - 4, y: yDot - 4, width: 8, height: 8, rx: 2, transform: `rotate(45 ${x} ${yDot})`, fill: major ? "var(--ink)" : "var(--muted)", stroke: "rgba(0,0,0,0)", "stroke-width": 12, tabindex: 0, role: "img", "aria-label": `${d}: ${title}. ${blurb}` }, svg);
+    const html = `<div class="t-date">${d}</div><div class="t-title">${esc(title)}</div><div>${esc(blurb)}</div>`;
+    dot.addEventListener("mousemove", (evt) => showTip(html, evt));
+    dot.addEventListener("mouseleave", hideTip);
+    dot.addEventListener("focus", () => {
+      const r = dot.getBoundingClientRect();
+      showTip(html, { clientX: r.left + 8, clientY: r.bottom + 4 });
+    });
+    dot.addEventListener("blur", hideTip);
+    if (major || range !== "all") {
+      const anchor = x > left + plotW - 130 ? "end" : "start";
+      const label = svgEl("text", {
+        x: anchor === "start" ? x + 7 : x - 7,
+        y: 16 + row * 15,
+        "text-anchor": anchor,
+        "font-size": "11",
+        fill: major ? "var(--ink)" : "var(--ink-2)",
+        "font-weight": major ? "600" : "400"
+      }, svg);
+      label.textContent = title;
+      svgEl("line", { x1: x, y1: 18 + row * 15, x2: x, y2: yDot - 6, stroke: "var(--grid)", "stroke-width": 0.6 }, svg);
+    }
+  }
+}
+
+const legendBox = document.getElementById("legend");
+for (const lane of LANES) {
+  const b = document.createElement("button");
+  b.className = "chip";
+  b.style.display = "inline-flex";
+  b.style.alignItems = "center";
+  b.style.gap = "7px";
+  b.setAttribute("aria-pressed", "true");
+  b.innerHTML = `<span class="dot" style="background:${lane.color}"></span>${lane.label}`;
+  b.addEventListener("click", () => {
+    visible[lane.key] = !visible[lane.key];
+    b.setAttribute("aria-pressed", String(visible[lane.key]));
+    b.style.opacity = visible[lane.key] ? "1" : "0.42";
+    render();
+  });
+  legendBox.appendChild(b);
+}
+
+document.getElementById("ranges").addEventListener("click", (evt) => {
+  const b = evt.target.closest("button[data-r]");
+  if (!b) return;
+  range = b.dataset.r;
+  for (const chip of document.querySelectorAll("#ranges .chip")) {
+    chip.setAttribute("aria-pressed", String(chip === b));
+  }
+  render();
+});
+
+const playerInput = document.getElementById("player");
+const clearButton = document.getElementById("clearplayer");
+const playerLine = document.getElementById("playerline");
+function setPlayer(raw) {
+  const name = playerByLower.get(String(raw).trim().toLowerCase());
+  if (!name) {
+    playerSet = null;
+    playerName = null;
+    clearButton.hidden = true;
+    playerLine.hidden = true;
+    render();
+    return;
+  }
+  playerName = name;
+  const indices = PLAYERS.get(name);
+  playerSet = new Set(indices);
+  const first = SESSIONS[indices[0]].date;
+  const last = SESSIONS[indices[indices.length - 1]].date;
+  playerLine.innerHTML =
+    `<strong>${esc(name)}</strong> — ${indices.length} raid nights, ${first} to ${last}. ` +
+    `Bright marks are raids with ${esc(name)}. ` +
+    `<a href="${playerLink(name)}">Open player page</a>`;
+  playerLine.hidden = false;
+  clearButton.hidden = false;
+  render();
+}
+playerInput.addEventListener("change", () => setPlayer(playerInput.value));
+clearButton.addEventListener("click", () => {
+  playerInput.value = "";
+  setPlayer("");
+});
+addEventListener("resize", render);
+
+loadRaids().then((data) => {
+  SESSIONS = data.sessions;
+  PLAYERS = buildPlayerIndex(SESSIONS);
+  playerByLower = new Map([...PLAYERS.keys()].map((n) => [n.toLowerCase(), n]));
+  const datalist = document.getElementById("players");
+  for (const name of [...PLAYERS.keys()].sort()) {
+    const option = document.createElement("option");
+    option.value = name;
+    datalist.appendChild(option);
+  }
+  render();
+});
+</script>
+</body>
+</html>
