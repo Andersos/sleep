@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="assets/site.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚔️</text></svg>">
 <script src="assets/shared.js"></script>
+<script>const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: false };</script>
+<script src="https://wow.zamimg.com/js/tooltips.js" defer></script>
 <style>
   .cols { display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap; }
   .rosterbox { flex: 0 1 290px; min-width: 250px; }
@@ -159,10 +161,14 @@ function show(name) {
   const loot = lootByPlayer.get(name.toLowerCase()) ?? [];
   const mains = loot.filter((l) => l.isMainCharacterAward);
   const lootItems = [...mains, ...loot.filter((l) => !l.isMainCharacterAward)]
-    .map((l) =>
-      `<li><span class="mono mutetext">${l.awardDate}</span><span>${esc(l.itemName)}` +
-      (l.isMainCharacterAward ? "" : ' <span class="alt">(alt/other)</span>') +
-      `</span></li>`)
+    .map((l) => {
+      const item = l.itemId
+        ? `<a href="https://www.wowhead.com/classic/item=${l.itemId}" rel="noopener">${esc(l.itemName)}</a>`
+        : esc(l.itemName);
+      return `<li><span class="mono mutetext">${l.awardDate}</span><span>${item}` +
+        (l.isMainCharacterAward ? "" : ' <span class="alt">(alt/other)</span>') +
+        `</span></li>`;
+    })
     .join("");
 
   const logNights = [...sess].reverse().map((s) => {
@@ -196,6 +202,7 @@ function show(name) {
       : "") +
     `<div class="striplabel">Raid log, newest first</div>` +
     `<div class="log">${logNights}</div>`;
+  window.$WowheadPower?.refreshLinks?.();
 
   const svg = card.querySelector("#strip");
   svgEl("line", { x1: 0, x2: 800, y1: 40, y2: 40, stroke: "var(--grid)" }, svg);

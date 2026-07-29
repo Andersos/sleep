@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="assets/site.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
 <script src="assets/shared.js"></script>
+<script>const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: false };</script>
+<script src="https://wow.zamimg.com/js/tooltips.js" defer></script>
 <style>
   .filters { display: flex; flex-wrap: wrap; gap: 14px 22px; align-items: center; margin-bottom: 14px; }
   .tablebox { background: var(--surface); border: 1px solid var(--ring); border-radius: 10px; overflow: auto; max-height: 72vh; }
@@ -122,6 +124,7 @@ function render() {
   countNode.textContent =
     `${shown} of ${AWARDS.length} awards` +
     (rows.length < shown ? ` (showing first ${rows.length} — refine the search)` : "");
+  window.$WowheadPower?.refreshLinks?.();
 }
 
 document.getElementById("q").addEventListener("input", (evt) => {
