@@ -154,6 +154,17 @@ function render() {
     counts[lane.key] = { node: svgEl("text", { x: 8, y: y + laneH / 2 + 15, "font-size": "10.5", fill: "var(--muted)", "font-family": "ui-monospace,Menlo,monospace" }, svg), n: 0 };
   });
 
+  // Player view: "missed" means a night inside the player's active window,
+  // in a lineage they actually raided with, that they did not attend.
+  let tenure = null;
+  let playerLanes = null;
+  if (playerSet) {
+    const indices = PLAYERS.get(playerName);
+    tenure = [T(SESSIONS[indices[0]].date), T(SESSIONS[indices[indices.length - 1]].date)];
+    playerLanes = new Set(indices.map((i) => SESSIONS[i].identity));
+  }
+  const tenureTotals = {};
+
   SESSIONS.forEach((s, sIdx) => {
     if (!visible[s.identity]) return;
     const t = T(s.date);
@@ -161,33 +172,66 @@ function render() {
     const laneIndex = lanes.findIndex((l) => l.key === s.identity);
     if (laneIndex < 0) return;
     const attended = playerSet ? playerSet.has(sIdx) : true;
+    let state = "attended";
+    if (playerSet && !attended) {
+      state =
+        t >= tenure[0] && t <= tenure[1] && playerLanes.has(s.identity)
+          ? "missed"
+          : "outside";
+    }
     if (attended) counts[s.identity].n += 1;
+    if (state !== "outside") {
+      tenureTotals[s.identity] = (tenureTotals[s.identity] ?? 0) + 1;
+    }
     const dupKey = s.identity + s.date;
     const dup = (dayIndex[dupKey] = (dayIndex[dupKey] ?? -1) + 1);
     const laneBase = railH + laneIndex * laneH + laneH - 6;
     const h = 8 + Math.min(20, s.rosterCount / 2.2);
-    const mark = svgEl("rect", {
+    const attrs = {
       x: X(t) - 1.5 + dup * 4,
       y: laneBase - h,
       width: 3,
       height: h,
       rx: 1.5,
-      fill: LANE[s.identity].color,
-      "fill-opacity": attended ? 1 : 0.14,
-      stroke: "rgba(0,0,0,0)",
-      "stroke-width": 7
-    }, svg);
-    const withPlayer = playerSet
-      ? attended ? ` · with ${esc(playerName)}` : ` · without ${esc(playerName)}`
-      : "";
+      fill: LANE[s.identity].color
+    };
+    if (state === "attended") {
+      attrs["fill-opacity"] = 1;
+      attrs.stroke = "rgba(0,0,0,0)";
+      attrs["stroke-width"] = 7;
+    } else if (state === "missed") {
+      attrs["fill-opacity"] = 0.14;
+      attrs.stroke = LANE[s.identity].color;
+      attrs["stroke-opacity"] = 0.75;
+      attrs["stroke-width"] = 1;
+    } else {
+      attrs["fill-opacity"] = 0.07;
+      attrs.stroke = "rgba(0,0,0,0)";
+      attrs["stroke-width"] = 7;
+    }
+    const mark = svgEl("rect", attrs, svg);
+    const hit = state === "missed"
+      ? svgEl("rect", {
+          x: attrs.x - 3, y: attrs.y - 3, width: 9, height: h + 6,
+          fill: "rgba(0,0,0,0)"
+        }, svg)
+      : mark;
+    const withPlayer = !playerSet
+      ? ""
+      : state === "attended"
+        ? ` · with ${esc(playerName)}`
+        : state === "missed"
+          ? ` · ${esc(playerName)} missed this one`
+          : ` · outside ${esc(playerName)}'s time`;
     const html = `<div class="t-date">${s.date}</div><div class="t-title">${esc(s.zone)}</div>` +
       `<div>${LANE[s.identity].label} · ${s.rosterCount} in the roster${withPlayer}</div>`;
-    mark.addEventListener("mousemove", (evt) => showTip(html, evt));
-    mark.addEventListener("mouseleave", hideTip);
+    hit.addEventListener("mousemove", (evt) => showTip(html, evt));
+    hit.addEventListener("mouseleave", hideTip);
   });
   for (const key of Object.keys(counts)) {
-    counts[key].node.textContent =
-      counts[key].n + (playerSet ? " with " + playerName : " nights");
+    counts[key].node.textContent = playerSet
+      ? `${counts[key].n}/${tenureTotals[key] ?? 0} with ${playerName}`
+      : counts[key].n + " nights";
   }
 
   let visibleIndex = 0;
@@ -272,7 +316,8 @@ function setPlayer(raw) {
   const last = SESSIONS[indices[indices.length - 1]].date;
   playerLine.innerHTML =
     `<strong>${esc(name)}</strong> — ${indices.length} raid nights, ${first} to ${last}. ` +
-    `Bright marks are raids with ${esc(name)}. ` +
+    `Solid marks: nights with ${esc(name)}. Outlined: nights their lineage ` +
+    `raided without them. Faint: outside their time. ` +
     `<a href="${playerLink(name)}">Open player page</a>`;
   playerLine.hidden = false;
   clearButton.hidden = false;

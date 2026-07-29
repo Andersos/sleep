@@ -195,7 +195,7 @@ function show(name) {
     `<h2>${esc(name)}</h2>` +
     `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
     `<div class="chips">${chips}</div>` +
-    `<div class="striplabel">Raid nights over time</div>` +
+    `<div class="striplabel">Raid nights over time — tall solid: attended · short outlined: missed</div>` +
     `<svg id="strip" viewBox="0 0 800 46" role="img" aria-label="Raid nights of ${esc(name)} over time"></svg>` +
     (loot.length
       ? `<div class="striplabel">Recorded loot (${mains.length} main awards)</div><ul class="lootlist">${lootItems}</ul>`
@@ -212,6 +212,22 @@ function show(name) {
     const label = svgEl("text", { x: x + 4, y: 12, fill: "var(--muted)", "font-size": 9, "font-family": "ui-monospace,Menlo,monospace" }, svg);
     label.textContent = year;
   }
+  const attendedSet = new Set(indices);
+  const tenure = [T(first), T(last)];
+  const playerLanes = new Set(sess.map((s) => s.identity));
+  SESSIONS.forEach((s, sIdx) => {
+    if (attendedSet.has(sIdx)) return;
+    const t = T(s.date);
+    if (t < tenure[0] || t > tenure[1] || !playerLanes.has(s.identity)) return;
+    const x = ((t - T0) / (T1 - T0)) * 800;
+    const missed = svgEl("rect", {
+      x: x - 1, y: 22, width: 2.4, height: 18, rx: 1.2,
+      fill: LANE[s.identity].color, "fill-opacity": 0.12,
+      stroke: LANE[s.identity].color, "stroke-opacity": 0.55, "stroke-width": 0.8
+    }, svg);
+    const mtitle = svgEl("title", {}, missed);
+    mtitle.textContent = `${s.date} · ${s.zone} · missed`;
+  });
   for (const s of sess) {
     const x = ((T(s.date) - T0) / (T1 - T0)) * 800;
     const mark = svgEl("rect", { x: x - 1, y: 14, width: 2.4, height: 26, rx: 1.2, fill: LANE[s.identity].color }, svg);
