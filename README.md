@@ -1,5 +1,7 @@
 # Sleep
 
+**Live site: <https://andersos.github.io/sleep/>**
+
 The raid history of the WoW Classic guild Sleep (Razorgore EU) and its
 successors Dusk and the joint Dusk/Ascension team, October 2019 to April
 2021. Static pages, no build step.
