@@ -128,7 +128,8 @@ const MILESTONES = [
   ["2020-12-09","Joint raid with Ascension","Exactly 20 from each guild, picking the strongest players.",1],
   ["2020-12-13","Benched — a strike brews","Artimis organizes a protest over veterans losing seats; a 37-minute call resolves it the next day.",1],
   ["2020-12-20","Kel'Thuzad dies","Three wipes, then the last boss of vanilla. 43 names.",1],
-  ["2021-04-11","Glory's own Kel'Thuzad","Left out of the first kill, the guild's most-attended raider gets his — in the archive's final report.",1]
+  ["2021-04-11","Glory's own Kel'Thuzad","Left out of the first kill, the guild's most-attended raider gets his — in the archive's final report.",1],
+  ["2021-05-12","The Dusk list","Supplier posts a tribute video for every guildmate — the guild taking attendance one last time.",1]
 ];
 const PHASES = [
   ["2019-08-27", "P1", "Molten Core & Onyxia available from launch"],
