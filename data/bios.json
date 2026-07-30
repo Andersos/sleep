@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-30T17:10:44.257Z",
- "count": 23,
+ "generatedAt": "2026-07-30T17:31:39.117Z",
+ "count": 32,
  "bios": {
   "suspected alts — co-absence analysis": {
    "name": "Suspected alts — co-absence analysis",
@@ -9,6 +9,24 @@
   "alt mapping evidence": {
    "name": "Alt mapping evidence",
    "html": "<p>Updated 2026-07-30. Every pair in `alts.json` with its source. Roster session counts from the canonical Warcraft Logs archive.</p><p>## Confirmed</p><p>| Alt (sessions) | Main | Evidence | |---|---|---| | <a href=\"players.html#Lege\">Lege</a> (55) | <a href=\"players.html#Artimis\">Artimis</a> | Documented throughout; loot workbook comment \"<a href=\"players.html#Artimis\">Artimis</a>\" on <a href=\"players.html#Lege\">Lege</a> rows 2020-05-10 | | <a href=\"players.html#Transformed\">Transformed</a> (10) | <a href=\"players.html#Artimis\">Artimis</a> | `account-characters.md`; Anders's druid (\"ZG <a href=\"players.html#Transformed\">Transformed</a>\" report) | | <a href=\"players.html#Vikka\">Vikka</a> (10) | <a href=\"players.html#Luivi\">Luivi</a> | Anders's entry; `luivi.md` bio (\"fill-ins on his alt <a href=\"players.html#Vikka\">Vikka</a>\"); workbook comment \"<a href=\"players.html#Luivi\">Luivi</a>\" on a <a href=\"players.html#Vikka\">Vikka</a> row 2020-06-14 | | <a href=\"players.html#Yukikitsune\">Yukikitsune</a> (24) | <a href=\"players.html#Glorya\">Glorya</a> | Workbook comments \"<a href=\"players.html#Glorya\">Glorya</a>\" on five <a href=\"players.html#Yukikitsune\">Yukikitsune</a> rows 2020-05/06; matches the <a href=\"players.html#Glorya\">Glorya</a> DM where he offers to swap to his rogue when healers were overstaffed | | <a href=\"players.html#Akaraz\">Akaraz</a> (31) | <a href=\"players.html#Zados\">Zados</a> | Workbook comments \"<a href=\"players.html#Zados\">Zados</a>\" on six <a href=\"players.html#Akaraz\">Akaraz</a> rows 2020-06; the paladin continued into the 2021 Ascension era | | <a href=\"players.html#Catstrangler\">Catstrangler</a> (16) | <a href=\"players.html#Randyfist\">Randyfist</a> | Workbook comments \"<a href=\"players.html#Randyfist\">Randyfist</a>\" on <a href=\"players.html#Catstrangler\">Catstrangler</a> rows 2020-05-31 | | <a href=\"players.html#Poesje\">Poesje</a> (10) | <a href=\"players.html#Crok\">Crok</a> | Workbook comments \"<a href=\"players.html#Crok\">Crok</a>\" on <a href=\"players.html#Poesje\">Poesje</a>/Posje rows 2020-05/06 | | <a href=\"players.html#Ursaminor\">Ursaminor</a> (12) | <a href=\"players.html#Docthor\">Docthor</a> | Workbook comments \"<a href=\"players.html#Docthor\">Docthor</a>\" on <a href=\"players.html#Ursaminor\">Ursaminor</a> and \"<a href=\"players.html#Docthor\">Docthor</a> Alt\" rows 2020-05-10; resolves the \"Docthors alts name\" placeholder recipients | | <a href=\"players.html#Drutt\">Drutt</a> (7) | <a href=\"players.html#Palaman\">Palaman</a> | Workbook comment \"<a href=\"players.html#Palaman\">Palaman</a>\" on a <a href=\"players.html#Drutt\">Drutt</a> row 2020-06-28 | | <a href=\"players.html#Zizy\">Zizy</a> (5) | <a href=\"players.html#Qiqi\">Qiqi</a> | Workbook comment \"<a href=\"players.html#Qiqi\">Qiqi</a>\" on a <a href=\"players.html#Zizy\">Zizy</a> row 2020-04-19 | | <a href=\"players.html#Exclus\">Exclus</a> (41) | <a href=\"players.html#Exclusafk\">Exclusafk</a> | Reroll, not a parallel alt: Chris played the mage <a href=\"players.html#Exclus\">Exclus</a> 2019-11-13 to 2020-03-22, then the paladin <a href=\"players.html#Exclusafk\">Exclusafk</a> 2020-03-15 to 2020-09-20 (interview 2026-07-29: \"chris hadde en mage og en paladin, exclusafk and exclus\"); mapped so both count as one person | | <a href=\"players.html#Rocka\">Rocka</a> (17) | <a href=\"players.html#Rockafella\">Rockafella</a> | Roster inference confirmed 2026-07-30: <a href=\"players.html#Rocka\">Rocka</a> the Hunter appears almost only when <a href=\"players.html#Rockafella\">Rockafella</a> the Warlock is absent (1 shared session, 2020-02-12, consistent with a mid-raid swap); appearances are MC farm nights; the workbook records two \"<a href=\"players.html#Rocka\">Rocka</a>\" rows with class Warlock — the keeper's hand betraying the main | | <a href=\"players.html#Devouboi\">Devouboi</a> (16) | <a href=\"players.html#Devou\">Devou</a> | Co-absence analysis (0 shared sessions, name-derived); confirmed by Anders 2026-07-30 | | <a href=\"players.html#Hiltsey\">Hiltsey</a> (13) | <a href=\"players.html#Hilts\">Hilts</a> | Co-absence analysis (0 shared, name-derived); confirmed by Anders 2026-07-30 | | <a href=\"players.html#Steewie\">Steewie</a> (12) | <a href=\"players.html#Steewiee\">Steewiee</a> | Co-absence analysis (0 shared, same name ± one letter); confirmed by Anders 2026-07-30 | | <a href=\"players.html#Tsiko\">Tsiko</a> (6) | <a href=\"players.html#Tsakimo\">Tsakimo</a> | Co-absence analysis (0 shared, name-similar); confirmed by Anders 2026-07-30 | | Borégar (0 logged) | <a href=\"players.html#Divinestorm\">Divinestorm</a> | His own Dusk officer-chat nick is \"Borégar / <a href=\"players.html#Divinestorm\">Divinestorm</a>\"; 2020-09-10 he reports poison sacs \"on my alt\" (AQ nature-resistance farming). Never appears in any raid log — a farm/profession alt | | Banama (0 logged) | <a href=\"players.html#Banamahs\">Banamahs</a> | Self-declared, Dusk officer chat 2020-10-03 10:45: \"Going to leave my alt (Banama) In there to be able to catch up\" | | Benevolence (0 logged) | <a href=\"players.html#Missdotty\">Missdotty</a> | Dusk officer chat: \"They are on Dottys alt (Benevolence)\" | | Cosyz (0 logged) | <a href=\"players.html#Antzi\">Antzi</a> | Dusk officer chat: \"Think Cosyz is <a href=\"players.html#Antzi\">Antzi</a>'s alt\" — stated by an officer, phrased with slight uncertainty |</p><p>## Candidates — named but unconfirmed</p><p>- <strong><a href=\"players.html#Arcanefarts\">Arcanefarts</a> (Mage, 34 sessions):</strong> Jón <a href=\"players.html#Snj%C3%B3r\">Snjór</a>, 2020-09-10: \"we could maybe ask arcanefarts since its his alt and he was gonna move to wednesday group\"; <a href=\"players.html#Banamahs\">Banamahs</a> adds the owner is \"on call\" certain weeks. The owner is an unnamed mage-team member in a bench discussion (<a href=\"players.html#Kolfinna\">Kolfinna</a>? Filippo?). Needs one more source. - <strong><a href=\"players.html#Neptun\">Neptun</a> (Mage, 33 workbook rows, ZG attendance leader):</strong> Anders's hypothesis — <a href=\"players.html#Ragie\">Ragie</a>'s second account or Henriette (<a href=\"players.html#Ragie\">Ragie</a>'s girlfriend). Ask <a href=\"players.html#Ragie\">Ragie</a>. - <strong><a href=\"players.html#Rocka\">Rocka</a> (6 workbook rows):</strong> shorthand for <a href=\"players.html#Rockafella\">Rockafella</a> or a separate alt; \"<a href=\"players.html#Samie\">Samie</a> and <a href=\"players.html#Rocka\">Rocka</a> rolled\" comments treat it as a person. Unresolved. - <strong>Deepdive:</strong> \"Deepdive won roll\" comment on a <a href=\"players.html#Catstrangler\">Catstrangler</a> row 2020-06-14; name appears nowhere else. Unresolved.</p><p>## Known alts without recovered names</p><p><a href=\"players.html#Drekka\">Drekka</a> has a priest; <a href=\"players.html#%C3%92llz\">Òllz</a> a warlock; <a href=\"players.html#Ferrua\">Ferrua</a> a priest; <a href=\"players.html#Powerranger\">Powerranger</a> a paladin (all from Dusk officer chat, character names never stated).</p>"
+  },
+  "antzi": {
+   "name": "Antzi",
+   "html": "<p>Antzi ran the rogues — before the merger in Ninjas, after it in Dusk — and brought to the officer chat a philosophy he repeated until everyone could recite it: focus is respect. He didn't care if you came unbuffed; he cared if you wasted thirty-nine other people's evening. \"I play this game for the community,\" he wrote in one of the autumn's better manifestos, and meant it literally — his rogues never once made loot drama, a record he defended with visible pride.</p><p>His temper was the cost of the conviction. The September crises pulled him into shouting matches with <a href=\"players.html#Divinestorm\">Divinestorm</a> (\"no brain pull\"), with <a href=\"players.html#Rockafella\">Rockafella</a> (\"stick to ur lock\"), and into the Band of Accuria blowup where he heard himself called stupid and demanded it never happen again. But the record consistently shows the anger pointing somewhere real: at carelessness, at gift-loot logic, at anything that treated the raid's time as free. When he admitted he'd talked his rogues out of quitting \"with arguments I don't even believe,\" it was the most honest sentence of the whole autumn.</p>",
+   "alts": [
+    "Cosyz"
+   ]
+  },
+  "antzisical": {
+   "name": "Antzi",
+   "html": "<p>Antzi ran the rogues — before the merger in Ninjas, after it in Dusk — and brought to the officer chat a philosophy he repeated until everyone could recite it: focus is respect. He didn't care if you came unbuffed; he cared if you wasted thirty-nine other people's evening. \"I play this game for the community,\" he wrote in one of the autumn's better manifestos, and meant it literally — his rogues never once made loot drama, a record he defended with visible pride.</p><p>His temper was the cost of the conviction. The September crises pulled him into shouting matches with <a href=\"players.html#Divinestorm\">Divinestorm</a> (\"no brain pull\"), with <a href=\"players.html#Rockafella\">Rockafella</a> (\"stick to ur lock\"), and into the Band of Accuria blowup where he heard himself called stupid and demanded it never happen again. But the record consistently shows the anger pointing somewhere real: at carelessness, at gift-loot logic, at anything that treated the raid's time as free. When he admitted he'd talked his rogues out of quitting \"with arguments I don't even believe,\" it was the most honest sentence of the whole autumn.</p>",
+   "roles": [
+    {
+     "role": "Rogue class leader",
+     "period": "2020",
+     "guild": "Ninjas & Dusk"
+    }
+   ]
   },
   "artimis": {
    "name": "Artimis",
@@ -28,6 +46,20 @@
    "alts": [
     "Lege",
     "Transformed"
+   ]
+  },
+  "banamahs": {
+   "name": "Banamahs",
+   "html": "<p>Banamahs led the Thursday mages and thought about guilds the way an economist thinks about fisheries: the resource is your members' time and goodwill, and every scuffed raid overfishes it. \"Longevity is the key to this game,\" he wrote in September, \"but if you burn resources too quickly, people quit.\" He said it about continuation raids, about split-run chaos, about consumable costs — and the autumn kept proving him right.</p><p>He was the calm half of the Ninjas bloc: building loot-overview spreadsheets other class leaders copied, absorbing a mage exodus (three top-geared mages gone in a week) with recruitment plans instead of drama, and cutting through the era's worst arguments with lines like \"this wasn't a case of afk players — we were not ready to pull.\" His tribute to <a href=\"players.html#Ulfhild\">Ulfhild</a> doubles as his own epitaph for the era: if everyone pumped that hard, the raid would take forty-five minutes.</p>",
+   "roles": [
+    {
+     "role": "Mage class leader",
+     "period": "2020",
+     "guild": "Ninjas & Dusk"
+    }
+   ],
+   "alts": [
+    "Banama"
    ]
   },
   "boxya": {
@@ -165,6 +197,21 @@
    "html": "<p>Luivi was the druid class leader whose one decision reshaped the whole story: in July 2020, Sleep offered him the guild-master seat. He turned it down — no time for it — and instead asked his contacts in Ninjas whether they'd consider merging. That conversation became Dusk. It's hard to name a more consequential \"no\" in the guild's history.</p><p>As a leader he ran the druids with visible pride (\"Druids, the most civilized Class\") and a warm, blunt style that survived translation from his native language into rapid-fire officer-chat English. He was the patient center of the <a href=\"players.html#Nayla\">Nayla</a> saga — voting for a last warning while admitting the man exhausted him — and the one who kept perspective when officer arguments overheated: no one was dying, the content was getting cleared, chill out a bit.</p><p>He raided everywhere: main raids on Luivi, fill-ins on his alt Vikka, off-tanking in cat spec when asked, venom-sack farm runs until he literally fell asleep at the keyboard mid-session (the officers renamed the voice channel \"Sleepy Luivi\" and tiptoed out). He became a Dusk officer in September, made the jump to Ascension in December, and stayed one of the last active voices in the old officer channel deep into 2021.</p>",
    "main": "Luivi"
   },
+  "missdotty": {
+   "name": "Missdotty",
+   "html": "<p>Missdotty — Dotty, or Decretum on Discord — was a warlock, the Thursday team's off-boss tank when a fight demanded one, and the officer chat's investigator-in-chief. When idols went missing from the guild bank pipeline, Dotty traced them mailbox by mailbox (\"the investigator!\"); when arguments ran to 150 messages, Dotty arrived late, sighed \"99% shit, 1% information, as usual,\" and set up a poll. The Among Us jokes wrote themselves, and Dotty leaned in.</p><p>The record also holds one running comedy of mistaken identity: half the guild spent months assuming Missdotty was a woman, a discovery that cost <a href=\"players.html#Pnats\">Pnats</a> a genuine crisis (\"She's not?\" — \"I can be, if you want\"). Beyond the jokes sat a reliable officer: hardline in the <a href=\"players.html#Nayla\">Nayla</a> debate, generous in the Tear queue (giving up a claim so <a href=\"players.html#Potema\">Potema</a> could have it), and the one who kept Discord's machinery — polls, roles, tags — actually working.</p>",
+   "alts": [
+    "Benevolence"
+   ]
+  },
+  "decretum": {
+   "name": "Missdotty",
+   "html": "<p>Missdotty — Dotty, or Decretum on Discord — was a warlock, the Thursday team's off-boss tank when a fight demanded one, and the officer chat's investigator-in-chief. When idols went missing from the guild bank pipeline, Dotty traced them mailbox by mailbox (\"the investigator!\"); when arguments ran to 150 messages, Dotty arrived late, sighed \"99% shit, 1% information, as usual,\" and set up a poll. The Among Us jokes wrote themselves, and Dotty leaned in.</p><p>The record also holds one running comedy of mistaken identity: half the guild spent months assuming Missdotty was a woman, a discovery that cost <a href=\"players.html#Pnats\">Pnats</a> a genuine crisis (\"She's not?\" — \"I can be, if you want\"). Beyond the jokes sat a reliable officer: hardline in the <a href=\"players.html#Nayla\">Nayla</a> debate, generous in the Tear queue (giving up a claim so <a href=\"players.html#Potema\">Potema</a> could have it), and the one who kept Discord's machinery — polls, roles, tags — actually working.</p>"
+  },
+  "dotty": {
+   "name": "Missdotty",
+   "html": "<p>Missdotty — Dotty, or Decretum on Discord — was a warlock, the Thursday team's off-boss tank when a fight demanded one, and the officer chat's investigator-in-chief. When idols went missing from the guild bank pipeline, Dotty traced them mailbox by mailbox (\"the investigator!\"); when arguments ran to 150 messages, Dotty arrived late, sighed \"99% shit, 1% information, as usual,\" and set up a poll. The Among Us jokes wrote themselves, and Dotty leaned in.</p><p>The record also holds one running comedy of mistaken identity: half the guild spent months assuming Missdotty was a woman, a discovery that cost <a href=\"players.html#Pnats\">Pnats</a> a genuine crisis (\"She's not?\" — \"I can be, if you want\"). Beyond the jokes sat a reliable officer: hardline in the <a href=\"players.html#Nayla\">Nayla</a> debate, generous in the Tear queue (giving up a claim so <a href=\"players.html#Potema\">Potema</a> could have it), and the one who kept Discord's machinery — polls, roles, tags — actually working.</p>"
+  },
   "nayla": {
    "name": "Nayla",
    "html": "<p>Nayla was a feral druid and off-tank whose two years in the guild produced more officer-chat discussion than almost anyone else's. He was generous with his time — always available, always signed — and famously difficult to pin down: conversations relayed through him had a way of arriving changed, to the point where officers joked they needed screenshots.</p><p>His defining month was the autumn of 2020. An apparent ninja pull in AQ20 turned out, on investigation, to be a misunderstanding — he had been teleported onto the boss while trying to hearth out — but it landed on top of older friction, and the officers split between removal and mercy. The verdict, after a night of debate that ranged from \"his behavior is toxic\" to \"loyalty you can't buy\": one final chance, framed as a fresh start for the new guild. He lost his tank spot soon after, flirted with rerolling rogue, and was still being proposed for raider rank as late as October. On 25 November he left in a burst of drama, messaging guild members that their leader had committed a \"last desperate act of evilness\" — the details of which the archive still doesn't record. By December he had found a new guild and a new audience on the realm Discord. His story is the guild's hardest governance question in miniature: what do you owe the member who gives you everything and costs you almost as much?</p><p>The record is unusually rich on how he was experienced by others: the class leader who defended him (\"a soul whose intentions are good\") in the same message as admitting he was exhausting; the officers who communicated with him only in pairs so there would be a witness; the running joke that no two people ever heard the same version of a conversation with him. When he told one officer he had \"lost his tanking spot,\" the officer who supposedly took it away had no idea what he was talking about — a small scene that explains his whole file.</p><p>And yet the guild kept almost keeping him. He survived a removal announcement, earned back a bench slot, and was seriously proposed for raider rank six weeks before the end. Whatever the \"last desperate act of evilness\" was that he announced on his way out, within two weeks he was raiding elsewhere and loudly himself on the realm Discord — proof, in its way, that there was never anything wrong with his will to play.</p>"
@@ -172,6 +219,25 @@
   "nereb": {
    "name": "Nereb",
    "html": "<p>Nereb was the third hunter in the rotation that defined December — the agreement by which he, <a href=\"players.html#Artimis\">Artimis</a> and <a href=\"players.html#Zados\">Zados</a> took turns sitting out when the merged raid allowed the class only a few spots. He'd been there from the early days, one of the hunters chasing Rhok'delar leaves in the winter of 2019-2020, and he was in the first Four Horsemen kill on the night both his rotation partners watched from outside. In the debates about hunter spots he was one of the three names even the hardliners agreed had to be protected: \"<a href=\"players.html#Artimis\">Artimis</a> is a special case, so is <a href=\"players.html#Zados\">Zados</a> and Nereb.\"</p>"
+  },
+  "orish": {
+   "name": "Orish",
+   "html": "<p>Orish — Dan on Discord — was the Thursday raid's healing brain and the most quotable internal critic the guild ever had. He came over with Ninjas, built the healer loot plans item by item, leveled three warlocks just to run summons for other people's world buffs, and defended his turf in prose that still crackles: anyone trying to snake healing loot without knowing the role would \"be dealing with me, one to one.\"</p><p>He fought with almost everyone worth fighting with — the priest channel, the Sunday-raid planners, and above all <a href=\"players.html#Divinestorm\">Divinestorm</a>, in a September feud that produced the officer chat's most profane sentence and its sharpest critiques. The thing about Orish's criticism was that it was mostly right: the split-run chaos he attacked was real, the communication gaps were real, and the members left in the dark were real. On 24 September 2020, undermined once too often on healer decisions, he quit live in the channel — \"Leadership's going to run this guild into the ground, I'm out before it gets much worse\" — and took his alts with him. The officers restructured their entire chat within the hour. It was, in its way, his last accepted proposal.</p>",
+   "roles": [
+    {
+     "role": "Healing officer",
+     "period": "Aug – Sep 2020",
+     "guild": "Dusk"
+    }
+   ]
+  },
+  "dan": {
+   "name": "Orish",
+   "html": "<p>Orish — Dan on Discord — was the Thursday raid's healing brain and the most quotable internal critic the guild ever had. He came over with Ninjas, built the healer loot plans item by item, leveled three warlocks just to run summons for other people's world buffs, and defended his turf in prose that still crackles: anyone trying to snake healing loot without knowing the role would \"be dealing with me, one to one.\"</p><p>He fought with almost everyone worth fighting with — the priest channel, the Sunday-raid planners, and above all <a href=\"players.html#Divinestorm\">Divinestorm</a>, in a September feud that produced the officer chat's most profane sentence and its sharpest critiques. The thing about Orish's criticism was that it was mostly right: the split-run chaos he attacked was real, the communication gaps were real, and the members left in the dark were real. On 24 September 2020, undermined once too often on healer decisions, he quit live in the channel — \"Leadership's going to run this guild into the ground, I'm out before it gets much worse\" — and took his alts with him. The officers restructured their entire chat within the hour. It was, in its way, his last accepted proposal.</p>"
+  },
+  "pawsz": {
+   "name": "Pawsz",
+   "html": "<p>Pawsz was a druid, a Ninjas officer, and the closest thing the officer chat had to a house intellectual — the one running the numbers on venom sac consumption per Viscidus attempt, proposing member polls with properly phrased questions, and arguing for radical transparency when everyone else wanted PR (\"we can just let people read the officer chat. I don't care one bit how it looks\"). His one-liners carried more policy than most meetings: \"we are not the UN\"; \"Stoneshield is not something one pops for personal parsing.\"</p><p>He was also the merger's honest observer. It was Pawsz who noted the irony that the supposedly weaker Sleep brought the stricter rules, and Pawsz who refused to let September's departures become a Ninjas-versus- Sleep story: \"We are not sat here pointing at <a href=\"players.html#Nayla\">Nayla</a> either — why make this about Ninjas and Sleep again?\" When the factions finally dissolved into Ascension in December, he was still there, still auditing the decision-making, still allergic to nonsense.</p>"
   },
   "pnats": {
    "name": "Pnats",
@@ -199,6 +265,33 @@
    "name": "Ragie",
    "html": "<p>Ragie — Jack on Discord, <a href=\"players.html#Pnats\">Pnats</a>'s brother — was the guild's tank spine across every era. He inherited the main-tank mantle when <a href=\"players.html#Kugel\">Kugel</a> vanished in early 2020, and from then on the records rarely show a serious raid without him: Dark Iron gear crafted specifically so the guild could get past Firemaw, the tank-loot priority debates of spring 2020 (in which <a href=\"players.html#Glory\">Glory</a> saw him as the favoured rival), and by the Dusk era the formal role of tank leader, raid-leading Sunday runs alongside Jón <a href=\"players.html#Snj%C3%B3r\">Snjór</a>.</p><p>He is also half of the guild's longest-running loot argument. The question of what a main tank was owed — first claim on mitigation gear, crafting materials, a Thunderfury — put him repeatedly opposite <a href=\"players.html#Glory\">Glory</a>, whose grievances about \"Ragie gets anything he wants\" date to March 2020. The archive is fairer to both men than they were to each other: Ragie's gearing was policy, argued openly in officer channels, and the binding runs that eventually completed Thunderfuries were organised for him and others by name.</p><p>He was in the first Four Horsemen kill and the 15/15, made the move to Ascension with everyone on the day of the migration — <a href=\"players.html#Pnats\">Pnats</a> pinged him to take one last look at the dying Dusk channel — and kept tanking into 2022 in the guild's afterlife.</p>"
   },
+  "randyfist": {
+   "name": "Randyfist",
+   "html": "<p>Randyfist — Randy, or Trenfentson on Discord — is one of the archive's quiet constants: a paladin who held the healing-officer role back in early Sleep, reappeared through every era, and by late Dusk was the officer chat's resident hawk. When the December merge talks began, his counsel was piracy: \"poach the benched Ascension raiders, cancel the merge, Ascension implodes, we get half their shit — just like a good ol' divorce.\" Nobody took the advice. Everybody quoted it.</p><p>He recruited paladins when nobody else would (\"Recruit yourself, Randy,\" <a href=\"players.html#Divinestorm\">Divinestorm</a> shot back), tanked the Four Horsemen first kill, and asked the question that ended Dusk — \"When we leaving and merging?\" — then answered it himself within twenty minutes: \"Fuck it, get it over and done with. Gonna do it there now; it's good to have some officers already in there before the migration.\" His OCD, he explained, flared at unresolved things.</p>",
+   "roles": [
+    {
+     "role": "Healing officer",
+     "period": "until Mar 2020",
+     "guild": "Sleep"
+    }
+   ],
+   "alts": [
+    "Catstrangler"
+   ]
+  },
+  "trenfentson": {
+   "name": "Randyfist",
+   "html": "<p>Randyfist — Randy, or Trenfentson on Discord — is one of the archive's quiet constants: a paladin who held the healing-officer role back in early Sleep, reappeared through every era, and by late Dusk was the officer chat's resident hawk. When the December merge talks began, his counsel was piracy: \"poach the benched Ascension raiders, cancel the merge, Ascension implodes, we get half their shit — just like a good ol' divorce.\" Nobody took the advice. Everybody quoted it.</p><p>He recruited paladins when nobody else would (\"Recruit yourself, Randy,\" <a href=\"players.html#Divinestorm\">Divinestorm</a> shot back), tanked the Four Horsemen first kill, and asked the question that ended Dusk — \"When we leaving and merging?\" — then answered it himself within twenty minutes: \"Fuck it, get it over and done with. Gonna do it there now; it's good to have some officers already in there before the migration.\" His OCD, he explained, flared at unresolved things.</p>"
+  },
+  "randy": {
+   "name": "Randyfist",
+   "html": "<p>Randyfist — Randy, or Trenfentson on Discord — is one of the archive's quiet constants: a paladin who held the healing-officer role back in early Sleep, reappeared through every era, and by late Dusk was the officer chat's resident hawk. When the December merge talks began, his counsel was piracy: \"poach the benched Ascension raiders, cancel the merge, Ascension implodes, we get half their shit — just like a good ol' divorce.\" Nobody took the advice. Everybody quoted it.</p><p>He recruited paladins when nobody else would (\"Recruit yourself, Randy,\" <a href=\"players.html#Divinestorm\">Divinestorm</a> shot back), tanked the Four Horsemen first kill, and asked the question that ended Dusk — \"When we leaving and merging?\" — then answered it himself within twenty minutes: \"Fuck it, get it over and done with. Gonna do it there now; it's good to have some officers already in there before the migration.\" His OCD, he explained, flared at unresolved things.</p>"
+  },
+  "catstrangler": {
+   "name": "Randyfist",
+   "html": "<p>Randyfist — Randy, or Trenfentson on Discord — is one of the archive's quiet constants: a paladin who held the healing-officer role back in early Sleep, reappeared through every era, and by late Dusk was the officer chat's resident hawk. When the December merge talks began, his counsel was piracy: \"poach the benched Ascension raiders, cancel the merge, Ascension implodes, we get half their shit — just like a good ol' divorce.\" Nobody took the advice. Everybody quoted it.</p><p>He recruited paladins when nobody else would (\"Recruit yourself, Randy,\" <a href=\"players.html#Divinestorm\">Divinestorm</a> shot back), tanked the Four Horsemen first kill, and asked the question that ended Dusk — \"When we leaving and merging?\" — then answered it himself within twenty minutes: \"Fuck it, get it over and done with. Gonna do it there now; it's good to have some officers already in there before the migration.\" His OCD, he explained, flared at unresolved things.</p>",
+   "main": "Randyfist"
+  },
   "shakeyhealer": {
    "name": "Shakeyhealer",
    "html": "<p>Shakey was a priest, an officer, and one of the guild's steady hands — the kind of presence who appears in every era's records without ever being the problem. In the <a href=\"players.html#Glory\">Glory</a> affair he was one of the two named supporters (\"<a href=\"players.html#Zados\">Zados</a> and Shakey has always been for you,\" Anders told <a href=\"players.html#Glory\">Glory</a> on the night he quit), and his healing anchored the December raids: he is in the first Four Horsemen kill roster and stayed through the clear. His DM thread with Anders is one of the largest in the archive — 562 messages of guild logistics across the whole of 2020 — and one of the least dramatic, which is its own kind of biography.</p>"
@@ -219,6 +312,18 @@
     }
    ]
   },
+  "snjór": {
+   "name": "Snjór",
+   "html": "<p>Jón Snjór — Snjór in the raid, Fantur on his warrior alt — came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic: asked to hold Twin Emperors on a second-string gear set, he laid out the math — five thousand gold of Edgemaster's, double consumables, five-point-nine thousand health against five-thousand-damage strikes — and the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank — the one act the record can't soften, and the one he was restored from within a day once <a href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p>"
+  },
+  "jón snjór": {
+   "name": "Snjór",
+   "html": "<p>Jón Snjór — Snjór in the raid, Fantur on his warrior alt — came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic: asked to hold Twin Emperors on a second-string gear set, he laid out the math — five thousand gold of Edgemaster's, double consumables, five-point-nine thousand health against five-thousand-damage strikes — and the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank — the one act the record can't soften, and the one he was restored from within a day once <a href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p>"
+  },
+  "fantur": {
+   "name": "Snjór",
+   "html": "<p>Jón Snjór — Snjór in the raid, Fantur on his warrior alt — came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic: asked to hold Twin Emperors on a second-string gear set, he laid out the math — five thousand gold of Edgemaster's, double consumables, five-point-nine thousand health against five-thousand-damage strikes — and the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank — the one act the record can't soften, and the one he was restored from within a day once <a href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p>"
+  },
   "supplier": {
    "name": "Supplier",
    "html": "<p>Supplier earned his name. Across three years and nearly a thousand messages with <a href=\"players.html#Artimis\">Artimis</a>, he was the guild's consumables economy in human form — flasks, protection potions, world-buff logistics, the LBRS venom-sack supply chain that made Viscidus killable. If a raid had what it needed, odds are Supplier had something to do with it.</p><p>He was Norwegian, precise, and allergic to sloppy thinking: the officer who asked what a poll was actually <em>for</em> before letting anyone run it, who told his fellow priests exactly how their channel would be run (\"take it up with me directly\"), and who de-escalated the guild's worst arguments by explaining what an expression meant in context. He was named Healing Officer at the September 2020 meeting and stayed in that seat through the December merge.</p><p>Two footnotes belong to him. It was his dry one-liner — \"<a href=\"players.html#Shosanna\">Shosanna</a> was the only priest that got an item yesterday, fyi\" — that became the last straw in <a href=\"players.html#Orish\">Orish</a>'s dramatic exit, a fact he handled with characteristic equanimity (\"Allright, nice to meet ya\"). And in May 2021 he posted the \"Dusk list\": a set of tribute video links, one per guildmate — the closest thing the guild ever made to its own memorial before this site.</p>",
@@ -233,6 +338,21 @@
   "zypher": {
    "name": "Supplier",
    "html": "<p>Supplier earned his name. Across three years and nearly a thousand messages with <a href=\"players.html#Artimis\">Artimis</a>, he was the guild's consumables economy in human form — flasks, protection potions, world-buff logistics, the LBRS venom-sack supply chain that made Viscidus killable. If a raid had what it needed, odds are Supplier had something to do with it.</p><p>He was Norwegian, precise, and allergic to sloppy thinking: the officer who asked what a poll was actually <em>for</em> before letting anyone run it, who told his fellow priests exactly how their channel would be run (\"take it up with me directly\"), and who de-escalated the guild's worst arguments by explaining what an expression meant in context. He was named Healing Officer at the September 2020 meeting and stayed in that seat through the December merge.</p><p>Two footnotes belong to him. It was his dry one-liner — \"<a href=\"players.html#Shosanna\">Shosanna</a> was the only priest that got an item yesterday, fyi\" — that became the last straw in <a href=\"players.html#Orish\">Orish</a>'s dramatic exit, a fact he handled with characteristic equanimity (\"Allright, nice to meet ya\"). And in May 2021 he posted the \"Dusk list\": a set of tribute video links, one per guildmate — the closest thing the guild ever made to its own memorial before this site.</p>"
+  },
+  "ulfhild": {
+   "name": "Ulfhild",
+   "html": "<p>Ulfhild was the guild's best hunter and made no apology for what that took: world buffs, full consumables, and total focus, every raid, for a character whose job was the damage meter. The Thursday team built its expectations around him, and he delivered so consistently that his one famous lapse became a governance crisis: on 17 September 2020, when a botched pull at the Ahn'Qiraj entrance wasted the buffs he'd spent hours collecting, he quit the raid on the spot.</p><p>The three-day officer argument that followed used his name as shorthand for a whole worldview. His defenders — and they were loud — pointed out that a near-perfect raider had been failed by the raid, not the other way around; his critics said no one player's buffs outweigh thirty-nine people's evening. He apologized in private, was back the next week, and kept doing what he always did: pulling, as one officer put it, more than his share. If everyone had pumped like Ulfhild, the mage leader mused that autumn, AQ would take forty-five minutes.</p>"
+  },
+  "yeat": {
+   "name": "Yeat",
+   "html": "<p>Yeat was the Thursday team's raid leader and master looter — the warrior who actually ran the nights, kept the loot in his bags between raids (occasionally to the guild banker's despair), and dialed in from work trips with lines like \"please make preparations as if I'm not there.\" His raid-leading philosophy hardened after the September pull crisis: stricter comms, less fun on the mic, \"I don't want that in my raid, full stop.\"</p><p>His name is attached to the era's strangest day. On 30 September 2020 he kicked Jón <a href=\"players.html#Snj%C3%B3r\">Snjór</a> from the guild without consulting anyone — entangled in an accusation <a href=\"players.html#Divinestorm\">Divinestorm</a> privately doubted — and the retaliation and protest quits that followed nearly cracked the guild. The reform that came out of it restricted kick powers for good. Yet the same record shows why he held the job: steady on loot fairness, first to volunteer for unglamorous logistics, and holder of the in-game guild-master character during the transition — which is how a mid-conflict kick became constitutionally possible in the first place.</p>",
+   "roles": [
+    {
+     "role": "Raid leader & master looter",
+     "period": "2020",
+     "guild": "Ninjas & Dusk"
+    }
+   ]
   },
   "zados": {
    "name": "Zados",
@@ -264,53 +384,6 @@
     }
    ]
   },
-  "antzisical": {
-   "name": "antzisical",
-   "html": "",
-   "roles": [
-    {
-     "role": "Rogue class leader",
-     "period": "2020",
-     "guild": "Ninjas & Dusk"
-    }
-   ]
-  },
-  "banamahs": {
-   "name": "banamahs",
-   "html": "",
-   "roles": [
-    {
-     "role": "Mage class leader",
-     "period": "2020",
-     "guild": "Ninjas & Dusk"
-    }
-   ],
-   "alts": [
-    "Banama"
-   ]
-  },
-  "yeat": {
-   "name": "yeat",
-   "html": "",
-   "roles": [
-    {
-     "role": "Raid leader & master looter",
-     "period": "2020",
-     "guild": "Ninjas & Dusk"
-    }
-   ]
-  },
-  "orish": {
-   "name": "orish",
-   "html": "",
-   "roles": [
-    {
-     "role": "Healing officer",
-     "period": "Aug – Sep 2020",
-     "guild": "Dusk"
-    }
-   ]
-  },
   "yealof": {
    "name": "yealof",
    "html": "",
@@ -336,20 +409,6 @@
      "period": "2019 – Feb 2020",
      "guild": "Sleep"
     }
-   ]
-  },
-  "randyfist": {
-   "name": "randyfist",
-   "html": "",
-   "roles": [
-    {
-     "role": "Healing officer",
-     "period": "until Mar 2020",
-     "guild": "Sleep"
-    }
-   ],
-   "alts": [
-    "Catstrangler"
    ]
   },
   "tsakimo": {
@@ -385,11 +444,6 @@
    "name": "Akaraz",
    "html": "",
    "main": "Zados"
-  },
-  "catstrangler": {
-   "name": "Catstrangler",
-   "html": "",
-   "main": "Randyfist"
   },
   "poesje": {
    "name": "Poesje",
@@ -507,24 +561,10 @@
    "html": "",
    "main": "Missdotty"
   },
-  "missdotty": {
-   "name": "Missdotty",
-   "html": "",
-   "alts": [
-    "Benevolence"
-   ]
-  },
   "cosyz": {
    "name": "Cosyz",
    "html": "",
    "main": "Antzi"
-  },
-  "antzi": {
-   "name": "Antzi",
-   "html": "",
-   "alts": [
-    "Cosyz"
-   ]
   }
  },
  "groups": {
