@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T16:40:34.361Z",
+ "generatedAt": "2026-07-30T17:10:44.257Z",
  "count": 23,
  "bios": {
   "suspected alts — co-absence analysis": {
@@ -239,8 +239,13 @@
    "html": "<p>Zados was the guild's other half of the hunter brain trust and its co-leader in everything but title. From late 2019 onward he shows up wherever decisions were made: running the hunter class and its loot queues, keeping the debuff-slot priority list current, arguing rules in the officer chat with a debater's stamina, and organising the three-week hunter rotation that he, <a href=\"players.html#Artimis\">Artimis</a> and <a href=\"players.html#Nereb\">Nereb</a> shared when spots got scarce. His pet did enough damage to become a running joke in feral-druid comparisons.</p><p>The Dusk era slowly squeezed the old Sleep leadership out of power, and Zados felt it first. In the September 2020 server reshuffle his admin rights were flagged for removal, and when <a href=\"players.html#Divinestorm\">Divinestorm</a> deleted a channel he liked, his reply — that he supposed he wasn't an officer any more, so whatever — is the driest line in the whole archive. He kept working anyway: the debuff documentation, hunter loot calls, and the long Discord-ping culture war he fought on pure principle (\"I'm completely basing my reasoning on logic\").</p><p>In December he was in the room for everything: skeptical of the new partners (\"I have a pretty bad impression of ascension players so far\"), blunt about roster choices, and finally the one who answered \"when are we leaving and merging?\" with \"today would be good.\" He was in the first Four Horsemen kill and the Kel'Thuzad clear — one of the few who was there from the first Molten Core to the last boss of Classic.</p>",
    "roles": [
     {
-     "role": "Hunter class leader & officer",
+     "role": "Hunter class leader",
      "period": "from Jul 2020",
+     "guild": "Sleep & Dusk"
+    },
+    {
+     "role": "Officer",
+     "period": "2020",
      "guild": "Sleep & Dusk"
     }
    ],
@@ -322,7 +327,12 @@
    "html": "",
    "roles": [
     {
-     "role": "Founder & Guild Master",
+     "role": "Founder",
+     "period": "2019",
+     "guild": "Sleep"
+    },
+    {
+     "role": "Guild Master",
      "period": "2019 – Feb 2020",
      "guild": "Sleep"
     }
