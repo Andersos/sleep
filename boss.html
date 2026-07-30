@@ -3,22 +3,59 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sleep — bosses</title>
+<title>Sleep — bestiary</title>
 <link rel="stylesheet" href="assets/site.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
 <style>
-  table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; }
-  table.t th, table.t td { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--grid, #2a2c3a); }
-  table.t th { font-size: 11.5px; opacity: .7; text-transform: uppercase; letter-spacing: .04em; }
+  .bestiary h2, .bestiary h3, .bosscard h4, .bosshead h2 {
+    font-family: "Fraunces", "Iowan Old Style", Palatino, Georgia, serif;
+    letter-spacing: .01em;
+  }
+  .zonehead { display: flex; align-items: baseline; gap: 14px; margin: 30px 0 14px; }
+  .zonehead h3 { margin: 0; font-size: 21px; font-weight: 700; color: #e0af68; }
+  .zonehead .rule { flex: 1; height: 1px; background: linear-gradient(90deg, rgba(224,175,104,.55), rgba(224,175,104,0)); }
+  .zonehead .tally { font-size: 12px; opacity: .65; font-family: ui-monospace, Menlo, monospace; white-space: nowrap; }
+  .bossgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 12px; }
+  .bosscard {
+    display: flex; align-items: center; gap: 12px; padding: 12px 14px;
+    background: linear-gradient(160deg, rgba(224,175,104,.05), rgba(0,0,0,.18));
+    border: 1px solid var(--grid, #2a2c3a); border-radius: 12px;
+    text-decoration: none; color: inherit;
+    transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    animation: rise .45s ease backwards;
+  }
+  .bosscard:hover {
+    transform: translateY(-3px);
+    border-color: rgba(224,175,104,.6);
+    box-shadow: 0 8px 26px rgba(0,0,0,.45), 0 0 0 1px rgba(224,175,104,.25);
+  }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px); } }
+  .medallion {
+    width: 54px; height: 54px; border-radius: 50%; flex: none;
+    border: 2px solid rgba(224,175,104,.55); box-shadow: 0 0 0 3px rgba(0,0,0,.35);
+    object-fit: cover; background: #14141c;
+  }
+  .medallion.lg { width: 86px; height: 86px; border-width: 3px; }
+  .bosscard h4 { margin: 0 0 3px; font-size: 15.5px; font-weight: 700; line-height: 1.2; }
+  .bosscard .tally { font-size: 11.5px; font-family: ui-monospace, Menlo, monospace; opacity: .85; }
   .kill { color: #9ece6a; } .wipe { color: #f7768e; }
-  .zonehead { margin: 18px 0 6px; font-size: 15px; }
-  .statchips { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 14px; }
-  .statchips span { background: rgba(122,162,247,.14); border-radius: 8px; padding: 6px 12px; font-size: 13px; }
-  .statchips strong { display: block; font-size: 15px; }
+  .bosshead { display: flex; align-items: center; gap: 18px; margin: 6px 0 4px; }
+  .bosshead h2 { margin: 0; font-size: 30px; font-weight: 700; }
+  .bosshead .zone { display: block; font-size: 13px; opacity: .6; margin-top: 2px; font-family: inherit; }
+  .statchips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0; }
+  .statchips span { background: rgba(224,175,104,.09); border: 1px solid rgba(224,175,104,.28); border-radius: 8px; padding: 7px 13px; font-size: 13px; }
+  .statchips strong { display: block; font-size: 16px; font-family: "Fraunces", Georgia, serif; }
+  table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.t th, table.t td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--grid, #2a2c3a); }
+  table.t th { font-size: 11.5px; opacity: .7; text-transform: uppercase; letter-spacing: .06em; }
+  .backlink { font-size: 13px; opacity: .85; }
 </style>
 </head>
 <body>
 <main>
-  <div class="card" id="card"><div class="loading">loading…</div></div>
+  <div class="card bestiary" id="card"><div class="loading">loading…</div></div>
 </main>
 <script src="assets/shared.js"></script>
 <script>
@@ -38,6 +75,51 @@ const fmtDur = (ms) => {
   return parts.join(" ") || "0 seconds";
 };
 
+// Second-tier boss art for bosses without achievement portraits, plus a
+// raid-crest fallback so every boss has an image.
+const BOSS_ART = {
+  "lucifron": "spell_shadow_curseofachimonde",
+  "magmadar": "spell_fire_lavaspawn",
+  "gehennas": "spell_shadow_rainoffire",
+  "garr": "spell_nature_earthquake",
+  "shazzrah": "spell_nature_wispsplode",
+  "baron-geddon": "spell_fire_selfdestruct",
+  "sulfuron": "inv_hammer_unique_sulfuras",
+  "golemagg": "spell_fire_moltenblood",
+  "majordomo": "spell_fire_fireball02",
+  "razorgore": "inv_misc_head_dragon_01",
+  "vaelastrasz": "inv_misc_head_dragon_red",
+  "broodlord": "inv_misc_head_dragon_black",
+  "firemaw": "spell_fire_flameshock",
+  "venoxis": "ability_creature_poison_05",
+  "marli": "spell_nature_web",
+  "thekal": "ability_druid_catform",
+  "kurinnaxx": "achievement_boss_kurinaxx",
+  "skeram": "spell_shadow_psychicscream",
+  "sartura": "ability_warrior_whirlwind",
+  "viscidus": "spell_nature_acid_01",
+  "twin-emperors": "spell_shadow_mindtwisting",
+};
+const ZONE_CREST = {
+  1000: "spell_fire_volcano",
+  1001: "inv_misc_head_dragon_01",
+  1002: "inv_misc_head_dragon_black",
+  1003: "inv_misc_idol_02",
+  1004: "spell_nature_insectswarm",
+  1005: "spell_shadow_carrionswarm",
+  1006: "spell_shadow_raisedead",
+};
+function bossArt(zoneId, key, size, lg) {
+  const primary = BOSS_ICONS[key] ?? BOSS_ICONS[key.replace(/-/g, "")] ?? BOSS_ART[key];
+  const crest = ZONE_CREST[zoneId] ?? "inv_misc_questionmark";
+  const src = `https://wow.zamimg.com/images/wow/icons/large/${primary ?? crest}.jpg`;
+  const fb = `https://wow.zamimg.com/images/wow/icons/large/${crest}.jpg`;
+  return `<img class="medallion${lg ? " lg" : ""}" width="${size}" height="${size}" loading="lazy" alt="" ` +
+    `data-fb="${primary ? fb : ""}" ` +
+    `onerror="if(this.dataset.fb){this.src=this.dataset.fb;this.dataset.fb='';}else{this.style.visibility='hidden';}" ` +
+    `src="${src}">`;
+}
+
 function bossHistory(zoneId, key) {
   const nights = [];
   for (const s of RAIDS.sessions) {
@@ -52,28 +134,36 @@ function renderList() {
   const byZone = new Map();
   for (const s of RAIDS.sessions) {
     for (const b of s.bosses) {
-      const zk = s.zoneId;
-      if (!byZone.has(zk)) byZone.set(zk, new Map());
-      const zone = byZone.get(zk);
+      if (!byZone.has(s.zoneId)) byZone.set(s.zoneId, new Map());
+      const zone = byZone.get(s.zoneId);
       if (!zone.has(b.key)) zone.set(b.key, { name: b.name, order: b.order, kills: 0, wipes: 0 });
       const e = zone.get(b.key);
       if (b.status === "killed") e.kills += 1;
       e.wipes += b.wipes ?? 0;
     }
   }
-  let html = `<h2>Bosses</h2><p class="sub">Every boss the guild pulled, with its full kill record.</p>`;
+  let html = `<h2>The Bestiary</h2><p class="sub">Every boss the guild faced, and what it cost.</p>`;
+  let idx = 0;
   for (const [zoneId, bosses] of [...byZone].sort((a, b) => a[0] - b[0])) {
-    const rows = [...bosses.entries()]
-      .sort((a, b) => a[1].order - b[1].order)
-      .map(([key, e]) =>
-        `<tr><td>${bossIconImg(key, 26)}<a href="#${zoneId}/${key}">${esc(e.name)}</a></td>` +
-        `<td class="kill">${e.kills}</td><td class="wipe">${e.wipes || ""}</td></tr>`)
-      .join("");
-    html += `<h3 class="zonehead">${esc(zoneName.get(zoneId) ?? zoneId)}</h3>` +
-      `<table class="t"><thead><tr><th>boss</th><th>kills</th><th>wipes</th></tr></thead><tbody>${rows}</tbody></table>`;
+    const entries = [...bosses.entries()].sort((a, b) => a[1].order - b[1].order);
+    const zk = entries.reduce((n, [, e]) => n + e.kills, 0);
+    const zw = entries.reduce((n, [, e]) => n + e.wipes, 0);
+    html += `<div class="zonehead"><h3>${esc(zoneName.get(zoneId) ?? zoneId)}</h3><div class="rule"></div>` +
+      `<span class="tally">${zk} kills · ${zw} wipes</span></div>` +
+      `<div class="bossgrid">` +
+      entries.map(([key, e]) => {
+        idx += 1;
+        return `<a class="bosscard" style="animation-delay:${Math.min(idx * 22, 500)}ms" href="#${zoneId}/${key}">` +
+          bossArt(zoneId, key, 54) +
+          `<div><h4>${esc(e.name)}</h4>` +
+          `<div class="tally"><span class="kill">${e.kills} kills</span>` +
+          (e.wipes ? ` · <span class="wipe">${e.wipes} wipes</span>` : "") +
+          `</div></div></a>`;
+      }).join("") +
+      `</div>`;
   }
   card.innerHTML = html;
-  document.title = "Sleep — bosses";
+  document.title = "Sleep — bestiary";
 }
 
 function render() {
@@ -83,7 +173,7 @@ function render() {
   const zoneId = Number(zoneIdRaw);
   const nights = bossHistory(zoneId, key);
   if (!nights.length) {
-    card.innerHTML = `<div class="empty">Unknown boss. See the <a href="boss.html">boss list</a>.</div>`;
+    card.innerHTML = `<div class="empty">Unknown boss. See the <a href="boss.html">bestiary</a>.</div>`;
     return;
   }
   const name = nights[0].b.name;
@@ -110,8 +200,9 @@ function render() {
     `<td class="${b.status === "killed" ? "kill" : "wipe"}">${b.status === "killed" ? "killed" : "not killed"}</td>` +
     `<td>${b.pulls ?? ""}</td><td>${b.wipes ?? 0}</td></tr>`).join("");
   card.innerHTML =
-    `<p style="font-size:13px"><a href="boss.html">&larr; all bosses</a></p>` +
-    `<h2>${bossIconImg(key, 48)}${esc(name)} <span class="mutetext" style="font-weight:normal">· ${esc(zoneName.get(zoneId) ?? "")}</span></h2>` +
+    `<p class="backlink"><a href="boss.html">&larr; the bestiary</a></p>` +
+    `<div class="bosshead">${bossArt(zoneId, key, 86, true)}` +
+    `<h2>${esc(name)}<span class="zone">${esc(zoneName.get(zoneId) ?? "")}</span></h2></div>` +
     `<div class="statchips">` +
     `<span><strong>${kills}</strong>kills</span>` +
     `<span><strong>${wipes}</strong>wipes</span>` +
