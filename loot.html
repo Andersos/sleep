@@ -85,6 +85,10 @@ const countNode = document.getElementById("count");
 
 function render() {
   const q = query.trim().toLowerCase();
+  const CLASS_COLORS = {
+    Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
+    Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
+  };
   const rows = [];
   let shown = 0;
   for (const a of AWARDS) {
@@ -103,10 +107,11 @@ function render() {
     }
     shown += 1;
     if (rows.length >= 1200) continue;
+    const rc = CLASS_COLORS[a.recipientClass] ?? "inherit";
     const recipient = a.recipient
       ? playerSet.has(a.recipient.toLowerCase())
-        ? `<a href="${playerLink(a.recipient)}">${esc(a.recipient)}</a>`
-        : esc(a.recipient)
+        ? `<a style="color:${rc}" href="${playerLink(a.recipient)}">${esc(a.recipient)}</a>`
+        : `<span style="color:${rc}">${esc(a.recipient)}</span>`
       : '<span class="mutetext">—</span>';
     const item = a.itemId
       ? `<a class="itemlink" href="item.html#${a.itemId}">${esc(a.itemName)}</a> <a class="wh" href="https://www.wowhead.com/classic/item=${a.itemId}" rel="noopener" aria-label="Wowhead">↗</a>`
