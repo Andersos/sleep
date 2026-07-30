@@ -92,6 +92,7 @@ function renderNav(active) {
       ["item.html", "Items"],
       ["milestones.html", "Milestones"],
       ["stats.html", "Stats"],
+      ["officers.html", "Officers"],
       ["nittedal.html", "Nittedal"]
     ]
       .map(

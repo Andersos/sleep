@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — officers</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .grp { margin: 22px 0 6px; }
+  .grp h3 { margin: 0 0 8px; font-size: 17px; color: #e0af68; }
+  .row { display: flex; align-items: baseline; gap: 10px; padding: 6px 4px; border-bottom: 1px solid var(--grid, #2a2c3a); flex-wrap: wrap; }
+  .row:last-child { border-bottom: 0; }
+  .row .who { min-width: 150px; font-weight: 600; }
+  .row .role { font-size: 13.5px; opacity: .9; }
+  .row .period { font-size: 12px; opacity: .6; font-family: ui-monospace, Menlo, monospace; margin-left: auto; white-space: nowrap; }
+  .clsicon { border-radius: 3px; vertical-align: -3px; margin-right: 5px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h2>Officers &amp; leadership</h2>
+    <p class="sub">Everyone who ran the guild — guild masters, officers, and the
+    class leaders who did the daily work. Click a role to see everyone who held it.</p>
+    <div id="groups"><div class="loading">loading…</div></div>
+  </div>
+</main>
+<script src="assets/shared.js"></script>
+<script>
+"use strict";
+renderNav("officers.html");
+const CLASS_COLORS = {
+  Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
+  Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
+};
+async function grab(path) {
+  const r = await fetch(path);
+  return r.ok ? r.json() : null;
+}
+function bucket(role) {
+  const r = role.toLowerCase();
+  if (r.includes("guild master") || r.includes("founder")) return "Guild masters";
+  if (r.includes("class leader")) return "Class leaders";
+  if (r.includes("officer")) return "Officers";
+  return "Raid leadership";
+}
+Promise.all([grab("data/bios.json"), grab("data/classes.json")]).then(([b, c]) => {
+  const classes = c?.classes ?? {};
+  const groups = new Map([["Guild masters", []], ["Officers", []], ["Class leaders", []], ["Raid leadership", []]]);
+  const seen = new Set();
+  for (const [key, entry] of Object.entries(b?.bios ?? {})) {
+    if (!entry.roles || seen.has(entry.name.toLowerCase())) continue;
+    seen.add(entry.name.toLowerCase());
+    for (const r of entry.roles) {
+      groups.get(bucket(r.role)).push({ name: entry.name, role: r.role, period: r.period, hasBio: !!entry.html });
+    }
+  }
+  const html = [...groups.entries()].filter(([, list]) => list.length).map(([title, list]) => {
+    list.sort((a, b) => a.role.localeCompare(b.role) || a.name.localeCompare(b.name));
+    const rows = list.map((e) => {
+      const cls = classes[e.name.toLowerCase()];
+      const icon = cls ? `<img class="clsicon" width="16" height="16" alt="${cls}" src="https://wow.zamimg.com/images/wow/icons/small/classicon_${cls.toLowerCase()}.jpg">` : "";
+      const name = e.name.charAt(0).toUpperCase() + e.name.slice(1);
+      return `<div class="row">` +
+        `<span class="who">${icon}<a style="color:${CLASS_COLORS[cls] ?? "inherit"}" href="players.html#${encodeURIComponent(name)}">${esc(name)}</a>${e.hasBio ? " 📖" : ""}</span>` +
+        `<a class="role" href="players.html#role:${encodeURIComponent(e.role)}">${esc(e.role)}</a>` +
+        `<span class="period">${esc(e.period)}</span></div>`;
+    }).join("");
+    return `<div class="grp"><h3>${title}</h3>${rows}</div>`;
+  }).join("");
+  document.getElementById("groups").innerHTML = html || `<div class="empty">no roles recorded</div>`;
+});
+</script>
+</body>
+</html>
