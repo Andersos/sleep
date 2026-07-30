@@ -206,7 +206,11 @@ function show(name) {
     `<h2>${classIcon(name, 24)}<span style="color:${classColor(name)}">${esc(name)}</span>${playerClass ? ` <span class="classname">${esc(playerClass)}</span>` : ""}</h2>` +
     `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
     (bio?.roles?.length
-      ? `<div class="badges">${bio.roles.map((r) => `<span class="badge"><strong>${esc(r.role)}</strong> ${esc(r.period)}</span>`).join("")}</div>`
+      ? `<div class="badges">${bio.roles.map((r) => {
+          const c = classColor(name);
+          const style = c === "inherit" ? "" : ` style="border-color:${c};color:${c};background:color-mix(in srgb, ${c} 13%, transparent)"`;
+          return `<span class="badge"${style}><strong>${esc(r.role)}</strong> ${esc(r.period)}</span>`;
+        }).join("")}</div>`
       : "") +
     (bio?.html ? `<div class="bio">${bio.html}</div>` : "") +
     `<div class="chips">${chips}</div>` +
