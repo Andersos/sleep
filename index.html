@@ -73,6 +73,14 @@ const MILESTONES = [
   ["2020-12-20","Kel'Thuzad dies","Three wipes, then the last boss of vanilla. 43 names.",1],
   ["2021-04-11","Glory's own Kel'Thuzad","Left out of the first kill, the guild's most-attended raider gets his — in the archive's final report.",1]
 ];
+const PHASES = [
+  ["2019-08-27", "P1", "Molten Core & Onyxia available from launch"],
+  ["2019-11-13", "P2", "Dire Maul, Kazzak & Azuregos"],
+  ["2020-02-12", "P3", "Blackwing Lair opens"],
+  ["2020-04-16", "P4", "Zul'Gurub opens"],
+  ["2020-07-28", "P5", "Ahn'Qiraj war effort begins"],
+  ["2020-12-03", "P6", "Naxxramas opens"],
+];
 const ERAS = [
   ["2019-09-15","2020-08-14","the nights of Sleep"],
   ["2020-08-14","2020-12-09","Dusk"],
@@ -143,6 +151,26 @@ function render() {
     }
   }
   svgEl("line", { x1: left, y1: railH + lanes.length * laneH, x2: left + plotW, y2: railH + lanes.length * laneH, stroke: "var(--baseline)" }, svg);
+
+  for (const [d, tag, what] of PHASES) {
+    const t = T(d);
+    if (t < t0 || t > t1) continue;
+    const x = X(t);
+    const line = svgEl("line", {
+      x1: x, y1: railH - 4, x2: x, y2: railH + lanes.length * laneH,
+      stroke: "#e0af68", "stroke-width": 1.1, "stroke-dasharray": "5 4", "stroke-opacity": 0.65,
+    }, svg);
+    const lbl = svgEl("text", {
+      x: x + 4, y: railH + 11, "font-size": "9.5", fill: "#e0af68",
+      "font-family": "ui-monospace,Menlo,monospace", "font-weight": "700",
+    }, svg);
+    lbl.textContent = tag;
+    const tipHtml = `<div class="t-date">${d}</div><div class="t-title">Phase ${tag.slice(1)}</div><div>${esc(what)}</div>`;
+    for (const el of [line, lbl]) {
+      el.addEventListener("mousemove", (evt) => showTip(tipHtml, evt));
+      el.addEventListener("mouseleave", hideTip);
+    }
+  }
 
   const counts = {};
   const dayIndex = {};
@@ -241,9 +269,10 @@ function render() {
     const x = X(t);
     const row = visibleIndex % 3;
     visibleIndex += 1;
-    const yDot = railH - 16;
+    const yDot = railH - 14 - row * 13;
+    const r = major ? 4.5 : 3.2;
     svgEl("line", { x1: x, y1: yDot, x2: x, y2: railH + lanes.length * laneH - 20, stroke: "var(--baseline)", "stroke-width": 0.6, "stroke-dasharray": "1 3" }, svg);
-    const dot = svgEl("rect", { x: x - 4, y: yDot - 4, width: 8, height: 8, rx: 2, transform: `rotate(45 ${x} ${yDot})`, fill: major ? "var(--ink)" : "var(--muted)", stroke: "rgba(0,0,0,0)", "stroke-width": 12, tabindex: 0, role: "img", "aria-label": `${d}: ${title}. ${blurb}` }, svg);
+    const dot = svgEl("rect", { x: x - r, y: yDot - r, width: r * 2, height: r * 2, rx: 2, transform: `rotate(45 ${x} ${yDot})`, fill: major ? "var(--ink)" : "var(--muted)", "fill-opacity": major ? 1 : 0.75, stroke: "rgba(0,0,0,0)", "stroke-width": 14, tabindex: 0, role: "img", "aria-label": `${d}: ${title}. ${blurb}` }, svg);
     const html = `<div class="t-date">${d}</div><div class="t-title">${esc(title)}</div><div>${esc(blurb)}</div>`;
     dot.addEventListener("mousemove", (evt) => showTip(html, evt));
     dot.addEventListener("mouseleave", hideTip);
@@ -263,7 +292,7 @@ function render() {
         "font-weight": major ? "600" : "400"
       }, svg);
       label.textContent = title;
-      svgEl("line", { x1: x, y1: 18 + row * 15, x2: x, y2: yDot - 6, stroke: "var(--grid)", "stroke-width": 0.6 }, svg);
+      svgEl("line", { x1: x, y1: 18 + row * 15, x2: x, y2: yDot - r - 2, stroke: "var(--grid)", "stroke-width": 0.6 }, svg);
     }
   }
 }
