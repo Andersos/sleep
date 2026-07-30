@@ -1,7 +1,11 @@
 {
- "generatedAt": "2026-07-30T15:28:26.942Z",
- "count": 14,
+ "generatedAt": "2026-07-30T15:33:34.537Z",
+ "count": 15,
  "bios": {
+  "alt mapping evidence": {
+   "name": "Alt mapping evidence",
+   "html": "<p>Updated 2026-07-30. Every pair in `alts.json` with its source. Roster session counts from the canonical Warcraft Logs archive.</p><p>## Confirmed</p><p>| Alt (sessions) | Main | Evidence | |---|---|---| | Lege (55) | Artimis | Documented throughout; loot workbook comment \"Artimis\" on Lege rows 2020-05-10 | | Transformed (10) | Artimis | `account-characters.md`; Anders's druid (\"ZG Transformed\" report) | | Vikka (10) | Luivi | Anders's entry; `luivi.md` bio (\"fill-ins on his alt Vikka\"); workbook comment \"Luivi\" on a Vikka row 2020-06-14 | | Yukikitsune (24) | Glorya | Workbook comments \"Glorya\" on five Yukikitsune rows 2020-05/06; matches the Glorya DM where he offers to swap to his rogue when healers were overstaffed | | Akaraz (31) | Zados | Workbook comments \"Zados\" on six Akaraz rows 2020-06; the paladin continued into the 2021 Ascension era | | Catstrangler (16) | Randyfist | Workbook comments \"Randyfist\" on Catstrangler rows 2020-05-31 | | Poesje (10) | Crok | Workbook comments \"Crok\" on Poesje/Posje rows 2020-05/06 | | Ursaminor (12) | Docthor | Workbook comments \"Docthor\" on Ursaminor and \"Docthor Alt\" rows 2020-05-10; resolves the \"Docthors alts name\" placeholder recipients | | Drutt (7) | Palaman | Workbook comment \"Palaman\" on a Drutt row 2020-06-28 | | Zizy (5) | Qiqi | Workbook comment \"Qiqi\" on a Zizy row 2020-04-19 | | Exclus (41) | Exclusafk | Reroll, not a parallel alt: Chris played the mage Exclus 2019-11-13 to 2020-03-22, then the paladin Exclusafk 2020-03-15 to 2020-09-20 (interview 2026-07-29: \"chris hadde en mage og en paladin, exclusafk and exclus\"); mapped so both count as one person | | Banama (0 logged) | Banamahs | Self-declared, Dusk officer chat 2020-10-03 10:45: \"Going to leave my alt (Banama) In there to be able to catch up\" | | Benevolence (0 logged) | Missdotty | Dusk officer chat: \"They are on Dottys alt (Benevolence)\" | | Cosyz (0 logged) | Antzi | Dusk officer chat: \"Think Cosyz is Antzi's alt\" — stated by an officer, phrased with slight uncertainty |</p><p>## Candidates — named but unconfirmed</p><p>- <strong>Arcanefarts (Mage, 34 sessions):</strong> Jón Snjór, 2020-09-10: \"we could maybe ask arcanefarts since its his alt and he was gonna move to wednesday group\"; Banamahs adds the owner is \"on call\" certain weeks. The owner is an unnamed mage-team member in a bench discussion (Kolfinna? Filippo?). Needs one more source. - <strong>Neptun (Mage, 33 workbook rows, ZG attendance leader):</strong> Anders's hypothesis — Ragie's second account or Henriette (Ragie's girlfriend). Ask Ragie. - <strong>Rocka (6 workbook rows):</strong> shorthand for Rockafella or a separate alt; \"Samie and Rocka rolled\" comments treat it as a person. Unresolved. - <strong>Deepdive:</strong> \"Deepdive won roll\" comment on a Catstrangler row 2020-06-14; name appears nowhere else. Unresolved.</p><p>## Known alts without recovered names</p><p>Drekka has a priest; Òllz a warlock; Ferrua a priest; Powerranger a paladin (all from Dusk officer chat, character names never stated).</p>"
+  },
   "artimis": {
    "name": "Artimis",
    "html": "<p>Artimis founded the guild in the autumn of 2019 and ran it the way he ran everything: with spreadsheets. The attendance workbook, the loot log (started 2020-03-29 with a plea that class leaders post every drop), the raider-rank system with its promise that showing up mattered — all of it was his architecture, and most of it outlived his tenure. As a hunter he chased the Rhok'delar quest line alongside his recruits; as an alchemist he ran a one-man consumables service, mailing flasks to tanks and crafting anything anyone needed. His priest alt Lege healed whenever the roster came up short.</p><p>He gave the guild away twice. In early 2020 he offered the leadership to Kodf, who declined; in August 2020, minutes after a Nefarian kill, he told the raid that Divinestorm would be the new Guild Master and thanked everyone for their trust — handing over the guild mid-raid, in the same breath as a boss kill. He stayed on as the institutional memory: teaching the spreadsheets, mediating disputes, and writing the rules other people argued about.</p><p>December 2020 made him the story's protagonist against his will. When the Ascension merge cut the roster to twenty and the promises of the raider-rank system stopped being honoured, Artimis — himself benched from every single Four Horsemen attempt — wrote a five-point proposal demanding raiders before members, whole-lockout spots, and collective bench decisions, and asked members to strike. The strike never happened; the guild dissolved into Ascension two days later. He kept raiding into 2021, kept the records, and years later those records became this site.</p>",
@@ -16,7 +20,8 @@
     }
    ],
    "alts": [
-    "Lege"
+    "Lege",
+    "Transformed"
    ]
   },
   "deliz": {
@@ -61,7 +66,10 @@
   },
   "glorya": {
    "name": "Glorya",
-   "html": "<p>Glorya — Knut, one of the guild's Norwegians — was a priest healer whose name caused two years of clerical confusion with the warrior Glory, a coincidence the archive has to untangle on nearly every page. The two could hardly have had more different Decembers: while Glory watched the Four Horsemen progression from the bench, Glorya healed it — he is in the roster of the first kill on December 14th and stayed for the full Kel'Thuzad clear.</p><p>He was part of the healer core that made the merge attractive to Ascension in the first place — Dusk's healing was its export product — and the kind of steady presence who shows up in the logs far more often than in the drama. When raids ran late or short-handed, Glorya arriving \"potentially a little bit late\" with Pnats was a recurring line in the healer logistics. His tribute video sits on Supplier's 2021 \"Dusk list,\" between Shakey's and Carmelia's.</p>"
+   "html": "<p>Glorya — Knut, one of the guild's Norwegians — was a priest healer whose name caused two years of clerical confusion with the warrior Glory, a coincidence the archive has to untangle on nearly every page. The two could hardly have had more different Decembers: while Glory watched the Four Horsemen progression from the bench, Glorya healed it — he is in the roster of the first kill on December 14th and stayed for the full Kel'Thuzad clear.</p><p>He was part of the healer core that made the merge attractive to Ascension in the first place — Dusk's healing was its export product — and the kind of steady presence who shows up in the logs far more often than in the drama. When raids ran late or short-handed, Glorya arriving \"potentially a little bit late\" with Pnats was a recurring line in the healer logistics. His tribute video sits on Supplier's 2021 \"Dusk list,\" between Shakey's and Carmelia's.</p>",
+   "alts": [
+    "Yukikitsune"
+   ]
   },
   "kodf": {
    "name": "Kodf",
@@ -159,6 +167,9 @@
      "role": "Hunter class leader & officer",
      "period": "2020"
     }
+   ],
+   "alts": [
+    "Akaraz"
    ]
   },
   "jellopy": {
@@ -199,6 +210,9 @@
      "role": "Mage class leader",
      "period": "2020"
     }
+   ],
+   "alts": [
+    "Banama"
    ]
   },
   "yeat": {
@@ -245,6 +259,150 @@
    "name": "Lege",
    "html": "",
    "main": "Artimis"
+  },
+  "transformed": {
+   "name": "Transformed",
+   "html": "",
+   "main": "Artimis"
+  },
+  "yukikitsune": {
+   "name": "Yukikitsune",
+   "html": "",
+   "main": "Glorya"
+  },
+  "akaraz": {
+   "name": "Akaraz",
+   "html": "",
+   "main": "Zados"
+  },
+  "catstrangler": {
+   "name": "Catstrangler",
+   "html": "",
+   "main": "Randyfist"
+  },
+  "randyfist": {
+   "name": "Randyfist",
+   "html": "",
+   "alts": [
+    "Catstrangler"
+   ]
+  },
+  "poesje": {
+   "name": "Poesje",
+   "html": "",
+   "main": "Crok"
+  },
+  "crok": {
+   "name": "Crok",
+   "html": "",
+   "alts": [
+    "Poesje"
+   ]
+  },
+  "ursaminor": {
+   "name": "Ursaminor",
+   "html": "",
+   "main": "Docthor"
+  },
+  "docthor": {
+   "name": "Docthor",
+   "html": "",
+   "alts": [
+    "Ursaminor"
+   ]
+  },
+  "drutt": {
+   "name": "Drutt",
+   "html": "",
+   "main": "Palaman"
+  },
+  "palaman": {
+   "name": "Palaman",
+   "html": "",
+   "alts": [
+    "Drutt"
+   ]
+  },
+  "zizy": {
+   "name": "Zizy",
+   "html": "",
+   "main": "Qiqi"
+  },
+  "qiqi": {
+   "name": "Qiqi",
+   "html": "",
+   "alts": [
+    "Zizy"
+   ]
+  },
+  "exclus": {
+   "name": "Exclus",
+   "html": "",
+   "main": "Exclusafk"
+  },
+  "exclusafk": {
+   "name": "Exclusafk",
+   "html": "",
+   "alts": [
+    "Exclus"
+   ]
+  },
+  "banama": {
+   "name": "Banama",
+   "html": "",
+   "main": "Banamahs"
+  },
+  "benevolence": {
+   "name": "Benevolence",
+   "html": "",
+   "main": "Missdotty"
+  },
+  "missdotty": {
+   "name": "Missdotty",
+   "html": "",
+   "alts": [
+    "Benevolence"
+   ]
+  },
+  "cosyz": {
+   "name": "Cosyz",
+   "html": "",
+   "main": "Antzi"
+  },
+  "antzi": {
+   "name": "Antzi",
+   "html": "",
+   "alts": [
+    "Cosyz"
+   ]
   }
+ },
+ "groups": {
+  "nittedal": [
+   {
+    "name": "Artimis",
+    "who": "Anders — founder and Guild Master, the reason the rest of Nittedal ended up on Razorgore."
+   },
+   {
+    "name": "Deliz",
+    "who": "Healer and the circle's first player; his February 2020 exit over healer treatment was the story's first fairness fight."
+   },
+   {
+    "name": "Supplier",
+    "who": "The consumables economy in human form; healing officer; curator of the Dusk tribute-video list."
+   },
+   {
+    "name": "Glorya",
+    "who": "Knut — priest healer with near-perfect attendance, recruited into the post-Deliz healer gap; healed the first Four Horsemen kill."
+   },
+   {
+    "name": "Galidia",
+    "who": "Warrior; an early Bracelets of Wrath recipient, still trading stock tips with Anders years later."
+   },
+   {
+    "name": "Zhèna",
+    "who": "Jørgen — warrior who stepped up as temporary main tank in the post-Kugel gap and held a place in the Thunderfury binding queue."
+   }
+  ]
  }
 }
