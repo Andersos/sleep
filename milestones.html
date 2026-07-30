@@ -61,8 +61,8 @@ function draw() {
   feed.innerHTML = EVENTS.filter((e) => show[e.kind]).map((e) =>
     `<div class="ev ${e.kind}">` +
     `<div class="when">${e.date}</div>` +
-    `<h3>${e.link ? `<a href="${e.link}">${esc(e.title)}</a>` : esc(e.title)}</h3>` +
-    (e.blurb ? `<p>${esc(e.blurb)}</p>` : "") +
+    `<h3>${e.link ? `<a href="${e.link}">${esc(e.title)}</a>` : (e.titleHtml ?? esc(e.title))}</h3>` +
+    (e.blurbHtml ? `<p>${e.blurbHtml}</p>` : e.blurb ? `<p>${esc(e.blurb)}</p>` : "") +
     (e.html ? `<div class="long">${e.html}</div>` : "") +
     (e.videos?.length
       ? `<div class="vids">${e.videos.map((id) =>
@@ -91,7 +91,7 @@ Promise.all([loadRaids(), loadStory()]).then(([raids, story]) => {
   const zoneName = new Map(raids.zones.map((z) => [z.zoneId, z.zoneName]));
   const events = [];
   for (const s of story) {
-    events.push({ kind: "story", date: s.date, title: s.title, blurb: s.blurb, html: s.html, videos: s.videos });
+    events.push({ kind: "story", date: s.date, title: s.title, titleHtml: s.titleHtml, blurb: s.blurb, blurbHtml: s.blurbHtml, html: s.html, videos: s.videos });
   }
   for (const [date, tag, what] of PHASES) {
     events.push({ kind: "phase", date, title: tag === "TBC" ? "The Burning Crusade" : `Phase ${tag.slice(1)}`, blurb: what });
