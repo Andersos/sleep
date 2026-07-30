@@ -1,10 +1,20 @@
 {
- "generatedAt": "2026-07-30T14:32:46.751Z",
+ "generatedAt": "2026-07-30T14:57:21.763Z",
  "count": 3,
  "bios": {
   "divinestorm": {
    "name": "Divinestorm",
-   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p>"
+   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p>",
+   "roles": [
+    {
+     "role": "Mage class leader",
+     "period": "Apr – Aug 2020"
+    },
+    {
+     "role": "Guild Master",
+     "period": "Aug – Dec 2020"
+    }
+   ]
   },
   "stormcat": {
    "name": "Divinestorm",
@@ -21,6 +31,188 @@
   "nayla": {
    "name": "Nayla",
    "html": "<p>Nayla was a feral druid and off-tank whose two years in the guild produced more officer-chat discussion than almost anyone else's. He was generous with his time — always available, always signed — and famously difficult to pin down: conversations relayed through him had a way of arriving changed, to the point where officers joked they needed screenshots.</p><p>His defining month was the autumn of 2020. An apparent ninja pull in AQ20 turned out, on investigation, to be a misunderstanding — he had been teleported onto the boss while trying to hearth out — but it landed on top of older friction, and the officers split between removal and mercy. The verdict, after a night of debate that ranged from \"his behavior is toxic\" to \"loyalty you can't buy\": one final chance, framed as a fresh start for the new guild. He lost his tank spot soon after, flirted with rerolling rogue, and was still being proposed for raider rank as late as October. On 25 November he left in a burst of drama, messaging guild members that their leader had committed a \"last desperate act of evilness\" — the details of which the archive still doesn't record. By December he had found a new guild and a new audience on the realm Discord. His story is the guild's hardest governance question in miniature: what do you owe the member who gives you everything and costs you almost as much?</p>"
+  },
+  "artimis": {
+   "name": "artimis",
+   "html": "",
+   "roles": [
+    {
+     "role": "Founder",
+     "period": "2019"
+    },
+    {
+     "role": "Guild Master",
+     "period": "2019 – Aug 2020"
+    }
+   ]
+  },
+  "kodf": {
+   "name": "kodf",
+   "html": "",
+   "roles": [
+    {
+     "role": "Rogue class leader",
+     "period": "Feb – Sep 2020"
+    },
+    {
+     "role": "Officer",
+     "period": "2020"
+    }
+   ]
+  },
+  "jellopy": {
+   "name": "jellopy",
+   "html": "",
+   "roles": [
+    {
+     "role": "Rogue class leader",
+     "period": "until Feb 2020"
+    }
+   ]
+  },
+  "celed": {
+   "name": "celed",
+   "html": "",
+   "roles": [
+    {
+     "role": "Rogue class leader (stand-in)",
+     "period": "Aug – Sep 2020"
+    }
+   ]
+  },
+  "antzisical": {
+   "name": "antzisical",
+   "html": "",
+   "roles": [
+    {
+     "role": "Rogue class leader",
+     "period": "2020"
+    }
+   ]
+  },
+  "luivi": {
+   "name": "luivi",
+   "html": "",
+   "roles": [
+    {
+     "role": "Druid class leader",
+     "period": "2020"
+    },
+    {
+     "role": "Officer",
+     "period": "Sep – Dec 2020"
+    }
+   ]
+  },
+  "pnats": {
+   "name": "pnats",
+   "html": "",
+   "roles": [
+    {
+     "role": "Officer",
+     "period": "Sep – Dec 2020"
+    }
+   ]
+  },
+  "supplier": {
+   "name": "supplier",
+   "html": "",
+   "roles": [
+    {
+     "role": "Healing officer",
+     "period": "Sep – Dec 2020"
+    }
+   ]
+  },
+  "banamahs": {
+   "name": "banamahs",
+   "html": "",
+   "roles": [
+    {
+     "role": "Mage class leader",
+     "period": "2020"
+    }
+   ]
+  },
+  "zados": {
+   "name": "zados",
+   "html": "",
+   "roles": [
+    {
+     "role": "Hunter class leader & officer",
+     "period": "2020"
+    }
+   ]
+  },
+  "fizzi": {
+   "name": "fizzi",
+   "html": "",
+   "roles": [
+    {
+     "role": "Officer",
+     "period": "2020"
+    }
+   ]
+  },
+  "ragie": {
+   "name": "ragie",
+   "html": "",
+   "roles": [
+    {
+     "role": "Tank leader",
+     "period": "2020"
+    }
+   ]
+  },
+  "yeat": {
+   "name": "yeat",
+   "html": "",
+   "roles": [
+    {
+     "role": "Raid leader & master looter",
+     "period": "2020"
+    }
+   ]
+  },
+  "orish": {
+   "name": "orish",
+   "html": "",
+   "roles": [
+    {
+     "role": "Healing officer",
+     "period": "Aug – Sep 2020"
+    }
+   ]
+  },
+  "yealof": {
+   "name": "yealof",
+   "html": "",
+   "roles": [
+    {
+     "role": "Paladin class leader",
+     "period": "from Sep 2020"
+    }
+   ]
+  },
+  "kugel": {
+   "name": "kugel",
+   "html": "",
+   "roles": [
+    {
+     "role": "Main tank",
+     "period": "2019 – Feb 2020"
+    }
+   ]
+  },
+  "shakey": {
+   "name": "shakey",
+   "html": "",
+   "roles": [
+    {
+     "role": "Officer",
+     "period": "2020"
+    }
+   ]
   }
  }
 }

@@ -14,6 +14,9 @@
   .rosterbox { flex: 0 1 290px; min-width: 250px; }
   .detail { flex: 1 1 520px; min-width: 300px; }
   .clsicon { border-radius: 3px; vertical-align: -3px; margin-right: 4px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 10px; }
+  .badge { background: rgba(224,175,104,.16); border: 1px solid rgba(224,175,104,.45); color: #e0af68; border-radius: 999px; padding: 2px 10px; font-size: 12px; }
+  .badge strong { font-weight: 600; margin-right: 4px; }
   .classname { font-size: 13px; opacity: .65; font-weight: normal; margin-left: 6px; }
   .bio { margin: 10px 0 14px; padding: 10px 14px; border-left: 3px solid var(--accent, #7aa2f7); background: color-mix(in srgb, var(--card, #16161e) 88%, var(--accent, #7aa2f7) 12%); border-radius: 6px; }
   .bio p { margin: 0 0 8px; line-height: 1.55; font-size: 14px; }
@@ -201,7 +204,10 @@ function show(name) {
   card.innerHTML =
     `<h2>${classIcon(name, 24)}<span style="color:${classColor(name)}">${esc(name)}</span>${playerClass ? ` <span class="classname">${esc(playerClass)}</span>` : ""}</h2>` +
     `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
-    (bio ? `<div class="bio">${bio.html}</div>` : "") +
+    (bio?.roles?.length
+      ? `<div class="badges">${bio.roles.map((r) => `<span class="badge"><strong>${esc(r.role)}</strong> ${esc(r.period)}</span>`).join("")}</div>`
+      : "") +
+    (bio?.html ? `<div class="bio">${bio.html}</div>` : "") +
     `<div class="chips">${chips}</div>` +
     `<div class="striplabel">Raid nights over time — tall solid: attended · short outlined: missed</div>` +
     `<svg id="strip" viewBox="0 0 800 46" role="img" aria-label="Raid nights of ${esc(name)} over time"></svg>` +
