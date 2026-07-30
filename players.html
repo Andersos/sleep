@@ -89,6 +89,17 @@
   .lootlist { margin: 0; padding: 0; list-style: none; font-size: 13px; }
   .lootlist li { padding: 4px 0; border-bottom: 1px solid var(--grid); display: flex; gap: 10px; }
   .lootlist .alt { color: var(--muted); }
+  .historygrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+    margin: 8px 0 4px;
+  }
+  .historyphase { border: 1px solid var(--grid); border-radius: 8px; padding: 10px; background: var(--wash); }
+  .historyphase span, .historyphase small { display: block; color: var(--muted); }
+  .historyphase strong { display: block; margin: 4px 0 2px; font-size: 18px; }
+  .historynote { color: var(--muted); font-size: 12px; line-height: 1.45; margin: 6px 0 16px; }
+  @media (max-width: 640px) { .historygrid { grid-template-columns: 1fr; } }
   .empty { color: var(--muted); font-size: 13.5px; padding: 30px 10px; text-align: center; }
 </style>
 </head>
@@ -125,6 +136,7 @@ renderNav("players.html");
 let SESSIONS = [];
 let PLAYERS = new Map();
 let lootByPlayer = new Map();
+let DESTINY = null;
 let current = null;
 
 const roster = document.getElementById("roster");
@@ -140,6 +152,30 @@ function charactersInRaid(name, session) {
     playerCharacterNames(name, BIOS).map((character) => character.toLowerCase()),
   );
   return session.roster.filter((character) => characters.has(character.toLowerCase()));
+}
+
+function destinyPanel(name) {
+  const profile = DESTINY?.profiles?.[name.toLowerCase()];
+  if (!profile) return "";
+  const phase = (label, summary) => {
+    const count = summary.reports;
+    const dates = !count
+      ? "none found"
+      : summary.first === summary.last
+        ? summary.first
+        : `${summary.first} to ${summary.last}`;
+    return `<div class="historyphase"><span>${label}</span>` +
+      `<strong>${count} ${count === 1 ? "report" : "reports"}</strong>` +
+      `<small>${dates}</small></div>`;
+  };
+  return `<div class="striplabel">Character history outside the guild archive</div>` +
+    `<div class="historygrid">` +
+    phase("Before first guild raid", profile.before) +
+    phase("External during tenure", profile.duringExternal) +
+    phase("After last guild raid", profile.after) +
+    `</div><p class="historynote">Unique Warcraft Logs reports for ${esc(name)}, ` +
+    `not proof of guild membership. Dates use this character's first and last ` +
+    `logged guild raids, with a two-day grace period after the last raid.</p>`;
 }
 
 function buildRoster(filter) {
@@ -250,6 +286,7 @@ function show(name) {
         }).join("")}</div>`
       : "") +
     (bio?.html ? `<div class="bio">${bio.html}</div>` : "") +
+    destinyPanel(name) +
     `<div class="chips">${chips}</div>` +
     `<div class="striplabel">Raids over time — tall solid: attended · short outlined: missed</div>` +
     `<svg id="strip" viewBox="0 0 800 46" role="img" aria-label="Raids of ${esc(name)} over time"></svg>` +
@@ -396,6 +433,15 @@ const loadBios = async () => {
   } catch { return null; }
 };
 const loadClasses = () => loadJsonKey("data/classes.json", "classes");
+const loadDestiny = async () => {
+  try {
+    const response = await fetch("data/destiny.json");
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  }
+};
 
 const CLASS_COLORS = {
   Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
@@ -410,9 +456,11 @@ function classIcon(name, size = 16) {
   return `<img class="clsicon" width="${size}" height="${size}" loading="lazy" alt="${cls}" title="${cls}" src="https://wow.zamimg.com/images/wow/icons/small/classicon_${cls.toLowerCase()}.jpg"> `;
 }
 
-Promise.all([loadRaids(), loadLoot(), loadBios(), loadClasses()]).then(([raids, loot, bios, classes]) => {
+Promise.all([loadRaids(), loadLoot(), loadBios(), loadClasses(), loadDestiny()]).then(
+  ([raids, loot, bios, classes, destiny]) => {
   BIOS = bios;
   CLASSES = classes;
+  DESTINY = destiny;
   SESSIONS = raids.sessions;
   PLAYERS = buildPlayerIndex(SESSIONS, 0);
   for (const award of loot.awards) {
@@ -425,7 +473,8 @@ Promise.all([loadRaids(), loadLoot(), loadBios(), loadClasses()]).then(([raids, 
   buildLaneChips();
   buildRoster("");
   onHash();
-});
+  },
+);
 </script>
 </body>
 </html>

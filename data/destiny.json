@@ -1,0 +1,4653 @@
+{
+ "generatedAt": "2026-07-30T20:29:04.511Z",
+ "methodology": "Unique Warcraft Logs reports for each character; dates are compared with that character's first and last logged guild sessions.",
+ "graceDays": 2,
+ "complete": false,
+ "completedCharacters": 211,
+ "totalCharacters": 325,
+ "completedThrough": "Hadara",
+ "profiles": {
+  "divinestorm": {
+   "name": "Divinestorm",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 158,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-09-04",
+    "last": "2021-04-15"
+   },
+   "after": {
+    "reports": 11,
+    "first": "2021-04-22",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "glory": {
+   "name": "Glory",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 155,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 28,
+    "first": "2020-09-04",
+    "last": "2021-04-10"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "ragie": {
+   "name": "Ragie",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-12-20",
+   "guildSessions": 150,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 6,
+    "first": "2020-07-22",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "zados": {
+   "name": "Zados",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 150,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-02-02",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "crok": {
+   "name": "Crok",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2021-01-27",
+   "guildSessions": 149,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-10-17",
+    "last": "2020-10-17"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "jumanzy": {
+   "name": "Jumanzy",
+   "firstGuildSession": "2019-12-04",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 148,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-01-18",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-04-24",
+    "last": "2021-04-24"
+   },
+   "cacheErrors": []
+  },
+  "devou": {
+   "name": "Devou",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 147,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 22,
+    "first": "2019-11-13",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 4,
+    "first": "2021-04-29",
+    "last": "2021-05-13"
+   },
+   "cacheErrors": []
+  },
+  "hilts": {
+   "name": "Hilts",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 137,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 30,
+    "first": "2019-11-13",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "hedara": {
+   "name": "Hedara",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 136,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 51,
+    "first": "2019-11-13",
+    "last": "2021-04-12"
+   },
+   "after": {
+    "reports": 14,
+    "first": "2021-04-16",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  },
+  "rockafella": {
+   "name": "Rockafella",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2021-04-07",
+   "guildSessions": 130,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-01-15",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "reiner": {
+   "name": "Reiner",
+   "firstGuildSession": "2019-12-08",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 129,
+   "before": {
+    "reports": 4,
+    "first": "2019-11-12",
+    "last": "2019-11-26"
+   },
+   "duringExternal": {
+    "reports": 14,
+    "first": "2020-01-11",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "pnats": {
+   "name": "Pnats",
+   "firstGuildSession": "2020-01-02",
+   "lastGuildSession": "2020-12-20",
+   "guildSessions": 128,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-08-25",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "artimis": {
+   "name": "Artimis",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-12-20",
+   "guildSessions": 122,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "amarah": {
+   "name": "Amarah",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 120,
+   "before": {
+    "reports": 14,
+    "first": "2019-11-20",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 49,
+    "first": "2020-02-13",
+    "last": "2021-04-03"
+   },
+   "after": {
+    "reports": 8,
+    "first": "2021-04-19",
+    "last": "2021-05-17"
+   },
+   "cacheErrors": []
+  },
+  "saltyhead": {
+   "name": "Saltyhead",
+   "firstGuildSession": "2019-11-20",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 119,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 51,
+    "first": "2019-11-20",
+    "last": "2021-04-01"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-05-15",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  },
+  "tanasus": {
+   "name": "Tanasus",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 118,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2019-11-13",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-05-11",
+    "last": "2021-05-11"
+   },
+   "cacheErrors": []
+  },
+  "borel": {
+   "name": "Borel",
+   "firstGuildSession": "2019-11-20",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 116,
+   "before": {
+    "reports": 9,
+    "first": "2019-10-06",
+    "last": "2019-11-14"
+   },
+   "duringExternal": {
+    "reports": 31,
+    "first": "2019-11-20",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 10,
+    "first": "2021-04-18",
+    "last": "2021-05-02"
+   },
+   "cacheErrors": []
+  },
+  "naru": {
+   "name": "Naru",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-12-06",
+   "guildSessions": 114,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 6,
+    "first": "2020-01-23",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "shakeyhealer": {
+   "name": "Shakeyhealer",
+   "firstGuildSession": "2019-11-27",
+   "lastGuildSession": "2021-02-17",
+   "guildSessions": 114,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 5,
+    "first": "2020-06-12",
+    "last": "2021-02-17"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "nayla": {
+   "name": "Nayla",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-11-18",
+   "guildSessions": 113,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-08-27",
+    "last": "2020-11-19"
+   },
+   "after": {
+    "reports": 82,
+    "first": "2020-11-26",
+    "last": "2021-05-14"
+   },
+   "cacheErrors": []
+  },
+  "mysor": {
+   "name": "Mysor",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-07",
+   "guildSessions": 110,
+   "before": {
+    "reports": 17,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 51,
+    "first": "2020-02-16",
+    "last": "2021-04-08"
+   },
+   "after": {
+    "reports": 11,
+    "first": "2021-04-10",
+    "last": "2021-05-12"
+   },
+   "cacheErrors": []
+  },
+  "nikaido": {
+   "name": "Nikaido",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 109,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-02-12",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 9,
+    "first": "2021-04-20",
+    "last": "2021-05-07"
+   },
+   "cacheErrors": []
+  },
+  "tomboi": {
+   "name": "Tomboi",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-11-11",
+   "guildSessions": 108,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-02-21",
+    "last": "2020-11-11"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-11-18",
+    "last": "2020-11-18"
+   },
+   "cacheErrors": []
+  },
+  "rangah": {
+   "name": "Rangah",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 107,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-02-12",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2021-05-03",
+    "last": "2021-05-03"
+   },
+   "cacheErrors": []
+  },
+  "flameboy": {
+   "name": "Flameboy",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 106,
+   "before": {
+    "reports": 13,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-12",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "fnar": {
+   "name": "Fnar",
+   "firstGuildSession": "2019-12-04",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 105,
+   "before": {
+    "reports": 5,
+    "first": "2019-09-25",
+    "last": "2019-11-27"
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-02-12",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 12,
+    "first": "2021-04-23",
+    "last": "2021-05-14"
+   },
+   "cacheErrors": []
+  },
+  "biterx": {
+   "name": "Biterx",
+   "firstGuildSession": "2019-12-04",
+   "lastGuildSession": "2021-04-07",
+   "guildSessions": 104,
+   "before": {
+    "reports": 2,
+    "first": "2019-11-06",
+    "last": "2019-11-13"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-16",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "menrias": {
+   "name": "Menrias",
+   "firstGuildSession": "2019-10-30",
+   "lastGuildSession": "2020-12-07",
+   "guildSessions": 104,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 17,
+    "first": "2019-11-13",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "glorya": {
+   "name": "Glorya",
+   "firstGuildSession": "2020-02-23",
+   "lastGuildSession": "2021-02-24",
+   "guildSessions": 102,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-08-25",
+    "last": "2020-12-04"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "mikasalord": {
+   "name": "Mikasalord",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 102,
+   "before": {
+    "reports": 12,
+    "first": "2019-11-27",
+    "last": "2020-01-05"
+   },
+   "duringExternal": {
+    "reports": 24,
+    "first": "2020-02-16",
+    "last": "2021-04-05"
+   },
+   "after": {
+    "reports": 11,
+    "first": "2021-04-25",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "nereb": {
+   "name": "Nereb",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2021-01-03",
+   "guildSessions": 102,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-08-21",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "chombat": {
+   "name": "Chombat",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2021-01-06",
+   "guildSessions": 101,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 30,
+    "first": "2019-11-13",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "supplier": {
+   "name": "Supplier",
+   "firstGuildSession": "2020-03-08",
+   "lastGuildSession": "2021-01-03",
+   "guildSessions": 99,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-04-14",
+    "last": "2020-09-10"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "neptun": {
+   "name": "Neptun",
+   "firstGuildSession": "2020-03-29",
+   "lastGuildSession": "2020-12-14",
+   "guildSessions": 98,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-07-22",
+    "last": "2020-12-01"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "pricelez": {
+   "name": "Pricelez",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-09-02",
+   "guildSessions": 98,
+   "before": {
+    "reports": 2,
+    "first": "2019-09-25",
+    "last": "2019-10-08"
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-09-19",
+    "last": "2020-09-19"
+   },
+   "cacheErrors": []
+  },
+  "conoflow": {
+   "name": "Conoflow",
+   "firstGuildSession": "2019-12-04",
+   "lastGuildSession": "2020-09-13",
+   "guildSessions": 94,
+   "before": {
+    "reports": 1,
+    "first": "2019-12-01",
+    "last": "2019-12-01"
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 34,
+    "first": "2020-10-06",
+    "last": "2021-05-11"
+   },
+   "cacheErrors": []
+  },
+  "maffe": {
+   "name": "Maffe",
+   "firstGuildSession": "2020-01-22",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 93,
+   "before": {
+    "reports": 16,
+    "first": "2019-10-07",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-02-16",
+    "last": "2021-04-12"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "cyprinius": {
+   "name": "Cyprinius",
+   "firstGuildSession": "2020-01-29",
+   "lastGuildSession": "2021-04-07",
+   "guildSessions": 92,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 32,
+    "first": "2020-02-12",
+    "last": "2021-03-24"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "tantum": {
+   "name": "Tantum",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 92,
+   "before": {
+    "reports": 11,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 39,
+    "first": "2020-02-12",
+    "last": "2021-04-04"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2021-04-16",
+    "last": "2021-04-16"
+   },
+   "cacheErrors": []
+  },
+  "electro": {
+   "name": "Electro",
+   "firstGuildSession": "2020-04-19",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 90,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 6,
+    "first": "2020-06-25",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "kodf": {
+   "name": "Kodf",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-07-05",
+   "guildSessions": 89,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 21,
+    "first": "2020-07-09",
+    "last": "2020-12-06"
+   },
+   "cacheErrors": []
+  },
+  "palaman": {
+   "name": "Palaman",
+   "firstGuildSession": "2019-11-27",
+   "lastGuildSession": "2020-11-25",
+   "guildSessions": 89,
+   "before": {
+    "reports": 1,
+    "first": "2019-11-16",
+    "last": "2019-11-16"
+   },
+   "duringExternal": {
+    "reports": 5,
+    "first": "2020-05-23",
+    "last": "2020-06-25"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "flyx": {
+   "name": "Flyx",
+   "firstGuildSession": "2020-05-17",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 85,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 15,
+    "first": "2020-06-18",
+    "last": "2021-03-24"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2021-04-17",
+    "last": "2021-04-17"
+   },
+   "cacheErrors": []
+  },
+  "zhèna": {
+   "name": "Zhèna",
+   "firstGuildSession": "2020-02-16",
+   "lastGuildSession": "2020-10-07",
+   "guildSessions": 84,
+   "before": {
+    "reports": 4,
+    "first": "2019-12-08",
+    "last": "2019-12-19"
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "randyfist": {
+   "name": "Randyfist",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-12-20",
+   "guildSessions": 83,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-11-07",
+    "last": "2020-11-07"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "drágón": {
+   "name": "Drágón",
+   "firstGuildSession": "2020-05-10",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 82,
+   "before": {
+    "reports": 12,
+    "first": "2020-04-01",
+    "last": "2020-04-22"
+   },
+   "duringExternal": {
+    "reports": 26,
+    "first": "2020-06-03",
+    "last": "2021-04-11"
+   },
+   "after": {
+    "reports": 11,
+    "first": "2021-04-22",
+    "last": "2021-05-18"
+   },
+   "cacheErrors": []
+  },
+  "ifly": {
+   "name": "Ifly",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-11-11",
+   "guildSessions": 82,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 30,
+    "first": "2019-11-13",
+    "last": "2020-11-11"
+   },
+   "after": {
+    "reports": 5,
+    "first": "2020-11-15",
+    "last": "2020-11-22"
+   },
+   "cacheErrors": []
+  },
+  "luivi": {
+   "name": "Luivi",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-10-28",
+   "guildSessions": 80,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-06-29",
+    "last": "2020-09-04"
+   },
+   "after": {
+    "reports": 17,
+    "first": "2020-11-10",
+    "last": "2021-05-03"
+   },
+   "cacheErrors": []
+  },
+  "specting": {
+   "name": "Specting",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2021-03-03",
+   "guildSessions": 80,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 14,
+    "first": "2019-11-17",
+    "last": "2021-02-17"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "ulfhild": {
+   "name": "Ulfhild",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 80,
+   "before": {
+    "reports": 10,
+    "first": "2019-12-18",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 51,
+    "first": "2020-02-13",
+    "last": "2020-09-23"
+   },
+   "after": {
+    "reports": 71,
+    "first": "2020-09-28",
+    "last": "2021-05-18"
+   },
+   "cacheErrors": []
+  },
+  "yungflexin": {
+   "name": "Yungflexin",
+   "firstGuildSession": "2019-10-23",
+   "lastGuildSession": "2020-12-07",
+   "guildSessions": 80,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2019-11-13",
+    "last": "2020-09-09"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "thomas": {
+   "name": "Thomas",
+   "firstGuildSession": "2019-10-30",
+   "lastGuildSession": "2020-08-19",
+   "guildSessions": 78,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 12,
+    "first": "2019-11-13",
+    "last": "2020-08-19"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "juggalog": {
+   "name": "Juggalog",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-12-23",
+   "guildSessions": 77,
+   "before": {
+    "reports": 13,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 25,
+    "first": "2020-02-21",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "carmelia": {
+   "name": "Carmelia",
+   "firstGuildSession": "2020-03-25",
+   "lastGuildSession": "2020-11-22",
+   "guildSessions": 76,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "keri": {
+   "name": "Keri",
+   "firstGuildSession": "2019-11-24",
+   "lastGuildSession": "2020-12-07",
+   "guildSessions": 76,
+   "before": {
+    "reports": 2,
+    "first": "2019-10-02",
+    "last": "2019-11-18"
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-02-16",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "pawsz": {
+   "name": "Pawsz",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 76,
+   "before": {
+    "reports": 9,
+    "first": "2019-12-18",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 33,
+    "first": "2020-02-13",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 108,
+    "first": "2020-09-29",
+    "last": "2021-05-14"
+   },
+   "cacheErrors": []
+  },
+  "helakion": {
+   "name": "Helakion",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-09-02",
+   "guildSessions": 75,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2019-11-13",
+    "last": "2020-08-23"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "herberd": {
+   "name": "Herberd",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-10-18",
+   "guildSessions": 74,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 20,
+    "first": "2020-02-12",
+    "last": "2020-09-28"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "mikadrovrsn": {
+   "name": "Mikadrovrsn",
+   "firstGuildSession": "2020-02-23",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 74,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 24,
+    "first": "2020-02-23",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 45,
+    "first": "2020-09-27",
+    "last": "2021-04-05"
+   },
+   "cacheErrors": []
+  },
+  "nikai": {
+   "name": "Nikai",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-12-20",
+   "guildSessions": 74,
+   "before": {
+    "reports": 7,
+    "first": "2019-12-11",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-12",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "juud": {
+   "name": "Juud",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2021-03-17",
+   "guildSessions": 73,
+   "before": {
+    "reports": 7,
+    "first": "2019-12-18",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 23,
+    "first": "2020-02-13",
+    "last": "2021-02-03"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "katdrovrsn": {
+   "name": "Katdrovrsn",
+   "firstGuildSession": "2020-02-23",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 73,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-02-23",
+    "last": "2020-09-10"
+   },
+   "after": {
+    "reports": 51,
+    "first": "2020-10-05",
+    "last": "2021-04-25"
+   },
+   "cacheErrors": []
+  },
+  "tsakimo": {
+   "name": "Tsakimo",
+   "firstGuildSession": "2020-02-26",
+   "lastGuildSession": "2020-11-25",
+   "guildSessions": 73,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 20,
+    "first": "2020-06-22",
+    "last": "2020-11-20"
+   },
+   "after": {
+    "reports": 31,
+    "first": "2021-03-06",
+    "last": "2021-05-12"
+   },
+   "cacheErrors": []
+  },
+  "smucky": {
+   "name": "Smucky",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 72,
+   "before": {
+    "reports": 11,
+    "first": "2019-11-20",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 25,
+    "first": "2020-02-13",
+    "last": "2020-08-27"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-09-27",
+    "last": "2020-09-27"
+   },
+   "cacheErrors": []
+  },
+  "ryba": {
+   "name": "Ryba",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-12-07",
+   "guildSessions": 71,
+   "before": {
+    "reports": 17,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-23",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "antzi": {
+   "name": "Antzi",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 70,
+   "before": {
+    "reports": 9,
+    "first": "2019-11-28",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 31,
+    "first": "2020-02-13",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 60,
+    "first": "2020-10-11",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "dolleboy": {
+   "name": "Dolleboy",
+   "firstGuildSession": "2020-03-08",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 70,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 25,
+    "first": "2020-03-09",
+    "last": "2021-03-01"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "khazam": {
+   "name": "Khazam",
+   "firstGuildSession": "2020-02-16",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 70,
+   "before": {
+    "reports": 5,
+    "first": "2019-11-20",
+    "last": "2020-01-22"
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-02-16",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 27,
+    "first": "2020-11-16",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "panadin": {
+   "name": "Panadin",
+   "firstGuildSession": "2020-02-26",
+   "lastGuildSession": "2020-07-12",
+   "guildSessions": 70,
+   "before": {
+    "reports": 18,
+    "first": "2019-11-30",
+    "last": "2020-02-24"
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "stylgar": {
+   "name": "Stylgar",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-12-07",
+   "guildSessions": 70,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 17,
+    "first": "2020-02-12",
+    "last": "2020-11-30"
+   },
+   "after": {
+    "reports": 34,
+    "first": "2020-12-14",
+    "last": "2021-04-29"
+   },
+   "cacheErrors": []
+  },
+  "ihide": {
+   "name": "Ihide",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-07",
+   "guildSessions": 69,
+   "before": {
+    "reports": 12,
+    "first": "2019-12-01",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 38,
+    "first": "2020-02-02",
+    "last": "2021-04-04"
+   },
+   "after": {
+    "reports": 10,
+    "first": "2021-04-18",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "shaolin": {
+   "name": "Shaolin",
+   "firstGuildSession": "2019-12-29",
+   "lastGuildSession": "2021-01-03",
+   "guildSessions": 69,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-01-09",
+    "last": "2020-12-28"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "galidia": {
+   "name": "Galidia",
+   "firstGuildSession": "2020-01-02",
+   "lastGuildSession": "2020-10-07",
+   "guildSessions": 68,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-05-01",
+    "last": "2021-05-01"
+   },
+   "cacheErrors": []
+  },
+  "steewiee": {
+   "name": "Steewiee",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-10-18",
+   "guildSessions": 68,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-02-12",
+    "last": "2020-09-09"
+   },
+   "after": {
+    "reports": 74,
+    "first": "2020-10-22",
+    "last": "2021-05-18"
+   },
+   "cacheErrors": []
+  },
+  "celed": {
+   "name": "Celed",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 66,
+   "before": {
+    "reports": 10,
+    "first": "2019-12-26",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-02-13",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 64,
+    "first": "2020-09-27",
+    "last": "2021-03-06"
+   },
+   "cacheErrors": []
+  },
+  "craxx": {
+   "name": "Craxx",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 66,
+   "before": {
+    "reports": 10,
+    "first": "2019-11-27",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-19",
+    "last": "2021-03-28"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "nanis": {
+   "name": "Nanis",
+   "firstGuildSession": "2020-03-05",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 66,
+   "before": {
+    "reports": 3,
+    "first": "2020-02-15",
+    "last": "2020-02-24"
+   },
+   "duringExternal": {
+    "reports": 20,
+    "first": "2020-03-05",
+    "last": "2020-09-10"
+   },
+   "after": {
+    "reports": 40,
+    "first": "2020-09-27",
+    "last": "2020-12-09"
+   },
+   "cacheErrors": []
+  },
+  "amberlynreid": {
+   "name": "Amberlynreid",
+   "firstGuildSession": "2020-03-15",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 65,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-04-08",
+    "last": "2020-11-11"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "banamahs": {
+   "name": "Banamahs",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 65,
+   "before": {
+    "reports": 9,
+    "first": "2019-11-27",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-02-13",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 71,
+    "first": "2020-09-27",
+    "last": "2021-05-09"
+   },
+   "cacheErrors": []
+  },
+  "mechar": {
+   "name": "Mechar",
+   "firstGuildSession": "2020-02-05",
+   "lastGuildSession": "2020-07-05",
+   "guildSessions": 63,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-02-22",
+    "last": "2020-06-22"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "exhopresso": {
+   "name": "Exhopresso",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 62,
+   "before": {
+    "reports": 11,
+    "first": "2019-11-20",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 24,
+    "first": "2020-02-13",
+    "last": "2020-09-18"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-10-05",
+    "last": "2020-10-05"
+   },
+   "cacheErrors": []
+  },
+  "orish": {
+   "name": "Orish",
+   "firstGuildSession": "2020-02-16",
+   "lastGuildSession": "2020-09-20",
+   "guildSessions": 61,
+   "before": {
+    "reports": 5,
+    "first": "2019-12-18",
+    "last": "2020-02-05"
+   },
+   "duringExternal": {
+    "reports": 30,
+    "first": "2020-02-16",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 26,
+    "first": "2020-10-17",
+    "last": "2021-01-07"
+   },
+   "cacheErrors": []
+  },
+  "snjór": {
+   "name": "Snjór",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 61,
+   "before": {
+    "reports": 14,
+    "first": "2019-10-21",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 26,
+    "first": "2020-02-13",
+    "last": "2020-08-27"
+   },
+   "after": {
+    "reports": 33,
+    "first": "2020-09-29",
+    "last": "2021-05-17"
+   },
+   "cacheErrors": []
+  },
+  "lyvana": {
+   "name": "Lyvana",
+   "firstGuildSession": "2020-03-01",
+   "lastGuildSession": "2020-07-29",
+   "guildSessions": 60,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2020-07-09",
+    "last": "2020-07-30"
+   },
+   "after": {
+    "reports": 24,
+    "first": "2020-08-09",
+    "last": "2020-12-06"
+   },
+   "cacheErrors": []
+  },
+  "missdotty": {
+   "name": "Missdotty",
+   "firstGuildSession": "2020-02-16",
+   "lastGuildSession": "2021-03-10",
+   "guildSessions": 60,
+   "before": {
+    "reports": 2,
+    "first": "2020-02-06",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-02-16",
+    "last": "2021-02-03"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "psykos": {
+   "name": "Psykos",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2021-01-03",
+   "guildSessions": 60,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 32,
+    "first": "2019-11-13",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "fizzi": {
+   "name": "Fizzi",
+   "firstGuildSession": "2020-08-27",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 59,
+   "before": {
+    "reports": 9,
+    "first": "2020-06-09",
+    "last": "2020-08-24"
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-08-26",
+    "last": "2021-04-12"
+   },
+   "after": {
+    "reports": 21,
+    "first": "2021-04-18",
+    "last": "2021-05-14"
+   },
+   "cacheErrors": []
+  },
+  "akikiie": {
+   "name": "Akikiie",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-17",
+   "guildSessions": 58,
+   "before": {
+    "reports": 9,
+    "first": "2019-11-28",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-02-13",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "knedlica": {
+   "name": "Knedlica",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-04-29",
+   "guildSessions": 58,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "proctologist": {
+   "name": "Proctologist",
+   "firstGuildSession": "2019-11-17",
+   "lastGuildSession": "2020-04-22",
+   "guildSessions": 58,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "aggro": {
+   "name": "Aggro",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-05-13",
+   "guildSessions": 57,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2019-11-13",
+    "last": "2020-03-15"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "henne": {
+   "name": "Henne",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 57,
+   "before": {
+    "reports": 7,
+    "first": "2020-01-05",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 20,
+    "first": "2020-02-13",
+    "last": "2020-08-02"
+   },
+   "after": {
+    "reports": 79,
+    "first": "2020-11-01",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  },
+  "sofiero": {
+   "name": "Sofiero",
+   "firstGuildSession": "2019-11-27",
+   "lastGuildSession": "2020-09-06",
+   "guildSessions": 57,
+   "before": {
+    "reports": 1,
+    "first": "2019-11-18",
+    "last": "2019-11-18"
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-02-16",
+    "last": "2020-08-23"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "yeat": {
+   "name": "Yeat",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 57,
+   "before": {
+    "reports": 9,
+    "first": "2019-11-20",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 17,
+    "first": "2020-02-13",
+    "last": "2020-09-06"
+   },
+   "after": {
+    "reports": 32,
+    "first": "2020-10-18",
+    "last": "2021-03-24"
+   },
+   "cacheErrors": []
+  },
+  "docthor": {
+   "name": "Docthor",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-06-14",
+   "guildSessions": 56,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 94,
+    "first": "2020-07-01",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  },
+  "exclusafk": {
+   "name": "Exclusafk",
+   "firstGuildSession": "2020-03-15",
+   "lastGuildSession": "2020-09-16",
+   "guildSessions": 56,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-09-20",
+    "last": "2020-09-20"
+   },
+   "cacheErrors": []
+  },
+  "lyriss": {
+   "name": "Lyriss",
+   "firstGuildSession": "2020-02-12",
+   "lastGuildSession": "2020-12-07",
+   "guildSessions": 56,
+   "before": {
+    "reports": 12,
+    "first": "2019-12-04",
+    "last": "2020-02-05"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-12",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 74,
+    "first": "2020-12-10",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "octocat": {
+   "name": "Octocat",
+   "firstGuildSession": "2019-10-23",
+   "lastGuildSession": "2020-08-19",
+   "guildSessions": 56,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 18,
+    "first": "2019-11-13",
+    "last": "2020-08-19"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "seax": {
+   "name": "Seax",
+   "firstGuildSession": "2020-02-27",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 56,
+   "before": {
+    "reports": 6,
+    "first": "2020-01-03",
+    "last": "2020-02-22"
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-03-01",
+    "last": "2020-09-19"
+   },
+   "after": {
+    "reports": 54,
+    "first": "2020-10-06",
+    "last": "2021-05-13"
+   },
+   "cacheErrors": []
+  },
+  "redang": {
+   "name": "Redang",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-08-23",
+   "guildSessions": 54,
+   "before": {
+    "reports": 11,
+    "first": "2019-12-04",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 18,
+    "first": "2020-02-16",
+    "last": "2020-06-28"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "gwyniael": {
+   "name": "Gwyniael",
+   "firstGuildSession": "2020-03-25",
+   "lastGuildSession": "2021-01-20",
+   "guildSessions": 53,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "freelong": {
+   "name": "Freelong",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2021-03-31",
+   "guildSessions": 52,
+   "before": {
+    "reports": 8,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 17,
+    "first": "2020-02-19",
+    "last": "2021-03-23"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "xroth": {
+   "name": "Xroth",
+   "firstGuildSession": "2020-02-09",
+   "lastGuildSession": "2020-08-23",
+   "guildSessions": 52,
+   "before": {
+    "reports": 4,
+    "first": "2020-01-05",
+    "last": "2020-01-22"
+   },
+   "duringExternal": {
+    "reports": 14,
+    "first": "2020-02-12",
+    "last": "2020-08-23"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "zarin": {
+   "name": "Zarin",
+   "firstGuildSession": "2019-11-27",
+   "lastGuildSession": "2020-06-17",
+   "guildSessions": 52,
+   "before": {
+    "reports": 1,
+    "first": "2019-11-18",
+    "last": "2019-11-18"
+   },
+   "duringExternal": {
+    "reports": 9,
+    "first": "2020-02-16",
+    "last": "2020-06-03"
+   },
+   "after": {
+    "reports": 7,
+    "first": "2020-09-14",
+    "last": "2020-11-09"
+   },
+   "cacheErrors": []
+  },
+  "fatale": {
+   "name": "Fatale",
+   "firstGuildSession": "2020-01-08",
+   "lastGuildSession": "2020-09-16",
+   "guildSessions": 51,
+   "before": {
+    "reports": 1,
+    "first": "2019-12-29",
+    "last": "2019-12-29"
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-01-23",
+    "last": "2020-09-10"
+   },
+   "after": {
+    "reports": 5,
+    "first": "2020-09-26",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  },
+  "annafrank": {
+   "name": "Annafrank",
+   "firstGuildSession": "2019-12-04",
+   "lastGuildSession": "2020-05-06",
+   "guildSessions": 50,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "ntekapaz": {
+   "name": "Ntekapaz",
+   "firstGuildSession": "2020-06-28",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 50,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-06-27",
+    "last": "2021-04-08"
+   },
+   "after": {
+    "reports": 19,
+    "first": "2021-04-15",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "priestå": {
+   "name": "Priestå",
+   "firstGuildSession": "2020-08-06",
+   "lastGuildSession": "2021-01-13",
+   "guildSessions": 50,
+   "before": {
+    "reports": 8,
+    "first": "2019-11-20",
+    "last": "2020-01-22"
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-09-06",
+    "last": "2020-12-03"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "rakaiah": {
+   "name": "Rakaiah",
+   "firstGuildSession": "2020-07-12",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 50,
+   "before": {
+    "reports": 6,
+    "first": "2020-06-05",
+    "last": "2020-07-06"
+   },
+   "duringExternal": {
+    "reports": 23,
+    "first": "2020-08-23",
+    "last": "2021-04-04"
+   },
+   "after": {
+    "reports": 9,
+    "first": "2021-04-23",
+    "last": "2021-05-18"
+   },
+   "cacheErrors": []
+  },
+  "smeggleswart": {
+   "name": "Smeggleswart",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-09-16",
+   "guildSessions": 50,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-02-12",
+    "last": "2020-09-09"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "ströheim": {
+   "name": "Ströheim",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 48,
+   "before": {
+    "reports": 9,
+    "first": "2019-12-18",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 20,
+    "first": "2020-02-13",
+    "last": "2020-09-19"
+   },
+   "after": {
+    "reports": 79,
+    "first": "2020-09-27",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "crucibal": {
+   "name": "Crucibal",
+   "firstGuildSession": "2020-05-13",
+   "lastGuildSession": "2021-03-24",
+   "guildSessions": 47,
+   "before": {
+    "reports": 13,
+    "first": "2020-03-29",
+    "last": "2020-04-22"
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-07-02",
+    "last": "2021-03-24"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "kolfinna": {
+   "name": "Kolfinna",
+   "firstGuildSession": "2020-02-20",
+   "lastGuildSession": "2020-09-10",
+   "guildSessions": 47,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 18,
+    "first": "2020-02-23",
+    "last": "2020-09-10"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "murvar": {
+   "name": "Murvar",
+   "firstGuildSession": "2020-02-12",
+   "lastGuildSession": "2020-08-23",
+   "guildSessions": 47,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 28,
+    "first": "2020-02-16",
+    "last": "2020-08-23"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-08-26",
+    "last": "2020-08-26"
+   },
+   "cacheErrors": []
+  },
+  "noxou": {
+   "name": "Noxou",
+   "firstGuildSession": "2020-02-16",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 47,
+   "before": {
+    "reports": 7,
+    "first": "2019-12-18",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 13,
+    "first": "2020-02-16",
+    "last": "2020-08-02"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-09-29",
+    "last": "2020-09-29"
+   },
+   "cacheErrors": []
+  },
+  "potema": {
+   "name": "Potema",
+   "firstGuildSession": "2020-06-14",
+   "lastGuildSession": "2020-12-14",
+   "guildSessions": 47,
+   "before": {
+    "reports": 9,
+    "first": "2019-11-27",
+    "last": "2020-06-10"
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-07-21",
+    "last": "2020-08-27"
+   },
+   "after": {
+    "reports": 11,
+    "first": "2021-03-06",
+    "last": "2021-04-05"
+   },
+   "cacheErrors": []
+  },
+  "ramlösa": {
+   "name": "Ramlösa",
+   "firstGuildSession": "2020-02-23",
+   "lastGuildSession": "2020-07-26",
+   "guildSessions": 47,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-02-26",
+    "last": "2020-05-01"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "wehnergok": {
+   "name": "Wehnergok",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-08-26",
+   "guildSessions": 47,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 11,
+    "first": "2020-02-23",
+    "last": "2020-08-23"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "òllz": {
+   "name": "Òllz",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 47,
+   "before": {
+    "reports": 8,
+    "first": "2020-01-05",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 30,
+    "first": "2020-02-13",
+    "last": "2020-08-02"
+   },
+   "after": {
+    "reports": 7,
+    "first": "2020-11-22",
+    "last": "2021-04-17"
+   },
+   "cacheErrors": []
+  },
+  "appelflap": {
+   "name": "Appelflap",
+   "firstGuildSession": "2020-04-08",
+   "lastGuildSession": "2020-12-07",
+   "guildSessions": 46,
+   "before": {
+    "reports": 24,
+    "first": "2019-12-01",
+    "last": "2020-04-03"
+   },
+   "duringExternal": {
+    "reports": 11,
+    "first": "2020-04-18",
+    "last": "2020-11-18"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "hydara": {
+   "name": "Hydara",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 46,
+   "before": {
+    "reports": 12,
+    "first": "2019-11-06",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 13,
+    "first": "2020-02-16",
+    "last": "2020-08-06"
+   },
+   "after": {
+    "reports": 11,
+    "first": "2020-10-05",
+    "last": "2020-11-29"
+   },
+   "cacheErrors": []
+  },
+  "selephie": {
+   "name": "Selephie",
+   "firstGuildSession": "2020-03-29",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 45,
+   "before": {
+    "reports": 1,
+    "first": "2020-03-26",
+    "last": "2020-03-26"
+   },
+   "duringExternal": {
+    "reports": 82,
+    "first": "2020-03-30",
+    "last": "2021-04-08"
+   },
+   "after": {
+    "reports": 13,
+    "first": "2021-04-14",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  },
+  "dragonslay": {
+   "name": "Dragonslay",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-08-27",
+   "guildSessions": 44,
+   "before": {
+    "reports": 13,
+    "first": "2019-11-20",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-03-15",
+    "last": "2020-08-02"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-01-03",
+    "last": "2021-01-03"
+   },
+   "cacheErrors": []
+  },
+  "ilove": {
+   "name": "Ilove",
+   "firstGuildSession": "2020-09-13",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 44,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-09-19",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 6,
+    "first": "2021-04-19",
+    "last": "2021-05-03"
+   },
+   "cacheErrors": []
+  },
+  "kofte": {
+   "name": "Kofte",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-06-28",
+   "guildSessions": 44,
+   "before": {
+    "reports": 9,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-02-12",
+    "last": "2020-06-05"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "spaxi": {
+   "name": "Spaxi",
+   "firstGuildSession": "2020-06-07",
+   "lastGuildSession": "2020-10-28",
+   "guildSessions": 44,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-06-07",
+    "last": "2020-10-05"
+   },
+   "after": {
+    "reports": 74,
+    "first": "2020-11-01",
+    "last": "2021-05-18"
+   },
+   "cacheErrors": []
+  },
+  "qiqi": {
+   "name": "Qiqi",
+   "firstGuildSession": "2019-11-20",
+   "lastGuildSession": "2020-05-06",
+   "guildSessions": 43,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "roddish": {
+   "name": "Roddish",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-07-19",
+   "guildSessions": 43,
+   "before": {
+    "reports": 15,
+    "first": "2019-11-06",
+    "last": "2020-01-05"
+   },
+   "duringExternal": {
+    "reports": 13,
+    "first": "2020-02-19",
+    "last": "2020-04-08"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "thepaladin": {
+   "name": "Thepaladin",
+   "firstGuildSession": "2019-12-08",
+   "lastGuildSession": "2020-04-08",
+   "guildSessions": 43,
+   "before": {
+    "reports": 2,
+    "first": "2019-09-25",
+    "last": "2019-11-27"
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "orwellia": {
+   "name": "Orwellia",
+   "firstGuildSession": "2020-02-19",
+   "lastGuildSession": "2020-08-19",
+   "guildSessions": 42,
+   "before": {
+    "reports": 1,
+    "first": "2020-02-13",
+    "last": "2020-02-13"
+   },
+   "duringExternal": {
+    "reports": 17,
+    "first": "2020-02-19",
+    "last": "2020-08-19"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "pasmaarop": {
+   "name": "Pasmaarop",
+   "firstGuildSession": "2020-06-07",
+   "lastGuildSession": "2021-01-13",
+   "guildSessions": 42,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 14,
+    "first": "2020-06-12",
+    "last": "2020-12-19"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "amandil": {
+   "name": "Amandil",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-03-22",
+   "guildSessions": 41,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "exclus": {
+   "name": "Exclus",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-03-22",
+   "guildSessions": 41,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 2,
+    "first": "2021-05-16",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "mdk": {
+   "name": "Mdk",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-03-18",
+   "guildSessions": 41,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 13,
+    "first": "2019-11-13",
+    "last": "2020-03-15"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "mikutron": {
+   "name": "Mikutron",
+   "firstGuildSession": "2020-02-12",
+   "lastGuildSession": "2020-09-06",
+   "guildSessions": 39,
+   "before": {
+    "reports": 14,
+    "first": "2019-11-20",
+    "last": "2020-02-05"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-12",
+    "last": "2020-06-05"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "torkir": {
+   "name": "Torkir",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-06-09",
+   "guildSessions": 39,
+   "before": {
+    "reports": 11,
+    "first": "2019-11-28",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 18,
+    "first": "2020-02-16",
+    "last": "2020-06-07"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "demeterra": {
+   "name": "Demeterra",
+   "firstGuildSession": "2020-06-07",
+   "lastGuildSession": "2020-10-26",
+   "guildSessions": 38,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 14,
+    "first": "2020-06-07",
+    "last": "2020-10-26"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "imlok": {
+   "name": "Imlok",
+   "firstGuildSession": "2020-03-22",
+   "lastGuildSession": "2020-08-19",
+   "guildSessions": 38,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 14,
+    "first": "2020-03-22",
+    "last": "2020-08-19"
+   },
+   "after": {
+    "reports": 19,
+    "first": "2020-08-23",
+    "last": "2021-05-13"
+   },
+   "cacheErrors": []
+  },
+  "barin": {
+   "name": "Barin",
+   "firstGuildSession": "2020-10-26",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 37,
+   "before": {
+    "reports": 104,
+    "first": "2019-11-23",
+    "last": "2020-10-20"
+   },
+   "duringExternal": {
+    "reports": 27,
+    "first": "2020-10-26",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 5,
+    "first": "2021-04-15",
+    "last": "2021-05-05"
+   },
+   "cacheErrors": []
+  },
+  "cappu": {
+   "name": "Cappu",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-03-18",
+   "guildSessions": 37,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2019-11-13",
+    "last": "2020-03-12"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "danigerozops": {
+   "name": "Danigerozops",
+   "firstGuildSession": "2020-06-28",
+   "lastGuildSession": "2020-12-06",
+   "guildSessions": 37,
+   "before": {
+    "reports": 2,
+    "first": "2020-06-07",
+    "last": "2020-06-20"
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-07-30",
+    "last": "2020-07-30"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "elderoy": {
+   "name": "Elderoy",
+   "firstGuildSession": "2020-02-12",
+   "lastGuildSession": "2020-07-22",
+   "guildSessions": 37,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 10,
+    "first": "2020-02-12",
+    "last": "2020-06-03"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "frieda": {
+   "name": "Frieda",
+   "firstGuildSession": "2019-11-20",
+   "lastGuildSession": "2020-07-22",
+   "guildSessions": 37,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2019-11-20",
+    "last": "2020-06-22"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-11-16",
+    "last": "2020-11-16"
+   },
+   "cacheErrors": []
+  },
+  "glumanda": {
+   "name": "Glumanda",
+   "firstGuildSession": "2020-06-28",
+   "lastGuildSession": "2020-11-08",
+   "guildSessions": 37,
+   "before": {
+    "reports": 3,
+    "first": "2020-06-07",
+    "last": "2020-06-20"
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-07-30",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2020-11-16",
+    "last": "2020-11-23"
+   },
+   "cacheErrors": []
+  },
+  "isamu": {
+   "name": "Isamu",
+   "firstGuildSession": "2019-11-20",
+   "lastGuildSession": "2020-11-22",
+   "guildSessions": 37,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-09-27",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2020-12-18",
+    "last": "2021-01-01"
+   },
+   "cacheErrors": []
+  },
+  "propalica": {
+   "name": "Propalica",
+   "firstGuildSession": "2020-02-12",
+   "lastGuildSession": "2020-05-20",
+   "guildSessions": 37,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-02-22",
+    "last": "2020-02-22"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "sourcer": {
+   "name": "Sourcer",
+   "firstGuildSession": "2020-03-01",
+   "lastGuildSession": "2020-10-28",
+   "guildSessions": 37,
+   "before": {
+    "reports": 6,
+    "first": "2020-02-09",
+    "last": "2020-02-23"
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2020-03-04",
+    "last": "2020-10-04"
+   },
+   "after": {
+    "reports": 54,
+    "first": "2020-12-02",
+    "last": "2021-05-09"
+   },
+   "cacheErrors": []
+  },
+  "yúna": {
+   "name": "Yúna",
+   "firstGuildSession": "2020-02-09",
+   "lastGuildSession": "2020-06-28",
+   "guildSessions": 37,
+   "before": {
+    "reports": 18,
+    "first": "2019-11-17",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 12,
+    "first": "2020-02-12",
+    "last": "2020-06-03"
+   },
+   "after": {
+    "reports": 3,
+    "first": "2020-07-06",
+    "last": "2020-08-21"
+   },
+   "cacheErrors": []
+  },
+  "esef": {
+   "name": "Esef",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-04-29",
+   "guildSessions": 36,
+   "before": {
+    "reports": 17,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2020-02-12",
+    "last": "2020-03-18"
+   },
+   "after": {
+    "reports": 13,
+    "first": "2020-08-16",
+    "last": "2020-10-05"
+   },
+   "cacheErrors": []
+  },
+  "fnats": {
+   "name": "Fnats",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-08-30",
+   "guildSessions": 36,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "karne": {
+   "name": "Karne",
+   "firstGuildSession": "2020-01-08",
+   "lastGuildSession": "2020-05-10",
+   "guildSessions": 36,
+   "before": {
+    "reports": 6,
+    "first": "2019-12-21",
+    "last": "2020-01-05"
+   },
+   "duringExternal": {
+    "reports": 13,
+    "first": "2020-02-12",
+    "last": "2020-04-29"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "messia": {
+   "name": "Messia",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-04-15",
+   "guildSessions": 36,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 11,
+    "first": "2019-11-13",
+    "last": "2020-04-01"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "taptum": {
+   "name": "Taptum",
+   "firstGuildSession": "2020-10-28",
+   "lastGuildSession": "2021-04-11",
+   "guildSessions": 36,
+   "before": {
+    "reports": 24,
+    "first": "2020-08-24",
+    "last": "2020-10-25"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-11-11",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 22,
+    "first": "2021-04-14",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  },
+  "yogini": {
+   "name": "Yogini",
+   "firstGuildSession": "2019-12-04",
+   "lastGuildSession": "2020-04-29",
+   "guildSessions": 36,
+   "before": {
+    "reports": 5,
+    "first": "2019-10-06",
+    "last": "2019-10-31"
+   },
+   "duringExternal": {
+    "reports": 3,
+    "first": "2020-02-16",
+    "last": "2020-02-26"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-05-01",
+    "last": "2020-05-01"
+   },
+   "cacheErrors": []
+  },
+  "anthroy": {
+   "name": "Anthroy",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-08-02",
+   "guildSessions": 35,
+   "before": {
+    "reports": 7,
+    "first": "2019-11-06",
+    "last": "2019-12-18"
+   },
+   "duringExternal": {
+    "reports": 10,
+    "first": "2020-02-26",
+    "last": "2020-05-30"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "zyaya": {
+   "name": "Zyaya",
+   "firstGuildSession": "2020-09-23",
+   "lastGuildSession": "2021-03-31",
+   "guildSessions": 35,
+   "before": {
+    "reports": 9,
+    "first": "2020-08-24",
+    "last": "2020-09-20"
+   },
+   "duringExternal": {
+    "reports": 23,
+    "first": "2020-09-27",
+    "last": "2021-03-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "arcanefarts": {
+   "name": "Arcanefarts",
+   "firstGuildSession": "2020-06-25",
+   "lastGuildSession": "2020-10-26",
+   "guildSessions": 34,
+   "before": {
+    "reports": 1,
+    "first": "2020-06-22",
+    "last": "2020-06-22"
+   },
+   "duringExternal": {
+    "reports": 12,
+    "first": "2020-07-24",
+    "last": "2020-10-26"
+   },
+   "after": {
+    "reports": 52,
+    "first": "2020-11-02",
+    "last": "2021-05-06"
+   },
+   "cacheErrors": []
+  },
+  "bratux": {
+   "name": "Bratux",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-08-05",
+   "guildSessions": 34,
+   "before": {
+    "reports": 13,
+    "first": "2019-11-27",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-03-18",
+    "last": "2020-04-01"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2021-04-16",
+    "last": "2021-04-16"
+   },
+   "cacheErrors": []
+  },
+  "broodje": {
+   "name": "Broodje",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-09-02",
+   "guildSessions": 34,
+   "before": {
+    "reports": 5,
+    "first": "2019-12-18",
+    "last": "2020-01-26"
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2020-03-15",
+    "last": "2020-06-01"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "fingerlickin": {
+   "name": "Fingerlickin",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-09-27",
+   "guildSessions": 34,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 18,
+    "first": "2019-11-13",
+    "last": "2020-08-21"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "palontras": {
+   "name": "Palontras",
+   "firstGuildSession": "2020-03-18",
+   "lastGuildSession": "2020-07-05",
+   "guildSessions": 34,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "psxycho": {
+   "name": "Psxycho",
+   "firstGuildSession": "2020-02-23",
+   "lastGuildSession": "2020-07-16",
+   "guildSessions": 34,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 18,
+    "first": "2020-02-23",
+    "last": "2020-07-14"
+   },
+   "after": {
+    "reports": 4,
+    "first": "2020-07-26",
+    "last": "2020-07-28"
+   },
+   "cacheErrors": []
+  },
+  "shaoxin": {
+   "name": "Shaoxin",
+   "firstGuildSession": "2020-06-07",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 34,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 10,
+    "first": "2020-06-07",
+    "last": "2020-07-02"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-09-27",
+    "last": "2020-09-27"
+   },
+   "cacheErrors": []
+  },
+  "bobag": {
+   "name": "Bobag",
+   "firstGuildSession": "2019-11-20",
+   "lastGuildSession": "2021-01-27",
+   "guildSessions": 33,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "dandy": {
+   "name": "Dandy",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-06-10",
+   "guildSessions": 33,
+   "before": {
+    "reports": 7,
+    "first": "2019-11-27",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-02-12",
+    "last": "2020-05-27"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "ferrua": {
+   "name": "Ferrua",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-07-09",
+   "guildSessions": 33,
+   "before": {
+    "reports": 12,
+    "first": "2019-11-20",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 23,
+    "first": "2020-02-13",
+    "last": "2020-06-21"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-12-20",
+    "last": "2020-12-20"
+   },
+   "cacheErrors": []
+  },
+  "jerricho": {
+   "name": "Jerricho",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-10-11",
+   "guildSessions": 33,
+   "before": {
+    "reports": 14,
+    "first": "2019-11-06",
+    "last": "2020-01-05"
+   },
+   "duringExternal": {
+    "reports": 20,
+    "first": "2020-03-16",
+    "last": "2020-10-12"
+   },
+   "after": {
+    "reports": 5,
+    "first": "2020-10-19",
+    "last": "2020-11-23"
+   },
+   "cacheErrors": []
+  },
+  "shadowheart": {
+   "name": "Shadowheart",
+   "firstGuildSession": "2020-04-19",
+   "lastGuildSession": "2020-08-19",
+   "guildSessions": 33,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "zimmermann": {
+   "name": "Zimmermann",
+   "firstGuildSession": "2020-06-28",
+   "lastGuildSession": "2020-12-06",
+   "guildSessions": 33,
+   "before": {
+    "reports": 2,
+    "first": "2020-06-07",
+    "last": "2020-06-20"
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-07-16",
+    "last": "2020-07-16"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "chiara": {
+   "name": "Chiara",
+   "firstGuildSession": "2020-04-12",
+   "lastGuildSession": "2020-09-20",
+   "guildSessions": 32,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-04-14",
+    "last": "2020-08-27"
+   },
+   "after": {
+    "reports": 14,
+    "first": "2020-10-27",
+    "last": "2021-04-13"
+   },
+   "cacheErrors": []
+  },
+  "gheynor": {
+   "name": "Gheynor",
+   "firstGuildSession": "2020-07-26",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 32,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-08-09",
+    "last": "2021-01-04"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "hefners": {
+   "name": "Hefners",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-08-05",
+   "guildSessions": 32,
+   "before": {
+    "reports": 3,
+    "first": "2019-12-04",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 15,
+    "first": "2020-01-31",
+    "last": "2020-05-27"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "lege": {
+   "name": "Lege",
+   "firstGuildSession": "2020-03-01",
+   "lastGuildSession": "2020-10-11",
+   "guildSessions": 32,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-09-19",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 35,
+    "first": "2020-11-01",
+    "last": "2020-12-12"
+   },
+   "cacheErrors": []
+  },
+  "nutfixer": {
+   "name": "Nutfixer",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-05-20",
+   "guildSessions": 32,
+   "before": {
+    "reports": 17,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-02-23",
+    "last": "2020-04-08"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-05-27",
+    "last": "2020-05-27"
+   },
+   "cacheErrors": []
+  },
+  "cindarella": {
+   "name": "Cindarella",
+   "firstGuildSession": "2020-05-14",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 31,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 11,
+    "first": "2020-06-18",
+    "last": "2020-09-19"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "djpopz": {
+   "name": "Djpopz",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-06-11",
+   "guildSessions": 31,
+   "before": {
+    "reports": 10,
+    "first": "2019-11-20",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-02-13",
+    "last": "2020-05-17"
+   },
+   "after": {
+    "reports": 20,
+    "first": "2020-09-19",
+    "last": "2020-12-27"
+   },
+   "cacheErrors": []
+  },
+  "gambica": {
+   "name": "Gambica",
+   "firstGuildSession": "2020-02-12",
+   "lastGuildSession": "2020-07-05",
+   "guildSessions": 31,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-20",
+    "last": "2020-02-05"
+   },
+   "duringExternal": {
+    "reports": 29,
+    "first": "2020-02-12",
+    "last": "2020-06-03"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "kaasdipje": {
+   "name": "Kaasdipje",
+   "firstGuildSession": "2020-03-01",
+   "lastGuildSession": "2020-11-22",
+   "guildSessions": 31,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 12,
+    "first": "2020-03-01",
+    "last": "2020-06-07"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "kretin": {
+   "name": "Kretin",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2020-02-09",
+   "guildSessions": 31,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2019-11-13",
+    "last": "2019-11-13"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "rendhammer": {
+   "name": "Rendhammer",
+   "firstGuildSession": "2019-10-16",
+   "lastGuildSession": "2020-03-11",
+   "guildSessions": 31,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2019-11-13",
+    "last": "2020-03-11"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "stahlmarck": {
+   "name": "Stahlmarck",
+   "firstGuildSession": "2020-01-22",
+   "lastGuildSession": "2020-06-07",
+   "guildSessions": 31,
+   "before": {
+    "reports": 7,
+    "first": "2019-11-27",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-02-16",
+    "last": "2020-05-27"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "thermi": {
+   "name": "Thermi",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-10-18",
+   "guildSessions": 31,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 21,
+    "first": "2020-02-16",
+    "last": "2020-06-05"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "eldoc": {
+   "name": "Eldoc",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-02-23",
+   "guildSessions": 29,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-01-23",
+    "last": "2020-01-23"
+   },
+   "after": {
+    "reports": 121,
+    "first": "2020-02-27",
+    "last": "2020-11-18"
+   },
+   "cacheErrors": []
+  },
+  "fantur": {
+   "name": "Fantur",
+   "firstGuildSession": "2020-06-04",
+   "lastGuildSession": "2020-10-21",
+   "guildSessions": 29,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 47,
+    "first": "2020-06-07",
+    "last": "2020-10-18"
+   },
+   "after": {
+    "reports": 8,
+    "first": "2020-10-29",
+    "last": "2021-01-29"
+   },
+   "cacheErrors": []
+  },
+  "gimpara": {
+   "name": "Gimpara",
+   "firstGuildSession": "2020-04-12",
+   "lastGuildSession": "2020-08-09",
+   "guildSessions": 29,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-04-23",
+    "last": "2020-08-08"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-05-08",
+    "last": "2021-05-08"
+   },
+   "cacheErrors": []
+  },
+  "phrkica": {
+   "name": "Phrkica",
+   "firstGuildSession": "2020-05-03",
+   "lastGuildSession": "2020-07-19",
+   "guildSessions": 29,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 3,
+    "first": "2020-05-26",
+    "last": "2020-07-14"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2020-07-22",
+    "last": "2020-07-22"
+   },
+   "cacheErrors": []
+  },
+  "bananabread": {
+   "name": "Bananabread",
+   "firstGuildSession": "2020-06-11",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 28,
+   "before": {
+    "reports": 20,
+    "first": "2019-11-23",
+    "last": "2020-06-03"
+   },
+   "duringExternal": {
+    "reports": 12,
+    "first": "2020-06-12",
+    "last": "2020-09-21"
+   },
+   "after": {
+    "reports": 33,
+    "first": "2020-10-03",
+    "last": "2021-05-12"
+   },
+   "cacheErrors": []
+  },
+  "elbossos": {
+   "name": "Elbossos",
+   "firstGuildSession": "2020-03-22",
+   "lastGuildSession": "2020-06-28",
+   "guildSessions": 28,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 16,
+    "first": "2020-03-29",
+    "last": "2020-06-29"
+   },
+   "after": {
+    "reports": 27,
+    "first": "2020-07-01",
+    "last": "2020-12-04"
+   },
+   "cacheErrors": []
+  },
+  "holyshule": {
+   "name": "Holyshule",
+   "firstGuildSession": "2020-04-15",
+   "lastGuildSession": "2020-06-28",
+   "guildSessions": 28,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "néferti": {
+   "name": "Néferti",
+   "firstGuildSession": "2020-07-19",
+   "lastGuildSession": "2020-11-01",
+   "guildSessions": 28,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-08-26",
+    "last": "2020-09-27"
+   },
+   "after": {
+    "reports": 2,
+    "first": "2020-11-16",
+    "last": "2020-11-23"
+   },
+   "cacheErrors": []
+  },
+  "ravna": {
+   "name": "Ravna",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-02-26",
+   "guildSessions": 28,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "sokrushl": {
+   "name": "Sokrushl",
+   "firstGuildSession": "2020-07-12",
+   "lastGuildSession": "2020-11-01",
+   "guildSessions": 28,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 3,
+    "first": "2020-07-14",
+    "last": "2020-08-31"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "gibford": {
+   "name": "Gibford",
+   "firstGuildSession": "2020-05-14",
+   "lastGuildSession": "2020-09-24",
+   "guildSessions": 27,
+   "before": {
+    "reports": 10,
+    "first": "2020-04-13",
+    "last": "2020-05-09"
+   },
+   "duringExternal": {
+    "reports": 13,
+    "first": "2020-06-07",
+    "last": "2020-09-21"
+   },
+   "after": {
+    "reports": 48,
+    "first": "2020-09-27",
+    "last": "2021-03-08"
+   },
+   "cacheErrors": []
+  },
+  "morpanos": {
+   "name": "Morpanos",
+   "firstGuildSession": "2020-11-25",
+   "lastGuildSession": "2021-03-17",
+   "guildSessions": 27,
+   "before": {
+    "reports": 100,
+    "first": "2019-10-13",
+    "last": "2020-11-18"
+   },
+   "duringExternal": {
+    "reports": 13,
+    "first": "2021-01-29",
+    "last": "2021-03-08"
+   },
+   "after": {
+    "reports": 13,
+    "first": "2021-03-25",
+    "last": "2021-05-18"
+   },
+   "cacheErrors": []
+  },
+  "opinummi": {
+   "name": "Opinummi",
+   "firstGuildSession": "2020-04-08",
+   "lastGuildSession": "2020-07-08",
+   "guildSessions": 27,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 6,
+    "first": "2020-04-29",
+    "last": "2020-06-03"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "powerranger": {
+   "name": "Powerranger",
+   "firstGuildSession": "2020-02-13",
+   "lastGuildSession": "2020-07-23",
+   "guildSessions": 27,
+   "before": {
+    "reports": 15,
+    "first": "2019-10-03",
+    "last": "2020-01-22"
+   },
+   "duringExternal": {
+    "reports": 12,
+    "first": "2020-03-15",
+    "last": "2020-06-29"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "arlin": {
+   "name": "Arlin",
+   "firstGuildSession": "2020-02-12",
+   "lastGuildSession": "2020-05-13",
+   "guildSessions": 26,
+   "before": {
+    "reports": 13,
+    "first": "2019-12-11",
+    "last": "2020-02-05"
+   },
+   "duringExternal": {
+    "reports": 12,
+    "first": "2020-02-12",
+    "last": "2020-05-01"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-05-27",
+    "last": "2020-05-27"
+   },
+   "cacheErrors": []
+  },
+  "dejvid": {
+   "name": "Dejvid",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-07-19",
+   "guildSessions": 26,
+   "before": {
+    "reports": 1,
+    "first": "2019-09-25",
+    "last": "2019-09-25"
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "ganknor": {
+   "name": "Ganknor",
+   "firstGuildSession": "2020-09-27",
+   "lastGuildSession": "2021-04-07",
+   "guildSessions": 26,
+   "before": {
+    "reports": 5,
+    "first": "2020-09-14",
+    "last": "2020-09-21"
+   },
+   "duringExternal": {
+    "reports": 41,
+    "first": "2020-09-28",
+    "last": "2021-03-24"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-04-21",
+    "last": "2021-04-21"
+   },
+   "cacheErrors": []
+  },
+  "hex": {
+   "name": "Hex",
+   "firstGuildSession": "2020-04-01",
+   "lastGuildSession": "2020-07-26",
+   "guildSessions": 26,
+   "before": {
+    "reports": 9,
+    "first": "2019-11-27",
+    "last": "2020-03-30"
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-03-31",
+    "last": "2020-06-03"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "hyúna": {
+   "name": "Hyúna",
+   "firstGuildSession": "2020-04-25",
+   "lastGuildSession": "2020-09-27",
+   "guildSessions": 26,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 23,
+    "first": "2020-04-30",
+    "last": "2020-09-09"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "jellopy": {
+   "name": "Jellopy",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-01-29",
+   "guildSessions": 26,
+   "before": {
+    "reports": 1,
+    "first": "2019-09-25",
+    "last": "2019-09-25"
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "akaraz": {
+   "name": "Akaraz",
+   "firstGuildSession": "2020-06-14",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 25,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 9,
+    "first": "2020-08-02",
+    "last": "2020-12-01"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "bbfly": {
+   "name": "Bbfly",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2020-06-03",
+   "guildSessions": 25,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-05-25",
+    "last": "2020-05-25"
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-06-10",
+    "last": "2020-06-10"
+   },
+   "cacheErrors": []
+  },
+  "jangera": {
+   "name": "Jangera",
+   "firstGuildSession": "2020-06-21",
+   "lastGuildSession": "2020-10-28",
+   "guildSessions": 25,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-06-28",
+    "last": "2020-10-25"
+   },
+   "after": {
+    "reports": 88,
+    "first": "2020-11-01",
+    "last": "2021-05-16"
+   },
+   "cacheErrors": []
+  },
+  "progres": {
+   "name": "Progres",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-04-22",
+   "guildSessions": 25,
+   "before": {
+    "reports": 16,
+    "first": "2019-11-06",
+    "last": "2020-01-08"
+   },
+   "duringExternal": {
+    "reports": 14,
+    "first": "2020-02-16",
+    "last": "2020-04-08"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "askcandy": {
+   "name": "Askcandy",
+   "firstGuildSession": "2020-07-19",
+   "lastGuildSession": "2020-11-08",
+   "guildSessions": 24,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 19,
+    "first": "2020-07-28",
+    "last": "2020-10-29"
+   },
+   "after": {
+    "reports": 15,
+    "first": "2020-11-12",
+    "last": "2021-04-22"
+   },
+   "cacheErrors": []
+  },
+  "letmemaryjan": {
+   "name": "Letmemaryjan",
+   "firstGuildSession": "2020-05-24",
+   "lastGuildSession": "2020-08-18",
+   "guildSessions": 24,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "duringExternal": {
+    "reports": 10,
+    "first": "2020-05-28",
+    "last": "2020-06-28"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "sickness": {
+   "name": "Sickness",
+   "firstGuildSession": "2020-02-05",
+   "lastGuildSession": "2020-04-29",
+   "guildSessions": 24,
+   "before": {
+    "reports": 1,
+    "first": "2019-11-07",
+    "last": "2019-11-07"
+   },
+   "duringExternal": {
+    "reports": 10,
+    "first": "2020-02-12",
+    "last": "2020-04-29"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "wapposo": {
+   "name": "Wapposo",
+   "firstGuildSession": "2020-02-23",
+   "lastGuildSession": "2020-05-13",
+   "guildSessions": 24,
+   "before": {
+    "reports": 5,
+    "first": "2020-01-23",
+    "last": "2020-02-06"
+   },
+   "duringExternal": {
+    "reports": 7,
+    "first": "2020-03-01",
+    "last": "2020-03-25"
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null
+   },
+   "cacheErrors": []
+  },
+  "hadara": {
+   "name": "Hadara",
+   "firstGuildSession": "2020-05-10",
+   "lastGuildSession": "2021-04-14",
+   "guildSessions": 23,
+   "before": {
+    "reports": 2,
+    "first": "2020-04-30",
+    "last": "2020-04-30"
+   },
+   "duringExternal": {
+    "reports": 37,
+    "first": "2020-05-22",
+    "last": "2021-04-05"
+   },
+   "after": {
+    "reports": 6,
+    "first": "2021-04-17",
+    "last": "2021-05-15"
+   },
+   "cacheErrors": []
+  }
+ }
+}
