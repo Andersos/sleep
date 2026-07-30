@@ -82,7 +82,7 @@ function renderNav(active) {
   const nav = document.createElement("nav");
   nav.className = "site wrap";
   nav.innerHTML =
-    `<a class="brand" href="index.html">Sleep</a>` +
+    `<a class="brand" href="index.html">WoW Classic</a>` +
     [
       ["index.html", "Timeline"],
       ["players.html", "Players"],

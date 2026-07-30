@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — raid night</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .cols { display: flex; gap: 18px; flex-wrap: wrap; align-items: flex-start; }
+  .main { flex: 2 1 480px; min-width: 300px; }
+  .side { flex: 1 1 260px; min-width: 240px; }
+  .note { margin: 10px 0 14px; padding: 10px 14px; border-left: 3px solid #e0af68; background: rgba(224,175,104,.08); border-radius: 6px; }
+  .note p { margin: 0 0 8px; line-height: 1.55; font-size: 14px; }
+  .note p:last-child { margin-bottom: 0; }
+  table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.t th, table.t td { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--grid, #2a2c3a); }
+  table.t th { font-size: 11.5px; opacity: .7; text-transform: uppercase; letter-spacing: .04em; }
+  .kill { color: #9ece6a; } .wipe { color: #f7768e; }
+  .rosterlist { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; }
+  .navlinks { font-size: 13px; margin-bottom: 8px; display: flex; gap: 14px; }
+</style>
+<script>const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: false };</script>
+<script src="https://wow.zamimg.com/js/tooltips.js" defer></script>
+</head>
+<body>
+<main>
+  <div class="card" id="card"><div class="loading">loading…</div></div>
+</main>
+<script src="assets/shared.js"></script>
+<script>
+"use strict";
+renderNav("raid.html");
+const card = document.getElementById("card");
+const CLASS_COLORS = {
+  Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
+  Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
+};
+let RAIDS = null, LOOT = null, NOTES = null, CLASSES = null;
+let zoneByKeyId = new Map(), raidKeyByZoneId = new Map();
+
+async function loadOptional(path, key) {
+  try {
+    const r = await fetch(path);
+    if (!r.ok) return null;
+    return (await r.json())[key];
+  } catch { return null; }
+}
+
+function render() {
+  const id = Number(decodeURIComponent(location.hash.slice(1)));
+  const idx = RAIDS.sessions.findIndex((s) => s.id === id);
+  if (idx === -1) {
+    card.innerHTML = `<div class="empty">Unknown raid. Pick one from the <a href="index.html">timeline</a>.</div>`;
+    return;
+  }
+  const s = RAIDS.sessions[idx];
+  const zone = zoneByKeyId.get(s.zoneId) ?? String(s.zoneId);
+  const killed = s.bosses.filter((b) => b.status === "killed");
+  const attempted = s.bosses.filter((b) => b.status !== "killed");
+  const totalWipes = s.bosses.reduce((n, b) => n + (b.wipes ?? 0), 0);
+
+  const raidKey = raidKeyByZoneId.get(s.zoneId);
+  const rosterSet = new Set(s.roster.map((n) => n.toLowerCase()));
+  const awards = LOOT.awards.filter((a) =>
+    a.awardDate === s.date && a.raidKey === raidKey && rosterSet.has((a.recipient ?? "").toLowerCase()));
+
+  const note = NOTES?.[`${s.date}/${s.zoneId}`];
+  const sameNight = RAIDS.sessions.filter((o) => o.date === s.date && o.id !== s.id);
+
+  const bossRows = s.bosses
+    .slice().sort((a, b) => a.order - b.order)
+    .map((b) =>
+      `<tr><td>${esc(b.name)}</td>` +
+      `<td class="${b.status === "killed" ? "kill" : "wipe"}">${b.status === "killed" ? "killed" : "not killed"}</td>` +
+      `<td>${b.pulls ?? ""}</td><td>${b.wipes ?? 0}</td></tr>`).join("");
+
+  const lootRows = awards.map((a) =>
+    `<tr><td><a href="item.html#${a.itemId}">${esc(a.itemName)}</a></td>` +
+    `<td><a style="color:${CLASS_COLORS[a.recipientClass] ?? "inherit"}" href="players.html#${encodeURIComponent(a.recipient)}">${esc(a.recipient)}</a>${a.isMainCharacterAward ? "" : " (alt)"}</td></tr>`).join("");
+
+  const rosterHtml = s.roster.map((n) => {
+    const cls = CLASSES?.[n.toLowerCase()];
+    return `<a style="color:${CLASS_COLORS[cls] ?? "inherit"}" href="players.html#${encodeURIComponent(n)}">${esc(n)}</a>`;
+  }).join("");
+
+  card.innerHTML =
+    `<div class="navlinks">` +
+    (idx > 0 ? `<a href="#${RAIDS.sessions[idx - 1].id}">&larr; previous raid</a>` : "") +
+    (idx < RAIDS.sessions.length - 1 ? `<a href="#${RAIDS.sessions[idx + 1].id}">next raid &rarr;</a>` : "") +
+    `</div>` +
+    `<h2>${esc(zone)} <span class="mutetext" style="font-weight:normal">· ${s.date}</span></h2>` +
+    `<p class="sub">${LANE?.[s.identity]?.label ?? s.identity} · ${s.rosterCount} in the roster · ` +
+    `${killed.length} boss${killed.length === 1 ? "" : "es"} killed` +
+    (totalWipes ? ` · ${totalWipes} wipe${totalWipes === 1 ? "" : "s"}` : "") +
+    ` · <a href="https://classic.warcraftlogs.com/reports/${esc(s.reportCode)}" rel="noopener">full log</a>` +
+    (sameNight.length ? ` · same night: ${sameNight.map((o) => `<a href="#${o.id}">${esc(zoneByKeyId.get(o.zoneId) ?? o.zoneId)}</a>`).join(", ")}` : "") +
+    `</p>` +
+    (note ? `<div class="note">${note.html}</div>` : "") +
+    `<div class="cols"><div class="main">` +
+    `<div class="striplabel">Bosses</div>` +
+    `<table class="t"><thead><tr><th>boss</th><th>result</th><th>pulls</th><th>wipes</th></tr></thead><tbody>${bossRows || "<tr><td colspan=4>no boss pulls logged</td></tr>"}</tbody></table>` +
+    (lootRows ? `<div class="striplabel" style="margin-top:14px">Recorded loot</div><table class="t"><thead><tr><th>item</th><th>recipient</th></tr></thead><tbody>${lootRows}</tbody></table>` : "") +
+    `</div><div class="side">` +
+    `<div class="striplabel">Roster (${s.roster.length})</div><div class="rosterlist">${rosterHtml}</div>` +
+    `</div></div>`;
+  window.$WowheadPower?.refreshLinks?.();
+  document.title = `Sleep — ${zone} ${s.date}`;
+}
+
+addEventListener("hashchange", render);
+
+Promise.all([
+  loadRaids(), loadLoot(),
+  loadOptional("data/raid-notes.json", "notes"),
+  loadOptional("data/classes.json", "classes"),
+]).then(([raids, loot, notes, classes]) => {
+  RAIDS = raids; LOOT = loot; NOTES = notes; CLASSES = classes;
+  for (const z of raids.zones) zoneByKeyId.set(z.zoneId, z.zoneName);
+  for (const r of loot.raids) raidKeyByZoneId.set(r.zoneId, r.raidKey);
+  render();
+});
+</script>
+</body>
+</html>

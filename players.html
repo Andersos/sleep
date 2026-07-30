@@ -193,6 +193,7 @@ function show(name) {
       `<strong>${esc(s.zone)}</strong>` +
       `<span class="lchip"><span class="dot" style="background:${LANE[s.identity].color}"></span>${LANE[s.identity].label}</span>` +
       `<span class="mutetext" style="font-size:11.5px">${s.rosterCount} in roster</span>` +
+      `<a style="font-size:11.5px" href="raid.html#${s.id}">raid page</a>` +
       `<a style="font-size:11.5px" href="https://classic.warcraftlogs.com/reports/${esc(s.reportCode)}" rel="noopener">log</a></div>` +
       (s.bosses.length ? `<div class="bosslist">${bossline}</div>` : "") +
       `</div>`

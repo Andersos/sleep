@@ -256,6 +256,8 @@ function render() {
       `<div>${LANE[s.identity].label} · ${s.rosterCount} in the roster${withPlayer}</div>`;
     hit.addEventListener("mousemove", (evt) => showTip(html, evt));
     hit.addEventListener("mouseleave", hideTip);
+    hit.style.cursor = "pointer";
+    hit.addEventListener("click", () => { location.href = `raid.html#${s.id}`; });
   });
   for (const key of Object.keys(counts)) {
     counts[key].node.textContent = playerSet
