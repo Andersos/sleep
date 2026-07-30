@@ -138,7 +138,7 @@ function buildRoster(filter) {
     b.className = "prow";
     b.setAttribute("role", "option");
     b.setAttribute("aria-current", String(name === current));
-    b.innerHTML = `<span>${classIcon(name)}${esc(name)}</span><span class="nights">${PLAYERS.get(name).length}</span>`;
+    b.innerHTML = `<span>${classIcon(name)}<span style="color:${classColor(name)}">${esc(name)}</span></span><span class="nights">${PLAYERS.get(name).length}</span>`;
     b.addEventListener("click", () => {
       location.hash = encodeURIComponent(name);
     });
@@ -199,7 +199,7 @@ function show(name) {
   const bio = BIOS?.[name.toLowerCase()];
   const playerClass = CLASSES?.[name.toLowerCase()];
   card.innerHTML =
-    `<h2>${classIcon(name, 24)}${esc(name)}${playerClass ? ` <span class="classname">${esc(playerClass)}</span>` : ""}</h2>` +
+    `<h2>${classIcon(name, 24)}<span style="color:${classColor(name)}">${esc(name)}</span>${playerClass ? ` <span class="classname">${esc(playerClass)}</span>` : ""}</h2>` +
     `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
     (bio ? `<div class="bio">${bio.html}</div>` : "") +
     `<div class="chips">${chips}</div>` +
@@ -272,6 +272,13 @@ async function loadJsonKey(path, key) {
 const loadBios = () => loadJsonKey("data/bios.json", "bios");
 const loadClasses = () => loadJsonKey("data/classes.json", "classes");
 
+const CLASS_COLORS = {
+  Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
+  Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
+};
+function classColor(name) {
+  return CLASS_COLORS[CLASSES?.[name.toLowerCase()]] ?? "inherit";
+}
 function classIcon(name, size = 16) {
   const cls = CLASSES?.[name.toLowerCase()];
   if (!cls) return "";

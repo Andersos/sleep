@@ -82,10 +82,14 @@ function render(itemId) {
     const raid = RAIDS.get(d.raidKey) ?? d.raidKey;
     return `<span>${esc(boss)} · ${esc(raid)}</span>`;
   });
+  const CLASS_COLORS = {
+    Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
+    Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
+  };
   const rows = awards.map((a) =>
     `<tr${a.isMainCharacterAward ? "" : ' class="alt"'}>` +
     `<td class="mono">${a.awardDate}</td>` +
-    `<td><a href="players.html#${encodeURIComponent(a.recipient)}">${esc(a.recipient)}</a></td>` +
+    `<td><a style="color:${CLASS_COLORS[a.recipientClass] ?? "inherit"}" href="players.html#${encodeURIComponent(a.recipient)}">${esc(a.recipient)}</a></td>` +
     `<td>${esc(a.recipientClass ?? "")}</td>` +
     `<td>${esc(a.recipientRole ?? "")}${a.isMainCharacterAward ? "" : " (alt)"}</td>` +
     `<td>${esc(RAIDS.get(a.raidKey) ?? a.raidKey)}</td>` +
