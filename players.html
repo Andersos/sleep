@@ -178,6 +178,28 @@ function destinyPanel(name) {
     `logged guild raids, with a two-day grace period after the last raid.</p>`;
 }
 
+function destinyReportDays(name) {
+  const profile = DESTINY?.profiles?.[name.toLowerCase()];
+  if (!profile) return [];
+  const days = new Map();
+  for (const [key, label] of [
+    ["before", "before first guild raid"],
+    ["duringExternal", "external during tenure"],
+    ["after", "after last guild raid"],
+  ]) {
+    for (const report of profile[key]?.items ?? []) {
+      if (!days.has(report.date)) {
+        days.set(report.date, { date: report.date, reports: [], phases: new Set() });
+      }
+      const day = days.get(report.date);
+      day.reports.push(report.reportId);
+      day.phases.add(label);
+    }
+  }
+  return [...days.values()].sort((left, right) =>
+    left.date.localeCompare(right.date));
+}
+
 function buildRoster(filter) {
   roster.innerHTML = "";
   const f = (filter ?? "").trim().toLowerCase();
@@ -218,6 +240,7 @@ function show(name) {
   const first = sess[0].date, last = sess[sess.length - 1].date;
   const ownRaids = PLAYERS.get(name)?.length ?? 0;
   const altRaids = sess.length - ownRaids;
+  const outsideDays = destinyReportDays(name);
 
   const byLane = {};
   for (const s of sess) byLane[s.identity] = (byLane[s.identity] ?? 0) + 1;
@@ -227,7 +250,12 @@ function show(name) {
       `<span class="lchip"><span class="dot" style="background:${LANE[g].color}"></span>${LANE[g].label} · ${n}</span>`)
     .join("");
 
-  const T0 = T("2019-09-15"), T1 = T("2021-05-01");
+  const T0 = T("2019-09-15");
+  const latestOutside = outsideDays.at(-1)?.date;
+  const T1 = Math.max(
+    T("2021-05-01"),
+    latestOutside ? T(latestOutside) + 14 * 24 * 60 * 60 * 1000 : 0,
+  );
   const loot = lootByPlayer.get(name.toLowerCase()) ?? [];
   const mains = loot.filter((l) => l.isMainCharacterAward);
   const lootItems = [...mains, ...loot.filter((l) => !l.isMainCharacterAward)]
@@ -288,8 +316,9 @@ function show(name) {
     (bio?.html ? `<div class="bio">${bio.html}</div>` : "") +
     destinyPanel(name) +
     `<div class="chips">${chips}</div>` +
-    `<div class="striplabel">Raids over time — tall solid: attended · short outlined: missed</div>` +
-    `<svg id="strip" viewBox="0 0 800 46" role="img" aria-label="Raids of ${esc(name)} over time"></svg>` +
+    `<div class="striplabel">Raids over time — tall solid: attended · short outlined: missed` +
+    (outsideDays.length ? ` · gray diamonds: outside reports</div>` : `</div>`) +
+    `<svg id="strip" viewBox="0 0 800 58" role="img" aria-label="Raids of ${esc(name)} over time"></svg>` +
     (loot.length
       ? `<div class="striplabel">Recorded loot (${mains.length} main awards)</div><ul class="lootlist">${lootItems}</ul>`
       : "") +
@@ -298,10 +327,10 @@ function show(name) {
   window.$WowheadPower?.refreshLinks?.();
 
   const svg = card.querySelector("#strip");
-  svgEl("line", { x1: 0, x2: 800, y1: 40, y2: 40, stroke: "var(--grid)" }, svg);
+  svgEl("line", { x1: 0, x2: 800, y1: 52, y2: 52, stroke: "var(--grid)" }, svg);
   for (let year = 2020; year <= 2021; year += 1) {
     const x = ((T(year + "-01-01") - T0) / (T1 - T0)) * 800;
-    svgEl("line", { x1: x, x2: x, y1: 4, y2: 40, stroke: "var(--grid)" }, svg);
+    svgEl("line", { x1: x, x2: x, y1: 4, y2: 52, stroke: "var(--grid)" }, svg);
     const label = svgEl("text", { x: x + 4, y: 12, fill: "var(--muted)", "font-size": 9, "font-family": "ui-monospace,Menlo,monospace" }, svg);
     label.textContent = year;
   }
@@ -314,7 +343,7 @@ function show(name) {
     if (t < tenure[0] || t > tenure[1] || !playerLanes.has(s.identity)) return;
     const x = ((t - T0) / (T1 - T0)) * 800;
     const missed = svgEl("rect", {
-      x: x - 1, y: 22, width: 2.4, height: 18, rx: 1.2,
+      x: x - 1, y: 34, width: 2.4, height: 18, rx: 1.2,
       fill: LANE[s.identity].color, "fill-opacity": 0.12,
       stroke: LANE[s.identity].color, "stroke-opacity": 0.55, "stroke-width": 0.8
     }, svg);
@@ -325,7 +354,7 @@ function show(name) {
   });
   for (const s of sess) {
     const x = ((T(s.date) - T0) / (T1 - T0)) * 800;
-    const mark = svgEl("rect", { x: x - 1, y: 14, width: 2.4, height: 26, rx: 1.2, fill: LANE[s.identity].color }, svg);
+    const mark = svgEl("rect", { x: x - 1, y: 26, width: 2.4, height: 26, rx: 1.2, fill: LANE[s.identity].color }, svg);
     const title = svgEl("title", {}, mark);
     const characters = charactersInRaid(name, s);
     const characterTag = characters.length === 1 && characters[0].toLowerCase() === name.toLowerCase()
@@ -334,6 +363,24 @@ function show(name) {
     title.textContent = `${s.date} · ${s.zone} · ${LANE[s.identity].label}${characterTag}`;
     mark.style.cursor = "pointer";
     mark.addEventListener("click", () => { location.href = `raid.html#${s.id}`; });
+  }
+  for (const day of outsideDays) {
+    const x = ((T(day.date) - T0) / (T1 - T0)) * 800;
+    const mark = svgEl("polygon", {
+      points: `${x},14 ${x + 4},18 ${x},22 ${x - 4},18`,
+      fill: LANE["personal-pug"].color,
+      stroke: "var(--bg)",
+      "stroke-width": 0.8,
+    }, svg);
+    const title = svgEl("title", {}, mark);
+    title.textContent =
+      `${day.date} · ${day.reports.length} outside ` +
+      `${day.reports.length === 1 ? "report" : "reports"} · ` +
+      `${[...day.phases].join(", ")}`;
+    mark.style.cursor = "pointer";
+    mark.addEventListener("click", () => {
+      location.href = `https://classic.warcraftlogs.com/reports/${day.reports[0]}`;
+    });
   }
   document.title = `Sleep — ${name}`;
 }
