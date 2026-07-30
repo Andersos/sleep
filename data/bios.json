@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T17:52:55.761Z",
+ "generatedAt": "2026-07-30T17:56:26.852Z",
  "count": 40,
  "bios": {
   "akikiie": {
@@ -301,9 +301,6 @@
      "period": "2020",
      "guild": "Sleep & Dusk"
     }
-   ],
-   "alts": [
-    "Neptun"
    ]
   },
   "jack": {
@@ -611,11 +608,6 @@
    "name": "Cosyz",
    "html": "",
    "main": "Antzi"
-  },
-  "neptun": {
-   "name": "Neptun",
-   "html": "",
-   "main": "Ragie"
   }
  },
  "groups": {
@@ -655,6 +647,10 @@
    {
     "name": "Fnats",
     "who": "Fredrik — early Sleep raider from the home crew; his DM thread with Anders spans from 2019 to long after the guild."
+   },
+   {
+    "name": "Neptun",
+    "who": "Warrior — possibly Henriette's account (to confirm); in the first Four Horsemen kill and the December core."
    }
   ]
  }
