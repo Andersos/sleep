@@ -129,7 +129,7 @@
     spreadsheets were the guild's constitution, and like all constitutions
     they created their own politics: the spring of 2020 runs through a
     tank vanishing (<a href="players.html#Kugel">Kugel</a>, twenty-three days of
-    silence, a legendary Binding gone with him), Durm, the paladin
+    silence, a legendary Binding gone with him), <a href="players.html#Thepaladin">Durm</a>, the paladin
     leader, losing his account to a hacker days after winning the argument
     over the Eye of Sulfuras, and the night of 18 March, when
     <a href="players.html#Shakeyhealer">Shakey</a> won the roll for the first
@@ -212,7 +212,7 @@
     friction, argued through a full night of officer philosophy ("judge,
     jury and executioner" versus "loyalty you can't buy") and settled as
     "one final chance with punishment — call it a fresh start for Dusk."</p>
-    <p>17 September: Aki, a tank and the man who had built the Ninjas'
+    <p>17 September: <a href="players.html#Akikiie">Aki</a>, a tank and the man who had built the Ninjas'
     Discord server, pulled at the AQ entrance with nobody ready. The world
     buffs evaporated. <a href="players.html#Ulfhild">Ulfhild</a>, the guild's best
     hunter and a man who played for the parse, quit the raid on the spot.
@@ -231,7 +231,7 @@
     hour, was structural: class leaders lost their seats in the inner
     room, and the officer chat split in two. And on the 30th of September
     the autumn delivered its finale: <a href="players.html#Yeat">Yeat</a> kicked
-    Jón Snjór from the guild without consulting anyone, Jón used his alt's
+    <a href="players.html#Snjór">Jón Snjór</a> from the guild without consulting anyone, Jón used his alt's
     rank to kick <a href="players.html#Henne">Henne</a> in retaliation, and a wave
     of protest gquits followed before <a href="players.html#Divinestorm">Divinestorm</a>
     — mediating from a work trip — talked everyone back in. Henne's own
@@ -291,7 +291,7 @@
     which would turn out to be the last recording of Dusk raiding as itself.
     But Naxxramas was built to punish exactly what Dusk was: a community
     first and a roster second. Divinestorm's review of the run, in the officer channel, was two words: "utter shit".</p>
-    <p>The next evening the floor gave way. Edomedo — the quiet warrior the
+    <p>The next evening the floor gave way. <a href="players.html#Edomedo">Edomedo</a> — the quiet warrior the
     officers had been grooming as their contingency tank — told
     <a href="players.html#Divinestorm">Divinestorm</a> he was quitting the game.
     Divinestorm looked at the roster that night and reached the conclusion
@@ -372,7 +372,7 @@
     the Four Horsemen, the fight that had eaten twelve pulls on Sunday, died
     on the first attempt of the night at 19:42. Glory, whose promised spot
     had evaporated when a full forty showed up, listened to the winning
-    briefing from the bench. Artimis watched Ragie's stream. "Happy to be
+    briefing from the bench. Artimis watched <a href="players.html#Ragie">Ragie</a>'s stream. "Happy to be
     part of a 13/15 team," he wrote. How much of that was sincere is
     anyone's guess. That night, Divinestorm invited him into
     the joint officer chat with Ascension. He accepted, and listened.</p>
@@ -427,6 +427,18 @@
 <script src="assets/shared.js"></script>
 <script>
 renderNav("story.html");
+// Color player links by class, same palette as the players/raid pages.
+const STORY_CLASS_COLORS = {
+  Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
+  Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
+};
+fetch("data/classes.json").then((r) => r.json()).then(({ classes }) => {
+  for (const a of document.querySelectorAll('.chapter a[href^="players.html#"]')) {
+    const name = decodeURIComponent(a.getAttribute("href").split("#")[1] ?? "");
+    const color = STORY_CLASS_COLORS[classes[name.toLowerCase()]];
+    if (color) a.style.color = color;
+  }
+});
 const lb = document.createElement("div");
 lb.id = "lightbox";
 lb.innerHTML = "<img alt=\"\">";
