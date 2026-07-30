@@ -59,7 +59,7 @@ const fmtDur = (ms) => {
 function draw() {
   const feed = document.getElementById("feed");
   feed.innerHTML = EVENTS.filter((e) => show[e.kind]).map((e) =>
-    `<div class="ev ${e.kind}">` +
+    `<div class="ev ${e.kind}"${e.kind === "story" ? ` id="m${e.date}"` : ""}>` +
     `<div class="when">${e.date}</div>` +
     `<h3>${e.link ? `<a href="${e.link}">${esc(e.title)}</a>` : (e.titleHtml ?? esc(e.title))}</h3>` +
     (e.blurbHtml ? `<p>${e.blurbHtml}</p>` : e.blurb ? `<p>${esc(e.blurb)}</p>` : "") +
