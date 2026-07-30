@@ -13,6 +13,9 @@
   .cols { display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap; }
   .rosterbox { flex: 0 1 290px; min-width: 250px; }
   .detail { flex: 1 1 520px; min-width: 300px; }
+  .bio { margin: 10px 0 14px; padding: 10px 14px; border-left: 3px solid var(--accent, #7aa2f7); background: color-mix(in srgb, var(--card, #16161e) 88%, var(--accent, #7aa2f7) 12%); border-radius: 6px; }
+  .bio p { margin: 0 0 8px; line-height: 1.55; font-size: 14px; }
+  .bio p:last-child { margin-bottom: 0; }
   #roster {
     background: var(--surface);
     border: 1px solid var(--ring);
@@ -163,7 +166,7 @@ function show(name) {
   const lootItems = [...mains, ...loot.filter((l) => !l.isMainCharacterAward)]
     .map((l) => {
       const item = l.itemId
-        ? `<a href="https://www.wowhead.com/classic/item=${l.itemId}" rel="noopener">${esc(l.itemName)}</a>`
+        ? `<a href="item.html#${l.itemId}">${esc(l.itemName)}</a> <a class="wh" href="https://www.wowhead.com/classic/item=${l.itemId}" rel="noopener" aria-label="Wowhead">↗</a>`
         : esc(l.itemName);
       return `<li><span class="mono mutetext">${l.awardDate}</span><span>${item}` +
         (l.isMainCharacterAward ? "" : ' <span class="alt">(alt/other)</span>') +
@@ -191,9 +194,11 @@ function show(name) {
     );
   }).join("");
 
+  const bio = BIOS?.[name.toLowerCase()];
   card.innerHTML =
     `<h2>${esc(name)}</h2>` +
     `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
+    (bio ? `<div class="bio">${bio.html}</div>` : "") +
     `<div class="chips">${chips}</div>` +
     `<div class="striplabel">Raid nights over time — tall solid: attended · short outlined: missed</div>` +
     `<svg id="strip" viewBox="0 0 800 46" role="img" aria-label="Raid nights of ${esc(name)} over time"></svg>` +
@@ -250,7 +255,19 @@ function onHash() {
 search.addEventListener("input", () => buildRoster(search.value));
 addEventListener("hashchange", onHash);
 
-Promise.all([loadRaids(), loadLoot()]).then(([raids, loot]) => {
+let BIOS = null;
+async function loadBios() {
+  try {
+    const response = await fetch("data/bios.json");
+    if (!response.ok) return null;
+    return (await response.json()).bios;
+  } catch {
+    return null;
+  }
+}
+
+Promise.all([loadRaids(), loadLoot(), loadBios()]).then(([raids, loot, bios]) => {
+  BIOS = bios;
   SESSIONS = raids.sessions;
   PLAYERS = buildPlayerIndex(SESSIONS);
   for (const award of loot.awards) {
