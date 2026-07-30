@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — the Nittedal circle</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .member { display: flex; gap: 12px; align-items: baseline; padding: 12px 0; border-bottom: 1px solid var(--grid, #2a2c3a); }
+  .member:last-child { border-bottom: 0; }
+  .member h3 { margin: 0; min-width: 130px; font-size: 16px; }
+  .member p { margin: 0; font-size: 14px; line-height: 1.5; opacity: .9; }
+  .clsicon { border-radius: 3px; vertical-align: -3px; margin-right: 5px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h2>The Nittedal circle</h2>
+    <p class="sub">Six friends from Nittedal, Norway, scattered through the roster —
+    the real-life thread running through the whole story. One founded the guild;
+    the others followed, healed it, supplied it, and tanked for it.</p>
+    <div id="members"><div class="loading">loading…</div></div>
+  </div>
+</main>
+<script src="assets/shared.js"></script>
+<script>
+"use strict";
+renderNav("nittedal.html");
+const CLASS_COLORS = {
+  Warrior: "#C79C6E", Paladin: "#F58CBA", Hunter: "#ABD473", Rogue: "#FFF569",
+  Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
+};
+async function grab(path) {
+  const r = await fetch(path);
+  return r.ok ? r.json() : null;
+}
+Promise.all([grab("data/bios.json"), grab("data/classes.json")]).then(([b, c]) => {
+  const classes = c?.classes ?? {};
+  const members = b?.groups?.nittedal ?? [];
+  document.getElementById("members").innerHTML = members.map((m) => {
+    const cls = classes[m.name.toLowerCase()];
+    const icon = cls ? `<img class="clsicon" width="18" height="18" alt="${cls}" src="https://wow.zamimg.com/images/wow/icons/small/classicon_${cls.toLowerCase()}.jpg">` : "";
+    const hasBio = b?.bios?.[m.name.toLowerCase()]?.html ? " 📖" : "";
+    return `<div class="member"><h3>${icon}<a style="color:${CLASS_COLORS[cls] ?? "inherit"}" href="players.html#${encodeURIComponent(m.name)}">${esc(m.name)}</a>${hasBio}</h3><p>${esc(m.who)}</p></div>`;
+  }).join("") || `<div class="empty">no members listed</div>`;
+});
+</script>
+</body>
+</html>

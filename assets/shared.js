@@ -89,7 +89,8 @@ function renderNav(active) {
       ["raid.html", "Raids"],
       ["boss.html", "Bosses"],
       ["loot.html", "Loot"],
-      ["item.html", "Items"]
+      ["item.html", "Items"],
+      ["nittedal.html", "Nittedal"]
     ]
       .map(
         ([href, label]) =>

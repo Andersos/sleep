@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-30T15:33:34.537Z",
- "count": 15,
+ "generatedAt": "2026-07-30T15:36:00.307Z",
+ "count": 22,
  "bios": {
   "alt mapping evidence": {
    "name": "Alt mapping evidence",
@@ -24,13 +24,24 @@
     "Transformed"
    ]
   },
+  "boxya": {
+   "name": "Boxya",
+   "html": "<p>Boxya's guild career is a two-act comedy of timing. Recruited by Luivi as a friend of Wandolina, he signed up for a September raid, never showed, and left the guild the next day. Yet by December he was back and suddenly indispensable: picked as one of Dusk's two protected tanks in the Ascension merge — and then he left again, days later, forcing Ragie into the spot. Two departures, both at the worst possible moment; the tank crisis that drove the December merge has his fingerprints on it.</p>"
+  },
+  "crok": {
+   "name": "Crok",
+   "html": "<p>Crok was a mage with 164 raids in the logs — one of the most-attended players in the whole archive — and the pragmatist in the officer chat. When rosters ran short he suggested filling with pugs and recruiting the good ones (\"worked in the past\"); when December's crisis meetings ran hot he stayed practical. His DM thread with Anders spans the guild's whole life, from a February 2020 recruit conversation to three days after the Kel'Thuzad kill. He farmed venom sacks on the night crew, carried the Ring of Spiritual Fervor out of the 12-wipe Horsemen night, and made the jump to Ascension with the rest.</p>",
+   "alts": [
+    "Poesje"
+   ]
+  },
   "deliz": {
    "name": "Deliz",
    "html": "<p>Deliz was a healer, one of the guild's Norwegian core, and the story's first fairness casualty. In February 2020 — a year before anyone had heard of Ascension — he quit WoW over how healers were treated: excluded from best-in-slot rolls while the damage dealers geared, with a disputed Ragnaros neck as the concrete grievance. His exit put a question on the table that the guild never fully answered, and that returned in every later crisis: what does the raid owe the people who keep it alive but never top a meter?</p><p>His friendship with Anders long outlasted his raiding. The messages run from 2019 to 2025 — game recommendations, life updates, and the occasional piece of guild news from the outside, including the December 2020 note that Chris had deleted the old WoW Classic Discord. In the story of Sleep he is the early warning: the guild's kindest era already contained the argument that would end it.</p>"
   },
   "divinestorm": {
    "name": "Divinestorm",
-   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p>",
+   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p><p>His personality is all over the record: the man who bought poison sacs by the hundred and tracked idol distribution person by person; who defended a benched no-name because \"the guy worked really hard farming sacs for us\"; who called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He absorbed abuse that would have broken pettier leaders — sworn at in officer chat, told to his face the leadership was running the guild into the ground — and answered with the same maddening evenness that made people trust him with the December decisions.</p><p>History's verdict on those decisions is the story's hardest question. The pivot to Ascension saved the raid — 15/15 in fourteen days proves it — and it cost the guild its identity and its most loyal bench. Both things are true, and Divinestorm, who took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, seems to have understood that better than anyone at the time.</p>",
    "roles": [
     {
      "role": "Mage class leader",
@@ -44,11 +55,15 @@
   },
   "stormcat": {
    "name": "Divinestorm",
-   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p>"
+   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p><p>His personality is all over the record: the man who bought poison sacs by the hundred and tracked idol distribution person by person; who defended a benched no-name because \"the guy worked really hard farming sacs for us\"; who called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He absorbed abuse that would have broken pettier leaders — sworn at in officer chat, told to his face the leadership was running the guild into the ground — and answered with the same maddening evenness that made people trust him with the December decisions.</p><p>History's verdict on those decisions is the story's hardest question. The pivot to Ascension saved the raid — 15/15 in fourteen days proves it — and it cost the guild its identity and its most loyal bench. Both things are true, and Divinestorm, who took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, seems to have understood that better than anyone at the time.</p>"
   },
   "borégar": {
    "name": "Divinestorm",
-   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p>"
+   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year as the guild's center of gravity. His rise ran through every institution the guild had: mage class leader by late April, channel-architect and document-keeper after the Dusk merger, author of the loot doctrine — effort measured in attendance, world buffs, consumables and consistency, with the council keeping the final word — and ultimately guild master. The officer chat shows him everywhere: running the idol economy item by item, defending benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and defending hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. When September 2020 delivered a crisis a week — a ninja pull, a rage-quit, an officer resigning in the chat, a kick war that briefly cost the guild its own tank leader — Divinestorm mediated all of them, often from work trips, and wrote the member-facing statements afterwards. And when Naxxramas exposed the tank roster in December, it was Divinestorm who concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and within eight days led Dusk's mass migration — planning it, fittingly, as everyone hearthed into the raid. The 15/15 Kel'Thuzad kill four days later happened under his leadership.</p><p>His personality is all over the record: the man who bought poison sacs by the hundred and tracked idol distribution person by person; who defended a benched no-name because \"the guy worked really hard farming sacs for us\"; who called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He absorbed abuse that would have broken pettier leaders — sworn at in officer chat, told to his face the leadership was running the guild into the ground — and answered with the same maddening evenness that made people trust him with the December decisions.</p><p>History's verdict on those decisions is the story's hardest question. The pivot to Ascension saved the raid — 15/15 in fourteen days proves it — and it cost the guild its identity and its most loyal bench. Both things are true, and Divinestorm, who took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, seems to have understood that better than anyone at the time.</p>"
+  },
+  "edomedo": {
+   "name": "Edomedo",
+   "html": "<p>Edomedo was the tank-in-waiting whose exit changed everything. Groomed through November as the contingency (\"we have a potential tank lined up\"), he preferred tanking to DPS and said so. On the night of December 7th 2020 he told Divinestorm he was quitting the game — and that single conversation set off the chain reaction: no tanks for Four Horsemen, the overnight partnership with Ascension, the twenty-spot cut, and the end of Dusk nine days later. Few players this quiet ever moved a story this much.</p>"
   },
   "fizzi": {
    "name": "Fizzi",
@@ -62,13 +77,27 @@
   },
   "glory": {
    "name": "Glory",
-   "html": "<p>Glory joined in mid-February 2020, recruited almost by accident — Anders initially mistook him for someone else and had already mailed him a cloak. He became one of the guild's fixtures: a protection warrior with over 120 raids and 96% attendance, a blacksmith who could forge five of the six Radiant pieces for the Naxxramas frost-resistance push, and by December 2020 the owner of a completed <strong>Thunderfury</strong> — one of the guild's few.</p><p>His story is the loyalist's tragedy. As early as March 2020 he was asking for nothing more than a fair system, arguing that effort at the bottom of the meters deserved the same respect as parses at the top. He tanked C'Thun for Dusk as late as November. But when the December merge with Ascension cut the roster to twenty spots, Glory never got a single Four Horsemen pull — not one of the twelve wipes, not the kill. On the afternoon of the first kill he was told he had a spot that evening; the raid one-shot the fight without him while he listened to the strategy briefing from the bench. Two days later, on the same evening the guild mass-migrated into Ascension, he left — \"better to go during the change\" — saying the guild had been his home and that even a place every other week would have kept him. Within a week he was tanking Four Horsemen for another guild. Invited back after the 15/15 clear, he decided he could not abandon the people who had given him a spot. His last word in the archive, from 2022: not playing WoW any more, for now.</p>"
+   "html": "<p>Glory joined in mid-February 2020, recruited almost by accident — Anders initially mistook him for someone else and had already mailed him a cloak. He became one of the guild's fixtures: a protection warrior with over 120 raids and 96% attendance, a blacksmith who could forge five of the six Radiant pieces for the Naxxramas frost-resistance push, and by December 2020 the owner of a completed <strong>Thunderfury</strong> — one of the guild's few.</p><p>His story is the loyalist's tragedy. As early as March 2020 he was asking for nothing more than a fair system, arguing that effort at the bottom of the meters deserved the same respect as parses at the top. He tanked C'Thun for Dusk as late as November. But when the December merge with Ascension cut the roster to twenty spots, Glory never got a single Four Horsemen pull — not one of the twelve wipes, not the kill. On the afternoon of the first kill he was told he had a spot that evening; the raid one-shot the fight without him while he listened to the strategy briefing from the bench. Two days later, on the same evening the guild mass-migrated into Ascension, he left — \"better to go during the change\" — saying the guild had been his home and that even a place every other week would have kept him. Within a week he was tanking Four Horsemen for another guild. Invited back after the 15/15 clear, he decided he could not abandon the people who had given him a spot. His last word in the archive, from 2022: not playing WoW any more, for now.</p><p>The archive can now date every beat of that December. He tanked C'Thun for Dusk on November 12th. He was in none of the twelve Four Horsemen wipes on December 13th. At 14:21 on the 14th he told Anders the guild master had given him a spot that evening; at 19:42 the Horsemen died on the night's first pull with forty other names in the log. The officers' private verdict that same day — a year and a half of trial, not improved, not good enough — was never said to his face; Anders, asked directly who had blocked him, refused to name names, and the archive kept the secret for five years.</p><p>What makes Glory's story more than a grievance is how completely the record vindicates his effort. He was second only to a handful in raids attended. He funded and forged his own gear. He respecced deep Protection the afternoon of a fight he never got to tank, and when his new guild put him in front of the Four Horsemen the following week, he tanked them competently. The question his story asks — whether a guild owes loyalty to the loyal — was the same one Anders's strike letter asked, written on the same day, and neither man got an answer.</p>"
   },
   "glorya": {
    "name": "Glorya",
    "html": "<p>Glorya — Knut, one of the guild's Norwegians — was a priest healer whose name caused two years of clerical confusion with the warrior Glory, a coincidence the archive has to untangle on nearly every page. The two could hardly have had more different Decembers: while Glory watched the Four Horsemen progression from the bench, Glorya healed it — he is in the roster of the first kill on December 14th and stayed for the full Kel'Thuzad clear.</p><p>He was part of the healer core that made the merge attractive to Ascension in the first place — Dusk's healing was its export product — and the kind of steady presence who shows up in the logs far more often than in the drama. When raids ran late or short-handed, Glorya arriving \"potentially a little bit late\" with Pnats was a recurring line in the healer logistics. His tribute video sits on Supplier's 2021 \"Dusk list,\" between Shakey's and Carmelia's.</p>",
    "alts": [
     "Yukikitsune"
+   ]
+  },
+  "henne": {
+   "name": "Henne",
+   "html": "<p>Henne — Linda — came over from the Ninjas side and became one of the voices that bridged the two cultures. Her guild life ended as collateral damage in the strangest day of the Dusk era: on September 30th 2020, when Jón Snjór was kicked without warning, he used his alt's rank to kick Henne in retaliation before anyone could react. The protest gquits that followed nearly took the guild apart, and Anders's first message to her that afternoon — let's find out what happened and find a fair solution — opens one of the archive's DM threads.</p><p>She was restored along with everyone else once Divinestorm untangled the mess, and the incident forced the reform that outlived it: kick rights were restricted, and \"if you don't have time to explain, you should not have time to kick people\" became guild doctrine. Few players did less to deserve their place in the drama, which is precisely why her name is on the reform.</p>"
+  },
+  "jellopy": {
+   "name": "Jellopy",
+   "html": "<p>Jellopy was the guild's first rogue class leader, running the class in the early BWL era with a five-slot raider roster he picked himself. In February 2020 real life pulled him away — \"not sure when or if he is coming back,\" Anders told Kodf while offering him the permanent seat — and his quiet exit created the succession that gave the rogues their golden age. He is the archive's reminder that most guild history isn't drama: sometimes the important people just log off.</p>",
+   "roles": [
+    {
+     "role": "Rogue class leader",
+     "period": "until Feb 2020"
+    }
    ]
   },
   "kodf": {
@@ -119,7 +148,11 @@
   },
   "nayla": {
    "name": "Nayla",
-   "html": "<p>Nayla was a feral druid and off-tank whose two years in the guild produced more officer-chat discussion than almost anyone else's. He was generous with his time — always available, always signed — and famously difficult to pin down: conversations relayed through him had a way of arriving changed, to the point where officers joked they needed screenshots.</p><p>His defining month was the autumn of 2020. An apparent ninja pull in AQ20 turned out, on investigation, to be a misunderstanding — he had been teleported onto the boss while trying to hearth out — but it landed on top of older friction, and the officers split between removal and mercy. The verdict, after a night of debate that ranged from \"his behavior is toxic\" to \"loyalty you can't buy\": one final chance, framed as a fresh start for the new guild. He lost his tank spot soon after, flirted with rerolling rogue, and was still being proposed for raider rank as late as October. On 25 November he left in a burst of drama, messaging guild members that their leader had committed a \"last desperate act of evilness\" — the details of which the archive still doesn't record. By December he had found a new guild and a new audience on the realm Discord. His story is the guild's hardest governance question in miniature: what do you owe the member who gives you everything and costs you almost as much?</p>"
+   "html": "<p>Nayla was a feral druid and off-tank whose two years in the guild produced more officer-chat discussion than almost anyone else's. He was generous with his time — always available, always signed — and famously difficult to pin down: conversations relayed through him had a way of arriving changed, to the point where officers joked they needed screenshots.</p><p>His defining month was the autumn of 2020. An apparent ninja pull in AQ20 turned out, on investigation, to be a misunderstanding — he had been teleported onto the boss while trying to hearth out — but it landed on top of older friction, and the officers split between removal and mercy. The verdict, after a night of debate that ranged from \"his behavior is toxic\" to \"loyalty you can't buy\": one final chance, framed as a fresh start for the new guild. He lost his tank spot soon after, flirted with rerolling rogue, and was still being proposed for raider rank as late as October. On 25 November he left in a burst of drama, messaging guild members that their leader had committed a \"last desperate act of evilness\" — the details of which the archive still doesn't record. By December he had found a new guild and a new audience on the realm Discord. His story is the guild's hardest governance question in miniature: what do you owe the member who gives you everything and costs you almost as much?</p><p>The record is unusually rich on how he was experienced by others: the class leader who defended him (\"a soul whose intentions are good\") in the same message as admitting he was exhausting; the officers who communicated with him only in pairs so there would be a witness; the running joke that no two people ever heard the same version of a conversation with him. When he told one officer he had \"lost his tanking spot,\" the officer who supposedly took it away had no idea what he was talking about — a small scene that explains his whole file.</p><p>And yet the guild kept almost keeping him. He survived a removal announcement, earned back a bench slot, and was seriously proposed for raider rank six weeks before the end. Whatever the \"last desperate act of evilness\" was that he announced on his way out, within two weeks he was raiding elsewhere and loudly himself on the realm Discord — proof, in its way, that there was never anything wrong with his will to play.</p>"
+  },
+  "nereb": {
+   "name": "Nereb",
+   "html": "<p>Nereb was the third hunter in the rotation that defined December — the agreement by which he, Artimis and Zados took turns sitting out when the merged raid allowed the class only a few spots. He'd been there from the early days, one of the hunters chasing Rhok'delar leaves in the winter of 2019-2020, and he was in the first Four Horsemen kill on the night both his rotation partners watched from outside. In the debates about hunter spots he was one of the three names even the hardliners agreed had to be protected: \"Artimis is a special case, so is Zados and Nereb.\"</p>"
   },
   "pnats": {
    "name": "Pnats",
@@ -144,6 +177,20 @@
   "jack": {
    "name": "Ragie",
    "html": "<p>Ragie — Jack on Discord, Pnats's brother — was the guild's tank spine across every era. He inherited the main-tank mantle when Kugel vanished in early 2020, and from then on the records rarely show a serious raid without him: Dark Iron gear crafted specifically so the guild could get past Firemaw, the tank-loot priority debates of spring 2020 (in which Glory saw him as the favoured rival), and by the Dusk era the formal role of tank leader, raid-leading Sunday runs alongside Jón Snjór.</p><p>He is also half of the guild's longest-running loot argument. The question of what a main tank was owed — first claim on mitigation gear, crafting materials, a Thunderfury — put him repeatedly opposite Glory, whose grievances about \"Ragie gets anything he wants\" date to March 2020. The archive is fairer to both men than they were to each other: Ragie's gearing was policy, argued openly in officer channels, and the binding runs that eventually completed Thunderfuries were organised for him and others by name.</p><p>He was in the first Four Horsemen kill and the 15/15, made the move to Ascension with everyone on the day of the migration — Pnats pinged him to take one last look at the dying Dusk channel — and kept tanking into 2022 in the guild's afterlife.</p>"
+  },
+  "shakeyhealer": {
+   "name": "Shakeyhealer",
+   "html": "<p>Shakey was a priest, an officer, and one of the guild's steady hands — the kind of presence who appears in every era's records without ever being the problem. In the Glory affair he was one of the two named supporters (\"Zados and Shakey has always been for you,\" Anders told Glory on the night he quit), and his healing anchored the December raids: he is in the first Four Horsemen kill roster and stayed through the clear. His DM thread with Anders is one of the largest in the archive — 562 messages of guild logistics across the whole of 2020 — and one of the least dramatic, which is its own kind of biography.</p>"
+  },
+  "shakey": {
+   "name": "Shakeyhealer",
+   "html": "<p>Shakey was a priest, an officer, and one of the guild's steady hands — the kind of presence who appears in every era's records without ever being the problem. In the Glory affair he was one of the two named supporters (\"Zados and Shakey has always been for you,\" Anders told Glory on the night he quit), and his healing anchored the December raids: he is in the first Four Horsemen kill roster and stayed through the clear. His DM thread with Anders is one of the largest in the archive — 562 messages of guild logistics across the whole of 2020 — and one of the least dramatic, which is its own kind of biography.</p>",
+   "roles": [
+    {
+     "role": "Officer",
+     "period": "2020"
+    }
+   ]
   },
   "supplier": {
    "name": "Supplier",
@@ -170,16 +217,6 @@
    ],
    "alts": [
     "Akaraz"
-   ]
-  },
-  "jellopy": {
-   "name": "jellopy",
-   "html": "",
-   "roles": [
-    {
-     "role": "Rogue class leader",
-     "period": "until Feb 2020"
-    }
    ]
   },
   "celed": {
@@ -245,16 +282,6 @@
     }
    ]
   },
-  "shakey": {
-   "name": "shakey",
-   "html": "",
-   "roles": [
-    {
-     "role": "Officer",
-     "period": "2020"
-    }
-   ]
-  },
   "lege": {
    "name": "Lege",
    "html": "",
@@ -291,13 +318,6 @@
    "name": "Poesje",
    "html": "",
    "main": "Crok"
-  },
-  "crok": {
-   "name": "Crok",
-   "html": "",
-   "alts": [
-    "Poesje"
-   ]
   },
   "ursaminor": {
    "name": "Ursaminor",
