@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T17:49:00.043Z",
+ "generatedAt": "2026-07-30T17:52:55.761Z",
  "count": 40,
  "bios": {
   "akikiie": {
@@ -301,6 +301,9 @@
      "period": "2020",
      "guild": "Sleep & Dusk"
     }
+   ],
+   "alts": [
+    "Neptun"
    ]
   },
   "jack": {
@@ -608,6 +611,11 @@
    "name": "Cosyz",
    "html": "",
    "main": "Antzi"
+  },
+  "neptun": {
+   "name": "Neptun",
+   "html": "",
+   "main": "Ragie"
   }
  },
  "groups": {
