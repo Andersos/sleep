@@ -103,6 +103,7 @@
   </p>
   <div class="cols">
     <div class="rosterbox">
+      <div id="lanefilter" style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px"></div>
       <input id="search" class="text" style="width:100%; margin-bottom:8px;" placeholder="filter names…" autocomplete="off" spellcheck="false" aria-label="Filter player names">
       <div id="roster" role="listbox" aria-label="Players"><div class="loading">loading…</div></div>
     </div>
@@ -153,13 +154,16 @@ function buildRoster(filter) {
     b.setAttribute("role", "option");
     b.setAttribute("aria-current", String(name === current));
     if (roleFilter && !BIOS?.[name.toLowerCase()]?.roles?.some((r) => r.role === roleFilter)) continue;
+    if (laneFilter && PLAYER_LANE.get(name) !== laneFilter) continue;
     const hasBio = BIOS?.[name.toLowerCase()]?.html ? ` <span title="has a story">📖</span>` : "";
     const own = PLAYERS.get(name).length;
     const combined = combinedNights(name);
     const nights = combined > own
       ? `<span title="${own} on this character, ${combined - own} on alts">${combined}</span>`
       : String(own);
-    b.innerHTML = `<span>${classIcon(name)}<span style="color:${classColor(name)}">${esc(name)}</span>${hasBio}</span><span class="nights">${nights}</span>`;
+    const lane = PLAYER_LANE.get(name);
+    const laneTag = lane ? ` <span style="font-size:10px;opacity:.55;color:${LANE[lane]?.color ?? "inherit"}">${esc(LANE[lane]?.label ?? lane)}</span>` : "";
+    b.innerHTML = `<span>${classIcon(name)}<span style="color:${classColor(name)}">${esc(name)}</span>${laneTag}${hasBio}</span><span class="nights">${nights}</span>`;
     b.addEventListener("click", () => {
       location.hash = encodeURIComponent(name);
     });
@@ -285,6 +289,33 @@ function show(name) {
 }
 
 let roleFilter = null;
+let laneFilter = null;
+const PLAYER_LANE = new Map();
+function computeLanes() {
+  for (const [name, idxs] of PLAYERS) {
+    const tally = {};
+    for (const i of idxs) tally[SESSIONS[i].identity] = (tally[SESSIONS[i].identity] ?? 0) + 1;
+    PLAYER_LANE.set(name, Object.entries(tally).sort((a, b) => b[1] - a[1])[0][0]);
+  }
+}
+function buildLaneChips() {
+  const box = document.getElementById("lanefilter");
+  const mk = (key, label, color) => {
+    const b = document.createElement("button");
+    b.className = "chip";
+    b.style.cssText = "border-radius:999px;padding:3px 10px;font-size:12px;cursor:pointer;border:1px solid var(--grid,#2a2c3a);background:transparent;color:inherit";
+    b.innerHTML = color ? `<span class="dot" style="background:${color};display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px"></span>${label}` : label;
+    b.addEventListener("click", () => {
+      laneFilter = key;
+      for (const c of box.children) c.style.borderColor = "var(--grid,#2a2c3a)";
+      b.style.borderColor = color ?? "#e0af68";
+      buildRoster(search.value);
+    });
+    box.appendChild(b);
+  };
+  mk(null, "all", null);
+  for (const l of LANES) mk(l.key, l.label, l.color);
+}
 function onHash() {
   const hash = decodeURIComponent(location.hash.slice(1));
   if (hash.startsWith("role:")) {
@@ -354,6 +385,8 @@ Promise.all([loadRaids(), loadLoot(), loadBios(), loadClasses()]).then(([raids, 
     if (!lootByPlayer.has(key)) lootByPlayer.set(key, []);
     lootByPlayer.get(key).push(award);
   }
+  computeLanes();
+  buildLaneChips();
   buildRoster("");
   onHash();
 });
