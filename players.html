@@ -13,6 +13,8 @@
   .cols { display: flex; gap: 18px; align-items: flex-start; flex-wrap: wrap; }
   .rosterbox { flex: 0 1 290px; min-width: 250px; }
   .detail { flex: 1 1 520px; min-width: 300px; }
+  .clsicon { border-radius: 3px; vertical-align: -3px; margin-right: 4px; }
+  .classname { font-size: 13px; opacity: .65; font-weight: normal; margin-left: 6px; }
   .bio { margin: 10px 0 14px; padding: 10px 14px; border-left: 3px solid var(--accent, #7aa2f7); background: color-mix(in srgb, var(--card, #16161e) 88%, var(--accent, #7aa2f7) 12%); border-radius: 6px; }
   .bio p { margin: 0 0 8px; line-height: 1.55; font-size: 14px; }
   .bio p:last-child { margin-bottom: 0; }
@@ -136,7 +138,7 @@ function buildRoster(filter) {
     b.className = "prow";
     b.setAttribute("role", "option");
     b.setAttribute("aria-current", String(name === current));
-    b.innerHTML = `<span>${esc(name)}</span><span class="nights">${PLAYERS.get(name).length}</span>`;
+    b.innerHTML = `<span>${classIcon(name)}${esc(name)}</span><span class="nights">${PLAYERS.get(name).length}</span>`;
     b.addEventListener("click", () => {
       location.hash = encodeURIComponent(name);
     });
@@ -195,8 +197,9 @@ function show(name) {
   }).join("");
 
   const bio = BIOS?.[name.toLowerCase()];
+  const playerClass = CLASSES?.[name.toLowerCase()];
   card.innerHTML =
-    `<h2>${esc(name)}</h2>` +
+    `<h2>${classIcon(name, 24)}${esc(name)}${playerClass ? ` <span class="classname">${esc(playerClass)}</span>` : ""}</h2>` +
     `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
     (bio ? `<div class="bio">${bio.html}</div>` : "") +
     `<div class="chips">${chips}</div>` +
@@ -256,18 +259,28 @@ search.addEventListener("input", () => buildRoster(search.value));
 addEventListener("hashchange", onHash);
 
 let BIOS = null;
-async function loadBios() {
+let CLASSES = null;
+async function loadJsonKey(path, key) {
   try {
-    const response = await fetch("data/bios.json");
+    const response = await fetch(path);
     if (!response.ok) return null;
-    return (await response.json()).bios;
+    return (await response.json())[key];
   } catch {
     return null;
   }
 }
+const loadBios = () => loadJsonKey("data/bios.json", "bios");
+const loadClasses = () => loadJsonKey("data/classes.json", "classes");
 
-Promise.all([loadRaids(), loadLoot(), loadBios()]).then(([raids, loot, bios]) => {
+function classIcon(name, size = 16) {
+  const cls = CLASSES?.[name.toLowerCase()];
+  if (!cls) return "";
+  return `<img class="clsicon" width="${size}" height="${size}" loading="lazy" alt="${cls}" title="${cls}" src="https://wow.zamimg.com/images/wow/icons/small/classicon_${cls.toLowerCase()}.jpg"> `;
+}
+
+Promise.all([loadRaids(), loadLoot(), loadBios(), loadClasses()]).then(([raids, loot, bios, classes]) => {
   BIOS = bios;
+  CLASSES = classes;
   SESSIONS = raids.sessions;
   PLAYERS = buildPlayerIndex(SESSIONS);
   for (const award of loot.awards) {
