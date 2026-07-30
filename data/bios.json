@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-30T17:34:07.729Z",
- "count": 38,
+ "generatedAt": "2026-07-30T17:36:55.060Z",
+ "count": 39,
  "bios": {
   "suspected alts — co-absence analysis": {
    "name": "Suspected alts — co-absence analysis",
@@ -376,6 +376,21 @@
   "zypher": {
    "name": "Supplier",
    "html": "<p>Supplier earned his name. Across three years and nearly a thousand messages with <a href=\"players.html#Artimis\">Artimis</a>, he was the guild's consumables economy in human form — flasks, protection potions, world-buff logistics, the LBRS venom-sack supply chain that made Viscidus killable. If a raid had what it needed, odds are Supplier had something to do with it.</p><p>He was Norwegian, precise, and allergic to sloppy thinking: the officer who asked what a poll was actually <em>for</em> before letting anyone run it, who told his fellow priests exactly how their channel would be run (\"take it up with me directly\"), and who de-escalated the guild's worst arguments by explaining what an expression meant in context. He was named Healing Officer at the September 2020 meeting and stayed in that seat through the December merge.</p><p>Two footnotes belong to him. It was his dry one-liner — \"<a href=\"players.html#Shosanna\">Shosanna</a> was the only priest that got an item yesterday, fyi\" — that became the last straw in <a href=\"players.html#Orish\">Orish</a>'s dramatic exit, a fact he handled with characteristic equanimity (\"Allright, nice to meet ya\"). And in May 2021 he posted the \"Dusk list\": a set of tribute video links, one per guildmate — the closest thing the guild ever made to its own memorial before this site.</p>"
+  },
+  "thepaladin": {
+   "name": "Thepaladin",
+   "html": "<p>Thepaladin — Durm on Discord — was Sleep's paladin class leader for six weeks in the spring of 2020, and his 232-message thread with <a href=\"players.html#Artimis\">Artimis</a> is one of the archive's richest seams. He was rich (the guild leader once asked, half in awe, where all the money came from), an alchemist, and the owner of the only Sulfuron Hammer in the guild, which put him first in line for the Eye of Sulfuras. Then <a href=\"players.html#Panadin\">Panadin</a> got a hammer too, the rule became \"everyone with the hammer rolls,\" and Durm's protest — sixty-two elites killed for one Eye — is the purest specimen of the guild's endless argument between earned priority and equal chance.</p><p>He got the class-leader job on 5 March (\"It's your job now :p\"), spent it designing debuff priorities and Lok'amir queues, and lost everything to a hacker in mid-April: someone logged into his account, the tickets went nowhere, and he never raided again. His last messages with <a href=\"players.html#Artimis\">Artimis</a> are about bank fraud, not bosses. Chris covered the class as temporary leader, and the Eye he argued for outlived him as guild doctrine. His raid log ends on 8 April 2020, mid-era, mid-story — the archive's cleanest example of how Classic careers actually ended: not in drama, but in a support queue.</p>",
+   "roles": [
+    {
+     "role": "Paladin class leader",
+     "period": "Mar – Apr 2020",
+     "guild": "Sleep"
+    }
+   ]
+  },
+  "durm": {
+   "name": "Thepaladin",
+   "html": "<p>Thepaladin — Durm on Discord — was Sleep's paladin class leader for six weeks in the spring of 2020, and his 232-message thread with <a href=\"players.html#Artimis\">Artimis</a> is one of the archive's richest seams. He was rich (the guild leader once asked, half in awe, where all the money came from), an alchemist, and the owner of the only Sulfuron Hammer in the guild, which put him first in line for the Eye of Sulfuras. Then <a href=\"players.html#Panadin\">Panadin</a> got a hammer too, the rule became \"everyone with the hammer rolls,\" and Durm's protest — sixty-two elites killed for one Eye — is the purest specimen of the guild's endless argument between earned priority and equal chance.</p><p>He got the class-leader job on 5 March (\"It's your job now :p\"), spent it designing debuff priorities and Lok'amir queues, and lost everything to a hacker in mid-April: someone logged into his account, the tickets went nowhere, and he never raided again. His last messages with <a href=\"players.html#Artimis\">Artimis</a> are about bank fraud, not bosses. Chris covered the class as temporary leader, and the Eye he argued for outlived him as guild doctrine. His raid log ends on 8 April 2020, mid-era, mid-story — the archive's cleanest example of how Classic careers actually ended: not in drama, but in a support queue.</p>"
   },
   "tsakimo": {
    "name": "Tsakimo",
