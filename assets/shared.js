@@ -137,3 +137,37 @@ const PHASES = [
   ["2020-12-03", "P6", "Naxxramas opens"],
   ["2021-05-18", "TBC", "Burning Crusade pre-patch — the Classic era ends"],
 ];
+
+// Boss portrait icons (achievement art on the zamimg CDN). Partial coverage:
+// Naxxramas and raid end bosses have dedicated art; earlier bosses mostly
+// don't. Callers pair this with onerror-hide so gaps degrade gracefully.
+const BOSS_ICONS = {
+  "onyxia": "achievement_boss_onyxia",
+  "ragnaros": "achievement_boss_ragnaros",
+  "nefarian": "achievement_boss_nefarion",
+  "hakkar": "achievement_boss_hakkar",
+  "ossirian": "achievement_boss_kurinaxx",
+  "cthun": "achievement_boss_cthun",
+  "kelthuzad": "achievement_dungeon_naxxramas_kelthuzad",
+  "anubrekhan": "achievement_boss_anubrekhan",
+  "faerlina": "achievement_boss_grandwidowfaerlina",
+  "maexxna": "achievement_boss_maexxna",
+  "noth": "achievement_boss_noththeplaguebringer",
+  "heigan": "achievement_boss_heigantheunclean",
+  "loatheb": "achievement_boss_loatheb",
+  "razuvious": "achievement_boss_instructorrazuvious",
+  "gothik": "achievement_boss_gothiktheharvester",
+  "four-horsemen": "achievement_boss_fourhorsemen",
+  "patchwerk": "achievement_boss_patchwerk",
+  "grobbulus": "achievement_boss_grobbulus",
+  "gluth": "achievement_boss_gluth",
+  "thaddius": "achievement_boss_thaddius",
+  "sapphiron": "achievement_boss_sapphiron",
+};
+function bossIconImg(key, size = 28) {
+  const icon = BOSS_ICONS[key] ?? BOSS_ICONS[key.replace(/-/g, "")];
+  if (!icon) return "";
+  return `<img class="bossicon" width="${size}" height="${size}" loading="lazy" alt="" ` +
+    `onerror="this.style.display='none'" style="border-radius:6px;vertical-align:middle;margin-right:8px;border:1px solid var(--grid,#2a2c3a)" ` +
+    `src="https://wow.zamimg.com/images/wow/icons/large/${icon}.jpg">`;
+}

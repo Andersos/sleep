@@ -66,7 +66,7 @@ function renderList() {
     const rows = [...bosses.entries()]
       .sort((a, b) => a[1].order - b[1].order)
       .map(([key, e]) =>
-        `<tr><td><a href="#${zoneId}/${key}">${esc(e.name)}</a></td>` +
+        `<tr><td>${bossIconImg(key, 26)}<a href="#${zoneId}/${key}">${esc(e.name)}</a></td>` +
         `<td class="kill">${e.kills}</td><td class="wipe">${e.wipes || ""}</td></tr>`)
       .join("");
     html += `<h3 class="zonehead">${esc(zoneName.get(zoneId) ?? zoneId)}</h3>` +
@@ -89,6 +89,19 @@ function render() {
   const name = nights[0].b.name;
   const kills = nights.filter((n) => n.b.status === "killed").length;
   const wipes = nights.reduce((n, x) => n + (x.b.wipes ?? 0), 0);
+  const perGuild = new Map();
+  for (const { s: sess, b } of nights) {
+    if (!perGuild.has(sess.identity)) perGuild.set(sess.identity, { kills: 0, wipes: 0 });
+    const e = perGuild.get(sess.identity);
+    if (b.status === "killed") e.kills += 1;
+    e.wipes += b.wipes ?? 0;
+  }
+  const laneOrder = LANES.map((l) => l.key);
+  const guildRows = [...perGuild.entries()]
+    .sort((a, b) => laneOrder.indexOf(a[0]) - laneOrder.indexOf(b[0]))
+    .map(([id, e]) =>
+      `<tr><td><span style="color:${LANE[id]?.color ?? "inherit"}">${LANE[id]?.label ?? id}</span></td>` +
+      `<td class="kill">${e.kills}</td><td class="wipe">${e.wipes || ""}</td></tr>`).join("");
   const first = RAIDS.firstKills.find((f) => f.zoneId === zoneId && f.bossKey === key);
   const fasts = (RAIDS.fastestKillsByGuild ?? []).filter((f) => f.bossKey === key);
   const rows = nights.map(({ s, b }) =>
@@ -98,7 +111,7 @@ function render() {
     `<td>${b.pulls ?? ""}</td><td>${b.wipes ?? 0}</td></tr>`).join("");
   card.innerHTML =
     `<p style="font-size:13px"><a href="boss.html">&larr; all bosses</a></p>` +
-    `<h2>${esc(name)} <span class="mutetext" style="font-weight:normal">· ${esc(zoneName.get(zoneId) ?? "")}</span></h2>` +
+    `<h2>${bossIconImg(key, 48)}${esc(name)} <span class="mutetext" style="font-weight:normal">· ${esc(zoneName.get(zoneId) ?? "")}</span></h2>` +
     `<div class="statchips">` +
     `<span><strong>${kills}</strong>kills</span>` +
     `<span><strong>${wipes}</strong>wipes</span>` +
@@ -106,6 +119,10 @@ function render() {
     fasts.map((f) =>
       `<span><strong>${fmtDur(f.durationMs)}</strong><span style="color:${LANE[f.identity]?.color ?? "inherit"}">${LANE[f.identity]?.label ?? f.identity}</span> fastest (<a href="raid.html#${f.sessionId}">${f.date}</a>)</span>`).join("") +
     `</div>` +
+    (perGuild.size > 1
+      ? `<div class="striplabel">Per guild</div>` +
+        `<table class="t" style="max-width:420px;margin-bottom:16px"><thead><tr><th>guild</th><th>kills</th><th>wipes</th></tr></thead><tbody>${guildRows}</tbody></table>`
+      : "") +
     `<div class="striplabel">Every night this boss was pulled</div>` +
     `<table class="t"><thead><tr><th>date</th><th>guild</th><th>result</th><th>pulls</th><th>wipes</th></tr></thead><tbody>${rows}</tbody></table>`;
   document.title = `Sleep — ${name}`;

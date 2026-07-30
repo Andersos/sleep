@@ -73,25 +73,13 @@ Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios])
   ].map(([v, l]) => `<div class="tile"><strong>${v}</strong><span>${l}</span></div>`).join("");
 
   const END_BOSSES = ["onyxia", "ragnaros", "nefarian", "hakkar", "ossirian", "cthun", "kelthuzad"];
-  const BOSS_ICONS = {
-    onyxia: "achievement_boss_onyxia",
-    ragnaros: "achievement_boss_ragnaros",
-    nefarian: "achievement_boss_nefarion",
-    hakkar: "achievement_boss_hakkar",
-    ossirian: "achievement_boss_kurinaxx", // AQ20 set; swapped if a better one exists
-    cthun: "achievement_boss_cthun",
-    kelthuzad: "achievement_dungeon_naxxramas_kelthuzad",
-  };
   const endRows = [...bossAgg.values()]
     .filter((b) => END_BOSSES.includes(b.key.replace(/-/g, "")) || END_BOSSES.includes(b.key))
     .sort((a, b) => a.zoneId - b.zoneId)
     .map((b) => {
       const f = raids.firstKills.find((x) => x.zoneId === b.zoneId && x.bossKey === b.key);
       const fasts = (raids.fastestKillsByGuild ?? []).filter((x) => x.bossKey === b.key);
-      const icon = BOSS_ICONS[b.key.replace(/-/g, "")];
-      const img = icon
-        ? `<img class="bossicon" width="36" height="36" loading="lazy" alt="" onerror="this.style.display='none'" src="https://wow.zamimg.com/images/wow/icons/large/${icon}.jpg"> `
-        : "";
+      const img = bossIconImg(b.key, 36);
       const fastCell = fasts.map((x) =>
         `<div><span style="color:${LANE[x.identity]?.color ?? "inherit"}">${LANE[x.identity]?.label ?? x.identity}</span> ` +
         `${fmtDur(x.durationMs)} (<a href="raid.html#${x.sessionId}">${x.date}</a>)</div>`).join("");
