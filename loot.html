@@ -109,7 +109,7 @@ function render() {
         : esc(a.recipient)
       : '<span class="mutetext">—</span>';
     const item = a.itemId
-      ? `<a class="itemlink" href="https://www.wowhead.com/classic/item=${a.itemId}" rel="noopener">${esc(a.itemName)}</a>`
+      ? `<a class="itemlink" href="item.html#${a.itemId}">${esc(a.itemName)}</a> <a class="wh" href="https://www.wowhead.com/classic/item=${a.itemId}" rel="noopener" aria-label="Wowhead">↗</a>`
       : esc(a.itemName);
     rows.push(
       `<tr><td class="num">${a.awardDate}</td>` +

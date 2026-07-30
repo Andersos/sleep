@@ -86,7 +86,8 @@ function renderNav(active) {
     [
       ["index.html", "Timeline"],
       ["players.html", "Players"],
-      ["loot.html", "Loot"]
+      ["loot.html", "Loot"],
+      ["item.html", "Items"]
     ]
       .map(
         ([href, label]) =>

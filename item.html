@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — items</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .wrap { display: flex; gap: 18px; flex-wrap: wrap; }
+  .list { flex: 0 1 340px; min-width: 260px; max-height: 78vh; overflow: auto; }
+  .detail { flex: 1 1 520px; min-width: 300px; }
+  .row { display: flex; justify-content: space-between; gap: 8px; padding: 5px 8px; border-radius: 6px; cursor: pointer; }
+  .row:hover { background: rgba(122,162,247,.12); }
+  .row.active { background: rgba(122,162,247,.2); }
+  .count { opacity: .65; font-size: 12px; }
+  table.awards { width: 100%; border-collapse: collapse; font-size: 14px; }
+  table.awards th, table.awards td { text-align: left; padding: 5px 8px; border-bottom: 1px solid var(--grid, #2a2c3a); }
+  table.awards th { font-size: 12px; opacity: .7; text-transform: uppercase; letter-spacing: .04em; }
+  .srcchips { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 14px; }
+  .srcchips span { background: rgba(122,162,247,.14); border-radius: 999px; padding: 3px 10px; font-size: 12.5px; }
+  .alt { opacity: .6; }
+</style>
+<script>const whTooltips = { colorLinks: true, iconizeLinks: true, renameLinks: false };</script>
+<script src="https://wow.zamimg.com/js/tooltips.js" defer></script>
+</head>
+<body>
+<main>
+  <h1>Items</h1>
+  <p class="sub">Every recorded drop: where it dropped and who received it.</p>
+  <div class="wrap">
+    <div class="card list">
+      <input id="search" class="text" style="width:100%; margin-bottom:8px;" placeholder="filter items…" autocomplete="off" spellcheck="false" aria-label="Filter item names">
+      <div id="items" role="listbox" aria-label="Items"><div class="loading">loading…</div></div>
+    </div>
+    <div class="detail">
+      <div class="card" id="card"><div class="empty">Pick an item on the left.</div></div>
+    </div>
+  </div>
+</main>
+<script src="assets/shared.js"></script>
+<script>
+"use strict";
+renderNav("item.html");
+const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+const listEl = document.getElementById("items");
+const card = document.getElementById("card");
+const search = document.getElementById("search");
+
+let ITEMS = [];            // [{itemId, itemName, drops}]
+let AWARDS_BY_ITEM = new Map();  // itemId -> awards[]
+let RAIDS = new Map();     // raidKey -> raidName
+let BOSSES = new Map();    // raidKey/sourceKey -> sourceName
+
+function buildList(filter) {
+  const q = filter.trim().toLowerCase();
+  const rows = ITEMS
+    .filter((i) => AWARDS_BY_ITEM.has(i.itemId))
+    .filter((i) => !q || i.itemName.toLowerCase().includes(q))
+    .map((i) => {
+      const n = AWARDS_BY_ITEM.get(i.itemId).length;
+      const active = String(i.itemId) === decodeURIComponent(location.hash.slice(1)) ? " active" : "";
+      return `<div class="row${active}" data-id="${i.itemId}" role="option"><span>${esc(i.itemName)}</span><span class="count">${n}</span></div>`;
+    });
+  listEl.innerHTML = rows.join("") || `<div class="empty">no matches</div>`;
+}
+
+listEl.addEventListener("click", (e) => {
+  const row = e.target.closest(".row");
+  if (row) location.hash = row.dataset.id;
+});
+
+function render(itemId) {
+  const item = ITEMS.find((i) => String(i.itemId) === String(itemId));
+  if (!item) {
+    card.innerHTML = `<div class="empty">Unknown item.</div>`;
+    return;
+  }
+  const awards = (AWARDS_BY_ITEM.get(item.itemId) ?? [])
+    .slice()
+    .sort((a, b) => a.awardDate.localeCompare(b.awardDate));
+  const sources = (item.drops ?? []).map((d) => {
+    const boss = BOSSES.get(`${d.raidKey}/${d.sourceKey}`) ?? d.sourceKey;
+    const raid = RAIDS.get(d.raidKey) ?? d.raidKey;
+    return `<span>${esc(boss)} · ${esc(raid)}</span>`;
+  });
+  const rows = awards.map((a) =>
+    `<tr${a.isMainCharacterAward ? "" : ' class="alt"'}>` +
+    `<td class="mono">${a.awardDate}</td>` +
+    `<td><a href="players.html#${encodeURIComponent(a.recipient)}">${esc(a.recipient)}</a></td>` +
+    `<td>${esc(a.recipientClass ?? "")}</td>` +
+    `<td>${esc(a.recipientRole ?? "")}${a.isMainCharacterAward ? "" : " (alt)"}</td>` +
+    `<td>${esc(RAIDS.get(a.raidKey) ?? a.raidKey)}</td>` +
+    `</tr>`
+  ).join("");
+  card.innerHTML =
+    `<h2><a href="https://www.wowhead.com/classic/item=${item.itemId}" rel="noopener">${esc(item.itemName)}</a></h2>` +
+    `<p class="sub">${awards.length} recorded award${awards.length === 1 ? "" : "s"} · <a href="https://www.wowhead.com/classic/item=${item.itemId}" rel="noopener">wowhead</a></p>` +
+    (sources.length ? `<div class="striplabel">Drops from</div><div class="srcchips">${sources.join("")}</div>` : "") +
+    `<div class="striplabel">Recipients</div>` +
+    `<table class="awards"><thead><tr><th>date</th><th>recipient</th><th>class</th><th>role</th><th>raid</th></tr></thead><tbody>${rows}</tbody></table>`;
+  window.$WowheadPower?.refreshLinks?.();
+  document.title = `Sleep — ${item.itemName}`;
+}
+
+function onHash() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  buildList(search.value);
+  if (id) render(id);
+}
+
+search.addEventListener("input", () => buildList(search.value));
+addEventListener("hashchange", onHash);
+
+loadLoot().then((loot) => {
+  ITEMS = loot.items.slice().sort((a, b) => a.itemName.localeCompare(b.itemName));
+  for (const r of loot.raids) RAIDS.set(r.raidKey, r.raidName);
+  for (const b of loot.bosses) BOSSES.set(`${b.raidKey}/${b.sourceKey}`, b.sourceName);
+  for (const a of loot.awards) {
+    if (!a.itemId) continue;
+    if (!AWARDS_BY_ITEM.has(a.itemId)) AWARDS_BY_ITEM.set(a.itemId, []);
+    AWARDS_BY_ITEM.get(a.itemId).push(a);
+  }
+  onHash();
+});
+</script>
+</body>
+</html>
