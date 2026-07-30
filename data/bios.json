@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T16:25:26.169Z",
+ "generatedAt": "2026-07-30T16:38:15.276Z",
  "count": 23,
  "bios": {
   "suspected alts — co-absence analysis": {
@@ -12,19 +12,17 @@
   },
   "artimis": {
    "name": "Artimis",
-   "html": "<p>Artimis founded the guild in the autumn of 2019 and ran it the way he ran everything: with spreadsheets. The attendance workbook, the loot log (started 2020-03-29 with a plea that class leaders post every drop), the raider-rank system with its promise that showing up mattered — all of it was his architecture, and most of it outlived his tenure. As a hunter he chased the Rhok'delar quest line alongside his recruits; as an alchemist he ran a one-man consumables service, mailing flasks to tanks and crafting anything anyone needed. His priest alt <a href=\"players.html#Lege\">Lege</a> healed whenever the roster came up short.</p><p>He gave the guild away twice. In early 2020 he offered the leadership to <a href=\"players.html#Kodf\">Kodf</a>, who declined; in August 2020, minutes after a Nefarian kill, he told the raid that <a href=\"players.html#Divinestorm\">Divinestorm</a> would be the new Guild Master and thanked everyone for their trust — handing over the guild mid-raid, in the same breath as a boss kill. He stayed on as the institutional memory: teaching the spreadsheets, mediating disputes, and writing the rules other people argued about.</p><p>December 2020 made him the story's protagonist against his will. When the Ascension merge cut the roster to twenty and the promises of the raider-rank system stopped being honoured, Artimis — himself benched from every single Four Horsemen attempt — wrote a five-point proposal demanding raiders before members, whole-lockout spots, and collective bench decisions, and asked members to strike. The strike never happened; the guild dissolved into Ascension two days later. He kept raiding into 2021, kept the records, and years later those records became this site.</p>",
+   "html": "<p>Artimis joined <a href=\"players.html#Dejvid\">Dejvid</a>'s young guild in the autumn of 2019 and was soon running it in practice — formally from February 2020, when <a href=\"players.html#Dejvid\">Dejvid</a> handed over the reins. He ran it the way he ran everything: with spreadsheets. The attendance workbook, the loot log (started 2020-03-29 with a plea that class leaders post every drop), the raider-rank system with its promise that showing up mattered — all of it was his architecture, and most of it outlived his tenure. As a hunter he chased the Rhok'delar quest line alongside his recruits; as an alchemist he ran a one-man consumables service, mailing flasks to tanks and crafting anything anyone needed. His priest alt <a href=\"players.html#Lege\">Lege</a> healed whenever the roster came up short.</p><p>He gave the guild away twice. In early 2020 he offered the leadership to <a href=\"players.html#Kodf\">Kodf</a>, who declined; in August 2020, minutes after a Nefarian kill, he told the raid that <a href=\"players.html#Divinestorm\">Divinestorm</a> would be the new Guild Master and thanked everyone for their trust — handing over the guild mid-raid, in the same breath as a boss kill. He stayed on as the institutional memory: teaching the spreadsheets, mediating disputes, and writing the rules other people argued about.</p><p>December 2020 made him the story's protagonist against his will. When the Ascension merge cut the roster to twenty and the promises of the raider-rank system stopped being honoured, Artimis — himself benched from every single Four Horsemen attempt — wrote a five-point proposal demanding raiders before members, whole-lockout spots, and collective bench decisions, and asked members to strike. The strike never happened; the guild dissolved into Ascension two days later. He kept raiding into 2021, kept the records, and years later those records became this site.</p>",
    "roles": [
     {
-     "role": "Founder",
-     "period": "2019"
-    },
-    {
      "role": "Hunter class leader",
-     "period": "Oct 2019 – Jul 2020"
+     "period": "Oct 2019 – Jul 2020",
+     "guild": "Sleep"
     },
     {
      "role": "Guild Master",
-     "period": "2019 – Aug 2020"
+     "period": "Feb – Aug 2020",
+     "guild": "Sleep"
     }
    ],
    "alts": [
@@ -53,11 +51,13 @@
    "roles": [
     {
      "role": "Mage class leader",
-     "period": "Apr – Aug 2020"
+     "period": "Apr – Aug 2020",
+     "guild": "Sleep"
     },
     {
      "role": "Guild Master",
-     "period": "Aug – Dec 2020"
+     "period": "Aug – Dec 2020",
+     "guild": "Dusk"
     }
    ],
    "alts": [
@@ -83,7 +83,8 @@
    "roles": [
     {
      "role": "Officer",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Dusk"
     }
    ]
   },
@@ -108,7 +109,8 @@
    "roles": [
     {
      "role": "Rogue class leader",
-     "period": "until Feb 2020"
+     "period": "until Feb 2020",
+     "guild": "Sleep"
     }
    ]
   },
@@ -118,11 +120,13 @@
    "roles": [
     {
      "role": "Rogue class leader",
-     "period": "Feb – Sep 2020"
+     "period": "Feb – Sep 2020",
+     "guild": "Sleep & Dusk"
     },
     {
      "role": "Officer",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Sleep & Dusk"
     }
    ]
   },
@@ -132,7 +136,8 @@
    "roles": [
     {
      "role": "Main tank",
-     "period": "2019 – Feb 2020"
+     "period": "2019 – Feb 2020",
+     "guild": "Sleep"
     }
    ]
   },
@@ -142,11 +147,13 @@
    "roles": [
     {
      "role": "Druid class leader",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Sleep & Dusk"
     },
     {
      "role": "Officer",
-     "period": "Sep – Dec 2020"
+     "period": "Sep – Dec 2020",
+     "guild": "Sleep & Dusk"
     }
    ],
    "alts": [
@@ -172,7 +179,8 @@
    "roles": [
     {
      "role": "Officer",
-     "period": "Sep – Dec 2020"
+     "period": "Sep – Dec 2020",
+     "guild": "Dusk"
     }
    ]
   },
@@ -182,7 +190,8 @@
    "roles": [
     {
      "role": "Tank leader",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Sleep & Dusk"
     }
    ]
   },
@@ -200,7 +209,13 @@
    "roles": [
     {
      "role": "Officer",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Sleep & Dusk"
+    },
+    {
+     "role": "Priest class leader",
+     "period": "2019 – 2020",
+     "guild": "Sleep"
     }
    ]
   },
@@ -210,7 +225,8 @@
    "roles": [
     {
      "role": "Healing officer",
-     "period": "Sep – Dec 2020"
+     "period": "Sep – Dec 2020",
+     "guild": "Dusk"
     }
    ]
   },
@@ -224,7 +240,8 @@
    "roles": [
     {
      "role": "Hunter class leader & officer",
-     "period": "from Jul 2020"
+     "period": "from Jul 2020",
+     "guild": "Sleep & Dusk"
     }
    ],
    "alts": [
@@ -237,7 +254,8 @@
    "roles": [
     {
      "role": "Rogue class leader (stand-in)",
-     "period": "Aug – Sep 2020"
+     "period": "Aug – Sep 2020",
+     "guild": "Dusk"
     }
    ]
   },
@@ -247,7 +265,8 @@
    "roles": [
     {
      "role": "Rogue class leader",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Ninjas & Dusk"
     }
    ]
   },
@@ -257,7 +276,8 @@
    "roles": [
     {
      "role": "Mage class leader",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Ninjas & Dusk"
     }
    ],
    "alts": [
@@ -270,7 +290,8 @@
    "roles": [
     {
      "role": "Raid leader & master looter",
-     "period": "2020"
+     "period": "2020",
+     "guild": "Ninjas & Dusk"
     }
    ]
   },
@@ -280,7 +301,8 @@
    "roles": [
     {
      "role": "Healing officer",
-     "period": "Aug – Sep 2020"
+     "period": "Aug – Sep 2020",
+     "guild": "Dusk"
     }
    ]
   },
@@ -290,8 +312,34 @@
    "roles": [
     {
      "role": "Paladin class leader",
-     "period": "from Sep 2020"
+     "period": "from Sep 2020",
+     "guild": "Dusk"
     }
+   ]
+  },
+  "dejvid": {
+   "name": "dejvid",
+   "html": "",
+   "roles": [
+    {
+     "role": "Founder & Guild Master",
+     "period": "2019 – Feb 2020",
+     "guild": "Sleep"
+    }
+   ]
+  },
+  "randyfist": {
+   "name": "randyfist",
+   "html": "",
+   "roles": [
+    {
+     "role": "Healing officer",
+     "period": "until Mar 2020",
+     "guild": "Sleep"
+    }
+   ],
+   "alts": [
+    "Catstrangler"
    ]
   },
   "lege": {
@@ -318,13 +366,6 @@
    "name": "Catstrangler",
    "html": "",
    "main": "Randyfist"
-  },
-  "randyfist": {
-   "name": "Randyfist",
-   "html": "",
-   "alts": [
-    "Catstrangler"
-   ]
   },
   "poesje": {
    "name": "Poesje",
@@ -473,7 +514,7 @@
   "nittedal": [
    {
     "name": "Artimis",
-    "who": "Anders — founder and Guild Master, the reason the rest of Nittedal ended up on Razorgore."
+    "who": "Anders — Guild Master through the Sleep era and the reason the rest of Nittedal ended up on Razorgore."
    },
    {
     "name": "Deliz",

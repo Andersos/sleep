@@ -37,26 +37,30 @@ async function grab(path) {
   const r = await fetch(path);
   return r.ok ? r.json() : null;
 }
-function bucket(role) {
+const GUILD_ORDER = ["Sleep", "Ninjas & Dusk", "Sleep & Dusk", "Dusk", "Ascension"];
+function roleWeight(role) {
   const r = role.toLowerCase();
-  if (r.includes("guild master") || r.includes("founder")) return "Guild masters";
-  if (r.includes("class leader")) return "Class leaders";
-  if (r.includes("officer")) return "Officers";
-  return "Raid leadership";
+  if (r.includes("founder")) return 0;
+  if (r.includes("guild master")) return 1;
+  if (r.includes("officer")) return 2;
+  if (r.includes("class leader")) return 3;
+  return 4;
 }
 Promise.all([grab("data/bios.json"), grab("data/classes.json")]).then(([b, c]) => {
   const classes = c?.classes ?? {};
-  const groups = new Map([["Guild masters", []], ["Officers", []], ["Class leaders", []], ["Raid leadership", []]]);
+  const groups = new Map(GUILD_ORDER.map((g) => [g, []]));
   const seen = new Set();
   for (const [key, entry] of Object.entries(b?.bios ?? {})) {
     if (!entry.roles || seen.has(entry.name.toLowerCase())) continue;
     seen.add(entry.name.toLowerCase());
     for (const r of entry.roles) {
-      groups.get(bucket(r.role)).push({ name: entry.name, role: r.role, period: r.period, hasBio: !!entry.html });
+      const g = r.guild ?? "Sleep";
+      if (!groups.has(g)) groups.set(g, []);
+      groups.get(g).push({ name: entry.name, role: r.role, period: r.period, hasBio: !!entry.html });
     }
   }
   const html = [...groups.entries()].filter(([, list]) => list.length).map(([title, list]) => {
-    list.sort((a, b) => a.role.localeCompare(b.role) || a.name.localeCompare(b.name));
+    list.sort((a, b) => roleWeight(a.role) - roleWeight(b.role) || a.name.localeCompare(b.name));
     const rows = list.map((e) => {
       const cls = classes[e.name.toLowerCase()];
       const icon = cls ? `<img class="clsicon" width="16" height="16" alt="${cls}" src="https://wow.zamimg.com/images/wow/icons/small/classicon_${cls.toLowerCase()}.jpg">` : "";
