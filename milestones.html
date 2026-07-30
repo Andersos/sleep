@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — milestones</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .feed { position: relative; margin: 10px 0 0 8px; padding-left: 26px; border-left: 2px solid var(--grid, #2a2c3a); }
+  .ev { position: relative; margin: 0 0 22px; }
+  .ev::before { content: ""; position: absolute; left: -33px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: var(--muted, #888); }
+  .ev.story::before { background: #e0af68; }
+  .ev.kill::before { background: #9ece6a; }
+  .ev.clear::before { background: #7aa2f7; }
+  .ev.phase::before { background: #bb9af7; }
+  .ev h3 { margin: 0 0 2px; font-size: 15.5px; }
+  .ev .when { font-size: 11.5px; opacity: .6; font-family: ui-monospace, Menlo, monospace; }
+  .ev p { margin: 3px 0 0; font-size: 13.5px; line-height: 1.5; opacity: .9; max-width: 640px; }
+  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .filters button { border-radius: 999px; padding: 4px 12px; font-size: 12.5px; cursor: pointer; border: 1px solid var(--grid, #2a2c3a); background: transparent; color: inherit; }
+  .filters button[aria-pressed="true"] { border-color: currentColor; }
+  .f-story { color: #e0af68; } .f-kill { color: #9ece6a; } .f-clear { color: #7aa2f7; } .f-phase { color: #bb9af7; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card">
+    <h2>Milestones</h2>
+    <p class="sub">Everything that happened, in order: story moments, first boss kills, first full clears, and the phase openings that framed them.</p>
+    <div class="filters" id="filters">
+      <button class="f-story" data-k="story" aria-pressed="true">story</button>
+      <button class="f-kill" data-k="kill" aria-pressed="true">first kills</button>
+      <button class="f-clear" data-k="clear" aria-pressed="true">first clears</button>
+      <button class="f-phase" data-k="phase" aria-pressed="true">phases</button>
+    </div>
+    <div class="feed" id="feed"><div class="loading">loading…</div></div>
+  </div>
+</main>
+<script src="assets/shared.js"></script>
+<script>
+"use strict";
+renderNav("milestones.html");
+const show = { story: true, kill: true, clear: true, phase: true };
+let EVENTS = [];
+
+function fmtDur(ms) {
+  const s = Math.round(ms / 1000);
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+}
+
+function draw() {
+  const feed = document.getElementById("feed");
+  feed.innerHTML = EVENTS.filter((e) => show[e.kind]).map((e) =>
+    `<div class="ev ${e.kind}">` +
+    `<div class="when">${e.date}</div>` +
+    `<h3>${e.link ? `<a href="${e.link}">${esc(e.title)}</a>` : esc(e.title)}</h3>` +
+    (e.blurb ? `<p>${esc(e.blurb)}</p>` : "") +
+    `</div>`).join("") || `<div class="empty">nothing selected</div>`;
+}
+
+document.getElementById("filters").addEventListener("click", (evt) => {
+  const b = evt.target.closest("button[data-k]");
+  if (!b) return;
+  show[b.dataset.k] = !show[b.dataset.k];
+  b.setAttribute("aria-pressed", String(show[b.dataset.k]));
+  draw();
+});
+
+loadRaids().then((raids) => {
+  const zoneName = new Map(raids.zones.map((z) => [z.zoneId, z.zoneName]));
+  const events = [];
+  for (const [date, title, blurb] of MILESTONES) {
+    events.push({ kind: "story", date, title, blurb });
+  }
+  for (const [date, tag, what] of PHASES) {
+    events.push({ kind: "phase", date, title: tag === "TBC" ? "The Burning Crusade" : `Phase ${tag.slice(1)}`, blurb: what });
+  }
+  for (const f of raids.firstKills) {
+    events.push({
+      kind: "kill", date: f.date,
+      title: `First kill: ${f.bossName}`,
+      blurb: `${zoneName.get(f.zoneId) ?? ""} · ${fmtDur(f.durationMs)} · ${f.identity}`,
+      link: `raid.html#${f.sessionId}`,
+    });
+  }
+  const seenZone = new Set();
+  for (const c of raids.fullClears.slice().sort((a, b) => a.date.localeCompare(b.date))) {
+    if (seenZone.has(c.zoneId)) continue;
+    seenZone.add(c.zoneId);
+    events.push({
+      kind: "clear", date: c.date,
+      title: `First full clear: ${zoneName.get(c.zoneId) ?? c.zoneId}`,
+      blurb: `${c.bossesKilled} bosses in ${fmtDur(c.clearSpanMs)} · ${c.identity}`,
+      link: `raid.html#${c.sessionId}`,
+    });
+  }
+  EVENTS = events.sort((a, b) => a.date.localeCompare(b.date));
+  draw();
+});
+</script>
+</body>
+</html>

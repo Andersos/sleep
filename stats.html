@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — statistics</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 12px 0 20px; }
+  .tile { background: rgba(122,162,247,.1); border-radius: 8px; padding: 12px 14px; }
+  .tile strong { display: block; font-size: 22px; }
+  .tile span { font-size: 12px; opacity: .7; }
+  table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 20px; }
+  table.t th, table.t td { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--grid, #2a2c3a); }
+  table.t th { font-size: 11.5px; opacity: .7; text-transform: uppercase; letter-spacing: .04em; }
+  h3 { margin: 18px 0 6px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card" id="card"><div class="loading">loading…</div></div>
+</main>
+<script src="assets/shared.js"></script>
+<script>
+"use strict";
+renderNav("stats.html");
+const fmtDur = (ms) => {
+  const s = Math.round(ms / 1000);
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+};
+
+Promise.all([loadRaids(), loadLoot()]).then(([raids, loot]) => {
+  const zoneName = new Map(raids.zones.map((z) => [z.zoneId, z.zoneName]));
+  const players = new Map();
+  let wipes = 0;
+  const bossAgg = new Map(); // zoneId/key -> {name, zoneId, key, kills, wipes}
+  for (const s of raids.sessions) {
+    for (const n of s.roster) players.set(n, (players.get(n) ?? 0) + 1);
+    for (const b of s.bosses) {
+      wipes += b.wipes ?? 0;
+      const k = `${s.zoneId}/${b.key}`;
+      if (!bossAgg.has(k)) bossAgg.set(k, { name: b.name, zoneId: s.zoneId, key: b.key, kills: 0, wipes: 0 });
+      const e = bossAgg.get(k);
+      if (b.status === "killed") e.kills += 1;
+      e.wipes += b.wipes ?? 0;
+    }
+  }
+  const first = raids.sessions[0], last = raids.sessions[raids.sessions.length - 1];
+  const mains = loot.awards.filter((a) => a.isMainCharacterAward);
+
+  const tiles = [
+    [raids.sessions.length, "raid nights"],
+    [`${first.date} – ${last.date}`, "first to last log"],
+    [players.size, "different raiders"],
+    [raids.totals.kills, "boss kills"],
+    [wipes, "wipes"],
+    [raids.fullClears.length, "full clears"],
+    [loot.awards.length, "loot awards recorded"],
+    [mains.length, "to main characters"],
+  ].map(([v, l]) => `<div class="tile"><strong>${v}</strong><span>${l}</span></div>`).join("");
+
+  const END_BOSSES = ["onyxia", "ragnaros", "nefarian", "hakkar", "ossirian", "cthun", "kelthuzad"];
+  const endRows = [...bossAgg.values()]
+    .filter((b) => END_BOSSES.includes(b.key.replace(/-/g, "")) || END_BOSSES.includes(b.key))
+    .sort((a, b) => a.zoneId - b.zoneId)
+    .map((b) => {
+      const f = raids.firstKills.find((x) => x.zoneId === b.zoneId && x.bossKey === b.key);
+      const fast = raids.fastestKills?.find((x) => x.bossKey === b.key);
+      return `<tr><td><a href="boss.html#${b.zoneId}/${b.key}">${esc(b.name)}</a></td>` +
+        `<td>${b.kills}</td><td>${b.wipes || ""}</td>` +
+        `<td>${f ? `<a href="raid.html#${f.sessionId}">${f.date}</a>` : ""}</td>` +
+        `<td>${fast ? `${fmtDur(fast.durationMs)} (<a href="raid.html#${fast.sessionId}">${fast.date}</a>)` : ""}</td></tr>`;
+    }).join("");
+
+  const clearAgg = new Map();
+  for (const c of raids.fullClears) {
+    if (!clearAgg.has(c.zoneId)) clearAgg.set(c.zoneId, { n: 0, fastest: null });
+    const e = clearAgg.get(c.zoneId);
+    e.n += 1;
+    if (!e.fastest || c.clearSpanMs < e.fastest.clearSpanMs) e.fastest = c;
+  }
+  const clearRows = [...clearAgg.entries()].sort((a, b) => a[0] - b[0]).map(([zoneId, e]) =>
+    `<tr><td>${esc(zoneName.get(zoneId) ?? zoneId)}</td><td>${e.n}</td>` +
+    `<td>${fmtDur(e.fastest.clearSpanMs)} (<a href="raid.html#${e.fastest.sessionId}">${e.fastest.date}</a>)</td></tr>`).join("");
+
+  const topRows = [...players.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15).map(([n, c], i) =>
+    `<tr><td>${i + 1}</td><td><a href="players.html#${encodeURIComponent(n)}">${esc(n)}</a></td><td>${c}</td></tr>`).join("");
+
+  document.getElementById("card").innerHTML =
+    `<h2>Statistics</h2>` +
+    `<div class="tiles">${tiles}</div>` +
+    `<h3>End bosses</h3>` +
+    `<table class="t"><thead><tr><th>boss</th><th>kills</th><th>wipes</th><th>first kill</th><th>fastest kill</th></tr></thead><tbody>${endRows}</tbody></table>` +
+    `<h3>Full clears</h3>` +
+    `<table class="t"><thead><tr><th>raid</th><th>full clears</th><th>fastest clear</th></tr></thead><tbody>${clearRows}</tbody></table>` +
+    `<h3>Most raid nights</h3>` +
+    `<table class="t"><thead><tr><th></th><th>player</th><th>nights</th></tr></thead><tbody>${topRows}</tbody></table>`;
+});
+</script>
+</body>
+</html>
