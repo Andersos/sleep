@@ -252,12 +252,16 @@ function show(name) {
     }, svg);
     const mtitle = svgEl("title", {}, missed);
     mtitle.textContent = `${s.date} · ${s.zone} · missed`;
+    missed.style.cursor = "pointer";
+    missed.addEventListener("click", () => { location.href = `raid.html#${s.id}`; });
   });
   for (const s of sess) {
     const x = ((T(s.date) - T0) / (T1 - T0)) * 800;
     const mark = svgEl("rect", { x: x - 1, y: 14, width: 2.4, height: 26, rx: 1.2, fill: LANE[s.identity].color }, svg);
     const title = svgEl("title", {}, mark);
     title.textContent = `${s.date} · ${s.zone} · ${LANE[s.identity].label}`;
+    mark.style.cursor = "pointer";
+    mark.addEventListener("click", () => { location.href = `raid.html#${s.id}`; });
   }
   document.title = `Sleep — ${name}`;
 }
