@@ -205,6 +205,12 @@ function show(name) {
   card.innerHTML =
     `<h2>${classIcon(name, 24)}<span style="color:${classColor(name)}">${esc(name)}</span>${playerClass ? ` <span class="classname">${esc(playerClass)}</span>` : ""}</h2>` +
     `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
+    (bio?.main
+      ? `<p class="sub">Alt of <a href="#${encodeURIComponent(bio.main)}" style="color:${classColor(bio.main)}">${esc(bio.main)}</a></p>`
+      : "") +
+    (bio?.alts?.length
+      ? `<p class="sub">Alts: ${bio.alts.map((a) => `<a href="#${encodeURIComponent(a)}" style="color:${classColor(a)}">${esc(a)}</a>`).join(", ")}</p>`
+      : "") +
     (bio?.roles?.length
       ? `<div class="badges">${bio.roles.map((r) => {
           const c = classColor(name);

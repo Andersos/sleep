@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T14:57:21.763Z",
+ "generatedAt": "2026-07-30T15:17:30.470Z",
  "count": 3,
  "bios": {
   "divinestorm": {
@@ -44,6 +44,9 @@
      "role": "Guild Master",
      "period": "2019 – Aug 2020"
     }
+   ],
+   "alts": [
+    "Lege"
    ]
   },
   "kodf": {
@@ -102,6 +105,9 @@
      "role": "Officer",
      "period": "Sep – Dec 2020"
     }
+   ],
+   "alts": [
+    "Vikka"
    ]
   },
   "pnats": {
@@ -213,6 +219,16 @@
      "period": "2020"
     }
    ]
+  },
+  "lege": {
+   "name": "Lege",
+   "html": "",
+   "main": "Artimis"
+  },
+  "vikka": {
+   "name": "Vikka",
+   "html": "",
+   "main": "Luivi"
   }
  }
 }
