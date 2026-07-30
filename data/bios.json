@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-30T16:38:15.276Z",
+ "generatedAt": "2026-07-30T16:40:34.361Z",
  "count": 23,
  "bios": {
   "suspected alts — co-absence analysis": {
@@ -342,6 +342,20 @@
     "Catstrangler"
    ]
   },
+  "tsakimo": {
+   "name": "tsakimo",
+   "html": "",
+   "roles": [
+    {
+     "role": "Rogue class leader (Wednesday)",
+     "period": "from Sep 2020",
+     "guild": "Dusk"
+    }
+   ],
+   "alts": [
+    "Tsiko"
+   ]
+  },
   "lege": {
    "name": "Lege",
    "html": "",
@@ -472,13 +486,6 @@
    "name": "Tsiko",
    "html": "",
    "main": "Tsakimo"
-  },
-  "tsakimo": {
-   "name": "Tsakimo",
-   "html": "",
-   "alts": [
-    "Tsiko"
-   ]
   },
   "banama": {
    "name": "Banama",
