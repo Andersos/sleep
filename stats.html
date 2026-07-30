@@ -87,27 +87,37 @@ Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios])
     .sort((a, b) => a.zoneId - b.zoneId)
     .map((b) => {
       const f = raids.firstKills.find((x) => x.zoneId === b.zoneId && x.bossKey === b.key);
-      const fast = raids.fastestKills?.find((x) => x.bossKey === b.key);
+      const fasts = (raids.fastestKillsByGuild ?? []).filter((x) => x.bossKey === b.key);
       const icon = BOSS_ICONS[b.key.replace(/-/g, "")];
       const img = icon
         ? `<img class="bossicon" width="36" height="36" loading="lazy" alt="" onerror="this.style.display='none'" src="https://wow.zamimg.com/images/wow/icons/large/${icon}.jpg"> `
         : "";
+      const fastCell = fasts.map((x) =>
+        `<div><span style="color:${LANE[x.identity]?.color ?? "inherit"}">${LANE[x.identity]?.label ?? x.identity}</span> ` +
+        `${fmtDur(x.durationMs)} (<a href="raid.html#${x.sessionId}">${x.date}</a>)</div>`).join("");
       return `<tr><td>${img}<a href="boss.html#${b.zoneId}/${b.key}">${esc(b.name)}</a></td>` +
         `<td>${b.kills}</td><td>${b.wipes || ""}</td>` +
         `<td>${f ? `<a href="raid.html#${f.sessionId}">${f.date}</a>` : ""}</td>` +
-        `<td>${fast ? `${fmtDur(fast.durationMs)} (<a href="raid.html#${fast.sessionId}">${fast.date}</a>)` : ""}</td></tr>`;
+        `<td>${fastCell}</td></tr>`;
     }).join("");
 
+  // One row per raid x guild, so Sleep's fastest MC sits beside Dusk's.
+  const laneOrder = LANES.map((l) => l.key);
   const clearAgg = new Map();
   for (const c of raids.fullClears) {
-    if (!clearAgg.has(c.zoneId)) clearAgg.set(c.zoneId, { n: 0, fastest: null });
-    const e = clearAgg.get(c.zoneId);
+    const k = `${c.zoneId}|${c.identity}`;
+    if (!clearAgg.has(k)) clearAgg.set(k, { zoneId: c.zoneId, identity: c.identity, n: 0, fastest: null });
+    const e = clearAgg.get(k);
     e.n += 1;
     if (!e.fastest || c.clearSpanMs < e.fastest.clearSpanMs) e.fastest = c;
   }
-  const clearRows = [...clearAgg.entries()].sort((a, b) => a[0] - b[0]).map(([zoneId, e]) =>
-    `<tr><td>${esc(zoneName.get(zoneId) ?? zoneId)}</td><td>${e.n}</td>` +
-    `<td>${fmtDur(e.fastest.clearSpanMs)} (<a href="raid.html#${e.fastest.sessionId}">${e.fastest.date}</a>)</td></tr>`).join("");
+  const clearRows = [...clearAgg.values()]
+    .sort((a, b) => a.zoneId - b.zoneId || laneOrder.indexOf(a.identity) - laneOrder.indexOf(b.identity))
+    .map((e) =>
+      `<tr><td>${esc(zoneName.get(e.zoneId) ?? e.zoneId)}</td>` +
+      `<td><span style="color:${LANE[e.identity]?.color ?? "inherit"}">${LANE[e.identity]?.label ?? e.identity}</span></td>` +
+      `<td>${e.n}</td>` +
+      `<td>${fmtDur(e.fastest.clearSpanMs)} (<a href="raid.html#${e.fastest.sessionId}">${e.fastest.date}</a>)</td></tr>`).join("");
 
   // Fold alt nights into their main (alts declared in bios.json).
   const combined = new Map(); // main display name -> {total, self, alts: [[altName, n]]}
@@ -133,7 +143,7 @@ Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios])
     `<h3>End bosses</h3>` +
     `<table class="t"><thead><tr><th>boss</th><th>kills</th><th>wipes</th><th>first kill</th><th>fastest kill</th></tr></thead><tbody>${endRows}</tbody></table>` +
     `<h3>Full clears</h3>` +
-    `<table class="t"><thead><tr><th>raid</th><th>full clears</th><th>fastest clear</th></tr></thead><tbody>${clearRows}</tbody></table>` +
+    `<table class="t"><thead><tr><th>raid</th><th>guild</th><th>full clears</th><th>fastest clear</th></tr></thead><tbody>${clearRows}</tbody></table>` +
     `<h3>Most raid nights</h3>` +
     `<table class="t"><thead><tr><th></th><th>player</th><th>nights</th></tr></thead><tbody>${topRows}</tbody></table>`;
 });

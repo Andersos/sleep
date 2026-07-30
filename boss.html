@@ -90,7 +90,7 @@ function render() {
   const kills = nights.filter((n) => n.b.status === "killed").length;
   const wipes = nights.reduce((n, x) => n + (x.b.wipes ?? 0), 0);
   const first = RAIDS.firstKills.find((f) => f.zoneId === zoneId && f.bossKey === key);
-  const fastest = RAIDS.fastestKills?.find((f) => f.bossKey === key);
+  const fasts = (RAIDS.fastestKillsByGuild ?? []).filter((f) => f.bossKey === key);
   const rows = nights.map(({ s, b }) =>
     `<tr><td class="mono"><a href="raid.html#${s.id}">${s.date}</a></td>` +
     `<td><span class="lchip"><span class="dot" style="background:${LANE[s.identity]?.color ?? "#888"}"></span>${LANE[s.identity]?.label ?? s.identity}</span></td>` +
@@ -103,7 +103,8 @@ function render() {
     `<span><strong>${kills}</strong>kills</span>` +
     `<span><strong>${wipes}</strong>wipes</span>` +
     (first ? `<span><strong><a href="raid.html#${first.sessionId}">${first.date}</a></strong>first kill (${fmtDur(first.durationMs)})</span>` : "") +
-    (fastest ? `<span><strong>${fmtDur(fastest.durationMs)}</strong>fastest kill (<a href="raid.html#${fastest.sessionId}">${fastest.date}</a>)</span>` : "") +
+    fasts.map((f) =>
+      `<span><strong>${fmtDur(f.durationMs)}</strong><span style="color:${LANE[f.identity]?.color ?? "inherit"}">${LANE[f.identity]?.label ?? f.identity}</span> fastest (<a href="raid.html#${f.sessionId}">${f.date}</a>)</span>`).join("") +
     `</div>` +
     `<div class="striplabel">Every night this boss was pulled</div>` +
     `<table class="t"><thead><tr><th>date</th><th>guild</th><th>result</th><th>pulls</th><th>wipes</th></tr></thead><tbody>${rows}</tbody></table>`;
