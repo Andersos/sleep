@@ -154,7 +154,7 @@ function buildRoster(filter) {
     b.setAttribute("role", "option");
     b.setAttribute("aria-current", String(name === current));
     if (roleFilter && !BIOS?.[name.toLowerCase()]?.roles?.some((r) => r.role === roleFilter)) continue;
-    if (laneFilter && PLAYER_LANE.get(name) !== laneFilter) continue;
+    if (!laneMatch(name)) continue;
     const hasBio = BIOS?.[name.toLowerCase()]?.html ? ` <span title="has a story">📖</span>` : "";
     const own = PLAYERS.get(name).length;
     const combined = combinedNights(name);
@@ -315,6 +315,18 @@ function buildLaneChips() {
   };
   mk(null, "all", null);
   for (const l of LANES) mk(l.key, l.label, l.color);
+  mk("__nittedal", "Nittedal", "#e0af68");
+  mk("__officers", "Officers", "#e0af68");
+}
+function laneMatch(name) {
+  if (!laneFilter) return true;
+  if (laneFilter === "__nittedal") {
+    return (BIOS?.__groups?.nittedal ?? []).some((m) => m.name.toLowerCase() === name.toLowerCase());
+  }
+  if (laneFilter === "__officers") {
+    return !!BIOS?.[name.toLowerCase()]?.roles?.length;
+  }
+  return PLAYER_LANE.get(name) === laneFilter;
 }
 function onHash() {
   const hash = decodeURIComponent(location.hash.slice(1));
@@ -358,7 +370,16 @@ async function loadJsonKey(path, key) {
     return null;
   }
 }
-const loadBios = () => loadJsonKey("data/bios.json", "bios");
+const loadBios = async () => {
+  try {
+    const r = await fetch("data/bios.json");
+    if (!r.ok) return null;
+    const j = await r.json();
+    const bios = j.bios ?? {};
+    bios.__groups = j.groups ?? {};
+    return bios;
+  } catch { return null; }
+};
 const loadClasses = () => loadJsonKey("data/classes.json", "classes");
 
 const CLASS_COLORS = {
