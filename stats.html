@@ -30,7 +30,14 @@ const fmtDur = (ms) => {
   return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
 };
 
-Promise.all([loadRaids(), loadLoot()]).then(([raids, loot]) => {
+async function loadBiosMap() {
+  try {
+    const r = await fetch("data/bios.json");
+    return r.ok ? (await r.json()).bios : null;
+  } catch { return null; }
+}
+
+Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios]) => {
   const zoneName = new Map(raids.zones.map((z) => [z.zoneId, z.zoneName]));
   const players = new Map();
   let wipes = 0;
@@ -97,8 +104,23 @@ Promise.all([loadRaids(), loadLoot()]).then(([raids, loot]) => {
     `<tr><td>${esc(zoneName.get(zoneId) ?? zoneId)}</td><td>${e.n}</td>` +
     `<td>${fmtDur(e.fastest.clearSpanMs)} (<a href="raid.html#${e.fastest.sessionId}">${e.fastest.date}</a>)</td></tr>`).join("");
 
-  const topRows = [...players.entries()].sort((a, b) => b[1] - a[1]).slice(0, 15).map(([n, c], i) =>
-    `<tr><td>${i + 1}</td><td><a href="players.html#${encodeURIComponent(n)}">${esc(n)}</a></td><td>${c}</td></tr>`).join("");
+  // Fold alt nights into their main (alts declared in bios.json).
+  const combined = new Map(); // main display name -> {total, self, alts: [[altName, n]]}
+  for (const [n, c] of players) {
+    const main = bios?.[n.toLowerCase()]?.main;
+    const key = main ?? n;
+    if (!combined.has(key)) combined.set(key, { total: 0, self: 0, alts: [] });
+    const e = combined.get(key);
+    e.total += c;
+    if (main) e.alts.push([n, c]);
+    else e.self = c;
+  }
+  const topRows = [...combined.entries()].sort((a, b) => b[1].total - a[1].total).slice(0, 15).map(([n, e], i) => {
+    const altStr = e.alts.length
+      ? ` <span class="mutetext">(${e.alts.map(([a, c]) => `<a href="players.html#${encodeURIComponent(a)}">${esc(a)}</a> ${c}`).join(", ")})</span>`
+      : "";
+    return `<tr><td>${i + 1}</td><td><a href="players.html#${encodeURIComponent(n)}">${esc(n)}</a>${altStr}</td><td>${e.total}</td></tr>`;
+  }).join("");
 
   document.getElementById("card").innerHTML =
     `<h2>Statistics</h2>` +
