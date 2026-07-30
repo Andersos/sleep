@@ -86,6 +86,8 @@ function renderNav(active) {
     [
       ["index.html", "Timeline"],
       ["players.html", "Players"],
+      ["raid.html", "Raids"],
+      ["boss.html", "Bosses"],
       ["loot.html", "Loot"],
       ["item.html", "Items"]
     ]

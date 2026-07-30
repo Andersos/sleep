@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sleep — bosses</title>
+<link rel="stylesheet" href="assets/site.css">
+<style>
+  table.t { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  table.t th, table.t td { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--grid, #2a2c3a); }
+  table.t th { font-size: 11.5px; opacity: .7; text-transform: uppercase; letter-spacing: .04em; }
+  .kill { color: #9ece6a; } .wipe { color: #f7768e; }
+  .zonehead { margin: 18px 0 6px; font-size: 15px; }
+  .statchips { display: flex; flex-wrap: wrap; gap: 8px; margin: 8px 0 14px; }
+  .statchips span { background: rgba(122,162,247,.14); border-radius: 8px; padding: 6px 12px; font-size: 13px; }
+  .statchips strong { display: block; font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="card" id="card"><div class="loading">loading…</div></div>
+</main>
+<script src="assets/shared.js"></script>
+<script>
+"use strict";
+renderNav("boss.html");
+const card = document.getElementById("card");
+let RAIDS = null;
+let zoneName = new Map();
+
+const fmtDur = (ms) => {
+  const s = Math.round(ms / 1000);
+  return `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+};
+
+function bossHistory(zoneId, key) {
+  const nights = [];
+  for (const s of RAIDS.sessions) {
+    if (s.zoneId !== zoneId) continue;
+    const b = s.bosses.find((x) => x.key === key);
+    if (b) nights.push({ s, b });
+  }
+  return nights;
+}
+
+function renderList() {
+  const byZone = new Map();
+  for (const s of RAIDS.sessions) {
+    for (const b of s.bosses) {
+      const zk = s.zoneId;
+      if (!byZone.has(zk)) byZone.set(zk, new Map());
+      const zone = byZone.get(zk);
+      if (!zone.has(b.key)) zone.set(b.key, { name: b.name, order: b.order, kills: 0, wipes: 0 });
+      const e = zone.get(b.key);
+      if (b.status === "killed") e.kills += 1;
+      e.wipes += b.wipes ?? 0;
+    }
+  }
+  let html = `<h2>Bosses</h2><p class="sub">Every boss the guild pulled, with its full kill record.</p>`;
+  for (const [zoneId, bosses] of [...byZone].sort((a, b) => a[0] - b[0])) {
+    const rows = [...bosses.entries()]
+      .sort((a, b) => a[1].order - b[1].order)
+      .map(([key, e]) =>
+        `<tr><td><a href="#${zoneId}/${key}">${esc(e.name)}</a></td>` +
+        `<td class="kill">${e.kills}</td><td class="wipe">${e.wipes || ""}</td></tr>`)
+      .join("");
+    html += `<h3 class="zonehead">${esc(zoneName.get(zoneId) ?? zoneId)}</h3>` +
+      `<table class="t"><thead><tr><th>boss</th><th>kills</th><th>wipes</th></tr></thead><tbody>${rows}</tbody></table>`;
+  }
+  card.innerHTML = html;
+  document.title = "Sleep — bosses";
+}
+
+function render() {
+  const hash = decodeURIComponent(location.hash.slice(1));
+  if (!hash) { renderList(); return; }
+  const [zoneIdRaw, key] = hash.split("/");
+  const zoneId = Number(zoneIdRaw);
+  const nights = bossHistory(zoneId, key);
+  if (!nights.length) {
+    card.innerHTML = `<div class="empty">Unknown boss. See the <a href="boss.html">boss list</a>.</div>`;
+    return;
+  }
+  const name = nights[0].b.name;
+  const kills = nights.filter((n) => n.b.status === "killed").length;
+  const wipes = nights.reduce((n, x) => n + (x.b.wipes ?? 0), 0);
+  const first = RAIDS.firstKills.find((f) => f.zoneId === zoneId && f.bossKey === key);
+  const fastest = RAIDS.fastestKills?.find((f) => f.bossKey === key);
+  const rows = nights.map(({ s, b }) =>
+    `<tr><td class="mono"><a href="raid.html#${s.id}">${s.date}</a></td>` +
+    `<td><span class="lchip"><span class="dot" style="background:${LANE[s.identity]?.color ?? "#888"}"></span>${LANE[s.identity]?.label ?? s.identity}</span></td>` +
+    `<td class="${b.status === "killed" ? "kill" : "wipe"}">${b.status === "killed" ? "killed" : "not killed"}</td>` +
+    `<td>${b.pulls ?? ""}</td><td>${b.wipes ?? 0}</td></tr>`).join("");
+  card.innerHTML =
+    `<p style="font-size:13px"><a href="boss.html">&larr; all bosses</a></p>` +
+    `<h2>${esc(name)} <span class="mutetext" style="font-weight:normal">· ${esc(zoneName.get(zoneId) ?? "")}</span></h2>` +
+    `<div class="statchips">` +
+    `<span><strong>${kills}</strong>kills</span>` +
+    `<span><strong>${wipes}</strong>wipes</span>` +
+    (first ? `<span><strong><a href="raid.html#${first.sessionId}">${first.date}</a></strong>first kill (${fmtDur(first.durationMs)})</span>` : "") +
+    (fastest ? `<span><strong>${fmtDur(fastest.durationMs)}</strong>fastest kill (<a href="raid.html#${fastest.sessionId}">${fastest.date}</a>)</span>` : "") +
+    `</div>` +
+    `<div class="striplabel">Every night this boss was pulled</div>` +
+    `<table class="t"><thead><tr><th>date</th><th>guild</th><th>result</th><th>pulls</th><th>wipes</th></tr></thead><tbody>${rows}</tbody></table>`;
+  document.title = `Sleep — ${name}`;
+}
+
+addEventListener("hashchange", render);
+loadRaids().then((raids) => {
+  RAIDS = raids;
+  for (const z of raids.zones) zoneName.set(z.zoneId, z.zoneName);
+  render();
+});
+</script>
+</body>
+</html>
