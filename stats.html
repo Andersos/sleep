@@ -47,8 +47,11 @@ Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios])
   const players = new Map();
   let wipes = 0;
   const bossAgg = new Map(); // zoneId/key -> {name, zoneId, key, kills, wipes}
-  for (const s of raids.sessions) {
-    for (const n of s.roster) players.set(n, (players.get(n) ?? 0) + 1);
+  raids.sessions.forEach((s, index) => {
+    for (const n of s.roster) {
+      if (!players.has(n)) players.set(n, []);
+      players.get(n).push(index);
+    }
     for (const b of s.bosses) {
       wipes += b.wipes ?? 0;
       const k = `${s.zoneId}/${b.key}`;
@@ -57,14 +60,14 @@ Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios])
       if (b.status === "killed") e.kills += 1;
       e.wipes += b.wipes ?? 0;
     }
-  }
+  });
   const first = raids.sessions[0], last = raids.sessions[raids.sessions.length - 1];
   const mains = loot.awards.filter((a) => a.isMainCharacterAward);
 
   const tiles = [
-    [raids.sessions.length, "raid nights"],
+    [raids.sessions.length, "raids"],
     [`${first.date} – ${last.date}`, "first to last log"],
-    [players.size, "different raiders"],
+    [players.size, "different characters"],
     [raids.totals.kills, "boss kills"],
     [wipes, "wipes"],
     [raids.fullClears.length, "full clears"],
@@ -107,20 +110,24 @@ Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios])
       `<td>${e.n}</td>` +
       `<td>${fmtDur(e.fastest.clearSpanMs)} (<a href="raid.html#${e.fastest.sessionId}">${e.fastest.date}</a>)</td></tr>`).join("");
 
-  // Fold alt nights into their main (alts declared in bios.json).
-  const combined = new Map(); // main display name -> {total, self, alts: [[altName, n]]}
-  for (const [n, c] of players) {
-    const main = bios?.[n.toLowerCase()]?.main;
-    const key = main ?? n;
-    if (!combined.has(key)) combined.set(key, { total: 0, self: 0, alts: [] });
-    const e = combined.get(key);
-    e.total += c;
-    if (main) e.alts.push([n, c]);
-    else e.self = c;
+  // Fold alt raid sessions into their main and deduplicate character swaps.
+  const canonical = new Map();
+  for (const name of players.keys()) {
+    const main = bios?.[name.toLowerCase()]?.main;
+    canonical.set((main ?? name).toLowerCase(), main ?? name);
   }
-  const topRows = [...combined.entries()].sort((a, b) => b[1].total - a[1].total).slice(0, 15).map(([n, e], i) => {
+  const combined = [...canonical.values()].map((name) => {
+    const indices = foldedPlayerRaidIndices(name, players, bios);
+    const alts = playerCharacterNames(name, bios).slice(1).map((alt) => {
+      const entry = [...players.entries()].find(([character]) =>
+        character.toLowerCase() === alt.toLowerCase());
+      return [alt, entry?.[1].length ?? 0];
+    }).filter(([, count]) => count);
+    return [name, { total: indices.length, alts }];
+  });
+  const topRows = combined.sort((a, b) => b[1].total - a[1].total).slice(0, 15).map(([n, e], i) => {
     const altStr = e.alts.length
-      ? ` <span class="mutetext">(${e.alts.map(([a, c]) => `<a href="players.html#${encodeURIComponent(a)}">${esc(a)}</a> ${c}`).join(", ")})</span>`
+      ? ` <span class="mutetext" title="Character appearances; a raid with more than one character counts once">(${e.alts.map(([a, count]) => `<a href="players.html#${encodeURIComponent(a)}">${esc(a)}</a> ${count}`).join(", ")})</span>`
       : "";
     return `<tr><td>${i + 1}</td><td><a href="players.html#${encodeURIComponent(n)}">${esc(n)}</a>${altStr}</td><td>${e.total}</td></tr>`;
   }).join("");
@@ -132,8 +139,8 @@ Promise.all([loadRaids(), loadLoot(), loadBiosMap()]).then(([raids, loot, bios])
     `<table class="t"><thead><tr><th>boss</th><th>kills</th><th>wipes</th><th>first kill</th><th>fastest kill</th></tr></thead><tbody>${endRows}</tbody></table>` +
     `<h3>Full clears</h3>` +
     `<table class="t"><thead><tr><th>raid</th><th>guild</th><th>full clears</th><th>fastest clear</th></tr></thead><tbody>${clearRows}</tbody></table>` +
-    `<h3>Most raid nights</h3>` +
-    `<table class="t"><thead><tr><th></th><th>player</th><th>nights</th></tr></thead><tbody>${topRows}</tbody></table>`;
+    `<h3>Most raids</h3>` +
+    `<table class="t"><thead><tr><th></th><th>player</th><th>raids</th></tr></thead><tbody>${topRows}</tbody></table>`;
 });
 </script>
 </body>

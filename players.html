@@ -48,7 +48,7 @@
   .prow:hover { background: var(--wash); }
   .prow:focus-visible { outline: 2px solid var(--sleep); outline-offset: -2px; }
   .prow[aria-current="true"] { background: var(--wash); font-weight: 600; }
-  .prow .nights {
+  .prow .raids {
     margin-left: auto;
     color: var(--muted);
     font-family: ui-monospace, Menlo, monospace;
@@ -97,8 +97,8 @@
   <p class="eyebrow">Razorgore EU · WoW Classic · 2019–2021</p>
   <h1>The people of Sleep, Dusk &amp; Ascension</h1>
   <p class="lede">
-    Every raider with five or more logged nights. Pick a name for their
-    record: raid nights by lineage, the full night-by-night log with boss
+    Every raider with five or more logged raids. Pick a name for their
+    record: raids by lineage, the full raid-by-raid log with boss
     kills, and their recorded loot.
   </p>
   <div class="cols">
@@ -131,23 +131,26 @@ const roster = document.getElementById("roster");
 const card = document.getElementById("card");
 const search = document.getElementById("search");
 
-function combinedNights(name) {
-  // A main's count includes its alts' raid nights (alts from bios.json).
-  let total = PLAYERS.get(name)?.length ?? 0;
-  for (const alt of BIOS?.[name.toLowerCase()]?.alts ?? []) {
-    const altKey = [...PLAYERS.keys()].find((n) => n.toLowerCase() === alt.toLowerCase());
-    if (altKey) total += PLAYERS.get(altKey).length;
-  }
-  return total;
+function raidIndices(name) {
+  return foldedPlayerRaidIndices(name, PLAYERS, BIOS);
+}
+
+function charactersInRaid(name, session) {
+  const characters = new Set(
+    playerCharacterNames(name, BIOS).map((character) => character.toLowerCase()),
+  );
+  return session.roster.filter((character) => characters.has(character.toLowerCase()));
 }
 
 function buildRoster(filter) {
   roster.innerHTML = "";
   const f = (filter ?? "").trim().toLowerCase();
   const names = [...PLAYERS.keys()].sort(
-    (a, b) => combinedNights(b) - combinedNights(a) || a.localeCompare(b),
+    (a, b) => raidIndices(b).length - raidIndices(a).length || a.localeCompare(b),
   );
   for (const name of names) {
+    const combined = raidIndices(name).length;
+    if (combined < 5) continue;
     if (f && !name.toLowerCase().includes(f)) continue;
     const b = document.createElement("button");
     b.className = "prow";
@@ -157,13 +160,12 @@ function buildRoster(filter) {
     if (!laneMatch(name)) continue;
     const hasBio = BIOS?.[name.toLowerCase()]?.html ? ` <span title="has a story">📖</span>` : "";
     const own = PLAYERS.get(name).length;
-    const combined = combinedNights(name);
-    const nights = combined > own
+    const raids = combined > own
       ? `<span title="${own} on this character, ${combined - own} on alts">${combined}</span>`
       : String(own);
     const lane = PLAYER_LANE.get(name);
     const laneTag = lane ? ` <span style="font-size:10px;opacity:.55;color:${LANE[lane]?.color ?? "inherit"}">${esc(LANE[lane]?.label ?? lane)}</span>` : "";
-    b.innerHTML = `<span>${classIcon(name)}<span style="color:${classColor(name)}">${esc(name)}</span>${laneTag}${hasBio}</span><span class="nights">${nights}</span>`;
+    b.innerHTML = `<span>${classIcon(name)}<span style="color:${classColor(name)}">${esc(name)}</span>${laneTag}${hasBio}</span><span class="raids">${raids}</span>`;
     b.addEventListener("click", () => {
       location.hash = encodeURIComponent(name);
     });
@@ -175,9 +177,11 @@ function show(name) {
   if (!PLAYERS.has(name)) return;
   current = name;
   buildRoster(search.value);
-  const indices = PLAYERS.get(name);
+  const indices = raidIndices(name);
   const sess = indices.map((i) => SESSIONS[i]);
   const first = sess[0].date, last = sess[sess.length - 1].date;
+  const ownRaids = PLAYERS.get(name)?.length ?? 0;
+  const altRaids = sess.length - ownRaids;
 
   const byLane = {};
   for (const s of sess) byLane[s.identity] = (byLane[s.identity] ?? 0) + 1;
@@ -201,9 +205,13 @@ function show(name) {
     })
     .join("");
 
-  const logNights = [...sess].reverse().map((s) => {
+  const logRaids = [...sess].reverse().map((s) => {
     const kills = s.bosses.filter((b) => b.status === "killed");
     const attempts = s.bosses.filter((b) => b.status !== "killed");
+    const characters = charactersInRaid(name, s);
+    const characterTag = characters.length === 1 && characters[0].toLowerCase() === name.toLowerCase()
+      ? ""
+      : `<span class="mutetext" style="font-size:11.5px">on ${characters.map(esc).join(" + ")}</span>`;
     const bossline =
       kills.map((b) => `${esc(b.name)}${b.wipes ? ` <span class="wipe">(${b.wipes}w)</span>` : ""}`).join(" · ") +
       (attempts.length
@@ -214,6 +222,7 @@ function show(name) {
       `<div class="head"><span class="mono mutetext">${s.date}</span>` +
       `<strong>${esc(s.zone)}</strong>` +
       `<span class="lchip"><span class="dot" style="background:${LANE[s.identity].color}"></span>${LANE[s.identity].label}</span>` +
+      characterTag +
       `<span class="mutetext" style="font-size:11.5px">${s.rosterCount} in roster</span>` +
       `<a style="font-size:11.5px" href="raid.html#${s.id}">raid page</a>` +
       `<a style="font-size:11.5px" href="https://classic.warcraftlogs.com/reports/${esc(s.reportCode)}" rel="noopener">log</a></div>` +
@@ -226,7 +235,7 @@ function show(name) {
   const playerClass = CLASSES?.[name.toLowerCase()];
   card.innerHTML =
     `<h2>${classIcon(name, 24)}<span style="color:${classColor(name)}">${esc(name)}</span>${playerClass ? ` <span class="classname">${esc(playerClass)}</span>` : ""}</h2>` +
-    `<p class="sub">${sess.length} raid nights · ${first} to ${last}</p>` +
+    `<p class="sub">${sess.length} raids · ${first} to ${last}${altRaids ? ` · ${ownRaids} on ${esc(name)}, ${altRaids} on alts` : ""}</p>` +
     (bio?.main
       ? `<p class="sub">Alt of <a href="#${encodeURIComponent(bio.main)}" style="color:${classColor(bio.main)}">${esc(bio.main)}</a></p>`
       : "") +
@@ -242,13 +251,13 @@ function show(name) {
       : "") +
     (bio?.html ? `<div class="bio">${bio.html}</div>` : "") +
     `<div class="chips">${chips}</div>` +
-    `<div class="striplabel">Raid nights over time — tall solid: attended · short outlined: missed</div>` +
-    `<svg id="strip" viewBox="0 0 800 46" role="img" aria-label="Raid nights of ${esc(name)} over time"></svg>` +
+    `<div class="striplabel">Raids over time — tall solid: attended · short outlined: missed</div>` +
+    `<svg id="strip" viewBox="0 0 800 46" role="img" aria-label="Raids of ${esc(name)} over time"></svg>` +
     (loot.length
       ? `<div class="striplabel">Recorded loot (${mains.length} main awards)</div><ul class="lootlist">${lootItems}</ul>`
       : "") +
     `<div class="striplabel">Raid log, newest first</div>` +
-    `<div class="log">${logNights}</div>`;
+    `<div class="log">${logRaids}</div>`;
   window.$WowheadPower?.refreshLinks?.();
 
   const svg = card.querySelector("#strip");
@@ -281,7 +290,11 @@ function show(name) {
     const x = ((T(s.date) - T0) / (T1 - T0)) * 800;
     const mark = svgEl("rect", { x: x - 1, y: 14, width: 2.4, height: 26, rx: 1.2, fill: LANE[s.identity].color }, svg);
     const title = svgEl("title", {}, mark);
-    title.textContent = `${s.date} · ${s.zone} · ${LANE[s.identity].label}`;
+    const characters = charactersInRaid(name, s);
+    const characterTag = characters.length === 1 && characters[0].toLowerCase() === name.toLowerCase()
+      ? ""
+      : ` · on ${characters.join(" + ")}`;
+    title.textContent = `${s.date} · ${s.zone} · ${LANE[s.identity].label}${characterTag}`;
     mark.style.cursor = "pointer";
     mark.addEventListener("click", () => { location.href = `raid.html#${s.id}`; });
   }
@@ -292,9 +305,11 @@ let roleFilter = null;
 let laneFilter = null;
 const PLAYER_LANE = new Map();
 function computeLanes() {
-  for (const [name, idxs] of PLAYERS) {
+  for (const name of PLAYERS.keys()) {
     const tally = {};
-    for (const i of idxs) tally[SESSIONS[i].identity] = (tally[SESSIONS[i].identity] ?? 0) + 1;
+    for (const i of raidIndices(name)) {
+      tally[SESSIONS[i].identity] = (tally[SESSIONS[i].identity] ?? 0) + 1;
+    }
     PLAYER_LANE.set(name, Object.entries(tally).sort((a, b) => b[1] - a[1])[0][0]);
   }
 }
@@ -399,7 +414,7 @@ Promise.all([loadRaids(), loadLoot(), loadBios(), loadClasses()]).then(([raids, 
   BIOS = bios;
   CLASSES = classes;
   SESSIONS = raids.sessions;
-  PLAYERS = buildPlayerIndex(SESSIONS);
+  PLAYERS = buildPlayerIndex(SESSIONS, 0);
   for (const award of loot.awards) {
     if (!award.recipient) continue;
     const key = award.recipient.toLowerCase();

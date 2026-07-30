@@ -49,6 +49,22 @@ function buildPlayerIndex(sessions, minimum = 5) {
   return players;
 }
 
+function playerCharacterNames(name, bios) {
+  return [name, ...(bios?.[name.toLowerCase()]?.alts ?? [])];
+}
+
+function foldedPlayerRaidIndices(name, players, bios) {
+  const characters = new Set(
+    playerCharacterNames(name, bios).map((character) => character.toLowerCase()),
+  );
+  const indices = new Set();
+  for (const [character, raids] of players) {
+    if (!characters.has(character.toLowerCase())) continue;
+    for (const index of raids) indices.add(index);
+  }
+  return [...indices].sort((a, b) => a - b);
+}
+
 function playerLink(name) {
   return `players.html#${encodeURIComponent(name)}`;
 }

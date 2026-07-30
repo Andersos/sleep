@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sleep — raid night</title>
+<title>Sleep — raid</title>
 <link rel="stylesheet" href="assets/site.css">
 <style>
   .cols { display: flex; gap: 18px; flex-wrap: wrap; align-items: flex-start; }
@@ -71,7 +71,7 @@ function renderList() {
         `<td>${s.rosterCount}</td><td>${killed}</td><td>${wipes || ""}</td></tr>`;
     }).join("");
   card.innerHTML =
-    `<h2>Raid nights <span class="mutetext" style="font-weight:normal">· ${sessions.length} of ${RAIDS.sessions.length}</span></h2>` +
+    `<h2>Raids <span class="mutetext" style="font-weight:normal">· ${sessions.length} of ${RAIDS.sessions.length}</span></h2>` +
     `<p class="sub">★ = has a story note. Filter by raid and guild:</p>` +
     `<div style="display:flex;gap:10px;margin-bottom:10px;flex-wrap:wrap">` +
     `<select id="f-zone" class="text"><option value="">all raids</option>${zoneOptions}</select>` +

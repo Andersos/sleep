@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sleep — raid nights 2019–2021</title>
+<title>Sleep — raids 2019–2021</title>
 <link rel="stylesheet" href="assets/site.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>">
 <script src="assets/shared.js"></script>
@@ -11,11 +11,11 @@
 <body>
 <div class="wrap">
   <p class="eyebrow">Razorgore EU · WoW Classic · October 2019 – April 2021</p>
-  <h1>Raid Nights of Sleep, Dusk &amp; Ascension</h1>
+  <h1>Raids of Sleep, Dusk &amp; Ascension</h1>
   <p class="lede">
     Every canonical raid session in the archive, with the story's turning
     points on the rail above. Hover anything for detail, filter by era or
-    lineage, or search a raider to light up their nights.
+    lineage, or search a raider to light up their raids.
   </p>
 
   <div class="chipgroup" style="margin-bottom:14px; gap:14px 22px;">
@@ -51,7 +51,7 @@
 
 <script>
 const ERAS = [
-  ["2019-09-15","2020-08-14","the nights of Sleep"],
+  ["2019-09-15","2020-08-14","the raids of Sleep"],
   ["2020-08-14","2020-12-09","Dusk"],
   ["2020-12-09","2021-05-01","with Ascension"]
 ];
@@ -66,11 +66,16 @@ renderNav("index.html");
 
 let SESSIONS = [];
 let PLAYERS = new Map();
+let BIOS = null;
 let playerByLower = new Map();
 const visible = Object.fromEntries(LANES.map((l) => [l.key, true]));
 let range = "all";
 let playerSet = null;
 let playerName = null;
+
+function playerRaidIndices(name) {
+  return foldedPlayerRaidIndices(name, PLAYERS, BIOS);
+}
 
 const svg = document.getElementById("viz");
 
@@ -156,7 +161,7 @@ function render() {
   let tenure = null;
   let playerLanes = null;
   if (playerSet) {
-    const indices = PLAYERS.get(playerName);
+    const indices = playerRaidIndices(playerName);
     tenure = [T(SESSIONS[indices[0]].date), T(SESSIONS[indices[indices.length - 1]].date)];
     playerLanes = new Set(indices.map((i) => SESSIONS[i].identity));
   }
@@ -230,7 +235,7 @@ function render() {
   for (const key of Object.keys(counts)) {
     counts[key].node.textContent = playerSet
       ? `${counts[key].n}/${tenureTotals[key] ?? 0} with ${playerName}`
-      : counts[key].n + " nights";
+      : counts[key].n + " raids";
   }
 
   let visibleIndex = 0;
@@ -310,13 +315,13 @@ function setPlayer(raw) {
     return;
   }
   playerName = name;
-  const indices = PLAYERS.get(name);
+  const indices = playerRaidIndices(name);
   playerSet = new Set(indices);
   const first = SESSIONS[indices[0]].date;
   const last = SESSIONS[indices[indices.length - 1]].date;
   playerLine.innerHTML =
-    `<strong>${esc(name)}</strong> — ${indices.length} raid nights, ${first} to ${last}. ` +
-    `Solid marks: nights with ${esc(name)}. Outlined: nights their lineage ` +
+    `<strong>${esc(name)}</strong> — ${indices.length} raids, ${first} to ${last}. ` +
+    `Solid marks: raids with ${esc(name)}. Outlined: raids their lineage ` +
     `raided without them. Faint: outside their time. ` +
     `<a href="${playerLink(name)}">Open player page</a>`;
   playerLine.hidden = false;
@@ -330,12 +335,17 @@ clearButton.addEventListener("click", () => {
 });
 addEventListener("resize", render);
 
-loadRaids().then((data) => {
+Promise.all([
+  loadRaids(),
+  fetch("data/bios.json").then((response) => response.json()),
+]).then(([data, bioData]) => {
   SESSIONS = data.sessions;
-  PLAYERS = buildPlayerIndex(SESSIONS);
-  playerByLower = new Map([...PLAYERS.keys()].map((n) => [n.toLowerCase(), n]));
+  BIOS = bioData.bios;
+  PLAYERS = buildPlayerIndex(SESSIONS, 0);
+  const eligible = [...PLAYERS.keys()].filter((name) => playerRaidIndices(name).length >= 5);
+  playerByLower = new Map(eligible.map((n) => [n.toLowerCase(), n]));
   const datalist = document.getElementById("players");
-  for (const name of [...PLAYERS.keys()].sort()) {
+  for (const name of eligible.sort()) {
     const option = document.createElement("option");
     option.value = name;
     datalist.appendChild(option);
