@@ -130,11 +130,21 @@ const roster = document.getElementById("roster");
 const card = document.getElementById("card");
 const search = document.getElementById("search");
 
+function combinedNights(name) {
+  // A main's count includes its alts' raid nights (alts from bios.json).
+  let total = PLAYERS.get(name)?.length ?? 0;
+  for (const alt of BIOS?.[name.toLowerCase()]?.alts ?? []) {
+    const altKey = [...PLAYERS.keys()].find((n) => n.toLowerCase() === alt.toLowerCase());
+    if (altKey) total += PLAYERS.get(altKey).length;
+  }
+  return total;
+}
+
 function buildRoster(filter) {
   roster.innerHTML = "";
   const f = (filter ?? "").trim().toLowerCase();
   const names = [...PLAYERS.keys()].sort(
-    (a, b) => PLAYERS.get(b).length - PLAYERS.get(a).length || a.localeCompare(b),
+    (a, b) => combinedNights(b) - combinedNights(a) || a.localeCompare(b),
   );
   for (const name of names) {
     if (f && !name.toLowerCase().includes(f)) continue;
@@ -144,7 +154,12 @@ function buildRoster(filter) {
     b.setAttribute("aria-current", String(name === current));
     if (roleFilter && !BIOS?.[name.toLowerCase()]?.roles?.some((r) => r.role === roleFilter)) continue;
     const hasBio = BIOS?.[name.toLowerCase()]?.html ? ` <span title="has a story">📖</span>` : "";
-    b.innerHTML = `<span>${classIcon(name)}<span style="color:${classColor(name)}">${esc(name)}</span>${hasBio}</span><span class="nights">${PLAYERS.get(name).length}</span>`;
+    const own = PLAYERS.get(name).length;
+    const combined = combinedNights(name);
+    const nights = combined > own
+      ? `<span title="${own} on this character, ${combined - own} on alts">${combined}</span>`
+      : String(own);
+    b.innerHTML = `<span>${classIcon(name)}<span style="color:${classColor(name)}">${esc(name)}</span>${hasBio}</span><span class="nights">${nights}</span>`;
     b.addEventListener("click", () => {
       location.hash = encodeURIComponent(name);
     });
