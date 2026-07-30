@@ -85,6 +85,7 @@ function renderNav(active) {
     `<a class="brand" href="index.html">WoW Classic</a>` +
     [
       ["index.html", "Timeline"],
+      ["story.html", "Story"],
       ["players.html", "Players"],
       ["raid.html", "Raids"],
       ["boss.html", "Bosses"],
