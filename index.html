@@ -166,7 +166,7 @@ function render() {
       "font-family": "ui-monospace,Menlo,monospace", "font-weight": "700",
     }, svg);
     lbl.textContent = tag;
-    const tipHtml = `<div class="t-date">${d}</div><div class="t-title">Phase ${tag.slice(1)}</div><div>${esc(what)}</div>`;
+    const tipHtml = `<div class="t-date">${d}</div><div class="t-title">${tag === "TBC" ? "The Burning Crusade" : `Phase ${tag.slice(1)}`}</div><div>${esc(what)}</div>`;
     for (const el of [line, lbl]) {
       el.addEventListener("mousemove", (evt) => showTip(tipHtml, evt));
       el.addEventListener("mouseleave", hideTip);
