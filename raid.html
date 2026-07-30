@@ -63,7 +63,8 @@ function renderList() {
     .map((s) => {
       const killed = s.bosses.filter((b) => b.status === "killed").length;
       const wipes = s.bosses.reduce((n, b) => n + (b.wipes ?? 0), 0);
-      const note = NOTES?.[`${s.date}/${s.zoneId}`];
+      const note =
+        NOTES?.[`session/${s.id}`] ?? NOTES?.[`${s.date}/${s.zoneId}`];
       return `<tr>` +
         `<td class="mono"><a href="#${s.id}">${s.date}</a></td>` +
         `<td><a href="#${s.id}">${esc(zoneByKeyId.get(s.zoneId) ?? s.zoneId)}</a>${note ? " ★" : ""}</td>` +
@@ -105,7 +106,8 @@ function render() {
   const awards = LOOT.awards.filter((a) =>
     a.awardDate === s.date && a.raidKey === raidKey && rosterSet.has((a.recipient ?? "").toLowerCase()));
 
-  const note = NOTES?.[`${s.date}/${s.zoneId}`];
+  const note =
+    NOTES?.[`session/${s.id}`] ?? NOTES?.[`${s.date}/${s.zoneId}`];
   const sameNight = RAIDS.sessions.filter((o) => o.date === s.date && o.id !== s.id);
 
   const bossRows = s.bosses

@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-30T19:00:33.734Z",
- "count": 7,
+ "generatedAt": "2026-07-30T20:58:53.746Z",
+ "count": 10,
  "notes": {
   "2020-08-02/1002": {
    "title": "The handoff",
@@ -13,6 +13,18 @@
   "2020-09-17/1005": {
    "title": "The pull that broke September",
    "html": "<p><strong>The pull that broke September</strong></p><p>An unannounced pull at the Ahn'Qiraj entrance caught the raid unbuffed and unready; the world buffs evaporated in seconds. The guild's top hunter left the raid on the spot, the rogues nearly followed, and the officer chat spent the next three days arguing about respect, world buffs and what kind of guild this was supposed to be. Within a week, the tank who made the pull and one of the officers had both left the guild.</p>"
+  },
+  "session/456": {
+   "title": "The day Dusk nearly broke",
+   "html": "<p><strong>The day Dusk nearly broke</strong></p><p>This AQ40 clear shares its date with Dusk's worst leadership crisis. The raid did not cause it. <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a>, and <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> retaliated by using his alt's rank to kick <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a>. Protest departures followed. <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> passed Guild Master to <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> and left while <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> handled member communication remotely. Participant accounts disagree on blame; the timing and the resulting restriction of kick powers are certain.</p>"
+  },
+  "session/470": {
+   "title": "Nayla's final Dusk raid",
+   "html": "<p><strong>Nayla's final Dusk raid</strong></p><p><a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> was present for this full AQ40 clear, his final logged guild raid. By 18 November he had left Dusk. Officer chat recorded him in Inheritance on 20 November, and his first outside Warcraft Logs report followed on 26 November. The exact trigger for his departure remains unresolved.</p>"
+  },
+  "session/484": {
+   "title": "Twenty from each guild",
+   "html": "<p><strong>Twenty from each guild</strong></p><p>The report was titled \"Ascension &amp; Dusk Testraid.\" Its forty-one unique players included exactly twenty returning from Dusk's first Naxx roster and twenty from Ascension's opening roster, plus <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>, who had appeared in neither. One substitution turned that balanced selection into forty-one names. The test became the joint progression team.</p>"
   },
   "2020-12-13/1006": {
    "title": "Twelve wipes on the Horsemen",
