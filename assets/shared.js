@@ -111,12 +111,15 @@ const MILESTONES = [
   ["2019-10-02","First raid with Artimis","Mixed-guild Molten Core — the earliest confirmed raid containing Artimis.",0],
   ["2019-10-13","The hunter diary begins","Onyxia and an 8/10 Molten Core clear; Artimis starts organizing the hunters.",0],
   ["2019-12-29","Ragnaros down, the Choker drops","The kill screenshot survives; the neck later fuels the guild's first loot dispute.",0],
-  ["2020-02-01","David hands over the guild","Discord ownership transfers; Artimis is guild leader in practice.",1],
+  ["2020-02-01","David hands over the guild","Dejvid hands over Discord ownership; Artimis is guild leader in practice.",1],
   ["2020-02-05","Deliz quits","Criticism of healers and the caster-first Choker policy; he leaves the game the same night.",1],
   ["2020-02-13","Blackwing Lair opens","Sleep enters on day one.",0],
   ["2020-02-23","Nefarian falls","BWL 8/8 within ten days.",1],
+  ["2020-03-12","Ragie disconnects on Onyxia","A routine Onyxia pull survives because the tank disconnects.",0],
+  ["2020-03-15","The Nightfall experiment","Thepaladin secretly buys Nightfall; Sleep tests the legendary and rejects it on the numbers.",0],
   ["2020-03-18","First Rejuvenating Gem","Shakey wins the roll the day Fnats steps back.",0],
   ["2020-03-29","Glory's first Binding","Both Garr and Baron Geddon die four times that night across split runs.",0],
+  ["2020-07-27","The rogue loot revolt","Kodf's replacement awards himself tier pieces; the rogues demand their old system back.",0],
   ["2020-08-02","The baby announcement","Nefarian dies twice; Anders tells the raid he is expecting a child and promotes Divinestorm on the spot.",1],
   ["2020-08-14","Sleep + Ninjas become Dusk","A new name from a poll, so neither guild absorbs the other.",1],
   ["2020-08-19","First Dusk AQ40","The preparation machine: resistance sets, rerolled professions, consumable pipelines.",0],
@@ -129,7 +132,7 @@ const MILESTONES = [
   ["2020-12-13","Benched — a strike brews","Artimis organizes a protest over veterans losing seats; a 37-minute call resolves it the next day.",1],
   ["2020-12-20","Kel'Thuzad dies","Three wipes, then the last boss of vanilla. 43 names.",1],
   ["2021-04-11","Glory's own Kel'Thuzad","Left out of the first kill, the guild's most-attended raider gets his — in the archive's final report.",1],
-  ["2021-05-12","The Dusk list","Supplier posts a tribute video for every guildmate — the guild taking attendance one last time.",1]
+  ["2021-05-12","The Dusk list","Supplier posts a tribute video for every guildmate — the closest thing the guild ever made to its own memorial.",1]
 ];
 const PHASES = [
   ["2019-08-27", "P1", "Molten Core & Onyxia available from launch"],
