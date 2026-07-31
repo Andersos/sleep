@@ -19,6 +19,19 @@
   .chapter blockquote { margin: 18px 0; padding: 10px 18px; border-left: 3px solid #e0af68; background: rgba(224,175,104,.06); border-radius: 6px; font-style: italic; }
   .chapter blockquote p { margin: 0 0 6px; font-size: 15px; }
   .chapter blockquote cite { font-style: normal; font-size: 12.5px; opacity: .65; font-family: ui-monospace, Menlo, monospace; }
+  .archive-card { margin: 20px 0; border: 1px solid var(--grid); border-radius: 8px; background: var(--surface); overflow: hidden; }
+  .archive-card figcaption, .archive-card summary { padding: 10px 14px; background: var(--wash); color: var(--ink-2); font: 12.5px/1.5 ui-monospace, Menlo, monospace; }
+  .archive-card summary { cursor: pointer; font-weight: 600; }
+  .archive-message { padding: 11px 14px; }
+  .archive-message + .archive-message { border-top: 1px solid var(--grid); }
+  .archive-message-meta { display: flex; align-items: baseline; gap: 8px; margin-bottom: 3px; }
+  .archive-message-meta strong { color: var(--dusk); font-size: 13.5px; }
+  .archive-message-meta time { color: var(--muted); font: 11.5px ui-monospace, Menlo, monospace; }
+  .chapter .archive-message p { margin: 0; font-size: 14.5px; line-height: 1.55; }
+  .chapter .archive-source { margin: 0; padding: 9px 14px; border-top: 1px solid var(--grid); color: var(--muted); font: 11.5px/1.5 ui-monospace, Menlo, monospace; }
+  .archive-list { margin: 0; padding: 0 14px 12px 34px; columns: 2; column-gap: 28px; }
+  .archive-list li { break-inside: avoid; margin: 4px 0; font-size: 13px; }
+  @media (max-width: 560px) { .archive-list { columns: 1; } }
   .chapter .divider { text-align: center; color: #e0af68; opacity: .6; margin: 28px 0; letter-spacing: .5em; }
   .chapter figure { margin: 20px 0; }
   .chapter figure img { width: 100%; border-radius: 8px; border: 1px solid var(--grid, #2a2c3a); display: block; cursor: zoom-in; }
@@ -59,9 +72,8 @@
     night elf hunter on Frostwhisper — an era of carrying computers to each
     other's houses and losing whole afternoons in Stranglethorn Vale.
     Nobody understood gear. That was
-    never the point. When Classic launched on 27 August 2019, Anders came
-    back to recreate that feeling as another night elf hunter, this time
-    named <a href="players.html#Artimis">Artimis</a> — and half of Nittedal came with
+    never the point. When Classic launched on 27 August 2019, Artimis came
+    back to recreate that feeling as another night elf hunter — and half of Nittedal came with
     him. The first archived message of the whole story is
     <a href="players.html#Fnats">Fnats</a>, level 10, asking from the launch-day
     queue: "Er du i queue?"</p>
@@ -70,7 +82,7 @@
     <p>The guild he found — probably through a recruitment shout in
     Ironforge — was called Sleep, and it committed to the joke: its ranks
     ran Awake, Light Sleeper, Deep Sleeper, REM Sleeper, Dreamer. Its
-    founder was David, playing the priest <a href="players.html#Dejvid">Dejvid</a>,
+    founder was the priest <a href="players.html#Dejvid">Dejvid</a>,
     and his pitch was a helpful community for newcomers and veterans alike.
     Artimis joined to collect hunter tier pieces. Within a month he was in
     the officer meetings, running the hunter channel and the
@@ -97,7 +109,7 @@
     <a href="players.html#Pnats">Pnats</a> and
     <a href="players.html#Galidia">Galidia</a> appear too. These are first
     surviving raid dates, not necessarily the nights they joined. What had
-    started as Anders returning to an old game was becoming a home crew
+    started as Artimis returning to an old game was becoming a home crew
     inside a much larger guild.</p>
 
     <h2>Onyxia and Ragnaros</h2>
@@ -106,7 +118,7 @@
     kill</a> and finished the Molten Core run at eight bosses out of ten.
     A month later, the first complete report preserved by Zados's
     suggestion shows <a href="raid.html#15">all ten Molten Core bosses dying
-    without a wipe</a>. Anders remembers 13 November as probably the first
+    without a wipe</a>. Artimis remembers 13 November as probably the first
     Ragnaros kill, but no earlier encounter logs survive to prove it.
     What began as a mixed group in the Magmadar corridor had become a
     full-clear raid in six weeks.</p>
@@ -124,15 +136,31 @@
     the story's first fairness casualty. His question, what a raid owes
     the people who keep it alive but never top a meter, came back in every
     crisis the guild ever had.</p>
+    <figure class="archive-card">
+      <figcaption>Reconstructed from private messages quoted with permission · names normalized to in-game characters · 5 February 2020</figcaption>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Deliz</strong><time datetime="2020-02-05T23:06">23:06</time></div>
+        <p lang="no">Det er vel egentlig ikke det dette handler om<br>
+        Handler mer om at man får shit nesten hvert raid fordi folk blamer healers. og når man ikke får lov til å rolle på bis gear etter man har vært på nesten hvert raid siden starten. Har raider status</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Deliz</strong><time datetime="2020-02-05T23:20">23:20</time></div>
+        <p lang="no">setter pris på at du prøver [Artimis], men jeg sier meg ferdig. Har gått veldig lei av å logge på for å få dritt og ikke noe ut av det. spillet blir veldig for ikke veldig morsomt da</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Deliz</strong><time datetime="2020-02-05T23:25">23:25</time></div>
+        <p lang="no">Jeg vet ikke om du forsto meg, men jeg er ferdig med wow</p>
+      </div>
+    </figure>
 
     <h2>The handover</h2>
-    <p>On 1 February 2020, David transferred the Discord and stepped back;
+    <p>On 1 February 2020, Dejvid transferred the Discord and stepped back;
     Artimis, already the guild's engine, became its leader in name as well.
     His first fortnight set the tone for the year. He accidentally recruited
     his most loyal tank by mailing a cloak to a stranger he had mistaken
     for someone else, then inviting him to Blackwing Lair anyway. The stranger was
     <a href="players.html#Glory">Glory</a>. The same month,
-    <a href="players.html#Glorya">Glorya</a> — Knut from Nittedal — was recruited
+    <a href="players.html#Glorya">Glorya</a> — another player from the Nittedal circle — was recruited
     into the healer gap Deliz left behind. The confusion between their
     names torments this archive to this day.</p>
 
@@ -153,7 +181,7 @@
 
     <h2>The machine</h2>
     <p>What made Sleep unusual wasn't its kill times — it was its
-    paperwork. The attendance workbook. <a href="players.html#Ragie">Jack</a>'s
+    paperwork. The attendance workbook. <a href="players.html#Ragie">Ragie</a>'s
     gear-weight formulas, sketched in January DMs: parses, consumables,
     enchants, attendance, all scored. The loot log, born 29 March 2020
     with a plea that every class leader record every drop. A raider-rank
@@ -161,15 +189,14 @@
     spreadsheets were the guild's constitution, and like all constitutions
     they created their own politics. When
     <a href="players.html#Kugel">Kugel</a> vanished for twenty-three days
-    with a legendary Binding, <a href="players.html#Zhèna">Zhèna</a>,
-    Jørgen from Nittedal, stepped into the tank gap and became part of the
+    with a legendary Binding,     <a href="players.html#Zhèna">Zhèna</a> stepped into the tank gap and became part of the
     replacement plan. The paladin leader
     <a href="players.html#Thepaladin">Durm</a> then lost his account to a
     hacker days after winning the argument over the Eye of Sulfuras.
-    Chris, normally the mage <a href="players.html#Exclus">Exclus</a>,
-    covered the class-leader gap for a week on Exclusafk.</p>
+    <a href="players.html#Exclus">Exclus</a> covered the class-leader gap
+    for a week on Exclusafk.</p>
     <p>The Eye debate brought another friend from home into the record.
-    <a href="players.html#Panadin">Panadin</a>, Sivert, accepted second
+    <a href="players.html#Panadin">Panadin</a> accepted second
     place behind Thepaladin and kept showing up. Then, on 18 March,
     <a href="players.html#Shakeyhealer">Shakey</a> won the roll for the first
     Rejuvenating Gem and Fnats — who had fought two months for a fairer
@@ -237,9 +264,9 @@
     <div class="divider">✦ ✦ ✦</div>
     <p class="sourcenote">Sources: the raid archive from 2019-10-02 onward,
     the Sleep Discord export, guild documents (ranks, raider rules), the
-    2019–2020 private messages of Fnats, Zados, Jack, Deliz and Glory
+    2019–2020 private messages of Fnats, Zados, Ragie, Deliz and Glory
     (quoted with permission), Supplier's archived raid-preparation thread,
-    and Anders's own recollections — marked as memory where the records are
+    and Artimis's own recollections — marked as memory where the records are
     silent.</p>
   </div>
 
@@ -262,6 +289,21 @@
     seat to <a href="players.html#Luivi">Luivi</a>, the druid leader. He didn't have
     time for it either — but instead of just saying no, he asked his
     contacts in a guild called Ninjas whether they'd consider merging.</p>
+    <figure class="archive-card">
+      <figcaption>Reconstructed from private messages quoted with permission · 9 July 2020</figcaption>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Artimis</strong><time datetime="2020-07-09T18:19">18:19</time></div>
+        <p>You can take over Sleep and make it to the guild you want it to instead if you want too.</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Kodf</strong><time datetime="2020-07-09T18:23">18:23</time></div>
+        <p>no man, i cant. i hate to do it to you guys, and it wouldnt be right to ask everyone else to change. To be honest it lifted a lot of weight off my shoulders to give up the management role. I was getting very stressed and worn out</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Kodf</strong><time datetime="2020-07-09T18:44">18:44</time></div>
+        <p>well you know, its mainly that i feel there has been very minor progress in terms of how well we clear raids and stuff, and people are a bit too hesitant to try to learn... It sounds harsh when you put it that way, i know.</p>
+      </div>
+    </figure>
     <p>Kodf's departure exposed how much of Sleep's stability had lived in
     one class leader. The senior rogues declined the vacancy, so a newcomer
     named <a href="players.html#Twx">Twx</a> took it after three raids and replaced
@@ -353,7 +395,7 @@
     <p>The response, within the hour, was structural: class leaders lost their seats in the inner
     room, and the officer chat split in two. And on the 30th of September
     the autumn delivered its finale: <a href="players.html#Yeat">Yeat</a> kicked
-    <a href="players.html#Snjór">Jón Snjór</a> from the guild without consulting anyone, Jón used his alt's
+    <a href="players.html#Snjór">Snjór</a> from the guild without consulting anyone, Snjór used his alt's
     rank to kick <a href="players.html#Henne">Henne</a> in retaliation, and a wave
     of protest gquits followed before <a href="players.html#Divinestorm">Divinestorm</a>
     — mediating from a work trip — talked everyone back in. Henne's own
@@ -363,6 +405,21 @@
     outlived the mess became guild doctrine, written by Artimis in the
     class-leader channel: if you don't have time to explain, you don't
     have time to kick people.</p>
+    <figure class="archive-card">
+      <figcaption>Reconstructed from private messages quoted with permission · names normalized to in-game characters · 30 September 2020</figcaption>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Henne</strong><time datetime="2020-09-30T13:54">13:54</time></div>
+        <p>i dont really have anything to say than that [Snjór] is quite manipulative. Now im his target, have fun with that.</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Henne</strong><time datetime="2020-09-30T13:56">13:56</time></div>
+        <p>I def dont need thees shit. Ive been in Ninjas and Dusk for a long time. Never had any issues around me. Im gonna carry on playing with the ppl that i care about.</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Henne</strong><time datetime="2020-09-30T14:04">14:04</time></div>
+        <p>Keep [Snjór] away from me and he can take the drama with him.<br>and im good</p>
+      </div>
+    </figure>
 
     <h2>The quiet erosion</h2>
     <p>Under the fireworks, something slower was happening: the old Sleep
@@ -394,6 +451,13 @@
     spreadsheets filling in, a contingency tank being groomed, and a raid
     that had no idea it had fourteen days of existence left. That story is
     <a href="#ch3">chapter three</a>.</p>
+    <figure class="archive-card">
+      <figcaption>Reconstructed from a message forwarded into the Dusk officer channel · 25 November 2020</figcaption>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Nayla</strong><time datetime="2020-11-25T19:57">19:57</time></div>
+        <p>Look what your leader is doing,its last desperate act of evilness</p>
+      </div>
+    </figure>
 
     <div class="divider">✦ ✦ ✦</div>
     <p class="sourcenote">Sources: the Dusk officer channel (13,902
@@ -516,11 +580,37 @@
 
     <h2>The change</h2>
     <p>On the 16th, the day the strike was supposed to happen, the guild
-    dissolved instead. The deciding exchange is almost comically casual: "When we leaving and merging?" asked
-    <a href="players.html#Randyfist">Randy</a>. "Today would be good," said Zados.
-    "Fuck it, get it over and done with." Divinestorm's plan was to have
-    everyone leave Dusk together as they zoned into the raid. Pnats pinged
-    the channel — "BYE DUSK?" — and at a quarter to midnight wrote the
+    dissolved instead. The deciding exchange was almost comically casual:</p>
+    <figure class="archive-card">
+      <figcaption>Reconstructed from the Dusk Discord archive · officer channel · 16 December 2020</figcaption>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Randyfist</strong><time datetime="2020-12-16T16:31">16:31</time></div>
+        <p>When we leaving and merging?</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Divinestorm</strong><time datetime="2020-12-16T16:38">16:38</time></div>
+        <p>thats a deep question randy</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Zados</strong><time datetime="2020-12-16T16:40">16:40</time></div>
+        <p>today would be good</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Randyfist</strong><time datetime="2020-12-16T16:40">16:40</time></div>
+        <p>I'ma do it after Ony</p>
+        <p>Fuck it get it over and done with</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Divinestorm</strong><time datetime="2020-12-16T16:41">16:41</time></div>
+        <p>we can just do it whenever maybe before the raid or something</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Pnats</strong><time datetime="2020-12-16T16:42">16:42</time></div>
+        <p>BYE DUSK?</p>
+      </div>
+    </figure>
+    <p>Divinestorm's plan was to have everyone leave Dusk together as
+    they zoned into the raid. At a quarter to midnight, Pnats wrote the
     era its epitaph:</p>
     <figure><img src="img/2020-12-16-pnats-epitaph.png" loading="lazy" alt="Pnats says goodbye to Dusk and writes that Sleep, Dusk and Ascension have done it all">
     <figcaption>16 December 2020, 23:47 — Pnats looks back at the disappearing Dusk channel and writes the era's epitaph.</figcaption></figure>
@@ -533,6 +623,28 @@
     pull, saying the guild had been his home and that a spot every other
     week would have kept him. Within a week he was tanking the Four Horsemen
     for someone else.</p>
+    <figure class="archive-card">
+      <figcaption>Reconstructed from private messages quoted with permission · names normalized to in-game characters · 16 December 2020</figcaption>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:05">22:05</time></div>
+        <p>Decided to leave so i get regular raids - hurts me a lot but no rotation solution seems coming</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:06">22:06</time></div>
+        <p>all a bit of a mess but better to go during the changfe</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:07">22:07</time></div>
+        <p>of course<br>id put up with a raid every couple of weeks</p>
+      </div>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:07">22:07</time></div>
+        <p>but cant just sit there while i hear of others exploits<br>
+        i worked hard but [Divinestorm] never had a great impression of me<br>
+        and i accept i need to do better<br>
+        if im good enough to get a spot ill come back we this was my home</p>
+      </div>
+    </figure>
 
     <h2>Fifteen of fifteen</h2>
     <p>Four days later it was done. <a href="raid.html#489">Sapphiron died at
@@ -571,7 +683,49 @@
     <a href="players.html#Bearinpants">Bearinpants</a>,
     <a href="players.html#Ihide">Ihide</a>,
     <a href="players.html#Mikasalord">Mikasalord</a> and
-    <a href="players.html#Taptum">Taptum</a>. A 15 May Naxxramas GDKP
+    <a href="players.html#Taptum">Taptum</a>.</p>
+    <p>On 12 May, Supplier posted one final inventory of Dusk: twenty-nine
+    names, each paired with a tribute video.</p>
+    <details class="archive-card">
+      <summary>Supplier's “Dusk list” · 12 May 2021, 11:08</summary>
+      <div class="archive-message">
+        <div class="archive-message-meta"><strong>Supplier</strong><time datetime="2021-05-12T11:08">11:08</time></div>
+        <p>Dusk list<br>Dusk -</p>
+      </div>
+      <ul class="archive-list">
+        <li>Supplier — <a href="https://youtu.be/iw3rxz3CEXk" rel="noopener">video</a></li>
+        <li>Shakey — <a href="https://youtu.be/aKuivabiOns" rel="noopener">video</a></li>
+        <li>Glorya — <a href="https://youtu.be/nNEb2k_EmMg" rel="noopener">video</a></li>
+        <li>Carmelia — <a href="https://youtu.be/AQtQFtVdON0" rel="noopener">video</a></li>
+        <li>Wandolina — <a href="https://www.youtube.com/watch?v=_iiYHJdjyzE" rel="noopener">video</a></li>
+        <li>Priestå — <a href="https://www.youtube.com/watch?v=dIZqr8TxMTo" rel="noopener">video</a></li>
+        <li>Pnats — <a href="https://youtu.be/qWVO4loULc4" rel="noopener">video</a></li>
+        <li>Luivi — <a href="https://youtu.be/DwxNYMcPGwk" rel="noopener">video</a></li>
+        <li>Sudeki — <a href="https://www.youtube.com/watch?v=ZTa1BpiasSo" rel="noopener">video</a></li>
+        <li>Nayla — <a href="https://www.youtube.com/watch?v=wZUc9iQ_7cg" rel="noopener">video</a></li>
+        <li>Palaman — <a href="https://youtu.be/QQ6NOuwZmKs" rel="noopener">video</a></li>
+        <li>Randyfist — <a href="https://youtu.be/hA_uPJ2vQQ0" rel="noopener">video</a></li>
+        <li>Artimis — <a href="https://youtu.be/_3DAsqvgQZk" rel="noopener">video</a></li>
+        <li>Jangera — <a href="https://www.youtube.com/watch?v=I7H6wGy5zf4" rel="noopener">video</a></li>
+        <li>Pasmaarop — <a href="https://www.youtube.com/watch?v=hcMzsCmCyhE" rel="noopener">video</a></li>
+        <li>Ragie — <a href="https://youtu.be/8ptbbFJWEts" rel="noopener">video</a></li>
+        <li>Glory — <a href="https://youtu.be/HUZOKvYcx_o" rel="noopener">video</a></li>
+        <li>Naru — <a href="https://youtu.be/q6uLaU3gpzo" rel="noopener">video</a></li>
+        <li>Zhèna — <a href="https://youtu.be/zyWzKW7jxoc" rel="noopener">video</a></li>
+        <li>Jumanzy — <a href="https://youtu.be/UTxxVvit7yY" rel="noopener">video</a></li>
+        <li>Divinestorm — <a href="https://youtu.be/XCB7eciR5cA" rel="noopener">video</a></li>
+        <li>Sokrush — <a href="https://youtu.be/ysJ8FTJfGk0" rel="noopener">video</a></li>
+        <li>Crok — <a href="https://youtu.be/I6kd3GnAGZg" rel="noopener">video</a></li>
+        <li>Gnogaine — <a href="https://www.youtube.com/watch?v=J9_k8AwgQ4M" rel="noopener">video</a></li>
+        <li>Belzebab — <a href="https://www.youtube.com/watch?v=5BeYXjBfrdg" rel="noopener">video</a></li>
+        <li>Neptun — <a href="https://www.youtube.com/watch?v=yqgNaS56A2c" rel="noopener">video</a></li>
+        <li>Shadowheart — <a href="https://youtu.be/zhfA9A7-J5c" rel="noopener">video</a></li>
+        <li>Rockafella — <a href="https://youtu.be/jMpM4FAExKg" rel="noopener">video</a></li>
+        <li>Flyx — <a href="https://www.youtube.com/watch?v=p2cQSPRTdhg" rel="noopener">video</a></li>
+      </ul>
+      <p class="archive-source">Reconstructed from the Dusk Discord archive; names normalized to in-game characters.</p>
+    </details>
+    <p>A 15 May Naxxramas GDKP
     still carries <a href="players.html#Hadara">Hadara</a>, Hedara,
     <a href="players.html#Docthor">Docthor</a>,
     <a href="players.html#Saltylock">Saltylock</a> and Taptum. They are
@@ -582,7 +736,7 @@
     <p class="sourcenote">Sources: the canonical raid archive (Warcraft
     Logs), the Dusk officer channel, and private messages quoted with
     permission — Glory, Zados, Shakey, Luivi, Pnats and Divinestorm's
-    conversations with Anders, December 2020. Dates and kill times are from
+    conversations with Artimis, December 2020. Dates and kill times are from
     the local and external logs; where memories and records disagree, the
     records won.
     Corrections welcome — this is a living document.</p>
