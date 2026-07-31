@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-31T09:44:23.402Z",
- "count": 94,
+ "generatedAt": "2026-07-31T10:05:20.143Z",
+ "count": 97,
  "bios": {
   "akikiie": {
    "name": "Akikiie",
@@ -159,6 +159,13 @@
    "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year running the guild. The climb started with an April challenge to mage leader <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>. Divinestorm took his case to <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, and <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> backed him as the person who should have led from the start. The officers made the change. Next came the Dusk channel structure and the loot doctrine, which measured effort through attendance and preparation while leaving the final word with the council. By 2 August he had 91 raids behind him and became guild master. The officer chat shows him everywhere. He ran the idol economy item by item, defended benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and made hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. September 2020 brought a crisis a week: a ninja pull, a rage-quit, an officer resigning live in the channel, a kick war that briefly cost the guild its own tank leader. Divinestorm mediated every one of them, often from work trips, and wrote the member-facing statements afterwards. When Naxxramas exposed the tank roster in December, he concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and eight days later led the mass migration, planned while everyone hearthed into the raid. The 15/15 Kel'Thuzad kill came four days after that, under his leadership.</p><p>The record keeps his personality intact. He bought poison sacs by the hundred and tracked idol distribution person by person. He defended a benched no-name because \"the guy worked really hard farming sacs for us\", then called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He was sworn at in officer chat and told to his face that the leadership was running the guild into the ground, and he answered with the same maddening evenness every time. That evenness is why people trusted him with the December decisions.</p><p>It also won people back. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> quit in July over the rogue loot system, spoke privately with Divinestorm, and returned for Dusk's first AQ40 night as the person updating the loot sheet.</p><p>Those decisions are the hard part of his file. The pivot to Ascension saved the raid; 15/15 in fourteen days is the proof. It also ended the guild as a thing of its own and cost it its most loyal bench. Divinestorm took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, which suggests he understood the price better than anyone else at the time.</p>",
    "main": "Divinestorm"
   },
+  "docthor": {
+   "name": "Docthor",
+   "html": "<p>Docthor was one of Sleep's original priests, present in the first surviving Molten Core report on 13 November 2019. He completed fifty-six local raid sessions on the priest, while his druid <a style=\"color:#FF7D0A\" href=\"players.html#Ursaminor\">Ursaminor</a> added twelve more. <a style=\"color:#FF7D0A\" href=\"players.html#Pnats\">Pnats</a> described him as one of the healers who could almost always be counted on. He covered priest class leadership for Shakey in March and received a Rejuvenating Gem on 29 April.</p><p>His final Sleep raid was 14 June. Outside reports begin on 1 July, and Warcraft Logs' historical Exsul guild feed contains forty-six of them across thirty-one dates through December. Officer chat later independently recorded that Docthor and <a style=\"color:#F58CBA\" href=\"players.html#Alcliff\">Alcliff</a> were both in Exsul. His wider trail continues into May 2021, ending in the PUG and GDKP circuit where several former Sleep and Dusk names still crossed paths.</p>",
+   "alts": [
+    "Ursaminor"
+   ]
+  },
   "dolleboy": {
    "name": "Dolleboy",
    "html": "<p>Dolleboy was a druid whose 70 logged raids, all of them Ascension sessions, span 8 March 2020 to 11 April 2021. No loot award or landmark raid is currently documented for the character. Twenty-five external reports fall inside that span, from 9 March 2020 to 1 March 2021, evidence of activity rather than membership in a named guild.</p>"
@@ -259,6 +266,10 @@
   "ifly": {
    "name": "Ifly",
    "html": "<p>Ifly raided as a rogue for Ascension, logging 83 raids between 6 October 2019 and 22 November 2020, all but one of them Ascension sessions and the remainder a personal pug. The archive currently holds neither a landmark raid nor a loot award for the character. A wider report search found no appearances before the logged span, 30 external reports running from 13 November 2019 to 11 November 2020, and five more in the final week of that window; these show continued activity rather than a named guild.</p>"
+  },
+  "jangera": {
+   "name": "Jangera",
+   "html": "<p>Jangera was the hunter who joined Sleep in June and spent much of the summer PvP ranking. The officers noticed the work even when they disagreed over how loot should reward it. Across twenty-five Sleep and Dusk raid sessions, his awards included Ashkandi and Jom Gabbar. His last local raid was 28 October, when officer chat recorded that he was leaving to run GDKPs. His first later reports, four days afterward, are exactly that.</p><p>By 17 December Jangera was raiding with Melon. Warcraft Logs' historical guild feed contains thirty-one of his later reports across twenty-two dates, continuing through Melon's final Classic Naxxramas run on 16 May 2021. His full post-Dusk history is broader, with eighty-eight reports across forty-nine dates, but the Melon sequence is a confirmed guild destination rather than an inferred roster cluster.</p>"
   },
   "jellopy": {
    "name": "Jellopy",
@@ -624,6 +635,10 @@
    "name": "Supplier",
    "html": "<p>Supplier earned his name. Across three years and nearly a thousand messages with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, he was the guild's consumables economy in human form: flasks, protection potions, world-buff logistics, the LBRS venom-sack supply chain that made Viscidus killable. If a raid had what it needed, odds are Supplier had something to do with it.</p><p>He was Norwegian, precise, and allergic to sloppy thinking. He asked what a poll was actually <em>for</em> before letting anyone run it. He told his fellow priests exactly how their channel would be run (\"take it up with me directly\"), and he de-escalated the guild's worst arguments by explaining what an expression had actually meant in context. He was named Healing Officer at the September 2020 meeting and stayed in that seat through the December merge.</p><p>Two footnotes belong to him. His dry one-liner \"<a style=\"color:#FFFFFF\" href=\"players.html#Shosanna\">Shosanna</a> was the only priest that got an item yesterday, fyi\" became the last straw in <a style=\"color:#F58CBA\" href=\"players.html#Orish\">Orish</a>'s dramatic exit; his whole reaction to the fallout was \"Allright, nice to meet ya\". And in May 2021 he posted the \"Dusk list\": a set of tribute video links, one per guildmate, the closest thing the guild ever made to its own memorial before this site.</p>"
   },
+  "szata": {
+   "name": "Szata",
+   "html": "<p>Szata was an experienced priest from the Ninjas line. The local archive contains twelve of his raids from February through 1 May 2020. Near the end of that run, <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> proposed that Szata take temporary charge of the priests, with another officer reinforcing his calls. It was a brief recorded tenure, but he had already become the standard for experience in that class group.</p><p>Five weeks after his final Ninjas report, Szata appears in Agile's historical Warcraft Logs feed. Sixty-seven of his ninety-one later reports belong to Agile, covering forty dates from 6 June 2020 through 18 February 2021. The trail runs from Blackwing Lair and Ahn'Qiraj into a fixed Naxxramas schedule, often alongside <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a>, <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> and <a style=\"color:#FFF569\" href=\"players.html#Seax\">Seax</a>.</p>"
+  },
   "tanasus": {
    "name": "Tanasus",
    "html": "<p>Tanasus was a warrior in the Ascension lineage, appearing in 118 logged raids from 6 October 2019 to 14 April 2021. All but one of those sessions are classified as Ascension, with the remaining appearance in a joint Dusk–Ascension raid. The wider Warcraft Logs search adds 21 external reports during that span and one afterward, but those reports document activity only and do not establish another guild affiliation.</p>"
@@ -803,13 +818,6 @@
    "name": "Ursaminor",
    "html": "",
    "main": "Docthor"
-  },
-  "docthor": {
-   "name": "Docthor",
-   "html": "",
-   "alts": [
-    "Ursaminor"
-   ]
   },
   "zizy": {
    "name": "Zizy",
