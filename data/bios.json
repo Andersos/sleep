@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-31T10:05:20.143Z",
- "count": 97,
+ "generatedAt": "2026-07-31T12:01:46.803Z",
+ "count": 100,
  "bios": {
   "akikiie": {
    "name": "Akikiie",
@@ -177,6 +177,10 @@
   "edomedo": {
    "name": "Edomedo",
    "html": "<p>Edomedo was the tank-in-waiting whose exit changed everything. Groomed through November as the contingency (\"we have a potential tank lined up\"), he preferred tanking to DPS and said so. On the night of December 7th 2020 he told <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> he was quitting the game — and that single conversation set off the chain reaction: no tanks for Four Horsemen, the overnight partnership with Ascension, the twenty-spot cut, and the end of Dusk nine days later. Few players this quiet ever moved a story this much.</p>"
+  },
+  "eldoc": {
+   "name": "Eldoc",
+   "html": "<p>Eldoc was a warrior from Sleep's opening roster. His twenty-nine local raids begin with the first surviving 10/10 Molten Core report and end on the guild's first Nefarian kill, 23 February 2020. The wider trail resumes four days later, suggesting that the Nefarian night was an endpoint in this archive rather than an endpoint for the player.</p><p>Eldoc appears in 121 later reports across forty-two dates. Twenty-three of them form an explicitly titled \"Team Storm\" series from April through October, first in Molten Core and Blackwing Lair and later in Ahn'Qiraj. The same outside core recurs throughout, but Warcraft Logs has no matching Razorgore guild record under that name. Team Storm is therefore a confirmed raid community, not a confirmed destination guild.</p>"
   },
   "electro": {
    "name": "Electro",
@@ -357,6 +361,10 @@
    "html": "<p>Luivi was the druid class leader whose one decision reshaped the whole story: in July 2020, Sleep offered him the guild-master seat. He turned it down (no time for it) and instead asked his contacts in Ninjas whether they'd consider merging. That conversation became Dusk. It's hard to name a more consequential \"no\" in the guild's history.</p><p>As a leader he ran the druids with visible pride (\"Druids, the most civilized Class\") and a warm, blunt style that survived translation from his native language into rapid-fire officer-chat English. In the <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> saga he was the patient center, voting for a last warning while admitting the man exhausted him. When officer arguments overheated he was the one who kept perspective: no one was dying, the content was getting cleared, chill out a bit.</p><p>He raided everywhere: main raids on Luivi, fill-ins on his alt Vikka, off-tanking in cat spec when asked, venom-sack farm runs until he literally fell asleep at the keyboard mid-session (the officers renamed the voice channel \"Sleepy Luivi\" and tiptoed out). He became a Dusk officer in September, made the jump to Ascension in December, and stayed one of the last active voices in the old officer channel deep into 2021. In April he and Shakey also caught the stranger on <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>'s stolen account quitting Sleep, and warned the owner while it happened.</p>",
    "main": "Luivi"
   },
+  "lyriss": {
+   "name": "Lyriss",
+   "html": "<p>Lyriss was a rogue in Ascension, with fifty-six local guild raids from February through 7 December 2020. Twelve reports predate that tenure, and another twenty-one overlap it outside the local archive. The record shows a player with an established raid life beyond the reports collected for this project.</p><p>Three days after the final Ascension appearance, Lyriss begins a later run of seventy-four reports across fifty-three dates. <a style=\"color:#FFFFFF\" href=\"players.html#Zhorax\">Zhorax</a> uploaded thirty-six of them, following a stable Naxxramas roster into May 2021; a second set under Aceto Balsamico overlaps through joint-run titles. The continuity is strong, but no source currently supplies a guild name for either group.</p>"
+  },
   "maffe": {
    "name": "Maffe",
    "html": "<p>Maffe was a paladin in the Ascension lineage, with 93 logged raids running from 22 January 2020 to 14 April 2021. The record splits into 88 Ascension sessions and five joint Dusk–Ascension raids, with no personal pugs recorded. Maffe was present for the first joint Naxxramas raid and the first Kel'Thuzad kill, taking home a Shield of Condemnation on the clear night. A broader report search found sixteen appearances before the logged span, running from 7 October 2019 to 8 January 2020, and 29 external reports inside it through 12 April 2021; these show continued play, not a named guild.</p>"
@@ -423,6 +431,10 @@
     "Malakor",
     "Ntekabot"
    ]
+  },
+  "nutellâ": {
+   "name": "Nutellâ",
+   "html": "<p>Nutellâ was a warlock in Ascension's early Molten Core roster. Eleven local guild raids survive from 30 October through 18 December 2019. Outside reports begin eleven days later and follow a regular Sunday and Wednesday group through the opening months of Blackwing Lair.</p><p>By 29 April 2020 the trail becomes a named destination. Fifty-two of Nutellâ's later reports, across twenty-seven dates through 18 November, match Warcraft Logs' historical guild feed for Doubt. Her complete later history contains one hundred reports across sixty-three dates, but the Doubt matches are the part that establishes a guild rather than only continued activity.</p>"
   },
   "orish": {
    "name": "Orish",
