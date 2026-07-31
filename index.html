@@ -6,6 +6,11 @@
 <title>Sleep — raids 2019–2021</title>
 <link rel="stylesheet" href="assets/site.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌙</text></svg>">
+<style>
+  .resultkey { display: inline-flex; align-items: center; gap: 6px; color: var(--ink-2); font-size: 12.5px; }
+  .resultmark { position: relative; width: 3px; height: 14px; display: inline-block; background: var(--ink-2); border-radius: 1.5px; }
+  .resultmark.clear::before { content: ""; position: absolute; left: -2px; top: 0; width: 7px; height: 2px; background: var(--ink-2); border-radius: 1px; }
+</style>
 <script src="assets/shared.js"></script>
 </head>
 <body>
@@ -36,6 +41,11 @@
       <datalist id="players"></datalist>
       <button class="chip" id="clearplayer" hidden>clear</button>
     </span>
+    <span class="chipgroup" aria-label="Raid result">
+      <span class="grouplabel">Result</span>
+      <span class="resultkey"><span class="resultmark clear"></span>full clear</span>
+      <span class="resultkey"><span class="resultmark"></span>unfinished</span>
+    </span>
   </div>
   <p id="playerline" style="margin:-6px 0 12px; font-size:13px; color:var(--ink-2);" hidden></p>
 
@@ -65,6 +75,7 @@ const RANGES = {
 renderNav("index.html");
 
 let SESSIONS = [];
+let FULL_CLEAR_IDS = new Set();
 let PLAYERS = new Map();
 let BIOS = null;
 let playerByLower = new Map();
@@ -212,6 +223,20 @@ function render() {
       attrs["stroke-width"] = 7;
     }
     const mark = svgEl("rect", attrs, svg);
+    const fullClear = FULL_CLEAR_IDS.has(s.id);
+    if (fullClear) {
+      svgEl("line", {
+        x1: attrs.x - 2,
+        y1: attrs.y,
+        x2: attrs.x + 5,
+        y2: attrs.y,
+        stroke: LANE[s.identity].color,
+        "stroke-width": 2,
+        "stroke-linecap": "round",
+        "stroke-opacity": state === "attended" ? 1 : state === "missed" ? 0.75 : 0.07,
+        "pointer-events": "none",
+      }, svg);
+    }
     const hit = state === "missed"
       ? svgEl("rect", {
           x: attrs.x - 3, y: attrs.y - 3, width: 9, height: h + 6,
@@ -226,7 +251,7 @@ function render() {
           ? ` · ${esc(playerName)} missed this one`
           : ` · outside ${esc(playerName)}'s time`;
     const html = `<div class="t-date">${s.date}</div><div class="t-title">${esc(s.zone)}</div>` +
-      `<div>${LANE[s.identity].label} · ${s.rosterCount} in the roster${withPlayer}</div>`;
+      `<div>${LANE[s.identity].label} · ${s.rosterCount} in the roster · ${fullClear ? "full clear" : "unfinished"}${withPlayer}</div>`;
     hit.addEventListener("mousemove", (evt) => showTip(html, evt));
     hit.addEventListener("mouseleave", hideTip);
     hit.style.cursor = "pointer";
@@ -340,6 +365,7 @@ Promise.all([
   fetch("data/bios.json").then((response) => response.json()),
 ]).then(([data, bioData]) => {
   SESSIONS = data.sessions;
+  FULL_CLEAR_IDS = new Set(data.fullClears.map((clear) => clear.sessionId));
   BIOS = bioData.bios;
   PLAYERS = buildPlayerIndex(SESSIONS, 0);
   const eligible = [...PLAYERS.keys()].filter((name) => playerRaidIndices(name).length >= 5);

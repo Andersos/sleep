@@ -16,6 +16,10 @@
   table.t th, table.t td { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--grid, #2a2c3a); }
   table.t th { font-size: 11.5px; opacity: .7; text-transform: uppercase; letter-spacing: .04em; }
   .kill { color: #9ece6a; } .wipe { color: #f7768e; }
+  .result { font-size: 12px; font-weight: 600; white-space: nowrap; }
+  .result.clear { color: #4f721f; }
+  .result.unfinished { color: var(--muted, #888); }
+  @media (prefers-color-scheme: dark) { .result.clear { color: #9ece6a; } }
   .rosterlist { display: flex; flex-wrap: wrap; gap: 4px 10px; font-size: 13px; }
   .navlinks { font-size: 13px; margin-bottom: 8px; display: flex; gap: 14px; }
 </style>
@@ -36,6 +40,7 @@ const CLASS_COLORS = {
   Priest: "#FFFFFF", Mage: "#69CCF0", Warlock: "#9482C9", Druid: "#FF7D0A",
 };
 let RAIDS = null, LOOT = null, NOTES = null, CLASSES = null;
+let FULL_CLEAR_IDS = new Set();
 let zoneByKeyId = new Map(), raidKeyByZoneId = new Map();
 
 async function loadOptional(path, key) {
@@ -63,12 +68,14 @@ function renderList() {
     .map((s) => {
       const killed = s.bosses.filter((b) => b.status === "killed").length;
       const wipes = s.bosses.reduce((n, b) => n + (b.wipes ?? 0), 0);
+      const fullClear = FULL_CLEAR_IDS.has(s.id);
       const note =
         NOTES?.[`session/${s.id}`] ?? NOTES?.[`${s.date}/${s.zoneId}`];
       return `<tr>` +
         `<td class="mono"><a href="#${s.id}">${s.date}</a></td>` +
         `<td><a href="#${s.id}">${esc(zoneByKeyId.get(s.zoneId) ?? s.zoneId)}</a>${note ? " ★" : ""}</td>` +
         `<td><span class="lchip"><span class="dot" style="background:${LANE[s.identity]?.color ?? "#888"}"></span>${LANE[s.identity]?.label ?? s.identity}</span></td>` +
+        `<td><span class="result ${fullClear ? "clear" : "unfinished"}">${fullClear ? "full clear" : "unfinished"}</span></td>` +
         `<td>${s.rosterCount}</td><td>${killed}</td><td>${wipes || ""}</td></tr>`;
     }).join("");
   card.innerHTML =
@@ -78,7 +85,7 @@ function renderList() {
     `<select id="f-zone" class="text"><option value="">all raids</option>${zoneOptions}</select>` +
     `<select id="f-identity" class="text"><option value="">all guilds</option>${laneOptions}</select>` +
     `</div>` +
-    `<table class="t"><thead><tr><th>date</th><th>raid</th><th>guild</th><th>roster</th><th>kills</th><th>wipes</th></tr></thead><tbody>${rows}</tbody></table>`;
+    `<table class="t"><thead><tr><th>date</th><th>raid</th><th>guild</th><th>result</th><th>roster</th><th>kills</th><th>wipes</th></tr></thead><tbody>${rows}</tbody></table>`;
   document.getElementById("f-zone").addEventListener("change", (e) => { filters.zone = e.target.value; renderList(); });
   document.getElementById("f-identity").addEventListener("change", (e) => { filters.identity = e.target.value; renderList(); });
   document.title = "Sleep — raids";
@@ -100,6 +107,7 @@ function render() {
   const killed = s.bosses.filter((b) => b.status === "killed");
   const attempted = s.bosses.filter((b) => b.status !== "killed");
   const totalWipes = s.bosses.reduce((n, b) => n + (b.wipes ?? 0), 0);
+  const fullClear = FULL_CLEAR_IDS.has(s.id);
 
   const raidKey = raidKeyByZoneId.get(s.zoneId);
   const rosterSet = new Set(s.roster.map((n) => n.toLowerCase()));
@@ -133,6 +141,7 @@ function render() {
     `</div>` +
     `<h2>${esc(zone)} <span class="mutetext" style="font-weight:normal">· ${s.date}</span></h2>` +
     `<p class="sub">${LANE?.[s.identity]?.label ?? s.identity} · ${s.rosterCount} in the roster · ` +
+    `<span class="result ${fullClear ? "clear" : "unfinished"}">${fullClear ? "full clear" : "unfinished"}</span> · ` +
     `${killed.length} boss${killed.length === 1 ? "" : "es"} killed` +
     (totalWipes ? ` · ${totalWipes} wipe${totalWipes === 1 ? "" : "s"}` : "") +
     ` · <a href="https://classic.warcraftlogs.com/reports/${esc(s.reportCode)}" rel="noopener">full log</a>` +
@@ -158,6 +167,7 @@ Promise.all([
   loadOptional("data/classes.json", "classes"),
 ]).then(([raids, loot, notes, classes]) => {
   RAIDS = raids; LOOT = loot; NOTES = notes; CLASSES = classes;
+  FULL_CLEAR_IDS = new Set(raids.fullClears.map((clear) => clear.sessionId));
   for (const z of raids.zones) zoneByKeyId.set(z.zoneId, z.zoneName);
   for (const r of loot.raids) raidKeyByZoneId.set(r.zoneId, r.raidKey);
   render();
