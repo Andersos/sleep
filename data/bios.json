@@ -1,6 +1,6 @@
 {
- "generatedAt": "2026-07-31T12:01:46.803Z",
- "count": 100,
+ "generatedAt": "2026-07-31T12:47:02.477Z",
+ "count": 103,
  "bios": {
   "akikiie": {
    "name": "Akikiie",
@@ -92,7 +92,7 @@
   },
   "celed": {
    "name": "Celed",
-   "html": "<p>Celed was a rogue from the Ninjas line who held the class-leader seat as a stand-in when <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>'s work schedule bit, and gave it back with the most graceful resignation in the record: \"<a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a> wants to replace me! We talked about it so much and this is our decision... he knows so much about the game. I'll help going forward.\" No drama, no politics, a 72-raid resume, and a healer-parse joke at his expense that followed him around one autumn week (\"95 parse is worthy of some loot, actually\"). The guild ran on its arguers; it also ran on people like Celed, who mostly just showed up and played well.</p><p>Celed's final logged Dusk raid was 24 September. The later trail contains sixty-four reports across thirty-eight dates, with <a style=\"color:#FFF569\" href=\"players.html#Seax\">Seax</a> present on twenty-seven and Tylph uploading forty-six of the reports. Titles repeat a Tuesday, Thursday and Sunday schedule through Naxxramas, but no source currently names the community as a guild.</p>",
+   "html": "<p>Celed was a rogue from the Ninjas line who held the class-leader seat as a stand-in when <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>'s work schedule bit, and gave it back with the most graceful resignation in the record: \"<a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a> wants to replace me! We talked about it so much and this is our decision... he knows so much about the game. I'll help going forward.\" No drama, no politics, a 72-raid resume, and a healer-parse joke at his expense that followed him around one autumn week (\"95 parse is worthy of some loot, actually\"). The guild ran on its arguers; it also ran on people like Celed, who mostly just showed up and played well.</p><p>Celed's final logged Dusk raid was 24 September. The later trail contains sixty-four reports across thirty-eight dates, with <a style=\"color:#FFF569\" href=\"players.html#Seax\">Seax</a> present on twenty-seven and Tylph uploading forty-six of the reports. Titles repeat a Tuesday, Thursday and Sunday schedule through Naxxramas. Fifty-three reports across thirty-one dates match Warcraft Logs' historical guild feed for Agile, confirming where that schedule belonged.</p>",
    "roles": [
     {
      "role": "Rogue class leader (stand-in)",
@@ -576,6 +576,10 @@
    "name": "Saltyhead",
    "html": "<p>Saltyhead was a rogue from the Ascension side of the archive, with 121 logged raids between 20 November 2019 and 11 April 2021. Of those, 114 are Ascension sessions, five are joint Dusk–Ascension raids, and two are personal pugs. Saltyhead attended the first joint Naxxramas raid and the first Kel'Thuzad kill, receiving Desecrated Pauldrons on 9 December and Kiss of the Spider four days later. The outside-report probe also found 51 external reports during the logged span and one afterward, evidence of activity rather than membership in any particular guild.</p>"
   },
+  "seax": {
+   "name": "Seax",
+   "html": "<p>Seax was a rogue from the Ninjas line. When he was still fighting for a regular Blackwing Lair place, <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a> described him as motivated, prepared him for the bosses and offered his own seat so Seax could prove himself. He went on to complete fifty-six Ninjas and Dusk raids, including the first C'Thun kill and the first full Ahn'Qiraj clear.</p><p>Seax's final Dusk raid was 24 September 2020. His later trail contains fifty-four reports across thirty-three dates, with <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a> present on twenty-seven. Forty-five reports across twenty-six dates match Warcraft Logs' historical guild feed for Agile, confirming the destination from 6 October through February 2021. Later appearances shift into PUG and GDKP runs.</p>"
+  },
   "shakeyhealer": {
    "name": "Shakeyhealer",
    "html": "<p>Shakey was a priest, an officer, and one of the guild's steady hands — the kind of presence who appears in every era's records without ever being the problem. In the <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> affair he was one of the two named supporters (\"<a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> and Shakey has always been for you,\" Anders told <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> on the night he quit), and his healing anchored the December raids: he is in the first Four Horsemen kill roster and stayed through the clear. His DM thread with Anders is one of the largest in the archive — 562 messages of guild logistics across the whole of 2020 — and one of the least dramatic, which is its own kind of biography. When a stranger logged into <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>'s stolen account and quit the guild, Shakey and <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> were the two who noticed and warned him.</p>"
@@ -612,6 +616,10 @@
    "name": "Snjór",
    "html": "<p>Jón Snjór, Snjór in the raid and Fantur on his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank. That kick is the one act the record can't soften, and the one he was restored from within a day once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>"
   },
+  "spaxi": {
+   "name": "Spaxi",
+   "html": "<p>Spaxi was a rogue who joined the Ninjas raid in June 2020 and stayed into Dusk's final autumn. <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a> argued for giving him a chance in Blackwing Lair, then included him in the group preparing nature-resistance gear for Ahn'Qiraj. Spaxi completed forty-four guild raids through 28 October and was present for Dusk's first full clear of Ahn'Qiraj.</p><p>His later history contains seventy-four reports across sixty-one dates. Forty-four dates overlap <a style=\"color:#C79C6E\" href=\"players.html#Str%C3%B6heim\">Ströheim</a>, mostly in the Synai-uploaded Naxxramas roster. The final months branch into PUG and GDKP runs, including two Safe Haven BWL reports. The continuity identifies recurring raid communities, but no source confirms a destination guild.</p>"
+  },
   "specting": {
    "name": "Specting",
    "html": "<p>Specting raided as a warlock for Ascension, logging 80 raids between 6 October 2019 and 3 March 2021, 78 of them Ascension sessions and two on the joint Dusk–Ascension roster. The record carries no landmark raid or loot award for the character. Fourteen external reports fall inside that span, from 17 November 2019 to 17 February 2021, evidence of continued Warcraft activity rather than membership in another guild.</p>"
@@ -627,6 +635,10 @@
    "name": "Steewiee",
    "html": "<p>Steewiee and the confirmed alt Steewie were rogue and warrior characters with 84 alt-aware logged raids, from the first on 15 January 2020 to the last on 18 October 2020. Eighty of those raids are Ascension sessions, with four personal pugs, and no landmark or loot award is currently documented for either character. Across the two names, the Destiny classification totals sixteen before-tenure reports between 6 November 2019 and 8 January 2020, 35 external reports during the logged span running to 4 October 2020, and 143 after-tenure reports from 22 October 2020 to 18 May 2021; those numbers establish activity, not guild membership.</p>",
    "main": "Steewiee"
+  },
+  "ströheim": {
+   "name": "Ströheim",
+   "html": "<p>Ströheim was a warrior from the Ninjas line. He logged forty-eight Ninjas and Dusk guild raids from February through 24 September 2020, including the first C'Thun and Ouro kills and the first full Ahn'Qiraj clear. By July the officers counted him among only six active damage warriors.</p><p>Outside reports resume three days after his final Dusk raid. The later history contains seventy-nine reports across sixty-eight dates, with forty-four later dates also appearing in <a style=\"color:#FFF569\" href=\"players.html#Spaxi\">Spaxi</a>'s post-tenure trail. Synai uploaded most of their Naxxramas run, while later reports move into explicit PUG and GDKP titles. Ströheim also appears throughout the named Safe Haven BWL series. Neither community has a matching Razorgore guild record, so the archive does not assign him a destination guild.</p>"
   },
   "stylgar": {
    "name": "Stylgar",
