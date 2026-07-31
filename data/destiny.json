@@ -1,11 +1,11 @@
 {
- "generatedAt": "2026-07-31T06:55:19.229Z",
+ "generatedAt": "2026-07-31T08:35:17.264Z",
  "methodology": "Unique Warcraft Logs reports for each character; dates are compared with that character's first and last logged guild sessions.",
  "graceDays": 2,
- "complete": false,
- "completedCharacters": 302,
+ "complete": true,
+ "completedCharacters": 325,
  "totalCharacters": 325,
- "completedThrough": "Oliveoyll",
+ "completedThrough": "Vikka",
  "profiles": {
   "divinestorm": {
    "name": "Divinestorm",
@@ -43214,6 +43214,2045 @@
      {
       "reportId": "HwCLc9vM8mxyfWJ3",
       "date": "2020-09-27"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "panser": {
+   "name": "Panser",
+   "firstGuildSession": "2020-05-10",
+   "lastGuildSession": "2020-09-27",
+   "guildSessions": 11,
+   "before": {
+    "reports": 2,
+    "first": "2020-05-05",
+    "last": "2020-05-07",
+    "items": [
+     {
+      "reportId": "29AJgPFxhpkcHYym",
+      "date": "2020-05-05"
+     },
+     {
+      "reportId": "ChPqMzmFRDn3BbVj",
+      "date": "2020-05-07"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 10,
+    "first": "2020-07-05",
+    "last": "2020-09-28",
+    "items": [
+     {
+      "reportId": "DwPN8WTdLq1vZ3HK",
+      "date": "2020-07-05"
+     },
+     {
+      "reportId": "Dv68HkbnmNgz3QFa",
+      "date": "2020-08-09"
+     },
+     {
+      "reportId": "Fx2MWapdrYkVPHjK",
+      "date": "2020-08-16"
+     },
+     {
+      "reportId": "FxRV2pGZf6NJaKdg",
+      "date": "2020-09-07"
+     },
+     {
+      "reportId": "z8NPWhnABYXQGJKM",
+      "date": "2020-09-07"
+     },
+     {
+      "reportId": "H7Y8rvRpAa3Q4Ptj",
+      "date": "2020-09-14"
+     },
+     {
+      "reportId": "MVayJR9kDB8v6dLt",
+      "date": "2020-09-14"
+     },
+     {
+      "reportId": "ryc7vBkaFzd8xpJ1",
+      "date": "2020-09-21"
+     },
+     {
+      "reportId": "qTncj4BbygYfM8r6",
+      "date": "2020-09-28"
+     },
+     {
+      "reportId": "ZdaRV7TWCmFXwqt2",
+      "date": "2020-09-28"
+     }
+    ]
+   },
+   "after": {
+    "reports": 23,
+    "first": "2020-10-05",
+    "last": "2021-05-06",
+    "items": [
+     {
+      "reportId": "YbQqkN8gfnAK41mZ",
+      "date": "2020-10-05"
+     },
+     {
+      "reportId": "aVwkvhrpLCAnD41d",
+      "date": "2020-10-05"
+     },
+     {
+      "reportId": "n1XmDpNTJa7Rtzvc",
+      "date": "2020-10-05"
+     },
+     {
+      "reportId": "MkVDPRQgqyzZjcTH",
+      "date": "2020-10-12"
+     },
+     {
+      "reportId": "dLB8pvqPanyG97W1",
+      "date": "2020-10-12"
+     },
+     {
+      "reportId": "ZdmaD7jrfcY2pBxG",
+      "date": "2020-10-19"
+     },
+     {
+      "reportId": "7jf4L6WYAGHgnqVv",
+      "date": "2020-10-20"
+     },
+     {
+      "reportId": "d9Cx64MBnYtVbzNm",
+      "date": "2020-10-26"
+     },
+     {
+      "reportId": "fQwBgjF86daxq4mP",
+      "date": "2020-10-31"
+     },
+     {
+      "reportId": "LjchftDvGWwgTM41",
+      "date": "2020-11-02"
+     },
+     {
+      "reportId": "KXGnzpY1RfAqLMCx",
+      "date": "2020-11-03"
+     },
+     {
+      "reportId": "TbcZV6mwjX19Q7WD",
+      "date": "2020-11-09"
+     },
+     {
+      "reportId": "BPvgLyHj1wfmRV4t",
+      "date": "2020-11-23"
+     },
+     {
+      "reportId": "zh7WcCTbjfgwGaYx",
+      "date": "2020-12-29"
+     },
+     {
+      "reportId": "QDAmKpyPnzdw8MqY",
+      "date": "2021-01-02"
+     },
+     {
+      "reportId": "wNYFm2Hr7hp4ByAZ",
+      "date": "2021-01-05"
+     },
+     {
+      "reportId": "byJnG8q9dzDtaA47",
+      "date": "2021-01-18"
+     },
+     {
+      "reportId": "Hx2FY16ktZ9BM7Gz",
+      "date": "2021-01-25"
+     },
+     {
+      "reportId": "gfv2yYTpBdD9qznA",
+      "date": "2021-03-02"
+     },
+     {
+      "reportId": "CVJxL74cmyWft2AG",
+      "date": "2021-03-28"
+     },
+     {
+      "reportId": "Y6HXywvgPmKfG7Ca",
+      "date": "2021-03-28"
+     },
+     {
+      "reportId": "4TM8dxYkWhK97QFr",
+      "date": "2021-05-06"
+     },
+     {
+      "reportId": "rV8gDqYbhLPpM6C9",
+      "date": "2021-05-06"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "toxii": {
+   "name": "Toxii",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-02-26",
+   "guildSessions": 11,
+   "before": {
+    "reports": 17,
+    "first": "2019-11-06",
+    "last": "2020-01-08",
+    "items": [
+     {
+      "reportId": "3GQfRrVdN98L6ptB",
+      "date": "2019-11-06"
+     },
+     {
+      "reportId": "3TbfHWN129rGmBLM",
+      "date": "2019-11-06"
+     },
+     {
+      "reportId": "bv8KnAcWayMQX4jr",
+      "date": "2019-11-27"
+     },
+     {
+      "reportId": "CLBhdnrQ9cNXFKxP",
+      "date": "2019-11-27"
+     },
+     {
+      "reportId": "DZjfCv9hd3RHXWbc",
+      "date": "2019-12-01"
+     },
+     {
+      "reportId": "8j1pkyCBLJ2nXKvt",
+      "date": "2019-12-04"
+     },
+     {
+      "reportId": "GK2b7DAtvmfqZpxr",
+      "date": "2019-12-11"
+     },
+     {
+      "reportId": "9pgBPqHAdWJmbLv2",
+      "date": "2019-12-11"
+     },
+     {
+      "reportId": "Vx8dJ9aNkn2t4bDp",
+      "date": "2019-12-15"
+     },
+     {
+      "reportId": "ka84xhQPXTzFNGmJ",
+      "date": "2019-12-18"
+     },
+     {
+      "reportId": "mf9Kjrt7XQJN6CaZ",
+      "date": "2019-12-22"
+     },
+     {
+      "reportId": "KNF2dY1bpcPTrQyf",
+      "date": "2019-12-29"
+     },
+     {
+      "reportId": "pmgykXqLbn27hw3A",
+      "date": "2019-12-29"
+     },
+     {
+      "reportId": "DTjPhKzRcFCmkQ6d",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "Njq83LAHBCtkTJgY",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "BPVXWjRxpzCfrvwF",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "cWLdRvrb83paktfH",
+      "date": "2020-01-08"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-02-17",
+    "last": "2020-02-23",
+    "items": [
+     {
+      "reportId": "p9mxTqyXcKGPbj4a",
+      "date": "2020-02-17"
+     },
+     {
+      "reportId": "vHkPA1MbXm29YC74",
+      "date": "2020-02-19"
+     },
+     {
+      "reportId": "kYA2zLc6r31q8xWh",
+      "date": "2020-02-23"
+     },
+     {
+      "reportId": "GW7DmgPdLbJKwxMR",
+      "date": "2020-02-23"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "wetfarter": {
+   "name": "Wetfarter",
+   "firstGuildSession": "2020-06-10",
+   "lastGuildSession": "2020-09-27",
+   "guildSessions": 11,
+   "before": {
+    "reports": 2,
+    "first": "2020-06-08",
+    "last": "2020-06-08",
+    "items": [
+     {
+      "reportId": "WwhPXFMt9z8KQnjA",
+      "date": "2020-06-08"
+     },
+     {
+      "reportId": "rwVBcvQgYkn1djb2",
+      "date": "2020-06-08"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 6,
+    "first": "2020-08-16",
+    "last": "2020-09-14",
+    "items": [
+     {
+      "reportId": "Fx2MWapdrYkVPHjK",
+      "date": "2020-08-16"
+     },
+     {
+      "reportId": "NWGARq3nQMk8mLXP",
+      "date": "2020-08-21"
+     },
+     {
+      "reportId": "X2M4tKqJyWQY3Tbm",
+      "date": "2020-08-23"
+     },
+     {
+      "reportId": "4txYZBH3r6hfGvm8",
+      "date": "2020-08-25"
+     },
+     {
+      "reportId": "H7Y8rvRpAa3Q4Ptj",
+      "date": "2020-09-14"
+     },
+     {
+      "reportId": "MVayJR9kDB8v6dLt",
+      "date": "2020-09-14"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "yumï": {
+   "name": "Yumï",
+   "firstGuildSession": "2020-05-01",
+   "lastGuildSession": "2020-07-30",
+   "guildSessions": 11,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 3,
+    "first": "2020-06-07",
+    "last": "2020-06-28",
+    "items": [
+     {
+      "reportId": "MAx16jcRL4BtXTCY",
+      "date": "2020-06-07"
+     },
+     {
+      "reportId": "baC4HXvDgy2nfYGF",
+      "date": "2020-06-22"
+     },
+     {
+      "reportId": "HdxFTWVrb3Ng4vZj",
+      "date": "2020-06-28"
+     }
+    ]
+   },
+   "after": {
+    "reports": 1,
+    "first": "2021-02-26",
+    "last": "2021-02-26",
+    "items": [
+     {
+      "reportId": "Rgz2BhJPGH8yMTkt",
+      "date": "2021-02-26"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "amorise": {
+   "name": "Amorise",
+   "firstGuildSession": "2020-05-20",
+   "lastGuildSession": "2020-07-15",
+   "guildSessions": 10,
+   "before": {
+    "reports": 5,
+    "first": "2020-02-14",
+    "last": "2020-02-27",
+    "items": [
+     {
+      "reportId": "TqrFzjGkbAJ7c6M9",
+      "date": "2020-02-14"
+     },
+     {
+      "reportId": "AKVt8N7gandBDyk3",
+      "date": "2020-02-14"
+     },
+     {
+      "reportId": "6NM8WDPqhvr4pQ3g",
+      "date": "2020-02-16"
+     },
+     {
+      "reportId": "3VBXcvJ9YkTMRrQN",
+      "date": "2020-02-20"
+     },
+     {
+      "reportId": "jmfkD1H9tn8czTyP",
+      "date": "2020-02-27"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-05-19",
+    "last": "2020-05-19",
+    "items": [
+     {
+      "reportId": "Tpczd91AJnNMFHY7",
+      "date": "2020-05-19"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "anerd": {
+   "name": "Anerd",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2019-11-20",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2019-11-17",
+    "last": "2019-11-20",
+    "items": [
+     {
+      "reportId": "DYnkvyMNVw6ZrcbL",
+      "date": "2019-11-17"
+     },
+     {
+      "reportId": "bYPZrAcKQNVmD3nC",
+      "date": "2019-11-20"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "brovkin": {
+   "name": "Brovkin",
+   "firstGuildSession": "2020-07-19",
+   "lastGuildSession": "2020-09-23",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 8,
+    "first": "2020-08-05",
+    "last": "2020-09-06",
+    "items": [
+     {
+      "reportId": "62fg4Nbp3MHB1WVh",
+      "date": "2020-08-05"
+     },
+     {
+      "reportId": "Khb9FLN4TQywYkGM",
+      "date": "2020-08-05"
+     },
+     {
+      "reportId": "2y7JDTb8gv3r6pFN",
+      "date": "2020-08-06"
+     },
+     {
+      "reportId": "NchK6tjnFXYpVAPz",
+      "date": "2020-08-12"
+     },
+     {
+      "reportId": "1nwgF249XY7rGNVx",
+      "date": "2020-08-12"
+     },
+     {
+      "reportId": "vFkBbPtQrMW94j2V",
+      "date": "2020-08-24"
+     },
+     {
+      "reportId": "ny21DCvxrMb8pkRL",
+      "date": "2020-08-24"
+     },
+     {
+      "reportId": "t9hTPjqzfBwAdbyv",
+      "date": "2020-09-06"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "dropos": {
+   "name": "Dropos",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-02-26",
+   "guildSessions": 10,
+   "before": {
+    "reports": 6,
+    "first": "2019-12-29",
+    "last": "2020-01-08",
+    "items": [
+     {
+      "reportId": "TtbqHh4AWKcMPp6Q",
+      "date": "2019-12-29"
+     },
+     {
+      "reportId": "KNF2dY1bpcPTrQyf",
+      "date": "2019-12-29"
+     },
+     {
+      "reportId": "Njq83LAHBCtkTJgY",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "DTjPhKzRcFCmkQ6d",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "BPVXWjRxpzCfrvwF",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "cWLdRvrb83paktfH",
+      "date": "2020-01-08"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-02-16",
+    "last": "2020-02-26",
+    "items": [
+     {
+      "reportId": "71FJqMzHZr9WPf2b",
+      "date": "2020-02-16"
+     },
+     {
+      "reportId": "GmcJW37bhxZK6rX2",
+      "date": "2020-02-26"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "fruddan": {
+   "name": "Fruddan",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2019-12-18",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "geniep": {
+   "name": "Geniep",
+   "firstGuildSession": "2020-05-08",
+   "lastGuildSession": "2020-09-27",
+   "guildSessions": 10,
+   "before": {
+    "reports": 3,
+    "first": "2020-03-16",
+    "last": "2020-04-30",
+    "items": [
+     {
+      "reportId": "gCdZKfL9wjVT3HXk",
+      "date": "2020-03-16"
+     },
+     {
+      "reportId": "WByYDZ73fKNvTFCR",
+      "date": "2020-04-30"
+     },
+     {
+      "reportId": "BWd68RQGMv7CK2Xm",
+      "date": "2020-04-30"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-05-19",
+    "last": "2020-06-01",
+    "items": [
+     {
+      "reportId": "Tpczd91AJnNMFHY7",
+      "date": "2020-05-19"
+     },
+     {
+      "reportId": "McGC37NQWztbVv1f",
+      "date": "2020-05-25"
+     },
+     {
+      "reportId": "np2qJvmhZtG37L4z",
+      "date": "2020-05-27"
+     },
+     {
+      "reportId": "CpQV1Ba86tNqWkKJ",
+      "date": "2020-06-01"
+     }
+    ]
+   },
+   "after": {
+    "reports": 15,
+    "first": "2020-10-04",
+    "last": "2020-11-23",
+    "items": [
+     {
+      "reportId": "rcxMXqpABgkwJGKz",
+      "date": "2020-10-04"
+     },
+     {
+      "reportId": "YbQqkN8gfnAK41mZ",
+      "date": "2020-10-05"
+     },
+     {
+      "reportId": "aVwkvhrpLCAnD41d",
+      "date": "2020-10-05"
+     },
+     {
+      "reportId": "MkVDPRQgqyzZjcTH",
+      "date": "2020-10-12"
+     },
+     {
+      "reportId": "dLB8pvqPanyG97W1",
+      "date": "2020-10-12"
+     },
+     {
+      "reportId": "t2W6zma94JVCv7Tc",
+      "date": "2020-10-13"
+     },
+     {
+      "reportId": "ZdmaD7jrfcY2pBxG",
+      "date": "2020-10-19"
+     },
+     {
+      "reportId": "7jf4L6WYAGHgnqVv",
+      "date": "2020-10-20"
+     },
+     {
+      "reportId": "d9Cx64MBnYtVbzNm",
+      "date": "2020-10-26"
+     },
+     {
+      "reportId": "LjchftDvGWwgTM41",
+      "date": "2020-11-02"
+     },
+     {
+      "reportId": "KXGnzpY1RfAqLMCx",
+      "date": "2020-11-03"
+     },
+     {
+      "reportId": "TbcZV6mwjX19Q7WD",
+      "date": "2020-11-09"
+     },
+     {
+      "reportId": "132nqDQTd8XKx94t",
+      "date": "2020-11-16"
+     },
+     {
+      "reportId": "pJ76WjbD4ZARNthG",
+      "date": "2020-11-17"
+     },
+     {
+      "reportId": "BPvgLyHj1wfmRV4t",
+      "date": "2020-11-23"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "hayze": {
+   "name": "Hayze",
+   "firstGuildSession": "2019-11-27",
+   "lastGuildSession": "2020-06-03",
+   "guildSessions": 10,
+   "before": {
+    "reports": 1,
+    "first": "2019-11-18",
+    "last": "2019-11-18",
+    "items": [
+     {
+      "reportId": "WzpTrPhD7BAHkRVF",
+      "date": "2019-11-18"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-06-03",
+    "last": "2020-06-03",
+    "items": [
+     {
+      "reportId": "KTjChMDFLYGHAR4b",
+      "date": "2020-06-03"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "hotzz": {
+   "name": "Hotzz",
+   "firstGuildSession": "2020-05-10",
+   "lastGuildSession": "2020-08-18",
+   "guildSessions": 10,
+   "before": {
+    "reports": 6,
+    "first": "2019-12-01",
+    "last": "2020-04-20",
+    "items": [
+     {
+      "reportId": "DZjfCv9hd3RHXWbc",
+      "date": "2019-12-01"
+     },
+     {
+      "reportId": "BPVXWjRxpzCfrvwF",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "LNknbyt92Qg6PWcM",
+      "date": "2020-04-06"
+     },
+     {
+      "reportId": "WMPf9vYx1b3d6FNa",
+      "date": "2020-04-14"
+     },
+     {
+      "reportId": "8XKGmLFp1TJ9wfky",
+      "date": "2020-04-20"
+     },
+     {
+      "reportId": "AqkHRZC87rQt2xwK",
+      "date": "2020-04-20"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-05-27",
+    "last": "2020-08-19",
+    "items": [
+     {
+      "reportId": "np2qJvmhZtG37L4z",
+      "date": "2020-05-27"
+     },
+     {
+      "reportId": "LFHKQcYJCBpnT396",
+      "date": "2020-08-09"
+     },
+     {
+      "reportId": "Dv68HkbnmNgz3QFa",
+      "date": "2020-08-09"
+     },
+     {
+      "reportId": "YQDpZ1MnTfmbC4Jg",
+      "date": "2020-08-19"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "magaliee": {
+   "name": "Magaliee",
+   "firstGuildSession": "2020-09-06",
+   "lastGuildSession": "2020-10-28",
+   "guildSessions": 10,
+   "before": {
+    "reports": 1,
+    "first": "2020-09-03",
+    "last": "2020-09-03",
+    "items": [
+     {
+      "reportId": "FAg1RVfrbH2n9jmd",
+      "date": "2020-09-03"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-10-18",
+    "last": "2020-10-18",
+    "items": [
+     {
+      "reportId": "xNdyTG8qX4RLbDc1",
+      "date": "2020-10-18"
+     }
+    ]
+   },
+   "after": {
+    "reports": 21,
+    "first": "2020-11-04",
+    "last": "2020-12-13",
+    "items": [
+     {
+      "reportId": "1PDRmfbFgT4HCJwy",
+      "date": "2020-11-04"
+     },
+     {
+      "reportId": "xbP6RDHWTCBvAFyh",
+      "date": "2020-11-04"
+     },
+     {
+      "reportId": "FYRck9P1LWwzhtgC",
+      "date": "2020-11-04"
+     },
+     {
+      "reportId": "kTVHtyPWdqc4x3Xg",
+      "date": "2020-11-08"
+     },
+     {
+      "reportId": "qVCkfH7QnMPaGrD1",
+      "date": "2020-11-11"
+     },
+     {
+      "reportId": "3y97kCgwaWnLQptx",
+      "date": "2020-11-11"
+     },
+     {
+      "reportId": "Rd2t9DYq3gkCjFma",
+      "date": "2020-11-24"
+     },
+     {
+      "reportId": "xQcAZFq8yPhJL9T6",
+      "date": "2020-11-24"
+     },
+     {
+      "reportId": "hRg9pv13A4JZdyD7",
+      "date": "2020-11-25"
+     },
+     {
+      "reportId": "rtNxzK3mAqhJM1GH",
+      "date": "2020-11-25"
+     },
+     {
+      "reportId": "jFwHApzRGfM2yQCD",
+      "date": "2020-11-29"
+     },
+     {
+      "reportId": "pAKqymLh7MXFGVvP",
+      "date": "2020-11-29"
+     },
+     {
+      "reportId": "vNbDC92QM81k7LVG",
+      "date": "2020-11-29"
+     },
+     {
+      "reportId": "tF72YVdPxayhW4vg",
+      "date": "2020-11-29"
+     },
+     {
+      "reportId": "tKAP7hcGn3y2Rp1H",
+      "date": "2020-12-02"
+     },
+     {
+      "reportId": "KHn86fypxwaX7Lhv",
+      "date": "2020-12-02"
+     },
+     {
+      "reportId": "PzCBrh42ypQV3XF6",
+      "date": "2020-12-05"
+     },
+     {
+      "reportId": "dVQ7N6hgmkFTvAZC",
+      "date": "2020-12-06"
+     },
+     {
+      "reportId": "vZNK3pBDxGXaPyLd",
+      "date": "2020-12-09"
+     },
+     {
+      "reportId": "7Tx1barvRWmn8PHd",
+      "date": "2020-12-09"
+     },
+     {
+      "reportId": "fpDwkbxdCKzLq7hZ",
+      "date": "2020-12-13"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "nanul": {
+   "name": "Nanul",
+   "firstGuildSession": "2020-04-12",
+   "lastGuildSession": "2020-05-20",
+   "guildSessions": 10,
+   "before": {
+    "reports": 1,
+    "first": "2020-04-10",
+    "last": "2020-04-10",
+    "items": [
+     {
+      "reportId": "AgR2NQc9zbLr1fFB",
+      "date": "2020-04-10"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 3,
+    "first": "2020-04-13",
+    "last": "2020-04-14",
+    "items": [
+     {
+      "reportId": "1dKxJXZqCYjwGB3R",
+      "date": "2020-04-13"
+     },
+     {
+      "reportId": "RLxrGJhF2WYVbfcA",
+      "date": "2020-04-13"
+     },
+     {
+      "reportId": "WMPf9vYx1b3d6FNa",
+      "date": "2020-04-14"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "nonstickpan": {
+   "name": "Nonstickpan",
+   "firstGuildSession": "2020-06-28",
+   "lastGuildSession": "2020-10-18",
+   "guildSessions": 10,
+   "before": {
+    "reports": 1,
+    "first": "2020-06-22",
+    "last": "2020-06-22",
+    "items": [
+     {
+      "reportId": "DAKhvyPC9m3YXFdL",
+      "date": "2020-06-22"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 17,
+    "first": "2020-07-02",
+    "last": "2020-10-19",
+    "items": [
+     {
+      "reportId": "WVPnCwJ1QhfgjKzp",
+      "date": "2020-07-02"
+     },
+     {
+      "reportId": "Dv68HkbnmNgz3QFa",
+      "date": "2020-08-09"
+     },
+     {
+      "reportId": "LFHKQcYJCBpnT396",
+      "date": "2020-08-09"
+     },
+     {
+      "reportId": "Fx2MWapdrYkVPHjK",
+      "date": "2020-08-16"
+     },
+     {
+      "reportId": "qBdKjwxXahgmFADT",
+      "date": "2020-08-21"
+     },
+     {
+      "reportId": "4txYZBH3r6hfGvm8",
+      "date": "2020-08-25"
+     },
+     {
+      "reportId": "FxRV2pGZf6NJaKdg",
+      "date": "2020-09-07"
+     },
+     {
+      "reportId": "z8NPWhnABYXQGJKM",
+      "date": "2020-09-07"
+     },
+     {
+      "reportId": "H7Y8rvRpAa3Q4Ptj",
+      "date": "2020-09-14"
+     },
+     {
+      "reportId": "MVayJR9kDB8v6dLt",
+      "date": "2020-09-14"
+     },
+     {
+      "reportId": "ryc7vBkaFzd8xpJ1",
+      "date": "2020-09-21"
+     },
+     {
+      "reportId": "qTncj4BbygYfM8r6",
+      "date": "2020-09-28"
+     },
+     {
+      "reportId": "ZdaRV7TWCmFXwqt2",
+      "date": "2020-09-28"
+     },
+     {
+      "reportId": "Ar2QzbNPxv3G8t1T",
+      "date": "2020-09-29"
+     },
+     {
+      "reportId": "YbQqkN8gfnAK41mZ",
+      "date": "2020-10-05"
+     },
+     {
+      "reportId": "aVwkvhrpLCAnD41d",
+      "date": "2020-10-05"
+     },
+     {
+      "reportId": "ZdmaD7jrfcY2pBxG",
+      "date": "2020-10-19"
+     }
+    ]
+   },
+   "after": {
+    "reports": 1,
+    "first": "2020-10-25",
+    "last": "2020-10-25",
+    "items": [
+     {
+      "reportId": "rTaKv7N6HbqgQJMh",
+      "date": "2020-10-25"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "obie": {
+   "name": "Obie",
+   "firstGuildSession": "2020-01-15",
+   "lastGuildSession": "2020-02-19",
+   "guildSessions": 10,
+   "before": {
+    "reports": 10,
+    "first": "2019-11-27",
+    "last": "2020-01-08",
+    "items": [
+     {
+      "reportId": "bv8KnAcWayMQX4jr",
+      "date": "2019-11-27"
+     },
+     {
+      "reportId": "CLBhdnrQ9cNXFKxP",
+      "date": "2019-11-27"
+     },
+     {
+      "reportId": "DZjfCv9hd3RHXWbc",
+      "date": "2019-12-01"
+     },
+     {
+      "reportId": "8j1pkyCBLJ2nXKvt",
+      "date": "2019-12-04"
+     },
+     {
+      "reportId": "mf9Kjrt7XQJN6CaZ",
+      "date": "2019-12-22"
+     },
+     {
+      "reportId": "KNF2dY1bpcPTrQyf",
+      "date": "2019-12-29"
+     },
+     {
+      "reportId": "DTjPhKzRcFCmkQ6d",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "Njq83LAHBCtkTJgY",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "BPVXWjRxpzCfrvwF",
+      "date": "2020-01-05"
+     },
+     {
+      "reportId": "cWLdRvrb83paktfH",
+      "date": "2020-01-08"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-02-12",
+    "last": "2020-02-16",
+    "items": [
+     {
+      "reportId": "ztYMAdxTP7vcV3fD",
+      "date": "2020-02-12"
+     },
+     {
+      "reportId": "71FJqMzHZr9WPf2b",
+      "date": "2020-02-16"
+     }
+    ]
+   },
+   "after": {
+    "reports": 45,
+    "first": "2020-08-06",
+    "last": "2020-12-27",
+    "items": [
+     {
+      "reportId": "8r7zmZCwNqDdWFHP",
+      "date": "2020-08-06"
+     },
+     {
+      "reportId": "MZbdw29mKL8TvVcH",
+      "date": "2020-08-06"
+     },
+     {
+      "reportId": "FYjDqPd1QwJr937G",
+      "date": "2020-08-20"
+     },
+     {
+      "reportId": "b1WLNhqz86CX3QxB",
+      "date": "2020-08-23"
+     },
+     {
+      "reportId": "VBTjqZ3fMzhPAp29",
+      "date": "2020-08-24"
+     },
+     {
+      "reportId": "KHbjZGkfCQL2tP37",
+      "date": "2020-08-26"
+     },
+     {
+      "reportId": "mcFMV4LbJjzKrQX3",
+      "date": "2020-08-27"
+     },
+     {
+      "reportId": "xLjt2c6yKd8zWnwB",
+      "date": "2020-08-30"
+     },
+     {
+      "reportId": "X8GWdALtCZgwcz1y",
+      "date": "2020-09-06"
+     },
+     {
+      "reportId": "yc6WRa2MKgrH7YbV",
+      "date": "2020-09-07"
+     },
+     {
+      "reportId": "DPmhtRj3zVrg2kHT",
+      "date": "2020-09-07"
+     },
+     {
+      "reportId": "Mg2d9aVvHRrNXfCw",
+      "date": "2020-09-08"
+     },
+     {
+      "reportId": "T6a4nwkFb2RZgGLm",
+      "date": "2020-09-08"
+     },
+     {
+      "reportId": "nXALgh6Mm2qwzpt7",
+      "date": "2020-09-10"
+     },
+     {
+      "reportId": "MVayJR9kDB8v6dLt",
+      "date": "2020-09-14"
+     },
+     {
+      "reportId": "X2tZp4HdyhmRTJjb",
+      "date": "2020-09-17"
+     },
+     {
+      "reportId": "pgPrFZnfQCXdDt9K",
+      "date": "2020-09-20"
+     },
+     {
+      "reportId": "8hBDVfW4TaAvxQZ2",
+      "date": "2020-09-20"
+     },
+     {
+      "reportId": "3vt4xWjQnHGMgdRC",
+      "date": "2020-09-21"
+     },
+     {
+      "reportId": "Z8tWKAbm4jaTPv3x",
+      "date": "2020-09-22"
+     },
+     {
+      "reportId": "qP7aYp4mkWt8Q2X6",
+      "date": "2020-09-22"
+     },
+     {
+      "reportId": "xa4gNA8DBH6LCvPr",
+      "date": "2020-09-24"
+     },
+     {
+      "reportId": "JLy9PMzGWCjKHF4h",
+      "date": "2020-09-26"
+     },
+     {
+      "reportId": "ZLYFz12DR8Hw7gNK",
+      "date": "2020-09-26"
+     },
+     {
+      "reportId": "Q1TVRjdvyDn34Hbz",
+      "date": "2020-09-27"
+     },
+     {
+      "reportId": "bQtB2KvHWMLzTfgj",
+      "date": "2020-09-27"
+     },
+     {
+      "reportId": "F91BVnwzJC6Nyhdq",
+      "date": "2020-09-29"
+     },
+     {
+      "reportId": "AVtRhGYMx9LrzFfj",
+      "date": "2020-10-04"
+     },
+     {
+      "reportId": "LX1ZtvKdfMnkxFpQ",
+      "date": "2020-10-04"
+     },
+     {
+      "reportId": "8rfLwkN2gqtQj4BJ",
+      "date": "2020-10-13"
+     },
+     {
+      "reportId": "QCMnRT6WhmaDNqwz",
+      "date": "2020-10-18"
+     },
+     {
+      "reportId": "fmJLr3jBpKA14c8V",
+      "date": "2020-11-01"
+     },
+     {
+      "reportId": "BhYjLXfNCVwmKJpW",
+      "date": "2020-11-01"
+     },
+     {
+      "reportId": "9x8vzCDRcPaKdNQq",
+      "date": "2020-11-08"
+     },
+     {
+      "reportId": "2Bxrj6WwVqGPRL3h",
+      "date": "2020-11-15"
+     },
+     {
+      "reportId": "KRtc67F3AHDb4Zxv",
+      "date": "2020-11-22"
+     },
+     {
+      "reportId": "xyK6wjPHQfJtFbY3",
+      "date": "2020-11-29"
+     },
+     {
+      "reportId": "vwPtjcrHQdN3qJpM",
+      "date": "2020-12-03"
+     },
+     {
+      "reportId": "WfPFc7Q3wtDCXRb1",
+      "date": "2020-12-06"
+     },
+     {
+      "reportId": "kgVH9b4qpF1cwCLW",
+      "date": "2020-12-08"
+     },
+     {
+      "reportId": "2xwRqMfgz84vb1Km",
+      "date": "2020-12-13"
+     },
+     {
+      "reportId": "PFYx4kWh2nNXdtp8",
+      "date": "2020-12-17"
+     },
+     {
+      "reportId": "htB1nPHcfJZxXm9r",
+      "date": "2020-12-20"
+     },
+     {
+      "reportId": "4TKdtrVh7cmx6JjX",
+      "date": "2020-12-23"
+     },
+     {
+      "reportId": "xJmtHcRXPgZaQA4B",
+      "date": "2020-12-27"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "pandemonio": {
+   "name": "Pandemonio",
+   "firstGuildSession": "2019-10-06",
+   "lastGuildSession": "2019-11-20",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2019-11-17",
+    "last": "2019-11-20",
+    "items": [
+     {
+      "reportId": "DYnkvyMNVw6ZrcbL",
+      "date": "2019-11-17"
+     },
+     {
+      "reportId": "bYPZrAcKQNVmD3nC",
+      "date": "2019-11-20"
+     }
+    ]
+   },
+   "after": {
+    "reports": 74,
+    "first": "2020-09-07",
+    "last": "2021-03-30",
+    "items": [
+     {
+      "reportId": "6PKhzx3tNMBWf8nA",
+      "date": "2020-09-07"
+     },
+     {
+      "reportId": "BnWDHrmbc61yvJx7",
+      "date": "2020-09-08"
+     },
+     {
+      "reportId": "yn4jLd9rBAaP2pJf",
+      "date": "2020-09-14"
+     },
+     {
+      "reportId": "2jz1rXam6WJ8AFqx",
+      "date": "2020-09-15"
+     },
+     {
+      "reportId": "xdbAQGLBN6DKmcWC",
+      "date": "2020-09-15"
+     },
+     {
+      "reportId": "8zvCGtVxQTfmnhKd",
+      "date": "2020-09-17"
+     },
+     {
+      "reportId": "qkbnvZzByJmGA9Px",
+      "date": "2020-09-22"
+     },
+     {
+      "reportId": "PfRXApvVKFYyDJmw",
+      "date": "2020-09-24"
+     },
+     {
+      "reportId": "9hZQmpqLH6WCJVPT",
+      "date": "2020-09-28"
+     },
+     {
+      "reportId": "1LnPfDZqJpgdFzXb",
+      "date": "2020-09-28"
+     },
+     {
+      "reportId": "MJmb6Q1zAL7vBHjT",
+      "date": "2020-09-29"
+     },
+     {
+      "reportId": "2d3fq8XMhrcpwKt9",
+      "date": "2020-10-01"
+     },
+     {
+      "reportId": "FVWy4x3JamKfdcpD",
+      "date": "2020-10-06"
+     },
+     {
+      "reportId": "mgJM4XFtnHQwbPAR",
+      "date": "2020-10-06"
+     },
+     {
+      "reportId": "y8t3V4HNCdqAbTG1",
+      "date": "2020-10-08"
+     },
+     {
+      "reportId": "y3Kp29qGFJn6fzma",
+      "date": "2020-10-12"
+     },
+     {
+      "reportId": "GcJC4BxAjLdzrgqt",
+      "date": "2020-10-13"
+     },
+     {
+      "reportId": "yrcgp7qMGk2bfFTJ",
+      "date": "2020-10-15"
+     },
+     {
+      "reportId": "w7r94LfgQk2AKRtN",
+      "date": "2020-10-19"
+     },
+     {
+      "reportId": "zkmtYw1aKMJRHfnr",
+      "date": "2020-10-20"
+     },
+     {
+      "reportId": "xcAkHQv6V2r4T3Bj",
+      "date": "2020-10-22"
+     },
+     {
+      "reportId": "tXnd7hmD6bPVM8rL",
+      "date": "2020-10-26"
+     },
+     {
+      "reportId": "G3N8yWk67ztApBXP",
+      "date": "2020-10-27"
+     },
+     {
+      "reportId": "TGAPrxawgVDKCZY2",
+      "date": "2020-10-29"
+     },
+     {
+      "reportId": "RMKXfBrqkQWTtj19",
+      "date": "2020-11-03"
+     },
+     {
+      "reportId": "hz9AvCtFQgfHDVYZ",
+      "date": "2020-11-05"
+     },
+     {
+      "reportId": "D68BcnWgJrFNzjAh",
+      "date": "2020-11-08"
+     },
+     {
+      "reportId": "HTGW6AXBxa3LrNkt",
+      "date": "2020-11-09"
+     },
+     {
+      "reportId": "tFZRPbdrjHA2ayfm",
+      "date": "2020-11-10"
+     },
+     {
+      "reportId": "XD1HPB23QMYnA64w",
+      "date": "2020-11-12"
+     },
+     {
+      "reportId": "GVBcNKm3hA698WzJ",
+      "date": "2020-11-17"
+     },
+     {
+      "reportId": "xqkbz2BdgH6R9MPr",
+      "date": "2020-11-19"
+     },
+     {
+      "reportId": "pBHvQw2WGtZRV6JN",
+      "date": "2020-11-24"
+     },
+     {
+      "reportId": "D6jZAwzd9Q7cF4Vq",
+      "date": "2020-11-26"
+     },
+     {
+      "reportId": "a3yX62pYwJVhPKR4",
+      "date": "2020-12-01"
+     },
+     {
+      "reportId": "29fX6mzHdZnT7MyA",
+      "date": "2020-12-06"
+     },
+     {
+      "reportId": "aV3y9nKz7BN46WqA",
+      "date": "2020-12-06"
+     },
+     {
+      "reportId": "6X2Bak4ZjPfM7rFz",
+      "date": "2020-12-08"
+     },
+     {
+      "reportId": "ja6vgCJ9Rz8pHxyq",
+      "date": "2020-12-09"
+     },
+     {
+      "reportId": "FBtRzkmMdjL6r3Jy",
+      "date": "2020-12-10"
+     },
+     {
+      "reportId": "97dcy1vmzZx824Vf",
+      "date": "2020-12-13"
+     },
+     {
+      "reportId": "kvyqW4RV2bZdhHnz",
+      "date": "2020-12-13"
+     },
+     {
+      "reportId": "JWXCch34nV1mMjyt",
+      "date": "2020-12-15"
+     },
+     {
+      "reportId": "TyPB1JrHpD39V6ax",
+      "date": "2020-12-17"
+     },
+     {
+      "reportId": "DqKfyC3rj6g1MQTx",
+      "date": "2020-12-22"
+     },
+     {
+      "reportId": "ThgLpr1DmZ3zMRyw",
+      "date": "2020-12-29"
+     },
+     {
+      "reportId": "TwqYrPDBbzmfGCMV",
+      "date": "2021-01-07"
+     },
+     {
+      "reportId": "ZCLwbHnB41XWzhNY",
+      "date": "2021-01-12"
+     },
+     {
+      "reportId": "GDCY8AdcQyBJXaTk",
+      "date": "2021-01-14"
+     },
+     {
+      "reportId": "3a6HC2t4hXDmF8AJ",
+      "date": "2021-01-15"
+     },
+     {
+      "reportId": "taVHkwTpGF79vdjA",
+      "date": "2021-01-15"
+     },
+     {
+      "reportId": "Xkvt7DaW36ZBgMrc",
+      "date": "2021-01-19"
+     },
+     {
+      "reportId": "1KyRaq6C9PcnB2MY",
+      "date": "2021-01-23"
+     },
+     {
+      "reportId": "r82dKmqtnkDfHGwR",
+      "date": "2021-01-23"
+     },
+     {
+      "reportId": "XntDkTzYRB1C8Ljg",
+      "date": "2021-01-26"
+     },
+     {
+      "reportId": "X42QGYCLZNc3vmAq",
+      "date": "2021-01-28"
+     },
+     {
+      "reportId": "M9W8rayqm4N6Z7FB",
+      "date": "2021-02-02"
+     },
+     {
+      "reportId": "FM1AnzKXJr96vyYm",
+      "date": "2021-02-04"
+     },
+     {
+      "reportId": "BjQHfDb4c1CrdZm7",
+      "date": "2021-02-09"
+     },
+     {
+      "reportId": "DqwA7a4T6mQt8xfF",
+      "date": "2021-02-11"
+     },
+     {
+      "reportId": "cZR9kYjTVmD3CpHJ",
+      "date": "2021-02-16"
+     },
+     {
+      "reportId": "ZHajcAvTfQ38x1Lk",
+      "date": "2021-02-18"
+     },
+     {
+      "reportId": "DvKJWaP96fxTkbFG",
+      "date": "2021-02-23"
+     },
+     {
+      "reportId": "hc2T7k3fytGdDABm",
+      "date": "2021-02-23"
+     },
+     {
+      "reportId": "NVCRy6KWjzg4dDAb",
+      "date": "2021-02-25"
+     },
+     {
+      "reportId": "TmRW6zFjrKBb129L",
+      "date": "2021-03-09"
+     },
+     {
+      "reportId": "yH83fTaRvV7zbWZm",
+      "date": "2021-03-11"
+     },
+     {
+      "reportId": "PdnBmLVTrG17zNjR",
+      "date": "2021-03-16"
+     },
+     {
+      "reportId": "M68bgJQP9wzABWvm",
+      "date": "2021-03-18"
+     },
+     {
+      "reportId": "6d9PLNzqhKmnaC7T",
+      "date": "2021-03-23"
+     },
+     {
+      "reportId": "dbHfXJw7kDvWm92n",
+      "date": "2021-03-23"
+     },
+     {
+      "reportId": "HDQbCptP9kcNR8qh",
+      "date": "2021-03-25"
+     },
+     {
+      "reportId": "6RBWCfPhy12rGxND",
+      "date": "2021-03-30"
+     },
+     {
+      "reportId": "fnA8QjPdFh47ZxY3",
+      "date": "2021-03-30"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "poesje": {
+   "name": "Poesje",
+   "firstGuildSession": "2020-03-15",
+   "lastGuildSession": "2020-07-19",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 4,
+    "first": "2020-04-13",
+    "last": "2020-04-25",
+    "items": [
+     {
+      "reportId": "FHB4DmAg6tcPLfwN",
+      "date": "2020-04-13"
+     },
+     {
+      "reportId": "fLTb1hdW7G8QZmzB",
+      "date": "2020-04-13"
+     },
+     {
+      "reportId": "yNQaD1JM8zP7h9cA",
+      "date": "2020-04-13"
+     },
+     {
+      "reportId": "9TbpB87vmrwdMXyq",
+      "date": "2020-04-25"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "schokur": {
+   "name": "Schokur",
+   "firstGuildSession": "2019-11-13",
+   "lastGuildSession": "2019-12-11",
+   "guildSessions": 10,
+   "before": {
+    "reports": 2,
+    "first": "2019-11-06",
+    "last": "2019-11-06",
+    "items": [
+     {
+      "reportId": "3GQfRrVdN98L6ptB",
+      "date": "2019-11-06"
+     },
+     {
+      "reportId": "3TbfHWN129rGmBLM",
+      "date": "2019-11-06"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2019-11-13",
+    "last": "2019-11-17",
+    "items": [
+     {
+      "reportId": "WfdVDZ7MAFm4xNKP",
+      "date": "2019-11-13"
+     },
+     {
+      "reportId": "DYnkvyMNVw6ZrcbL",
+      "date": "2019-11-17"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "skogsluwder": {
+   "name": "Skogsluwder",
+   "firstGuildSession": "2020-05-20",
+   "lastGuildSession": "2020-06-24",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-05-19",
+    "last": "2020-06-03",
+    "items": [
+     {
+      "reportId": "Tpczd91AJnNMFHY7",
+      "date": "2020-05-19"
+     },
+     {
+      "reportId": "KTjChMDFLYGHAR4b",
+      "date": "2020-06-03"
+     }
+    ]
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "traviar": {
+   "name": "Traviar",
+   "firstGuildSession": "2020-04-29",
+   "lastGuildSession": "2020-05-31",
+   "guildSessions": 10,
+   "before": {
+    "reports": 2,
+    "first": "2020-04-11",
+    "last": "2020-04-19",
+    "items": [
+     {
+      "reportId": "qrm1FQwDbNtfh6Td",
+      "date": "2020-04-11"
+     },
+     {
+      "reportId": "HY6BLdR31FbhPv92",
+      "date": "2020-04-19"
+     }
+    ]
+   },
+   "duringExternal": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "after": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "cacheErrors": []
+  },
+  "ursaminor": {
+   "name": "Ursaminor",
+   "firstGuildSession": "2020-03-22",
+   "lastGuildSession": "2020-05-17",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 1,
+    "first": "2020-05-04",
+    "last": "2020-05-04",
+    "items": [
+     {
+      "reportId": "3v2VPHXDmBQwg9TG",
+      "date": "2020-05-04"
+     }
+    ]
+   },
+   "after": {
+    "reports": 23,
+    "first": "2020-10-18",
+    "last": "2021-04-09",
+    "items": [
+     {
+      "reportId": "4XdLBqCW1bYxDh3Z",
+      "date": "2020-10-18"
+     },
+     {
+      "reportId": "yx2b8MK16rhptkNa",
+      "date": "2020-10-26"
+     },
+     {
+      "reportId": "wyFBCgWYZkq2tAvx",
+      "date": "2020-11-01"
+     },
+     {
+      "reportId": "gKQw2LGfzXa4j3Nv",
+      "date": "2020-11-01"
+     },
+     {
+      "reportId": "Jfv2M7Wj6p1YXtLw",
+      "date": "2020-11-01"
+     },
+     {
+      "reportId": "8cLCt4P6K2rRjgHf",
+      "date": "2020-11-01"
+     },
+     {
+      "reportId": "wmAnzWTGfak18LKQ",
+      "date": "2020-11-03"
+     },
+     {
+      "reportId": "mBwakj7MyGrdZYRW",
+      "date": "2020-11-08"
+     },
+     {
+      "reportId": "Fgq9yNTbMrntDWvY",
+      "date": "2020-11-08"
+     },
+     {
+      "reportId": "976W8NfFDxypZBQn",
+      "date": "2020-11-10"
+     },
+     {
+      "reportId": "bzTBZRxfwHr8j1t2",
+      "date": "2020-11-10"
+     },
+     {
+      "reportId": "XGFYTNHJqPybvcr8",
+      "date": "2020-11-17"
+     },
+     {
+      "reportId": "RB1Ybgc3FmxMpqN2",
+      "date": "2020-11-17"
+     },
+     {
+      "reportId": "2XP3ky91zgA4YxGB",
+      "date": "2020-11-17"
+     },
+     {
+      "reportId": "PgqycTz6DGR1xXdF",
+      "date": "2020-11-17"
+     },
+     {
+      "reportId": "Rd2t9DYq3gkCjFma",
+      "date": "2020-11-24"
+     },
+     {
+      "reportId": "xQcAZFq8yPhJL9T6",
+      "date": "2020-11-24"
+     },
+     {
+      "reportId": "Ad76C4XKHg2x1jhN",
+      "date": "2021-01-11"
+     },
+     {
+      "reportId": "3ZNTP4j6VxWapc1r",
+      "date": "2021-01-11"
+     },
+     {
+      "reportId": "pdmAyJr4fW7ahZVq",
+      "date": "2021-01-11"
+     },
+     {
+      "reportId": "GQ3Vmd6Ppjb7r8q9",
+      "date": "2021-01-11"
+     },
+     {
+      "reportId": "M4qVTvrgt1zhJQ8n",
+      "date": "2021-01-28"
+     },
+     {
+      "reportId": "vyDQmzGFY3kq6LZT",
+      "date": "2021-04-09"
+     }
+    ]
+   },
+   "cacheErrors": []
+  },
+  "vikka": {
+   "name": "Vikka",
+   "firstGuildSession": "2020-06-14",
+   "lastGuildSession": "2020-09-30",
+   "guildSessions": 10,
+   "before": {
+    "reports": 0,
+    "first": null,
+    "last": null,
+    "items": []
+   },
+   "duringExternal": {
+    "reports": 2,
+    "first": "2020-08-21",
+    "last": "2020-08-21",
+    "items": [
+     {
+      "reportId": "3XbvDmr6xayNGWBA",
+      "date": "2020-08-21"
+     },
+     {
+      "reportId": "g6FbnXALGcyJvZd1",
+      "date": "2020-08-21"
+     }
+    ]
+   },
+   "after": {
+    "reports": 12,
+    "first": "2021-02-20",
+    "last": "2021-05-01",
+    "items": [
+     {
+      "reportId": "nFXM97GrVY6TZAyN",
+      "date": "2021-02-20"
+     },
+     {
+      "reportId": "hcZ9dMQLDjxzJN4B",
+      "date": "2021-02-21"
+     },
+     {
+      "reportId": "b9CakjZ6DhmxVQB4",
+      "date": "2021-02-22"
+     },
+     {
+      "reportId": "TMWtyALh63wj4f2P",
+      "date": "2021-02-22"
+     },
+     {
+      "reportId": "KBZc6xrfXbVTC8aj",
+      "date": "2021-02-27"
+     },
+     {
+      "reportId": "xRQbqavM3Z2zWjtk",
+      "date": "2021-03-09"
+     },
+     {
+      "reportId": "G9KW62ngaZ4YQTyw",
+      "date": "2021-04-17"
+     },
+     {
+      "reportId": "pjVT6QbkyJB18nF3",
+      "date": "2021-04-17"
+     },
+     {
+      "reportId": "qjPXMrbYZgL7c6Td",
+      "date": "2021-04-17"
+     },
+     {
+      "reportId": "WLpGVQ786qkZAxBa",
+      "date": "2021-04-24"
+     },
+     {
+      "reportId": "gmXQG8J7FvCrjd46",
+      "date": "2021-05-01"
+     },
+     {
+      "reportId": "MjKYhW4vcagq89rN",
+      "date": "2021-05-01"
      }
     ]
    },
