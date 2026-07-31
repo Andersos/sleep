@@ -1,7 +1,11 @@
 {
- "generatedAt": "2026-07-31T12:47:02.477Z",
- "count": 103,
+ "generatedAt": "2026-07-31T14:34:13.710Z",
+ "count": 316,
  "bios": {
+  "aggro": {
+   "name": "Aggro",
+   "html": "<p>Aggro fought as a warrior for Ascension across 57 raids between 6 October 2019 and 13 May 2020, one of the guild's earliest sustained warriors. Seven outside reports overlap the run, from 13 November 2019 to 15 March 2020, with none before or after. No landmark or loot award is documented for Aggro.</p>"
+  },
   "akikiie": {
    "name": "Akikiie",
    "html": "<p>Aki, Silveh on Discord, built the house the Dusk era lived in: the first message in the entire officer-chat archive is him setting up the Ninjas server in April 2020, gated roles and class channels and all. He was a Ninjas officer, a warrior with fifty-eight raids, and a steady tactical voice through the AQ progression, explaining Huhuran nature-resistance splits in paragraphs while others argued in fragments.</p><p>His guild life ended on a single pull. On 17 September 2020 he pulled at the Ahn'Qiraj entrance with nobody ready. The world buffs died, <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> rage-quit, and three days of officer warfare followed. Aki owned it completely: \"I'll happily apologise and take the blame for it. It's not my intent to hide from it.\" Then he asked the question underneath the whole affair, whether he actually enjoyed a game where a single wipe could ruin forty people's evening. He decided he didn't, and left within the week. The archive remembers him as the architect of the guild's home and the first casualty of its seriousness.</p>"
@@ -18,9 +22,41 @@
    "name": "Akikiie",
    "html": "<p>Aki, Silveh on Discord, built the house the Dusk era lived in: the first message in the entire officer-chat archive is him setting up the Ninjas server in April 2020, gated roles and class channels and all. He was a Ninjas officer, a warrior with fifty-eight raids, and a steady tactical voice through the AQ progression, explaining Huhuran nature-resistance splits in paragraphs while others argued in fragments.</p><p>His guild life ended on a single pull. On 17 September 2020 he pulled at the Ahn'Qiraj entrance with nobody ready. The world buffs died, <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> rage-quit, and three days of officer warfare followed. Aki owned it completely: \"I'll happily apologise and take the blame for it. It's not my intent to hide from it.\" Then he asked the question underneath the whole affair, whether he actually enjoyed a game where a single wipe could ruin forty people's evening. He decided he didn't, and left within the week. The archive remembers him as the architect of the guild's home and the first casualty of its seriousness.</p>"
   },
+  "alcliff": {
+   "name": "Alcliff",
+   "html": "<p>Alcliff was a paladin with three Sleep raids, ten Dusk raids and one personal PUG. He stayed through Dusk's first guild-only Naxxramas night, and seventeen awards trace his gearing from Lawbringer pieces into the autumn.</p><p>Twenty-two outside reports overlap his local tenure and seven follow it. Officer chat on 13 December records that Alcliff and <a style=\"color:#FFFFFF\" href=\"players.html#Docthor\">Docthor</a> were both in Exsul, confirming the destination independently of the report cluster.</p>"
+  },
+  "aldrei": {
+   "name": "Aldrei",
+   "html": "<p>Aldrei was a priest with eighteen Ninjas raids and one Dusk appearance between February and August 2020. Ten outside reports overlap that tenure. No activity has been found before the local opening or after the final raid.</p>"
+  },
+  "amandil": {
+   "name": "Amandil",
+   "html": "<p>Amandil raided as a warlock through Sleep's founding stretch, 41 raids between 13 November 2019 and 22 March 2020. He was there for the very first surviving 10/10 Molten Core clear on the opening night, the first surviving Onyxia kill four days later, and the first Nefarian kill the following February, three of the earliest \"first\" landmarks the archive records.</p><p>He also shows up in the guild's day-to-day logistics: in February 2020 <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a> substituted for him at an officer meeting when he couldn't make it, and in March he took part in an open Discord conversation with <a style=\"color:#FFFFFF\" href=\"players.html#Docthor\">Docthor</a> and Shakey about how the guild was running. No outside reports exist before, during, or after his tenure, so the record has nothing to say about where he went once his raids stopped.</p>"
+  },
   "amarah": {
    "name": "Amarah",
    "html": "<p>Amarah was a druid with 122 logged raids from 13 February 2020 through 11 April 2021. The lineage runs through 58 Ninjas raids, 31 Dusk raids, 26 Ascension raids, five joint sessions, and two personal pugs. Amarah was present for the first C'Thun and Ouro kills, the first complete 9/9 Ahn'Qiraj clear, both openings of Naxxramas, and the first Kel'Thuzad kill. Amarah and <a style=\"color:#C79C6E\" href=\"players.html#Juud\">Juud</a> were the only two players from the former Ninjas roster in that first-kill lineup. Nine recorded awards include Eye of C'Thun, Guise of the Devourer, and two early pieces of Naxxramas tier armor.</p>"
+  },
+  "amberlynreid": {
+   "name": "Amberlynreid",
+   "html": "<p>Amberlynreid raided as a rogue for Ascension 66 times between 15 March 2020 and 11 April 2021, one of those a personal PUG appearance rather than a guild raid. Sixteen outside reports overlap the run, from 8 April to 11 November 2020, with none before or after. No landmark or loot award is documented.</p>"
+  },
+  "amorise": {
+   "name": "Amorise",
+   "html": "<p>Amorise was a rogue with ten Ascension guild raids and one personal PUG between February and July 2020. Five outside reports predate the guild tenure and one overlaps it. No later appearance has been found.</p>"
+  },
+  "anerd": {
+   "name": "Anerd",
+   "html": "<p>Anerd was a warrior in Ascension's opening roster with ten guild raids from October through November 2019. Two outside reports overlap that tenure. No activity has been found before it or after it.</p>"
+  },
+  "annafrank": {
+   "name": "Annafrank",
+   "html": "<p>Annafrank raided as a rogue for Sleep 50 times between 4 December 2019 and 6 May 2020, present for the first Nefarian kill, and picked up two loot awards that spring: Bloodfang Gloves and Cloak of Firemaw. In February 2020, the guild's own raider-overview documents named Annafrank as one of five rogues holding a confirmed raider spot, alongside <a style=\"color:#FFF569\" href=\"players.html#Jellopy\">Jellopy</a>, <a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a>, <a style=\"color:#FFF569\" href=\"players.html#Pricelez\">Pricelez</a> and Rainer. No outside reports exist before, during, or after the run, so nothing places this character elsewhere once the raids stop.</p>"
+  },
+  "anthroy": {
+   "name": "Anthroy",
+   "html": "<p>Anthroy raided as a warrior for Ascension thirty-five times between January and August 2020. Seven outside reports predate his local debut and ten overlap the tenure. The completed character search contains no appearance after his final Ascension raid.</p>"
   },
   "antzi": {
    "name": "Antzi",
@@ -39,6 +75,18 @@
      "guild": "Ninjas & Dusk"
     }
    ]
+  },
+  "appelflap": {
+   "name": "Appelflap",
+   "html": "<p>Appelflap raided as a warlock for Ascension across 47 raids between 27 February and 7 December 2020, one of them a personal PUG. Twenty-four outside reports predate the run, a larger pre-history than most in this batch, and 11 more overlap it, ending 18 November 2020, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "arcanefarts": {
+   "name": "Arcanefarts",
+   "html": "<p>Arcanefarts was a mage who joined the Ninjas roster in June and crossed into Dusk. He completed thirty-four guild raids, including the first C'Thun and Ouro kills, plus one personal PUG in the local archive. Officer chat later placed him among the players balancing Dusk raids with other raid plans.</p><p>His post-tenure history is substantial: fifty-two reports from November 2020 through May 2021. The current metadata proves continued raiding but does not establish a destination guild.</p>"
+  },
+  "arlin": {
+   "name": "Arlin",
+   "html": "<p>Arlin was a priest in Ascension with twenty-six guild raids from February through May 2020. Thirteen reports predate that tenure and twelve overlap it. A single appearance two weeks after the final Ascension raid is the only later trace.</p>"
   },
   "artimis": {
    "name": "Artimis",
@@ -60,6 +108,22 @@
     "Transformed"
    ]
   },
+  "askcandy": {
+   "name": "Askcandy",
+   "html": "<p>Askcandy was a hunter whose route crossed Sleep, Ninjas and Dusk. Twenty-four guild raids and two personal PUGs survive from July 2020 into January 2021. He joined the first C'Thun and Ouro kills and Dusk's first full Ahn'Qiraj clear; Dragonstalker's Legguards are his documented loot award.</p><p>Nineteen outside reports overlap the tenure. Fifteen more continue through April 2021, showing later activity without a confirmed destination.</p>"
+  },
+  "aurun": {
+   "name": "Aurun",
+   "html": "<p>Aurun was a warrior in Ascension with twelve guild raids from November through December 2019. One outside report overlaps the first local date. No activity has been found before the tenure or after it.</p>"
+  },
+  "baguette": {
+   "name": "Baguette",
+   "html": "<p>Baguette was a mage in Ascension's earliest roster with sixteen guild raids from October through December 2019. Two outside reports overlap that period. Fifty-eight later reports continue through July 2020, revealing a much larger second raid history whose guild is not identified.</p>"
+  },
+  "balabadoba": {
+   "name": "Balabadoba",
+   "html": "<p>Balabadoba was a warlock on Sleep's first surviving roster. His eighteen guild raids include the first complete Molten Core report and the first logged Onyxia kill in November 2019. One external report overlaps the tenure; none appears before it or after it.</p>"
+  },
   "banamahs": {
    "name": "Banamahs",
    "html": "<p>Banamahs led the Thursday mages and thought about guilds the way an economist thinks about fisheries: the resource is your members' time and goodwill, and every scuffed raid overfishes it. \"Longevity is the key to this game,\" he wrote in September, \"but if you burn resources too quickly, people quit.\" He said it about continuation raids, about split-run chaos, about consumable costs — and the autumn kept proving him right.</p><p>He was the calm half of the Ninjas bloc: building loot-overview spreadsheets other class leaders copied, absorbing a mage exodus (three top-geared mages gone in a week) with recruitment plans instead of drama, and cutting through the era's worst arguments with lines like \"this wasn't a case of afk players — we were not ready to pull.\" His tribute to <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> doubles as his own epitaph for the era: if everyone pumped that hard, the raid would take forty-five minutes.</p><p>On 3 October he announced that he was leaving, but kept his alt Banama in Dusk \"to be able to catch up.\" Nine minutes later <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> called him \"another Decimation recruit.\" The economist had followed his own warning: once the group's goodwill was spent, he moved on.</p><p>The later logs add a second, separate thread: seventy-one reports across forty-four dates, with <a style=\"color:#FF7D0A\" href=\"players.html#Pawsz\">Pawsz</a> present on thirty-five and <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a> on twenty-nine. Those reports belong to a stable PUG circuit under several uploaders. They support continued shared raiding, but the contemporary Decimation message remains the evidence for Banamahs's guild destination.</p>",
@@ -74,25 +138,89 @@
     "Banama"
    ]
   },
+  "bananabread": {
+   "name": "Bananabread",
+   "html": "<p>Bananabread was a priest who completed nineteen Ninjas raids and nine Dusk raids, plus one personal PUG. He joined the first C'Thun and Ouro kills, and the loot record preserves Sand Reaver Wristguards from an Ahn'Qiraj 20 run.</p><p>Twenty reports predate his June arrival and twelve overlap the local tenure. Thirty-three later reports continue from October 2020 through May 2021, showing a substantial second raid history without a confirmed guild name.</p>"
+  },
+  "barin": {
+   "name": "Barin",
+   "html": "<p>Barin joined the closing act as a warrior. His thirty-seven guild raids include Dusk's first joint Naxxramas night with Ascension and the first Kel'Thuzad kill eleven days later. Most of his local record belongs to Ascension, with five joint raids preserving the bridge between the two guilds.</p><p>The wider history is much longer than the local one: 104 reports predate his October arrival and twenty-seven overlap it. Five reports after the final Ascension appearance continue into May 2021, but they do not establish a named destination.</p>"
+  },
+  "bazookabill": {
+   "name": "Bazookabill",
+   "html": "<p>Bazookabill was a hunter in Ninjas with twenty-two guild raids from March through June 2020. Ten outside reports overlap that tenure. No report has been found before the local opening or after his final raid.</p>"
+  },
+  "bbfly": {
+   "name": "Bbfly",
+   "html": "<p>Bbfly was a priest on Sleep's original surviving roster. Twenty-five guild raids begin with the first complete Molten Core report in November 2019, and one personal PUG closes the local record in June 2020. Two outside reports overlap that final month; no broader later history has been found.</p>"
+  },
+  "bearinpants": {
+   "name": "Bearinpants",
+   "html": "<p>Bearinpants was a warrior who arrived late in Ascension's Naxxramas season. Twenty guild raids and one personal PUG survive from January through April 2021. His earlier history is far larger: 111 reports precede the local tenure.</p><p>Eight outside reports overlap Ascension and six more continue into May. Those later reports preserve shared activity with former roster members, not a confirmed destination guild.</p>"
+  },
+  "bein": {
+   "name": "Bein",
+   "html": "<p>Bein was a mage who completed fourteen Ninjas raids and one Dusk raid in the summer of 2020. Eleven outside reports predate the local tenure and three overlap it. No later appearance has been found.</p>"
+  },
+  "bigmag": {
+   "name": "Bigmag",
+   "html": "<p>Bigmag was a mage whose twenty-one guild raids touched Sleep once, Ninjas six times and Dusk fourteen times. He joined the first C'Thun and Ouro kills and Dusk's first complete Ahn'Qiraj clear. Four external reports overlap the tenure; none follows it.</p>"
+  },
   "biterx": {
    "name": "Biterx",
    "html": "<p>Biterx was a warrior from the Ascension side of the wider archive, with 106 logged raids between 4 December 2019 and 7 April 2021. The inventory assigns 102 to Ascension, two to joint Dusk–Ascension raids, and two to personal pugs. Two outside reports precede this span and 21 external reports fall within it; they show activity only, while no named landmark or loot award is currently documented for Biterx.</p>"
+  },
+  "bluerothmans": {
+   "name": "Bluerothmans",
+   "html": "<p>Bluerothmans was a paladin in Ascension with nineteen guild raids from April through June 2020. Fifty-two reports predate that short local tenure, and forty-one more continue from July 2020 through May 2021. The evidence shows a long independent raid history but does not currently name a later guild.</p>"
+  },
+  "bobag": {
+   "name": "Bobag",
+   "html": "<p>Bobag was a paladin whose guild record stretches from Sleep's first winter into Ascension's Naxxramas season. Twenty-four Sleep raids, seven Dusk raids and two Ascension raids survive. He was there for the first Nefarian kill, and his five recorded awards include Aurastone Hammer and Judgement Spaulders.</p><p>The completed wider search finds no reports outside the local archive, making Bobag's cross-guild path visible entirely through the project's own records.</p>"
   },
   "borel": {
    "name": "Borel",
    "html": "<p>Borel was a priest from the Ascension side of the wider archive, with 116 logged raids between 20 November 2019 and 14 April 2021. The inventory assigns 114 sessions to Ascension and two to the joint Dusk–Ascension roster. Borel was in the lineup for the first Kel'Thuzad kill on 20 December 2020. A broader report search found nine reports before the logged span, 31 external reports during it, and ten afterward; these show continued Warcraft activity without proving guild membership.</p>"
   },
+  "bosstus": {
+   "name": "Bosstus",
+   "html": "<p>Bosstus was a hunter with fourteen Dusk raids and two personal PUGs during the Ahn'Qiraj autumn. Five awards include Dragonstalker's Gauntlets and Scaled Sand Reaver Leggings. Two external reports overlap the tenure, and none appears afterward.</p>"
+  },
   "boxya": {
    "name": "Boxya",
    "html": "<p>Boxya's guild career is a two-act comedy of timing. Recruited by <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> as a friend of <a style=\"color:#FFFFFF\" href=\"players.html#Wandolina\">Wandolina</a>, he signed up for a September raid, never showed, and left the guild the next day. Yet by December he was back and suddenly indispensable: picked as one of Dusk's two protected tanks in the Ascension merge — and then he left again, days later, forcing <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> into the spot. Two departures, both at the worst possible moment; the tank crisis that drove the December merge has his fingerprints on it.</p>"
+  },
+  "bratux": {
+   "name": "Bratux",
+   "html": "<p>Bratux was a druid in Ascension with thirty-four guild raids from January through August 2020. Thirteen outside reports predate that tenure and four overlap it. After a long gap, two reports on 16 April 2021 provide the only later trace and do not identify another guild.</p>"
+  },
+  "broodje": {
+   "name": "Broodje",
+   "html": "<p>Broodje was a paladin from the Ninjas roster who appeared three more times after the merger into Dusk. His thirty-four guild raids run from February through early September 2020. Five reports predate the local record and seven overlap it; no later activity appears in the completed search.</p>"
+  },
+  "brovkin": {
+   "name": "Brovkin",
+   "html": "<p>Brovkin was a druid with one Ninjas raid and nine Dusk raids in the Ahn'Qiraj summer. The Head of Ossirian the Unscarred is his sole documented award. Eight outside reports overlap the local tenure; none appears before it or after it.</p>"
+  },
+  "buffie": {
+   "name": "Buffie",
+   "html": "<p>Buffie was a paladin with eleven Ascension guild raids and one personal PUG from May through July 2020. Twenty outside reports precede the guild tenure, showing a substantial earlier raid history. No report follows the final Ascension appearance.</p>"
+  },
+  "cappu": {
+   "name": "Cappu",
+   "html": "<p>Cappu was a priest in Ascension's early roster. Thirty-seven guild raids survive from October 2019 through March 2020, covering the Molten Core winter and the opening Blackwing Lair weeks. Eight external reports overlap that span; none has been found before it or after it.</p>"
   },
   "carmelia": {
    "name": "Carmelia",
    "html": "<p>Carmelia was a priest who raided with Sleep and Dusk, logging 78 raids from 25 March to 22 November 2020, and was in the raid on 19 April 2020 when Zul'Gurub had its first surviving full clear. The loot ledger is one of the deepest in the archive: 48 awards spanning a full run of Prophecy priest gear, two Eye of C'Thun drops, and a Lok'amir il Romathis in November. A June 2020 Discord thread credits Carmelia, alongside <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a>, with recruiting the rogue Teo (<a style=\"color:#FFF569\" href=\"players.html#Ntekapaz\">Ntekapaz</a>) into the guild, part of a real-life friend circle the two shared. Carmelia's last logged raid falls before Naxxramas opened, placing her among the high-attendance veterans who never saw the final tier. Her tribute video sits on <a style=\"color:#FFFFFF\" href=\"players.html#Supplier\">Supplier</a>'s 2021 \"Dusk list,\" between <a style=\"color:#FFFFFF\" href=\"players.html#Glorya\">Glorya</a>'s and <a style=\"color:#FFFFFF\" href=\"players.html#Wandolina\">Wandolina</a>'s; no outside report search currently returns results for the name.</p>"
   },
+  "castiiel": {
+   "name": "Castiiel",
+   "html": "<p>Castiiel was a warlock in Ascension with twelve guild raids from January through February 2020. Thirteen outside reports predate the local run and one overlaps it. Two reports on 1 March provide the only later activity.</p>"
+  },
   "celed": {
    "name": "Celed",
-   "html": "<p>Celed was a rogue from the Ninjas line who held the class-leader seat as a stand-in when <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>'s work schedule bit, and gave it back with the most graceful resignation in the record: \"<a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a> wants to replace me! We talked about it so much and this is our decision... he knows so much about the game. I'll help going forward.\" No drama, no politics, a 72-raid resume, and a healer-parse joke at his expense that followed him around one autumn week (\"95 parse is worthy of some loot, actually\"). The guild ran on its arguers; it also ran on people like Celed, who mostly just showed up and played well.</p><p>Celed's final logged Dusk raid was 24 September. The later trail contains sixty-four reports across thirty-eight dates, with <a style=\"color:#FFF569\" href=\"players.html#Seax\">Seax</a> present on twenty-seven and Tylph uploading forty-six of the reports. Titles repeat a Tuesday, Thursday and Sunday schedule through Naxxramas. Fifty-three reports across thirty-one dates match Warcraft Logs' historical guild feed for Agile, confirming where that schedule belonged.</p>",
+   "html": "<p>Celed was a rogue from the Ninjas line who held the class-leader seat as a stand-in when <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>'s work schedule bit, and gave it back with the most graceful resignation in the record: \"<a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a> wants to replace me! We talked about it so much and this is our decision... he knows so much about the game. I'll help going forward.\" No drama, no politics, a 67-raid resume, and a healer-parse joke at his expense that followed him around one autumn week (\"95 parse is worthy of some loot, actually\"). The guild ran on its arguers; it also ran on people like Celed, who mostly just showed up and played well.</p><p>Celed's final logged Dusk raid was 24 September. The later trail contains sixty-four reports across thirty-eight dates, with <a style=\"color:#FFF569\" href=\"players.html#Seax\">Seax</a> present on twenty-seven and Tylph uploading forty-six of the reports. Titles repeat a Tuesday, Thursday and Sunday schedule through Naxxramas. Fifty-three reports across thirty-one dates match Warcraft Logs' historical guild feed for Agile, confirming where that schedule belonged.</p>",
    "roles": [
     {
      "role": "Rogue class leader (stand-in)",
@@ -101,28 +229,80 @@
     }
    ]
   },
+  "chiara": {
+   "name": "Chiara",
+   "html": "<p>Chiara was a hunter in Ninjas and Dusk, completing thirty-two guild raids and one personal PUG between April and September 2020. She joined both the first C'Thun and Ouro kills and the first full Ahn'Qiraj clear. Sixteen outside reports overlap that tenure.</p><p>Fourteen later reports resume in October and continue into April 2021. They show that Chiara kept raiding, but the resolved evidence does not establish a destination guild.</p>"
+  },
   "chombat": {
    "name": "Chombat",
    "html": "<p>Chombat was a warrior from the Ascension side of the archive, logging 101 raids from 6 October 2019 to 6 January 2021. Ninety-eight are Ascension sessions and three belong to the joint Dusk–Ascension roster. Chombat attended the first Kel'Thuzad kill on 20 December 2020. Thirty external reports appear during the logged span, but the outside-report evidence shows activity only and does not name a different guild.</p>"
+  },
+  "cindarella": {
+   "name": "Cindarella",
+   "html": "<p>Cindarella was a priest whose route touched Sleep once before continuing through Ninjas and Dusk. Her thirty-one guild raids include the first C'Thun and Ouro kills and Dusk's first 9/9 Ahn'Qiraj clear. The loot record preserves The Eye of Divinity and Codex of Renew X.</p><p>Eleven outside reports overlap the same summer. None appears after her final Dusk raid on 24 September.</p>"
   },
   "conoflow": {
    "name": "Conoflow",
    "html": "<p>Conoflow was a mage whose 95 logged raids ran from 4 December 2019 to 13 September 2020, almost entirely under the Sleep banner with four later Dusk sessions and one personal pug. Conoflow was in the raid for the first Nefarian kill in February 2020 and for the first surviving full Zul'Gurub clear that April. The loot ledger holds 15 awards, among them a Ring of Spell Power, Netherwind Gloves, and a Neltharion's Tear out of Blackwing Lair. The final logged raid falls on the date research into this era marks as the start of the September crisis; no departure message survives, so the record does not show whether that timing was cause or coincidence. A broader report search found one appearance before the logged span and 34 more between 6 October 2020 and 11 May 2021, evidence of continued play rather than a named destination guild.</p>"
   },
+  "craxx": {
+   "name": "Craxx",
+   "html": "<p>Craxx raided as a hunter for Ascension across 66 raids between 15 January 2020 and 11 April 2021. Ten outside reports predate the run and 21 more overlap it, ending 28 March 2021, with none afterward. No landmark or loot award is documented for Craxx.</p>"
+  },
   "crok": {
    "name": "Crok",
-   "html": "<p>Crok was a mage with 164 raids in the logs — one of the most-attended players in the whole archive — and the pragmatist in the officer chat. When rosters ran short he suggested filling with pugs and recruiting the good ones (\"worked in the past\"); when December's crisis meetings ran hot he stayed practical. His DM thread with Anders spans the guild's whole life, from a February 2020 recruit conversation to three days after the Kel'Thuzad kill. He farmed venom sacks on the night crew, carried the Ring of Spiritual Fervor out of the 12-wipe Horsemen night, and made the jump to Ascension with the rest. During migration week he also relayed alchemy materials between <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> and the benched <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, keeping the consumables line moving while the guild changed names.</p>",
+   "html": "<p>Crok was a mage with 162 raids in the logs — one of the most-attended players in the whole archive — and the pragmatist in the officer chat. When rosters ran short he suggested filling with pugs and recruiting the good ones (\"worked in the past\"); when December's crisis meetings ran hot he stayed practical. His DM thread with Anders spans the guild's whole life, from a February 2020 recruit conversation to three days after the Kel'Thuzad kill. He farmed venom sacks on the night crew, carried the Ring of Spiritual Fervor out of the 12-wipe Horsemen night, and made the jump to Ascension with the rest. During migration week he also relayed alchemy materials between <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> and the benched <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, keeping the consumables line moving while the guild changed names.</p>",
    "alts": [
     "Poesje"
    ]
+  },
+  "crucibal": {
+   "name": "Crucibal",
+   "html": "<p>Crucibal fought as a warrior for Ascension across 47 raids between 13 May 2020 and 24 March 2021. Thirteen outside reports predate the run and 16 more overlap it, ending the same day as his final logged raid, with none afterward. No landmark or loot award is documented.</p>"
   },
   "cyprinius": {
    "name": "Cyprinius",
    "html": "<p>Cyprinius was a paladin from the Ascension side of the archive, appearing in 93 logged raids between 29 January 2020 and 7 April 2021. Eighty-eight of those raids are Ascension sessions, with four joint Dusk–Ascension raids and one personal pug filling out the total. Cyprinius attended the first joint Naxxramas raid on 9 December 2020 and the first Kel'Thuzad kill, receiving a Band of Unanswered Prayers four days before the clear. Outside the local archive, 32 external reports run from 12 February 2020 to 24 March 2021, documenting activity through the same window rather than a separate guild.</p>"
   },
+  "dandy": {
+   "name": "Dandy",
+   "html": "<p>Dandy was a warrior in Ascension with thirty-three guild raids from January through June 2020. Seven outside reports precede his local debut and nineteen overlap it, placing the Ascension run inside a broader existing raid history. No later report has been found.</p>"
+  },
+  "danigerozops": {
+   "name": "Danigerozops",
+   "html": "<p>Danigerozops was a warrior who completed seventeen Sleep raids and twenty Dusk raids from June through December 2020. He stayed through Dusk's first guild-only Naxxramas night. The loot archive records seventeen awards, including Quick Strike Ring on his first Sleep night and a run of Molten Core and Blackwing Lair tank gear.</p><p>Only three outside reports surround the local tenure, and none comes after his final Dusk appearance. His surviving history is therefore unusually concentrated inside the guild archive.</p>"
+  },
+  "deadlylock": {
+   "name": "Deadlylock",
+   "html": "<p>Deadlylock was a warlock who completed fifteen Ninjas raids and six Dusk raids between May and September 2020. He was present for the first C'Thun and Ouro kills. One outside report overlaps the local tenure, and no later appearance has been found.</p>"
+  },
+  "dejvid": {
+   "name": "Dejvid",
+   "html": "<p>Dejvid was a priest whose twenty-six Sleep raids begin with the first surviving 10/10 Molten Core report and continue into July 2020. One outside report predates that opening by seven weeks. Nothing external overlaps the tenure or follows it, leaving the guild archive as the main record of his Classic raiding.</p>",
+   "roles": [
+    {
+     "role": "Founder",
+     "period": "2019",
+     "guild": "Sleep"
+    },
+    {
+     "role": "Guild Master",
+     "period": "2019 – Feb 2020",
+     "guild": "Sleep"
+    }
+   ]
+  },
   "deliz": {
    "name": "Deliz",
    "html": "<p>Deliz was a healer, one of the guild's Norwegian core, and the story's first fairness casualty. In February 2020, a year before anyone had heard of Ascension, he quit WoW over how healers were treated: excluded from best-in-slot rolls while the damage dealers geared, with a disputed Ragnaros neck as the concrete grievance. His exit put a question on the table that the guild never fully answered, and that returned in every later crisis: what does the raid owe the people who keep it alive but never top a meter?</p><p>His friendship with Anders long outlasted his raiding. The messages run from 2019 to 2025 — game recommendations, life updates, and the occasional piece of guild news from the outside, including the December 2020 note that Chris had deleted the old WoW Classic Discord. In the story of Sleep he is the early warning: the guild's kindest era already contained the argument that would end it.</p>"
+  },
+  "deltron": {
+   "name": "Deltron",
+   "html": "<p>Deltron was a hunter who completed twelve Ninjas raids and eight Dusk raids, including the first C'Thun and Ouro kills. Fifteen outside reports predate his local tenure and ten overlap it. A single report on 2 October is the only later appearance.</p>"
+  },
+  "demeterra": {
+   "name": "Demeterra",
+   "html": "<p>Demeterra was a priest who crossed from Ninjas into Dusk. Her thirty-eight guild raids include the first C'Thun and Ouro kills on 23 August and the first complete Ahn'Qiraj clear on 3 September. Fourteen outside reports overlap the same June-to-October tenure, but the wider search finds no activity after the final local appearance.</p>"
   },
   "devou": {
    "name": "Devou",
@@ -133,7 +313,7 @@
   },
   "divinestorm": {
    "name": "Divinestorm",
-   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year running the guild. The climb started with an April challenge to mage leader <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>. Divinestorm took his case to <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, and <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> backed him as the person who should have led from the start. The officers made the change. Next came the Dusk channel structure and the loot doctrine, which measured effort through attendance and preparation while leaving the final word with the council. By 2 August he had 91 raids behind him and became guild master. The officer chat shows him everywhere. He ran the idol economy item by item, defended benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and made hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. September 2020 brought a crisis a week: a ninja pull, a rage-quit, an officer resigning live in the channel, a kick war that briefly cost the guild its own tank leader. Divinestorm mediated every one of them, often from work trips, and wrote the member-facing statements afterwards. When Naxxramas exposed the tank roster in December, he concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and eight days later led the mass migration, planned while everyone hearthed into the raid. The 15/15 Kel'Thuzad kill came four days after that, under his leadership.</p><p>The record keeps his personality intact. He bought poison sacs by the hundred and tracked idol distribution person by person. He defended a benched no-name because \"the guy worked really hard farming sacs for us\", then called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He was sworn at in officer chat and told to his face that the leadership was running the guild into the ground, and he answered with the same maddening evenness every time. That evenness is why people trusted him with the December decisions.</p><p>It also won people back. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> quit in July over the rogue loot system, spoke privately with Divinestorm, and returned for Dusk's first AQ40 night as the person updating the loot sheet.</p><p>Those decisions are the hard part of his file. The pivot to Ascension saved the raid; 15/15 in fourteen days is the proof. It also ended the guild as a thing of its own and cost it its most loyal bench. Divinestorm took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, which suggests he understood the price better than anyone else at the time.</p>",
+   "html": "<p>Divinestorm appears as a mage in the first surviving complete Molten Core report on 13 November 2019 and ended the following year running the guild. The climb started with an April challenge to mage leader <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>. Divinestorm took his case to <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, and <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> backed him as the person who should have led from the start. The officers made the change. Next came the Dusk channel structure and the loot doctrine, which measured effort through attendance and preparation while leaving the final word with the council. On 2 August he became guild master. The officer chat shows him everywhere. He ran the idol economy item by item, defended benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and made hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. September 2020 brought a crisis a week: a ninja pull, a rage-quit, an officer resigning live in the channel, a kick war that briefly cost the guild its own tank leader. Divinestorm mediated every one of them, often from work trips, and wrote the member-facing statements afterwards. When Naxxramas exposed the tank roster in December, he concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and eight days later led the mass migration, planned while everyone hearthed into the raid. The 15/15 Kel'Thuzad kill came four days after that, under his leadership.</p><p>The record keeps his personality intact. He bought poison sacs by the hundred and tracked idol distribution person by person. He defended a benched no-name because \"the guy worked really hard farming sacs for us\", then called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He was sworn at in officer chat and told to his face that the leadership was running the guild into the ground, and he answered with the same maddening evenness every time. That evenness is why people trusted him with the December decisions.</p><p>It also won people back. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> quit in July over the rogue loot system, spoke privately with Divinestorm, and returned for Dusk's first AQ40 night as the person updating the loot sheet.</p><p>Those decisions are the hard part of his file. The pivot to Ascension saved the raid; 15/15 in fourteen days is the proof. It also ended the guild as a thing of its own and cost it its most loyal bench. Divinestorm took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, which suggests he understood the price better than anyone else at the time.</p>",
    "roles": [
     {
      "role": "Mage class leader",
@@ -152,12 +332,16 @@
   },
   "stormcat": {
    "name": "Divinestorm",
-   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year running the guild. The climb started with an April challenge to mage leader <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>. Divinestorm took his case to <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, and <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> backed him as the person who should have led from the start. The officers made the change. Next came the Dusk channel structure and the loot doctrine, which measured effort through attendance and preparation while leaving the final word with the council. By 2 August he had 91 raids behind him and became guild master. The officer chat shows him everywhere. He ran the idol economy item by item, defended benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and made hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. September 2020 brought a crisis a week: a ninja pull, a rage-quit, an officer resigning live in the channel, a kick war that briefly cost the guild its own tank leader. Divinestorm mediated every one of them, often from work trips, and wrote the member-facing statements afterwards. When Naxxramas exposed the tank roster in December, he concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and eight days later led the mass migration, planned while everyone hearthed into the raid. The 15/15 Kel'Thuzad kill came four days after that, under his leadership.</p><p>The record keeps his personality intact. He bought poison sacs by the hundred and tracked idol distribution person by person. He defended a benched no-name because \"the guy worked really hard farming sacs for us\", then called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He was sworn at in officer chat and told to his face that the leadership was running the guild into the ground, and he answered with the same maddening evenness every time. That evenness is why people trusted him with the December decisions.</p><p>It also won people back. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> quit in July over the rogue loot system, spoke privately with Divinestorm, and returned for Dusk's first AQ40 night as the person updating the loot sheet.</p><p>Those decisions are the hard part of his file. The pivot to Ascension saved the raid; 15/15 in fourteen days is the proof. It also ended the guild as a thing of its own and cost it its most loyal bench. Divinestorm took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, which suggests he understood the price better than anyone else at the time.</p>"
+   "html": "<p>Divinestorm appears as a mage in the first surviving complete Molten Core report on 13 November 2019 and ended the following year running the guild. The climb started with an April challenge to mage leader <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>. Divinestorm took his case to <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, and <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> backed him as the person who should have led from the start. The officers made the change. Next came the Dusk channel structure and the loot doctrine, which measured effort through attendance and preparation while leaving the final word with the council. On 2 August he became guild master. The officer chat shows him everywhere. He ran the idol economy item by item, defended benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and made hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. September 2020 brought a crisis a week: a ninja pull, a rage-quit, an officer resigning live in the channel, a kick war that briefly cost the guild its own tank leader. Divinestorm mediated every one of them, often from work trips, and wrote the member-facing statements afterwards. When Naxxramas exposed the tank roster in December, he concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and eight days later led the mass migration, planned while everyone hearthed into the raid. The 15/15 Kel'Thuzad kill came four days after that, under his leadership.</p><p>The record keeps his personality intact. He bought poison sacs by the hundred and tracked idol distribution person by person. He defended a benched no-name because \"the guy worked really hard farming sacs for us\", then called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He was sworn at in officer chat and told to his face that the leadership was running the guild into the ground, and he answered with the same maddening evenness every time. That evenness is why people trusted him with the December decisions.</p><p>It also won people back. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> quit in July over the rogue loot system, spoke privately with Divinestorm, and returned for Dusk's first AQ40 night as the person updating the loot sheet.</p><p>Those decisions are the hard part of his file. The pivot to Ascension saved the raid; 15/15 in fourteen days is the proof. It also ended the guild as a thing of its own and cost it its most loyal bench. Divinestorm took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, which suggests he understood the price better than anyone else at the time.</p>"
   },
   "borégar": {
    "name": "Divinestorm",
-   "html": "<p>Divinestorm arrived as a mage in February 2020 and ended the year running the guild. The climb started with an April challenge to mage leader <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>. Divinestorm took his case to <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, and <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> backed him as the person who should have led from the start. The officers made the change. Next came the Dusk channel structure and the loot doctrine, which measured effort through attendance and preparation while leaving the final word with the council. By 2 August he had 91 raids behind him and became guild master. The officer chat shows him everywhere. He ran the idol economy item by item, defended benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and made hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. September 2020 brought a crisis a week: a ninja pull, a rage-quit, an officer resigning live in the channel, a kick war that briefly cost the guild its own tank leader. Divinestorm mediated every one of them, often from work trips, and wrote the member-facing statements afterwards. When Naxxramas exposed the tank roster in December, he concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and eight days later led the mass migration, planned while everyone hearthed into the raid. The 15/15 Kel'Thuzad kill came four days after that, under his leadership.</p><p>The record keeps his personality intact. He bought poison sacs by the hundred and tracked idol distribution person by person. He defended a benched no-name because \"the guy worked really hard farming sacs for us\", then called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He was sworn at in officer chat and told to his face that the leadership was running the guild into the ground, and he answered with the same maddening evenness every time. That evenness is why people trusted him with the December decisions.</p><p>It also won people back. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> quit in July over the rogue loot system, spoke privately with Divinestorm, and returned for Dusk's first AQ40 night as the person updating the loot sheet.</p><p>Those decisions are the hard part of his file. The pivot to Ascension saved the raid; 15/15 in fourteen days is the proof. It also ended the guild as a thing of its own and cost it its most loyal bench. Divinestorm took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, which suggests he understood the price better than anyone else at the time.</p>",
+   "html": "<p>Divinestorm appears as a mage in the first surviving complete Molten Core report on 13 November 2019 and ended the following year running the guild. The climb started with an April challenge to mage leader <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>. Divinestorm took his case to <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, and <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> backed him as the person who should have led from the start. The officers made the change. Next came the Dusk channel structure and the loot doctrine, which measured effort through attendance and preparation while leaving the final word with the council. On 2 August he became guild master. The officer chat shows him everywhere. He ran the idol economy item by item, defended benched players one day (\"we solved problems for the top raiders, but we haven't solved it for those we bench\") and made hard calls the next (\"I have no problem making hard calls if needed\").</p><p>He was also the guild's shock absorber. September 2020 brought a crisis a week: a ninja pull, a rage-quit, an officer resigning live in the channel, a kick war that briefly cost the guild its own tank leader. Divinestorm mediated every one of them, often from work trips, and wrote the member-facing statements afterwards. When Naxxramas exposed the tank roster in December, he concluded overnight that the guild could not continue alone, opened talks with Ascension's officers, and eight days later led the mass migration, planned while everyone hearthed into the raid. The 15/15 Kel'Thuzad kill came four days after that, under his leadership.</p><p>The record keeps his personality intact. He bought poison sacs by the hundred and tracked idol distribution person by person. He defended a benched no-name because \"the guy worked really hard farming sacs for us\", then called himself \"the mage who didn't understand hunter loot\" while arbitrating a hunter loot fight. He was sworn at in officer chat and told to his face that the leadership was running the guild into the ground, and he answered with the same maddening evenness every time. That evenness is why people trusted him with the December decisions.</p><p>It also won people back. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> quit in July over the rogue loot system, spoke privately with Divinestorm, and returned for Dusk's first AQ40 night as the person updating the loot sheet.</p><p>Those decisions are the hard part of his file. The pivot to Ascension saved the raid; 15/15 in fourteen days is the proof. It also ended the guild as a thing of its own and cost it its most loyal bench. Divinestorm took the blame for a botched benching in the same breath as he claimed the authority to bench anyone, which suggests he understood the price better than anyone else at the time.</p>",
    "main": "Divinestorm"
+  },
+  "djpopz": {
+   "name": "Djpopz",
+   "html": "<p>Djpopz was a warlock in Ninjas with thirty-one guild raids from February through June 2020. Ten outside reports predate the tenure and nineteen overlap it. Twenty more reports return from September through December, showing a substantial later raid history without a confirmed guild name.</p>"
   },
   "docthor": {
    "name": "Docthor",
@@ -170,13 +354,41 @@
    "name": "Dolleboy",
    "html": "<p>Dolleboy was a druid whose 70 logged raids, all of them Ascension sessions, span 8 March 2020 to 11 April 2021. No loot award or landmark raid is currently documented for the character. Twenty-five external reports fall inside that span, from 9 March 2020 to 1 March 2021, evidence of activity rather than membership in a named guild.</p>"
   },
+  "dragonslay": {
+   "name": "Dragonslay",
+   "html": "<p>Dragonslay healed as a priest for Ninjas and, briefly, Dusk: 44 raids between 13 February and 27 August 2020, all but two of them logged under the Ninjas identity.</p><p>She was one of Ninjas' class leaders, running raid two's healing assignments, and by April 2020 Dan flagged her as a strong contender for more responsibility even though she was \"frustrated with the priests atm,\" simply because the others weren't buffing and left her doing all the legwork. In July, Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> said he wanted her \"more involved with the management of the guild\" as part of a wider push to treat members better, but by August she had stepped back and was taking a break from raid healing. She surfaces once more at the end of September, when Anders asked <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a> whether the person behind a piece of guild drama was \"dragonslay\" and got a one-word yes, and when Stormcat, asked what stood in the way of salvaging Dusk's two raid teams, answered with just her name. Thirteen outside reports predate her run, 21 overlap it, and one more appears on 3 January 2021.</p>"
+  },
+  "drekka": {
+   "name": "Drekka",
+   "html": "<p>Drekka was a warlock with twelve Ninjas raids and two Dusk appearances between February and August 2020. Twelve outside reports predate his local tenure and eight overlap it. No later activity has been found.</p>"
+  },
+  "dropos": {
+   "name": "Dropos",
+   "html": "<p>Dropos was a priest in Ascension with ten guild raids from January through February 2020. Six outside reports predate the local run and two overlap it. No later appearance has been found.</p>"
+  },
   "drágón": {
    "name": "Drágón",
    "html": "<p>Drágón was a warrior from the Ascension side of the archive, with 83 logged raids between 10 May 2020 and 14 April 2021. Seventy-seven of those are Ascension sessions, five belong to the joint Dusk–Ascension roster, and one is a personal pug. Drágón attended the first joint Naxxramas raid on 9 December 2020 and the first Kel'Thuzad kill eleven days later, though no loot award is currently documented. A broader report search found twelve appearances before the logged span in April 2020, 26 external reports running through it to 11 April 2021, and eleven more from 22 April to 18 May 2021; these establish activity rather than a named destination guild.</p>"
   },
+  "dwarfinator": {
+   "name": "Dwarfinator",
+   "html": "<p>Dwarfinator was a rogue in Ninjas with fourteen guild raids from May through July 2020. Ten outside reports overlap that short tenure. No report has been found before the local opening or after the final raid.</p>"
+  },
+  "eboberta": {
+   "name": "Eboberta",
+   "html": "<p>Eboberta was a rogue in Ascension with nineteen guild raids from January through April 2020. Fourteen outside reports predate the local run and seven overlap it. No later appearance has been found.</p>"
+  },
   "edomedo": {
    "name": "Edomedo",
    "html": "<p>Edomedo was the tank-in-waiting whose exit changed everything. Groomed through November as the contingency (\"we have a potential tank lined up\"), he preferred tanking to DPS and said so. On the night of December 7th 2020 he told <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> he was quitting the game — and that single conversation set off the chain reaction: no tanks for Four Horsemen, the overnight partnership with Ascension, the twenty-spot cut, and the end of Dusk nine days later. Few players this quiet ever moved a story this much.</p>"
+  },
+  "elbossos": {
+   "name": "Elbossos",
+   "html": "<p>Elbossos was a hunter in Ninjas with twenty-eight guild raids from March through June 2020. Sixteen outside reports overlap that tenure. Twenty-seven more begin immediately afterward and continue into December, establishing a long later raid history whose guild remains unresolved.</p>"
+  },
+  "elderoy": {
+   "name": "Elderoy",
+   "html": "<p>Elderoy was an Ascension priest with thirty-seven guild raids from February through July 2020, plus one personal PUG in the collected archive. Ten external reports overlap that period. No report survives from before the local tenure or after it, leaving a compact record centered on Ascension's Molten Core and Blackwing Lair months.</p>"
   },
   "eldoc": {
    "name": "Eldoc",
@@ -186,6 +398,14 @@
    "name": "Electro",
    "html": "<p>Electro was a mage who raided across Sleep, Dusk, and Ascension identities, logging 92 raids from 19 April 2020 to 11 April 2021, and was in the raid for Dusk's first Naxxramas-only night on 6 December 2020. When <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> became mage class leader that May, his roster document records him advocating for Electro's promotion to Raider rank. The loot ledger holds 28 awards, including a Choker of the Fire Lord in July 2020, an Eye of C'Thun that October, and gear spanning Molten Core, Blackwing Lair, and Ahn'Qiraj. Electro's last logged raid is also the final report in the entire local archive, the 11 April 2021 Kel'Thuzad kill, alongside <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a>, <a style=\"color:#C79C6E\" href=\"players.html#Fizzi\">Fizzi</a>, <a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a>, <a style=\"color:#69CCF0\" href=\"players.html#Jumanzy\">Jumanzy</a>, <a style=\"color:#FF7D0A\" href=\"players.html#Amarah\">Amarah</a>, and <a style=\"color:#C79C6E\" href=\"players.html#Devou\">Devou</a>. A separate report search found six external appearances between 25 June 2020 and 31 March 2021, evidence of activity during that span rather than another guild.</p>"
   },
+  "esef": {
+   "name": "Esef",
+   "html": "<p>Esef was a priest in Ascension, with thirty-six guild raids between January and August 2020 plus three personal PUG appearances. His wider record starts two months before the local tenure and adds seven overlapping reports. After the Ascension run, thirteen reports continue into October, documenting continued play without identifying another guild.</p>"
+  },
+  "eveningshelf": {
+   "name": "Eveningshelf",
+   "html": "<p>Eveningshelf was a rogue whose nineteen guild raids crossed Sleep, Ninjas and Dusk. He joined the first C'Thun and Ouro kills and Dusk's first full Ahn'Qiraj clear. One report predates the tenure and four overlap it; a lone appearance in March 2021 is the only later trace.</p>"
+  },
   "exclus": {
    "name": "Exclus",
    "html": "<p>Exclus came from the Nittedal group as a mage. His holy paladin alt <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> joined a roster whose four paladin spots were all healers. The two characters account for nearly one hundred logged raids between them.</p><p>He was also a connector. On 23 October 2019 he vouched for <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> as \"a really good tank,\" bringing in the player who would anchor the guild's front line.</p><p>When <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> lost access to his account, <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> covered the class-leader job from 15 to 22 April 2020. Exclus declined the permanent seat because he was not playing enough, and <a style=\"color:#F58CBA\" href=\"players.html#Randyfist\">Randyfist</a> took over. A month later <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> tried to recruit the paladin alt onto a warrior, creating a brief boundary fight between the tank and paladin leaders. <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> kept raiding through September.</p>",
@@ -193,9 +413,33 @@
     "Exclusafk"
    ]
   },
+  "exhopresso": {
+   "name": "Exhopresso",
+   "html": "<p>Exhopresso fought as a warrior for 62 raids between 13 February and 24 September 2020, 49 of them with Ninjas and 13 after the Dusk merger. He was present for both the first C'Thun and Ouro kills on 23 August and the full Ahn'Qiraj clear eleven days later, a steady attendance record that put him among the guild's more reliable warriors that year even though no loot award is currently documented for him. Eleven outside reports predate the run, 24 overlap it, and one more appears on 5 October 2020 with no destination guild named.</p>"
+  },
+  "extramedium": {
+   "name": "Extramedium",
+   "html": "<p>Extramedium was a hunter in Sleep with twenty-two guild raids from November 2019 through April 2020. He joined the first logged Onyxia kill and the first Nefarian kill; Dragonstalker's Breastplate is his documented loot award.</p><p>Two reports predate the local record and three overlap it. Six later appearances continue into August without identifying another guild.</p>"
+  },
+  "fantur": {
+   "name": "Snjór",
+   "html": "<p>Jón Snjór, Snjór in the raid and Fantur on his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank. That kick is the one act the record can't soften, and the one he was restored from within a day once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>"
+  },
+  "fatale": {
+   "name": "Fatale",
+   "html": "<p>Fatale raided as a warrior for Ascension 52 times between 8 January and 16 September 2020, one of those a personal PUG. One outside report predates the run, 19 overlap it, and five more continue from late September 2020 into May 2021 without naming a destination guild. No landmark or loot award is documented.</p>"
+  },
   "ferrua": {
    "name": "Ferrua",
    "html": "<p>Ferrua was a warlock from the Ninjas side with a talent for being the adult in the room. He is the officer whose loot judgment aged best (\"turns out Ferrua was right not to give Mika the Rejuv Gem,\" <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> conceded months later) and the one who ran healer loot on zero notice the day <a style=\"color:#F58CBA\" href=\"players.html#Orish\">Orish</a> quit. \"Does this mean I decide healer loot today?\" he asked. He did it well enough that nobody complained, which in this guild counts as a standing ovation.</p><p>His interventions were short and usually decisive: on rage-quitting (\"imagine if ten people rage quit, we have no raid\"), on second chances, and in defence of <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> when criticism turned personal. He argued for diverse raid comps on principle. \"Imagine if we only had warriors and paladins. That would suck.\"</p>"
+  },
+  "filippoberio": {
+   "name": "Filippoberio",
+   "html": "<p>Filippoberio was a warrior with three Ninjas raids and eight Dusk raids in the summer of 2020. He joined the first C'Thun and Ouro kills. Six outside reports predate the local tenure and nine overlap it; no later appearance has been found.</p>"
+  },
+  "fingerlickin": {
+   "name": "Fingerlickin",
+   "html": "<p>Fingerlickin was a rogue in Ascension's long early roster. Thirty-four guild raids stretch from October 2019 into September 2020, with one personal PUG also preserved locally. Eighteen outside reports overlap the same span. No report has been found before the local opening or after the final appearance.</p>"
   },
   "fizzi": {
    "name": "Fizzi",
@@ -224,13 +468,73 @@
    "name": "Fnats",
    "html": "<p>Fnats was Fredrik from Nittedal, a restoration druid, and the first voice in the whole archive: \"Er du i queue?\", sent from the launch-day line on 27 August 2019 while his druid was level 10. He and Anders had been gaming together long before Classic, and kept at it long after: League, Valorant, Tarkov, Halo, whatever was going that month.</p><p>In the guild he was one of the two best healers on the roster and the man who fought hardest to make healing loot fair. He spent two months trying to get the Rejuvenating Gem priority settled and eight days waiting for an answer about the healing-officer role. On 18 March 2020, Shakey won the first gem roll, Anders finally offered Fnats the officer role the same evening, and Fnats took an exam break from the game instead. He left without bitterness and with the most quoted line a guild leader ever received: \"as guild leader, you unfortunately stand in the crossfire.\" His deeper argument outlived the night: the people deciding healer loot were people who would never play a healer.</p>"
   },
+  "foreskins": {
+   "name": "Foreskins",
+   "html": "<p>Foreskins was a hunter in Ascension with sixteen guild raids from April through July 2020. Eight outside reports predate his local arrival. Seven later appearances return between December and April 2021, but they do not establish a destination guild.</p>"
+  },
+  "freelong": {
+   "name": "Freelong",
+   "html": "<p>Freelong raided as a mage for Ascension across 52 raids between 15 January 2020 and 31 March 2021. Eight outside reports predate the run and 17 more overlap it, ending 23 March 2021, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "freezir": {
+   "name": "Freezir",
+   "html": "<p>Freezir was a warrior with fifteen Ascension guild raids and eight personal PUGs spread across more than a year. His wider history dwarfs that local record: ninety-eight external reports overlap the same span, with two more before it.</p><p>Nine reports continue after the final Ascension appearance into May 2021. They document further activity but do not establish a destination guild.</p>"
+  },
+  "frieda": {
+   "name": "Frieda",
+   "html": "<p>Frieda was a hunter in Ascension, logging thirty-seven guild raids between November 2019 and July 2020. Seven external reports overlap that tenure. A single later appearance on 16 November is the only activity found afterward, too little to identify a new raid community or guild.</p>"
+  },
+  "frostycore": {
+   "name": "Frostycore",
+   "html": "<p>Frostycore was a mage in Ascension's opening roster, completing fourteen guild raids from October through December 2019. Two external reports overlap the tenure. No activity has been found before it or after it.</p>"
+  },
+  "fruddan": {
+   "name": "Fruddan",
+   "html": "<p>Fruddan was a rogue on Sleep's original surviving roster. His ten guild raids begin with the first complete Molten Core report in November 2019 and end the following month. No outside report appears in the completed search.</p>"
+  },
   "galidia": {
    "name": "Galidia",
    "html": "<p>Galidia was a warrior from the Nittedal circle and the recipient of the first loot award in the entire workbook: Bracelets of Wrath, Blackwing Lair, 25 March 2020, row one of the ledger everything on this site's loot pages descends from. He raided through the Sleep spring as one of the dependable middle of the roster, the kind of player the officer chat only mentions when a tank is needed on short notice (\"I can ask Galidia or <a style=\"color:#C79C6E\" href=\"players.html#Naru\">Naru</a> to tank, they have the gear\").</p><p>The friendship outlasted the guild by years. The same DM thread that covers raid signups in 2020 is, by 2025, Anders explaining index funds and stock picks. Nittedal threads don't really end; they just change topics.</p>"
   },
+  "gallithian": {
+   "name": "Gallithian",
+   "html": "<p>Gallithian was a mage whose eleven guild raids include one Sleep appearance and ten with Ninjas. Three outside reports predate that tenure and five overlap it. One final appearance on 25 August is the only later trace.</p>"
+  },
+  "gambica": {
+   "name": "Gambica",
+   "html": "<p>Gambica was a priest in Ascension with thirty-one guild raids from February through July 2020. Sixteen outside reports predate that run and twenty-nine overlap it, evidence of an extensive parallel raid history. No report has been found after the last Ascension appearance.</p>"
+  },
+  "gamdar": {
+   "name": "Gamdar",
+   "html": "<p>Gamdar was a mage in Ascension's original roster with sixteen guild raids from October through December 2019. Two outside reports overlap that tenure. Seventy later reports continue through June 2020, documenting an extensive second chapter without a confirmed guild name.</p>"
+  },
+  "ganknor": {
+   "name": "Ganknor",
+   "html": "<p>Ganknor was a rogue in Ascension's Naxxramas roster. Twenty-four Ascension raids and two joint nights with Dusk form the guild record, alongside two personal PUGs. He joined the first Kel'Thuzad kill and received Boots of Displacement plus two desecrated armor tokens that night.</p><p>Forty-one outside reports overlap the local tenure. One final appearance on 21 April 2021 follows it, without establishing a destination.</p>"
+  },
+  "ganondrake": {
+   "name": "Ganondrake",
+   "html": "<p>Ganondrake was a paladin in Ascension's opening roster with twelve guild raids from October through December 2019. Three outside reports overlap the tenure. No activity has been found before it or after it.</p>"
+  },
+  "geniep": {
+   "name": "Geniep",
+   "html": "<p>Geniep was a rogue with ten Ascension guild raids and one personal PUG between May and November 2020. Three outside reports predate the guild tenure and four overlap it. Fifteen later reports continue from October through late November without identifying a destination guild.</p>"
+  },
+  "gheynor": {
+   "name": "Gheynor",
+   "html": "<p>Gheynor was a hunter in Ascension's later roster. Twenty-nine Ascension raids and three joint nights with Dusk form his guild record, including the first joint Naxxramas raid on 9 December. One personal PUG is also preserved. Sixteen outside reports overlap the tenure, but none follows the final local appearance in April 2021.</p>"
+  },
+  "gibford": {
+   "name": "Gibford",
+   "html": "<p>Gibford was a priest who crossed from Ninjas into Dusk. His twenty-seven guild raids include Dusk's first full Ahn'Qiraj clear. Ten outside reports predate the local tenure and thirteen overlap it.</p><p>The later history is much larger: forty-eight reports from September 2020 through March 2021. They prove sustained raiding but do not currently name a destination guild.</p>"
+  },
+  "gimpara": {
+   "name": "Gimpara",
+   "html": "<p>Gimpara was a rogue in Sleep with twenty-nine guild raids and one personal PUG from April through August 2020. He joined the first surviving complete Zul'Gurub clear, and twelve documented awards include Quick Strike Ring and several early rogue set pieces.</p><p>Two outside reports overlap his tenure. One isolated appearance on 8 May 2021 is the only later trace and does not establish a destination.</p>"
+  },
   "glory": {
    "name": "Glory",
-   "html": "<p>Glory joined in mid-February 2020, recruited almost by accident: Anders mistook him for someone else and had already mailed him a cloak before anyone caught the mix-up. He stayed for over 120 raids at 96% attendance. He was a protection warrior and a blacksmith good enough to forge <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>'s Sulfuron Hammer in March, then five of the six Radiant pieces for the Naxxramas frost-resistance push. By December 2020 he owned a completed Thunderfury, one of very few in the guild.</p><p>He asked for very little back. As early as March 2020 he was arguing for nothing more than a fair system, where effort at the bottom of the meters got the same respect as parses at the top. He tanked C'Thun for Dusk as late as November 12th. Then the December merge with Ascension cut the roster to twenty spots, and Glory never got a single Four Horsemen pull. Not one of the twelve wipes on December 13th. On the 14th, at 14:21, he told Anders the guild master had promised him a spot that evening; at 19:42 the Horsemen died on the night's first pull with forty other names in the log. He heard the strategy briefing from the bench.</p><p>The officers had reached a private verdict that same day: a year and a half of trial, not improved, not good enough. Nobody said it to his face. When he asked Anders directly who had blocked him, Anders refused to name names, and the answer stayed buried in the archive for five years. Anders had written his own strike letter that same morning, asking more or less the question Glory's whole December asked: what does a guild owe the loyal? Neither of them got an answer.</p><p>Two days later, on the evening the guild mass-migrated into Ascension, Glory left. \"Better to go during the change,\" he said; the guild had been his home, and a spot every other week would have been enough to keep him. Within a week he was tanking Four Horsemen for another guild, in the deep Protection spec he had respecced to on the afternoon Dusk one-shot the fight without him. Invited back after the 15/15 clear, he declined; he couldn't abandon the people who had given him a spot. His last word in the archive, from 2022: not playing WoW any more, for now.</p>"
+   "html": "<p>Glory appears in the first surviving complete Molten Core report on 13 November 2019. His recruitment was almost accidental: Anders mistook him for someone else and had already mailed him a cloak before anyone caught the mix-up. He stayed for 159 local raids. He was a protection warrior and a blacksmith good enough to forge <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>'s Sulfuron Hammer in March, then five of the six Radiant pieces for the Naxxramas frost-resistance push. By December 2020 he owned a completed Thunderfury, one of very few in the guild.</p><p>He asked for very little back. As early as March 2020 he was arguing for nothing more than a fair system, where effort at the bottom of the meters got the same respect as parses at the top. He tanked C'Thun for Dusk as late as 25 November. Then the December merge with Ascension cut the roster to twenty spots, and Glory never got a single Four Horsemen pull. Not one of the twelve wipes on December 13th. On the 14th, at 14:21, he told Anders the guild master had promised him a spot that evening; at 19:42 the Horsemen died on the night's first pull with forty other names in the log. He heard the strategy briefing from the bench.</p><p>The officers had reached a private verdict that same day: a year and a half of trial, not improved, not good enough. Nobody said it to his face. When he asked Anders directly who had blocked him, Anders refused to name names, and the answer stayed buried in the archive for five years. Anders had written his own strike letter that same morning, asking more or less the question Glory's whole December asked: what does a guild owe the loyal? Neither of them got an answer.</p><p>Two days later, on the evening the guild mass-migrated into Ascension, Glory left. \"Better to go during the change,\" he said; the guild had been his home, and a spot every other week would have been enough to keep him. Within a week he was tanking Four Horsemen for another guild, in the deep Protection spec he had respecced to on the afternoon Dusk one-shot the fight without him. Invited back after the 15/15 clear, he initially declined; he couldn't abandon the people who had given him a spot. Yet his story in the logs continued. Glory returned for four Ascension raids in 2021 and tanked Kel'Thuzad on 11 April, finally getting his own clear in the last full raid the local archive records. His last word in the message archive, from 2022: not playing WoW any more, for now.</p>"
   },
   "glorya": {
    "name": "Glorya",
@@ -239,13 +543,45 @@
     "Yukikitsune"
    ]
   },
+  "glumanda": {
+   "name": "Glumanda",
+   "html": "<p>Glumanda healed as a paladin for 40 raids between 28 June and 23 November 2020, 23 with Dusk and 14 with Sleep, and was in the roster for the 9/9 Ahn'Qiraj clear on 3 September. Three personal PUGs complete the 40-raid total. Ten loot awards, including a run of Judgement tier pieces, tracked a healer the guild worked hard to keep scheduled.</p><p>His university timetable kept forcing the issue. At the end of August 2020 he told Stormcat he could no longer make Wednesday raids because of a late class, prompting officers to look for a paladin willing to swap across from Thursday; by November, still unable to fix the conflict, he left the guild alongside his friend Neferti. Trenfentson called the loss \"a fair loss on wednesdays, he's a really good healer,\" and Stormcat agreed it was \"kinda expected\" once university work made Wednesdays impossible. Three outside reports predate his run, four overlap it, and two more appear in the same November week he departed.</p>"
+  },
+  "gnogaine": {
+   "name": "Gnogaine",
+   "html": "<p>Gnogaine was a mage with seventeen Dusk raids and two personal PUGs during the autumn of 2020. Seven awards include Firemaw's Clutch and Ringo's Blizzard Boots. Twenty reports predate his local arrival, while nine later reports continue into November without identifying a destination guild.</p>"
+  },
+  "grindo": {
+   "name": "Grindo",
+   "html": "<p>Grindo was a mage in Ninjas with nineteen guild raids from April through July 2020. One outside report predates the tenure and sixteen overlap it. Seventeen later reports continue from August into April 2021, documenting continued play without a confirmed guild destination.</p>"
+  },
+  "gwyniael": {
+   "name": "Gwyniael",
+   "html": "<p>Gwyniael healed as a druid for 54 raids between 25 March 2020 and 20 January 2021, nearly all of them (49) with Sleep, and was in the raid for the first full Zul'Gurub clear on 19 April. Twenty-four loot awards, more than almost anyone else in this batch, tracked her through Molten Core, Blackwing Lair and Zul'Gurub drops that spring and summer.</p><p>Anders asked <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> in early April whether they should make her a full raider healer now that Sleep had an open druid slot; three weeks later, during the second raid team's session on 27 April, she dropped offline partway through, leaving only three healers up. Anders told Jack afterward that her disconnect hadn't helped a night already strained by other players' struggles. No outside reports exist before, during, or after her run, so nothing here indicates what she did once she stopped appearing in the archive.</p>"
+  },
+  "hadara": {
+   "name": "Hadara",
+   "html": "<p>Hadara was a paladin who logged twenty-three Ascension guild raids and eight personal PUGs between April 2020 and April 2021. Thirty-seven external reports overlap that long span. Six more continue into May, including the late PUG and GDKP circuit where former Sleep and Dusk names still appeared together.</p><p>Those shared reports document continued activity, not a named destination guild.</p>"
+  },
+  "hayze": {
+   "name": "Hayze",
+   "html": "<p>Hayze was a warrior in Ascension with ten guild raids spread from November 2019 through June 2020. One outside report predates the tenure and one overlaps its final date. No later activity has been found.</p>"
+  },
   "hedara": {
    "name": "Hedara",
    "html": "<p>Hedara was Ascension's druid officer, the second name <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> gave Dusk when the December partnership formed. The archive holds less of him than his role deserves: a healer in the first Four Horsemen kill and the Kel'Thuzad clear, a short friendly DM with Anders about whether they'd met before (\"You're from Norway, right? Your voice is familiar\"), and a place in every joint-raid roster through the clear. Like <a style=\"color:#C79C6E\" href=\"players.html#Devou\">Devou</a>, he is a door this story hasn't opened yet — the Ascension officer chat from December would answer questions this archive can only pose.</p>"
   },
+  "hefners": {
+   "name": "Hefners",
+   "html": "<p>Hefners was a rogue in Ascension with thirty-two guild raids from January through August 2020. Three outside reports predate that run and fifteen overlap it. The wider search ends with the local tenure and supplies no later destination.</p>"
+  },
   "helakion": {
    "name": "Helakion",
    "html": "<p>Helakion was a warlock whose 75 logged raids, all of them Ascension sessions, span 6 October 2019 to 2 September 2020. The archive documents no landmark raid or loot award for the character. Nineteen external reports fall inside that span, from 13 November 2019 to 23 August 2020, evidence of activity rather than membership in a named guild.</p>"
+  },
+  "helbred": {
+   "name": "Helbred",
+   "html": "<p>Helbred was a priest in Ascension's opening roster with thirteen guild raids from November through December 2019. Two outside reports overlap the tenure and nine more continue into February 2020.</p>"
   },
   "henne": {
    "name": "Henne",
@@ -254,6 +590,10 @@
   "herberd": {
    "name": "Herberd",
    "html": "<p>Herberd was a priest whose 74 logged raids, all of them Ascension sessions, span 6 October 2019 to 18 October 2020. Neither a landmark raid nor a loot award is currently recorded for the character. Twenty external reports fall inside that span, from 12 February to 28 September 2020, evidence of activity rather than membership in a named guild.</p>"
+  },
+  "hex": {
+   "name": "Hex",
+   "html": "<p>Hex was a druid in Ascension with twenty-six guild raids and one personal PUG from April through July 2020. Nine outside reports predate the local record and eight overlap it. No later appearance has been found.</p>"
   },
   "hilts": {
    "name": "Hilts",
@@ -267,9 +607,61 @@
    "html": "<p>Hilts and the confirmed alt Hiltsey were priests with 154 alt-aware logged raids, from the first logged raid on 6 October 2019 to the last on 14 April 2021. The record is overwhelmingly from the Ascension side of the wider archive: 146 Ascension sessions, four joint Dusk–Ascension raids, and four personal pugs. Hilts attended the first joint Naxxramas raid on 9 December 2020 and the first Kel'Thuzad kill eleven days later. Across the two character names, the Destiny classification totals three before-tenure reports, forty external-during-tenure reports, and eight after-tenure reports; those reports establish activity, not guild membership.</p>",
    "main": "Hilts"
   },
+  "hobbelone": {
+   "name": "Hobbelone",
+   "html": "<p>Hobbelone was a mage with sixteen Ascension guild raids and one personal PUG between January and August 2020. Three outside reports overlap the tenure. Eleven later reports continue into late August, but no destination guild is identified.</p>"
+  },
+  "holyhans": {
+   "name": "Holyhans",
+   "html": "<p>Holyhans was a paladin with eleven Ascension guild raids and three personal PUGs from June through September 2020. Nine reports predate that local window and three overlap it. One appearance in November is the only later trace.</p>"
+  },
+  "holyshule": {
+   "name": "Holyshule",
+   "html": "<p>Holyshule was a paladin in Sleep with twenty-eight guild raids from April through June 2020. Twenty documented awards chart a rapid Molten Core and Blackwing Lair gearing run, beginning with Lawbringer Boots, Flamewaker Legplates and Malistar's Defender.</p><p>The completed wider search finds no outside report at all. His surviving history is contained entirely in the local archive.</p>"
+  },
+  "hotzz": {
+   "name": "Hotzz",
+   "html": "<p>Hotzz was a priest with ten Ascension guild raids and one personal PUG during the summer of 2020. Six outside reports predate the local tenure and four overlap it. No later appearance has been found.</p>"
+  },
+  "hydara": {
+   "name": "Hydara",
+   "html": "<p>Hydara healed as a druid for 46 raids between 13 February and 24 September 2020, 38 with Ninjas and eight after the Dusk merger, and was in the raid for the 9/9 Ahn'Qiraj clear on 3 September.</p><p>Officers debated his reliability in both directions. In June 2020, when a Tier 2 boots drop went to <a style=\"color:#FF7D0A\" href=\"players.html#Amarah\">Amarah</a> instead of him, <a style=\"color:#9482C9\" href=\"players.html#Ferrua\">Ferrua</a> justified it by saying \"Hydara has been slacking..., <a style=\"color:#FF7D0A\" href=\"players.html#Amarah\">Amarah</a> is always showing up,\" but a month later Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> put him forward as \"our best option for a healing leader\" among the resto druid group that also included <a style=\"color:#FF7D0A\" href=\"players.html#Amarah\">Amarah</a>, <a style=\"color:#FF7D0A\" href=\"players.html#Shaoxin\">Shaoxin</a> and Tokir. That same July, it was Hydara who asked that <a style=\"color:#FF7D0A\" href=\"players.html#Amarah\">Amarah</a> and Shao be the ones to sit out a raid when the healing roster ran even. Twelve outside reports predate his run, 13 overlap it, and 11 more continue from October through late November 2020, with no destination guild named.</p>"
+  },
+  "hyúna": {
+   "name": "Hyúna",
+   "html": "<p>Hyúna was a paladin in Ascension with twenty-six guild raids and two personal PUGs between April and September 2020. Twenty-three external reports overlap that period, but none appears before the local opening or after the final recorded raid.</p>"
+  },
   "ifly": {
    "name": "Ifly",
    "html": "<p>Ifly raided as a rogue for Ascension, logging 83 raids between 6 October 2019 and 22 November 2020, all but one of them Ascension sessions and the remainder a personal pug. The archive currently holds neither a landmark raid nor a loot award for the character. A wider report search found no appearances before the logged span, 30 external reports running from 13 November 2019 to 11 November 2020, and five more in the final week of that window; these show continued activity rather than a named guild.</p>"
+  },
+  "ihide": {
+   "name": "Ihide",
+   "html": "<p>Ihide raided as a rogue for Ascension, 69 raids between 15 January 2020 and 7 April 2021. Twelve outside reports precede the run, 38 overlap it, and ten more continue from 18 April through 16 May 2021; none of them name a destination guild. No landmark or loot award is currently documented for Ihide.</p>"
+  },
+  "ilove": {
+   "name": "Ilove",
+   "html": "<p>Ilove raided as a warrior first in Ascension, then in Dusk, then in both together as the guilds worked jointly toward Naxxramas: 22 raids in Ascension, 19 in Dusk, three in joint Dusk-Ascension raids, and five personal PUGs, for 49 total between 13 September 2020 and 11 April 2021. He was there for the first Dusk-only Naxxramas raid on 6 December, the first joint Dusk-Ascension Naxxramas raid three days later, and the Kel'Thuzad kill on 20 December, and collected ten loot awards along the way including Crul'shorukh, Edge of Chaos.</p><p>Officers used him as their example of a reliable fill-in: <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> cited him in November 2020 as a raider \"coming... with WBs and consumes\" whenever the guild was short on warriors, and during that month's C'Thun fight he and <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> were the only two in their group to survive the first eye beam because they held their spot while a nearby rogue drifted out of position. Attendance didn't protect him from the bench, though: by mid-December he lost his spot to a warrior with four, which drew a frustrated private message from Anders comparing the two players' matching boss DPS. Nineteen outside reports overlap his run and six more continue into May 2021 without naming a destination guild.</p>"
+  },
+  "imlok": {
+   "name": "Imlok",
+   "html": "<p>Imlok raided as a warlock for Ascension across 42 raids between 22 March 2020 and 11 January 2021, four of them personal PUGs. Fourteen outside reports overlap the run and 19 more continue from August 2020 into May 2021, without naming a destination guild. No landmark or loot award is documented.</p>"
+  },
+  "immohalx": {
+   "name": "Immohalx",
+   "html": "<p>Immohalx was a priest with seventeen Ascension guild raids and one personal PUG from January through May 2020. Seventeen outside reports predate that window and twenty-five overlap it. Three later appearances continue into August without establishing another guild.</p>"
+  },
+  "instant": {
+   "name": "Instant",
+   "html": "<p>Instant was a paladin whose early guild path includes five Ascension raids and eighteen Sleep raids. He appears in the first surviving complete Molten Core report and the first logged Onyxia kill in November 2019. No outside Warcraft Logs report appears anywhere in the completed search.</p>"
+  },
+  "isamu": {
+   "name": "Isamu",
+   "html": "<p>Isamu raided as a mage for 40 raids between 20 November 2019 and 22 November 2020, 28 with Sleep and nine after the Dusk merger, plus three personal PUGs. Two loot awards bookend his final months: Netherwind Boots that October and a Band of <a style=\"color:#C79C6E\" href=\"players.html#Forced\">Forced</a> Concentration on his last logged raid. A single outside report falls during his run, on 27 September 2020, and two more follow in December 2020 and January 2021, with no destination guild named.</p>"
+  },
+  "itspizzatime": {
+   "name": "Itspizzatime",
+   "html": "<p>Itspizzatime was a priest in Ninjas who made one further appearance after the Dusk merger. His twenty-one guild raids span February through August 2020. Seven reports predate that tenure and six overlap it; none appears afterward.</p>"
   },
   "jangera": {
    "name": "Jangera",
@@ -277,7 +669,7 @@
   },
   "jellopy": {
    "name": "Jellopy",
-   "html": "<p>Jellopy was the guild's first rogue class leader, running the class through the Molten Core and Onyxia autumn of 2019 with a five-slot raider roster he picked himself. He also wired early Discord webhooks for Anders, part class leader and part guild tech support.</p><p>His 26 logged nights all predate Blackwing Lair. On 4 February 2020 he delegated the job plainly: \"<a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a> will act as CL and loot council.\" Three weeks later Anders asked whether the promotion should become permanent. \"Yea for sure, promote the man!\" Jellopy replied. He had hoped to do one last raid before announcing his own departure, but never found the time. Most guild history isn't drama. Sometimes the important people just log off.</p>",
+   "html": "<p>Jellopy was the guild's first rogue class leader, running the class through the Molten Core and Onyxia autumn of 2019 with a five-slot raider roster he picked himself. He also wired early Discord webhooks for Anders, part class leader and part guild tech support.</p><p>His 26 logged raids all predate Blackwing Lair. On 4 February 2020 he delegated the job plainly: \"<a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a> will act as CL and loot council.\" Three weeks later Anders asked whether the promotion should become permanent. \"Yea for sure, promote the man!\" Jellopy replied. He had hoped to do one last raid before announcing his own departure, but never found the time. Most guild history isn't drama. Sometimes the important people just log off.</p>",
    "roles": [
     {
      "role": "Rogue class leader",
@@ -285,6 +677,18 @@
      "guild": "Sleep"
     }
    ]
+  },
+  "jerricho": {
+   "name": "Jerricho",
+   "html": "<p>Jerricho was a warrior in Ascension. The archive records thirty-three guild raids and five personal PUGs between January and November 2020. Fourteen outside reports show that he was already active before his local debut, and twenty more run alongside the Ascension tenure. Five final reports continue into late November without establishing a new guild.</p>"
+  },
+  "jinx": {
+   "name": "Jinx",
+   "html": "<p>Jinx was a warlock in Ascension with eleven guild raids from February through April 2020. One outside report predates the local run and nine overlap it. No later activity has been found.</p>"
+  },
+  "jubii": {
+   "name": "Jubii",
+   "html": "<p>Jubii was a rogue in Ascension's opening roster, completing eighteen guild raids from October through December 2019. Three outside reports overlap the tenure and three more follow into January 2020. No broader later trail has been found.</p>"
   },
   "juggalog": {
    "name": "Juggalog",
@@ -298,6 +702,14 @@
    "name": "Juud",
    "html": "<p>Juud was a warrior who crossed from Ninjas into Dusk and Ascension, logging 74 raids from 13 February 2020 to 17 March 2021, split 40 to Ninjas, 18 to Ascension, 11 to Dusk, four joint Dusk–Ascension sessions, and one personal pug. Juud was in the raid for six successive landmarks: the first C'Thun and Ouro kills, the first complete 9/9 Ahn'Qiraj clear, Dusk's Naxxramas opening, the first joint raid, and the Kel'Thuzad kill, receiving Legplates of Carnage on the joint-raid night. Research into the Kel'Thuzad roster singles out Juud and <a style=\"color:#FF7D0A\" href=\"players.html#Amarah\">Amarah</a> as the only two former Ninjas players in that final lineup. During the December 2020 roster debate over Naxxramas tank spots, officer <a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> named Juud as the pick kept over <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> and judged the choice harshly in the officer chat. A broader report search found seven appearances before the logged span, between 18 December 2019 and 6 February 2020, and 23 external reports running through it to 3 February 2021, evidence of activity rather than a named guild.</p>"
   },
+  "kaasdipje": {
+   "name": "Kaasdipje",
+   "html": "<p>Kaasdipje was a warrior in Ninjas who made three later appearances for Dusk. His thirty-one guild raids stretch from March into November 2020. Legguards of the Fallen Crusader, awarded in September, are the sole documented loot entry. Twelve outside reports overlap the tenure and none follows it.</p>"
+  },
+  "karne": {
+   "name": "Karne",
+   "html": "<p>Karne was an Ascension hunter with thirty-six guild raids from January through May 2020. Six outside reports precede the local record and thirteen overlap it. The completed search finds no later appearance, so the surviving trail ends with the Ascension tenure.</p>"
+  },
   "katdrovrsn": {
    "name": "Katdrovrsn",
    "html": "<p>Katdrovrsn was a warrior from the Ninjas line who continued into Dusk, logging 74 raids from 23 February to 23 November 2020, split 55 to Ninjas and 18 to Dusk with one personal pug. Katdrovrsn was in the raid for the first complete 9/9 Ahn'Qiraj clear on 3 September 2020, having received a Manual of Heroic Strike IX from Ruins of Ahn'Qiraj two weeks earlier. Twenty-nine external reports run alongside the logged span, from 23 February to 10 September 2020. The later trail contains 51 reports across 35 dates, with <a style=\"color:#F58CBA\" href=\"players.html#Mikadrovrsn\">Mikadrovrsn</a> present on 28 and <a style=\"color:#69CCF0\" href=\"players.html#Khazam\">Khazam</a> on 14. Five dates belong to a weekly series titled \"Safe Haven BWL,\" but Warcraft Logs has no matching Razorgore guild record; the evidence supports a named raid community, not confirmed membership.</p>"
@@ -305,6 +717,10 @@
   "keri": {
    "name": "Keri",
    "html": "<p>Keri was a mage whose 76 logged raids, every one classified to Ascension, run from 24 November 2019 to 7 December 2020. No documented landmark raid or loot award accompanies the record. A broader report search found two appearances before the logged span, in October and November 2019, and 27 external reports running from 16 February to 18 November 2020, evidence of activity rather than a named guild.</p>"
+  },
+  "khazam": {
+   "name": "Khazam",
+   "html": "<p>Khazam raided as a mage through both the Ninjas and Dusk chapters of the guild's history: 58 raids with Ninjas, then 12 more after the August 2020 merger, for 70 raids between 16 February and 24 September 2020. He was present for the first C'Thun and Ouro kills on 23 August and the following full Ahn'Qiraj clear on 3 September.</p><p>Officers rated him among the guild's best mages, sometimes with visible envy. In July 2020 Bandito complained, half-joking, that \"Khazam got everything\" from a night's drops and that he had \"khazamed his way to all the loot,\" while <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a> named him alongside <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> as the two top parsers on Chromaggus. By September, once <a style=\"color:#69CCF0\" href=\"players.html#Kolfinna\">Kolfinna</a> and <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> stepped back from Thursday raiding, <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> listed Khazam as one of the four mages left holding that team together. Five outside reports predate his local run and 29 more overlap it; a further 27 continue from November 2020 into May 2021 without naming a destination guild.</p>"
   },
   "knedlica": {
    "name": "Knedlica",
@@ -326,6 +742,18 @@
     }
    ]
   },
+  "kofte": {
+   "name": "Kofte",
+   "html": "<p>Kofte raided as a druid for Ascension across 45 raids between 15 January and 28 June 2020, one of them a personal PUG. Nine outside reports predate the run and 19 more overlap it, ending 5 June 2020, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "kolfinna": {
+   "name": "Kolfinna",
+   "html": "<p>Kolfinna raided as a mage for 47 raids between 20 February and 10 September 2020, 40 of them with Ninjas and seven after the Dusk merger, and was present for the first C'Thun and Ouro kills on 23 August.</p><p>He was the kind of player officers were reluctant to bench. On 10 September 2020, weighing a tight mage roster, <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> argued for keeping him in despite a late signup because \"Kolfinna misses som raids at times but he always makes sure to message me if he can't make it,\" adding that he'd been improving a lot lately. Eight days later Kolfinna stepped back from Thursday raiding entirely, <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> explained, because he was struggling to combine it with work, one of three departures (with <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> and <a style=\"color:#69CCF0\" href=\"players.html#Arcanefarts\">Arcanefarts</a>) that thinned the Thursday mage team at once. Eighteen outside reports overlap his run, from 23 February to 10 September 2020, with none before or after.</p>"
+  },
+  "kretin": {
+   "name": "Kretin",
+   "html": "<p>Kretin was a mage in Ascension's original recorded roster. Thirty-one guild raids survive from October 2019 through February 2020. Only one external report overlaps that span, and the completed search finds nothing before or after it.</p>"
+  },
   "kugel": {
    "name": "Kugel",
    "html": "<p>Kugel was the original main tank, the warrior the guild built its first raids around. He recruited <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>, who remembered him as the first person he got to know in Sleep, and received an early Binding of the Windseeker when handing a legendary component to your main tank seemed obviously right. Then, in January 2020, he simply stopped logging in. <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> counted twenty-three days of silence before the officers began asking around. By February the main-tank vacancy was official, and in March Kugel was quietly removed after two months offline.</p><p>His disappearance shaped the guild twice over. It handed the tank mantle to <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> and opened the gearing question that <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a>, Zhena, and later Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> would each live through in turn. And the Binding that left with him became guild doctrine: from then on, legendary priority was tied to reliability and long-term commitment — a rule written, like most guild rules, in response to a specific disappointment. Nobody in the archive ever says where he went.</p>",
@@ -336,6 +764,26 @@
      "guild": "Sleep"
     }
    ]
+  },
+  "lanaya": {
+   "name": "Lanaya",
+   "html": "<p>Lanaya was a hunter in Ascension's opening roster, completing seventeen guild raids from October through December 2019. Three outside reports overlap the tenure. Forty-six later reports continue through June 2020, showing extensive activity without a confirmed destination.</p>"
+  },
+  "letmemaryjan": {
+   "name": "Letmemaryjan",
+   "html": "<p>Letmemaryjan was a rogue who joined Ninjas through <a style=\"color:#FFF569\" href=\"players.html#Seax\">Seax</a>, his real-life friend. <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a> introduced him to the officers as prepared and experienced, then worked to find him a Blackwing Lair place. He completed twenty-three Ninjas raids and one Dusk raid between May and August 2020.</p><p>Ten outside reports overlap the tenure. No activity has been found after his final local appearance.</p>"
+  },
+  "lightwel": {
+   "name": "Lightwel",
+   "html": "<p>Lightwel was a paladin in Ascension with twelve guild raids in March and April 2020. Ten outside reports predate the local tenure and five overlap it. One isolated appearance in August is the only later trace.</p>"
+  },
+  "logen": {
+   "name": "Logen",
+   "html": "<p>Logen was a paladin in Ninjas with twelve guild raids from April through June 2020. Four outside reports overlap the tenure. No report has been found before the local opening or after the final raid.</p>"
+  },
+  "luilui": {
+   "name": "Luilui",
+   "html": "<p>Luilui was a warrior in Ascension with twenty-three guild raids from April through August 2020. Six reports predate his local arrival and two overlap the tenure. One final appearance on 16 August is the only later trace.</p>"
   },
   "luivi": {
    "name": "Luivi",
@@ -365,13 +813,53 @@
    "name": "Lyriss",
    "html": "<p>Lyriss was a rogue in Ascension, with fifty-six local guild raids from February through 7 December 2020. Twelve reports predate that tenure, and another twenty-one overlap it outside the local archive. The record shows a player with an established raid life beyond the reports collected for this project.</p><p>Three days after the final Ascension appearance, Lyriss begins a later run of seventy-four reports across fifty-three dates. <a style=\"color:#FFFFFF\" href=\"players.html#Zhorax\">Zhorax</a> uploaded thirty-six of them, following a stable Naxxramas roster into May 2021; a second set under Aceto Balsamico overlaps through joint-run titles. The continuity is strong, but no source currently supplies a guild name for either group.</p>"
   },
+  "lyvana": {
+   "name": "Lyvana",
+   "html": "<p>Lyvana raided as a warlock for Sleep sixty-one times between 1 March and 29 July 2020, picking up fourteen loot awards including Mish'undare, Circlet of the Mind Flayer, in her final month.</p><p>She also did the unglamorous officer work: covering loot sorting and bloodvine requests for <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a> more than once that spring, and crafting soul shard bags for the guild on request. Her departure became a small event. On 11 July, Giorgos Patsis told Anders that both Lyvana and <a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a> had already gquit; two days later Anders described it to Shakey as the two of them leaving together \"to join a new guild that was more hardcore,\" a move Shakey found more surprising than any other departure that summer because he'd assumed they were \"lifers in sleep.\" Lyvana nevertheless returned for Sleep's Zul'Gurub and Onyxia farm raids on 29 July, which account for the later endpoint in the logs. Seven outside reports follow in July, and 24 more continue from August through early December 2020 without identifying the new guild by name.</p>"
+  },
+  "mackmanaman": {
+   "name": "Mackmanaman",
+   "html": "<p>Mackmanaman was a hunter in Ascension's earliest roster. Twenty guild raids survive from October 2019 through February 2020. One outside report overlaps that span; nothing has been found before it or after it.</p>"
+  },
+  "maddas": {
+   "name": "Maddas",
+   "html": "<p>Maddas was a priest in Ninjas with seventeen guild raids from February through April 2020. Six outside reports predate that tenure and six overlap it. No later appearance has been found.</p>"
+  },
+  "maevis": {
+   "name": "Maevis",
+   "html": "<p>Maevis was a mage in Ascension with twelve guild raids from June through October 2020. One outside report overlaps the tenure. The completed search finds no activity before the local opening or after the final raid.</p>"
+  },
   "maffe": {
    "name": "Maffe",
    "html": "<p>Maffe was a paladin in the Ascension lineage, with 93 logged raids running from 22 January 2020 to 14 April 2021. The record splits into 88 Ascension sessions and five joint Dusk–Ascension raids, with no personal pugs recorded. Maffe was present for the first joint Naxxramas raid and the first Kel'Thuzad kill, taking home a Shield of Condemnation on the clear night. A broader report search found sixteen appearances before the logged span, running from 7 October 2019 to 8 January 2020, and 29 external reports inside it through 12 April 2021; these show continued play, not a named guild.</p>"
   },
+  "magaliee": {
+   "name": "Magaliee",
+   "html": "<p>Magaliee was a rogue with ten Dusk raids and two personal PUGs during the autumn of 2020. Three Ahn'Qiraj awards preserve her short gearing trail: Imperial Qiraji Armaments, Vek'lor's Diadem and Qiraji Bindings of Command. One outside report predates her Dusk tenure and one overlaps it. Twenty-one later reports continue from November through 13 December, but they do not identify a destination guild.</p>"
+  },
+  "mansawtiger": {
+   "name": "Mansawtiger",
+   "html": "<p>Mansawtiger was a rogue with eight Ninjas raids and four Dusk raids from June through September 2020. Five outside reports overlap the first month of that tenure. No report appears before the local opening or after the final raid.</p>"
+  },
+  "mdk": {
+   "name": "Mdk",
+   "html": "<p>Mdk raided as a rogue for Ascension across 41 raids between 6 October 2019 and 18 March 2020. Thirteen outside reports overlap the run, from 13 November 2019 to 15 March 2020, with none before or after. No landmark or loot award is documented.</p>"
+  },
+  "mechar": {
+   "name": "Mechar",
+   "html": "<p>Mechar tanked or DPSed as a warrior for Sleep 63 times between 5 February and 5 July 2020, catching the first Nefarian kill on 23 February and the first full Zul'Gurub clear on 19 April. One personal PUG brings his local total to 64 raids. Twenty loot awards across Molten Core, Onyxia, Zul'Gurub and Blackwing Lair, including the Head of Nefarian, made him one of the best-geared warriors of that stretch.</p><p>Officers considered him flexible enough to fill gaps: in April 2020 Anders suggested to Zypher that Mechar could join the second raid team as a tank when the usual off-tanks were unevenly split between rosters. A month later, pnats privately flagged something odd about a Ragnaros drop that Randy had quickly self-equipped instead of trading, an item pnats believed should have gone to \"Mechar/<a style=\"color:#C79C6E\" href=\"players.html#Naru\">Naru</a>\" instead. Two outside reports overlap his run, from 22 February to 22 June 2020, with none before or after.</p>"
+  },
+  "melic": {
+   "name": "Melic",
+   "html": "<p>Melic was a hunter with sixteen Ascension guild raids and five personal PUGs between February and September 2020. Eleven reports predate the guild window and twenty-eight overlap it.</p><p>Fourteen later reports continue from October into May 2021. They establish continued play but not a named destination.</p>"
+  },
   "menrias": {
    "name": "Menrias",
    "html": "<p>Menrias was a rogue whose 104 logged raids all belong to the Ascension lineage, beginning on 30 October 2019 and ending on 7 December 2020. The inventory currently records no named landmark attendance or loot award for Menrias. Seventeen external Warcraft Logs reports fall within the same span, but they establish raid activity rather than membership outside Ascension.</p>"
+  },
+  "messia": {
+   "name": "Messia",
+   "html": "<p>Messia was a priest in Ascension's earliest recorded months. Thirty-six guild raids span October 2019 through April 2020, while eleven external reports overlap the same period. No report has been found before the local opening or after the final Ascension raid.</p>"
   },
   "mikadrovrsn": {
    "name": "Mikadrovrsn",
@@ -380,6 +868,14 @@
   "mikasalord": {
    "name": "Mikasalord",
    "html": "<p>Mikasalord was a priest from the Ascension lineage with 102 logged raids between 15 January 2020 and 11 April 2021. The inventory records 97 Ascension sessions and five joint Dusk–Ascension raids. Mikasalord attended both the first joint Naxxramas raid and the first Kel'Thuzad kill, receiving Desecrated Bindings on 16 December and Resilience of the Scourge on the clear night. The wider probe found twelve reports before this span, 24 external reports during it, and eleven afterward; these are records of activity, not proof of another guild.</p>"
+  },
+  "mikutron": {
+   "name": "Mikutron",
+   "html": "<p>Mikutron raided as a mage for Ascension thirty-nine times from February through September 2020. Fourteen outside reports predate that run and twenty-one overlap it, showing that the local archive captured only one part of an already active character history. No later report has been found after the final Ascension appearance.</p>"
+  },
+  "mikutronic": {
+   "name": "Mikutronic",
+   "html": "<p>Mikutronic was a druid with fourteen Ascension guild raids and one personal PUG from May through August 2020. Four later reports are spread between the final local date and May 2021. They show occasional continued play but no named destination.</p>"
   },
   "missdotty": {
    "name": "Missdotty",
@@ -396,9 +892,37 @@
    "name": "Missdotty",
    "html": "<p>Missdotty, Dotty for short and Decretum on Discord, was a warlock, the Thursday team's off-boss tank when a fight demanded one, and the officer chat's investigator-in-chief. When idols went missing from the guild bank pipeline, Dotty traced them mailbox by mailbox (\"the investigator!\"). When arguments ran to 150 messages, Dotty arrived late, sighed \"99% shit, 1% information, as usual,\" and set up a poll. The Among Us jokes wrote themselves, and Dotty leaned in.</p><p>The record also holds a running comedy of mistaken identity: half the guild spent months assuming Missdotty was a woman, a discovery that cost <a style=\"color:#FF7D0A\" href=\"players.html#Pnats\">Pnats</a> a genuine crisis (\"She's not?\" / \"I can be, if you want\"). Behind the jokes sat a reliable officer, hardline in the <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> debate, generous in the Tear queue, and the one who kept Discord's machinery of polls and roles and tags actually working.</p>"
   },
+  "moonfeather": {
+   "name": "Moonfeather",
+   "html": "<p>Moonfeather was a druid in Sleep with twenty guild raids from December 2019 through April 2020. Cenarion Boots are the sole documented loot award. No outside report appears in the completed character search.</p>"
+  },
+  "morpanos": {
+   "name": "Morpanos",
+   "html": "<p>Morpanos was a mage in Ascension's closing chapter. Twenty-two Ascension raids and five joint nights with Dusk include the first joint Naxxramas run and the first Kel'Thuzad kill.</p><p>His earlier history is enormous beside the local tenure: one hundred reports before his November arrival. Thirteen outside reports overlap it and another thirteen continue into May 2021, but the later group is not named by the resolved evidence.</p>"
+  },
+  "mounaros": {
+   "name": "Mounaros",
+   "html": "<p>Mounaros was a warlock in the Dusk-to-Ascension transition. Eight Dusk raids, two joint nights and eleven Ascension raids form his guild record, with three personal PUGs also preserved. He joined Dusk's first guild-only Naxxramas run and the first Kel'Thuzad kill; his awards include a Desecrated Circlet.</p><p>Seventy-six reports predate his local arrival and twenty-three overlap the tenure. No report follows the final local appearance.</p>"
+  },
+  "murvar": {
+   "name": "Murvar",
+   "html": "<p>Murvar raided as a mage for Ascension across 48 raids between 12 February and 23 August 2020, one of them a personal PUG. Twenty-eight outside reports overlap the run and one more appears three days after his final logged raid, on 26 August 2020. No landmark or loot award is documented.</p>"
+  },
   "mysor": {
    "name": "Mysor",
    "html": "<p>Mysor was a rogue from the Ascension lineage with 110 logged raids, beginning on 15 January 2020 and ending on 7 April 2021. The total comprises 105 Ascension sessions and all five of the first joint Dusk–Ascension raids. Mysor attended the joint Naxxramas opening and the first Kel'Thuzad kill, then received four Naxxramas armor awards between 13 and 16 December. Outside the local archive, the probe found 17 reports before the span, 51 during it, and eleven after it; those reports indicate activity, not guild membership.</p>"
+  },
+  "namelessqt": {
+   "name": "Namelessqt",
+   "html": "<p>Namelessqt was a warrior in Ascension with eleven guild raids from October through December 2020. The local tenure is a small slice of a much larger history: 126 reports predate it and two overlap it.</p><p>Forty-five later reports continue from December into May 2021. They prove sustained raiding but do not currently identify a destination guild.</p>"
+  },
+  "nanis": {
+   "name": "Nanis",
+   "html": "<p>Nanis fought as a warrior for 67 raids between 5 March and 24 September 2020, split 49 raids in Ninjas and 17 after the Dusk merger, plus one personal PUG, and stood in the raid for both the C'Thun/Ouro kills on 23 August and the full Ahn'Qiraj clear on 3 September.</p><p>Loot officers repeatedly used him as the example of a raider who didn't grab for gear: in July 2020 Bandito noted \"Nanis would have gotten axes had he wanted to\" but let others take priority, and a month earlier had argued Nanis deserved a contested Vis'kag drop over other contenders. In August, Bandito offered him the warrior class-leader role and stepped back himself, prompting Dan to write that Nanis \"has always been more of a back bench player, fantastic warrior and always motivated in raids,\" glad to see him take on officer responsibility. Three outside reports precede the run, 20 overlap it, and 40 more continue from late September through 9 December 2020.</p>"
+  },
+  "nanul": {
+   "name": "Nanul",
+   "html": "<p>Nanul was a druid in Ascension with ten guild raids during April and May 2020. One outside report predates the local run and three overlap it. No later appearance has been found.</p>"
   },
   "naru": {
    "name": "Naru",
@@ -424,6 +948,14 @@
    "name": "Nikaido",
    "html": "<p>Nikaido was a priest associated primarily with Ascension, appearing in 110 logged raids between 15 January 2020 and 14 April 2021. The inventory records 105 Ascension raids, four joint Dusk–Ascension sessions, and one personal pug. Nikaido attended the first Kel'Thuzad kill and received Desecrated Leggings, Spire of Twilight, and Ring of Faith during the final progression week. The broader report history contains 16 reports before this span, 27 external reports during it, and nine afterward, none of which by itself identifies a guild.</p>"
   },
+  "nonstickpan": {
+   "name": "Nonstickpan",
+   "html": "<p>Nonstickpan was a rogue with ten Ascension guild raids and four personal PUGs between June and October 2020. One outside report predates the guild tenure and seventeen overlap it. A final appearance on 25 October is the only later trace.</p>"
+  },
+  "noxou": {
+   "name": "Noxou",
+   "html": "<p>Noxou raided as a warlock for 47 raids between 16 February and 24 September 2020, 39 with Ninjas and eight after the Dusk merger, catching both the first C'Thun and Ouro kills on 23 August and the full Ahn'Qiraj clear on 3 September.</p><p>He wasn't without friction. In May 2020, Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> vented in the officer chat about Noxou and itspizzatime complaining that the loot council wasn't working for them, pointing out neither had shown up for Molten Core in months while letting others carry the raid. By August, though, he was valued enough as a package: Dan noted that Noxou, <a style=\"color:#F58CBA\" href=\"players.html#Broodje\">Broodje</a> and <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> were real-life friends who wanted to keep raiding together, complicating any plan to move a paladin between the Wednesday and Thursday teams. Seven outside reports predate his run, 13 overlap it, and one more appears on 29 September 2020.</p>"
+  },
   "ntekapaz": {
    "name": "Ntekapaz",
    "html": "<p>Ntekapaz joined Sleep through <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> and <a style=\"color:#FFFFFF\" href=\"players.html#Carmelia\">Carmelia</a> on 28 June 2020. The rogue was only five days old but already attuned. He wanted a team worth staying with. When told that alts could receive loot before initiates, he objected once, then gave the line that explains why he fit: \"I dont mind wasting a few gear runs in order to have a nice raidingteam.\"</p><p><a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a> moved him to daggers and funnelled the available drops his way, planning a seventh rogue spot even as he prepared to leave. Ntekapaz then became the clearest witness to the three-week Twx experiment. He reported the self-awarded tier pieces and challenged performance loot with the logs. His answer was always <a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a>'s round-robin system. Other rogues left. Ntekapaz stayed because he believed the problem could be fixed.</p><p>His warrior <a style=\"color:#C79C6E\" href=\"players.html#Malakor\">Malakor</a> later joined the same November pug as <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> and <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, proof that the friendships survived the loot revolt. He was also leveling the summon bot Ntekabot when the thread ends.</p>",
@@ -435,6 +967,34 @@
   "nutellâ": {
    "name": "Nutellâ",
    "html": "<p>Nutellâ was a warlock in Ascension's early Molten Core roster. Eleven local guild raids survive from 30 October through 18 December 2019. Outside reports begin eleven days later and follow a regular Sunday and Wednesday group through the opening months of Blackwing Lair.</p><p>By 29 April 2020 the trail becomes a named destination. Fifty-two of Nutellâ's later reports, across twenty-seven dates through 18 November, match Warcraft Logs' historical guild feed for Doubt. Her complete later history contains one hundred reports across sixty-three dates, but the Doubt matches are the part that establishes a guild rather than only continued activity.</p>"
+  },
+  "nutfixer": {
+   "name": "Nutfixer",
+   "html": "<p>Nutfixer was an Ascension paladin with thirty-two guild raids between January and May 2020. Seventeen outside reports show an active history before his local debut, while eight more overlap the tenure. A single report one week after his final Ascension raid is the only later appearance.</p>"
+  },
+  "néferti": {
+   "name": "Néferti",
+   "html": "<p>Néferti was a druid who completed twelve Sleep raids and sixteen Dusk raids, plus one personal PUG, from July through November 2020. She was present for Dusk's first full Ahn'Qiraj clear. Six documented awards include early Cenarion pieces and Shimmering Geta.</p><p>Two outside reports overlap the tenure and two fall near its end. No wider destination trail survives.</p>"
+  },
+  "obie": {
+   "name": "Obie",
+   "html": "<p>Obie was a mage in Ascension with ten guild raids from January through February 2020. Ten outside reports predate the local tenure and two overlap it.</p><p>Forty-five later reports return from August through December 2020. They establish a substantial later raid history, but the currently resolved metadata does not name its guild.</p>"
+  },
+  "octocat": {
+   "name": "Octocat",
+   "html": "<p>Octocat raided as a hunter for Ascension across 56 raids between 23 October 2019 and 19 August 2020. Eighteen outside reports overlap the run, from 13 November 2019 to 19 August 2020, with none before or after. No landmark or loot award is documented.</p>"
+  },
+  "ogetafix": {
+   "name": "Ogetafix",
+   "html": "<p>Ogetafix was a warrior in Ascension with thirteen guild raids from November 2019 through January 2020. No outside report appears anywhere in the completed character search.</p>"
+  },
+  "oliveoyll": {
+   "name": "Oliveoyll",
+   "html": "<p>Oliveoyll was a warrior with eleven Dusk raids and two personal PUGs during September 2020. Four awards include Doom's Edge, The Untamed Blade and Drake Talon Pauldrons. Three reports predate his local arrival, two overlap it, and one final appearance follows on 27 September.</p>"
+  },
+  "opinummi": {
+   "name": "Opinummi",
+   "html": "<p>Opinummi was a paladin in Ascension with twenty-seven guild raids from April through July 2020. Six external reports overlap that run. The completed search finds no activity before the local opening or after the final Ascension appearance.</p>"
   },
   "orish": {
    "name": "Orish",
@@ -451,6 +1011,14 @@
    "name": "Orish",
    "html": "<p>Orish, Dan on Discord, was the Thursday raid's healing brain and the most quotable internal critic the guild ever had. He came over with Ninjas, built the healer loot plans item by item, and leveled three warlocks just to run summons for other people's world buffs. He defended his turf in prose that still crackles: anyone trying to snake healing loot without knowing the role would \"be dealing with me, one to one.\"</p><p>He fought with almost everyone worth fighting with: the priest channel, the Sunday-raid planners, and above all <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a>, in a September feud that produced the officer chat's most profane sentence. The thing about his criticism is that it was mostly right. The split-run chaos was real, the communication gaps were real, the members left in the dark were real. On 24 September 2020, undermined once too often on healer decisions, he quit live in the channel (\"Leadership's going to run this guild into the ground, I'm out before it gets much worse\") and took his alts with him. The officers restructured their entire chat within the hour. In a sense, that was his last accepted proposal.</p>"
   },
+  "orwellia": {
+   "name": "Orwellia",
+   "html": "<p>Orwellia raided as a priest for Ascension across 42 raids between 19 February and 19 August 2020. One outside report predates the run and 17 more overlap it exactly, ending the same day as the final logged raid, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "outmageous": {
+   "name": "Outmageous",
+   "html": "<p>Outmageous was a mage in Ascension's original recorded roster, with eighteen guild raids from October through December 2019. Two outside reports overlap that tenure. Seventy-two later reports then continue for almost ten months, revealing a major second raid history whose guild remains unresolved.</p>"
+  },
   "palaman": {
    "name": "Palaman",
    "html": "<p>Palaman and the confirmed druid alt Drutt account for 96 alt-aware logged raids from 27 November 2019 through 25 November 2020. The class record spans paladin and druid, with 78 Sleep raids and 18 Dusk raids, and includes Sleep's first Nefarian kill. Across both characters, the loot trail contains 31 awards, notably Rejuvenating Gem on 25 March 2020, Lok'amir il Romathis in August, and healing gear from Ahn'Qiraj.</p><p>When Sleep reconsidered paladin leadership after <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> lost access to the account, Palaman was one of the three documented candidates for the permanent class-leader seat. One outside report predates the local raid span and five external reports fall within it; those appearances show activity but not membership in another guild.</p>",
@@ -463,17 +1031,45 @@
    "html": "<p>Palaman and the confirmed druid alt Drutt account for 96 alt-aware logged raids from 27 November 2019 through 25 November 2020. The class record spans paladin and druid, with 78 Sleep raids and 18 Dusk raids, and includes Sleep's first Nefarian kill. Across both characters, the loot trail contains 31 awards, notably Rejuvenating Gem on 25 March 2020, Lok'amir il Romathis in August, and healing gear from Ahn'Qiraj.</p><p>When Sleep reconsidered paladin leadership after <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> lost access to the account, Palaman was one of the three documented candidates for the permanent class-leader seat. One outside report predates the local raid span and five external reports fall within it; those appearances show activity but not membership in another guild.</p>",
    "main": "Palaman"
   },
+  "palontras": {
+   "name": "Palontras",
+   "html": "<p>Palontras was a paladin in Sleep with thirty-four guild raids from March through July 2020, plus one personal PUG. Fourteen documented awards trace his gearing through Molten Core and Blackwing Lair, beginning with Lawbringer Legplates and later including Pendant of the Fallen Dragon.</p><p>Unlike most of the roster, Palontras has no external Warcraft Logs trail in the completed character search. His surviving history lives entirely in the local archive.</p>"
+  },
   "panadin": {
    "name": "Panadin",
    "html": "<p>Panadin was a paladin from the original friend group and the quieter half of Sleep's Eye of Sulfuras argument. By 27 March 2020 he had gathered all fifty Arcanite Bars for a Sulfuron Hammer. <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> warned him that <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> was fighting hard for the first Eye and asked what a guaranteed second drop would mean. Panadin accepted the second place because the other player was raiding more.</p><p>The queue flared again after <a style=\"color:#F58CBA\" href=\"players.html#Randyfist\">Randyfist</a> returned as paladin leader and announced a Ret switch. <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> and <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> held the earlier agreement. Panadin kept playing with the group outside raids too, organizing Among Us evenings through the autumn while <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> was often busy farming AQ consumables or joining a pug.</p>"
+  },
+  "pandaa": {
+   "name": "Pandaa",
+   "html": "<p>Pandaa was a warrior in Ascension with thirteen guild raids from January through April 2020. Nine outside reports predate the local run and eight overlap it. No later appearance has been found.</p>"
+  },
+  "pandemonio": {
+   "name": "Pandemonio",
+   "html": "<p>Pandemonio was a rogue with ten Ascension guild raids and one personal PUG in the local archive. Two outside reports overlap the guild tenure.</p><p>The later history is much larger: seventy-four reports from September 2020 through March 2021. Most titles remain unresolved, so the evidence supports continued play but not a named destination.</p>"
+  },
+  "panser": {
+   "name": "Panser",
+   "html": "<p>Panser was a warrior with eleven Ascension guild raids and seven personal PUGs between May and November 2020. Two outside reports predate the guild tenure and ten overlap it. Twenty-three later reports continue from October 2020 through May 2021, documenting a substantial second raid history without a confirmed destination guild.</p>"
+  },
+  "pasmaarop": {
+   "name": "Pasmaarop",
+   "html": "<p>Pasmaarop hunted for the guild across the Ninjas-to-Dusk transition and briefly for Ascension too: 24 raids with Dusk, 14 with Ninjas and four with Ascension, 42 total between 7 June 2020 and 13 January 2021. He was present for the 9/9 Ahn'Qiraj clear on 3 September and the first Dusk-only Naxxramas raid on 6 December, and drew five Ahn'Qiraj loot awards.</p><p>His attendance was thinner than his gear priority suggested. In November 2020, with only around 20 raids logged, he stood second in line for a full tier-3 set, a placement Anders privately called \"strange\" to <a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> and accepted only on condition Pasmaarop kept at least 70% attendance; <a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> agreed to help him \"improve his performance\" in the meantime. By mid-December, with too many hunters competing for too few Naxxramas spots, Stormcat told him bluntly that he needed to show up \"ready with consumes\" and \"pump hard to fight for a spot,\" and Anders privately floated that Pasmaarop might be better off finding another guild while Dusk's roster stayed this tight. Fourteen outside reports overlap his run, ending 19 December 2020, with no reports afterward.</p>"
   },
   "pawsz": {
    "name": "Pawsz",
    "html": "<p>Pawsz was a druid, a Ninjas officer, and the closest thing the officer chat had to a house intellectual — the one running the numbers on venom sac consumption per Viscidus attempt, proposing member polls with properly phrased questions, and arguing for radical transparency when everyone else wanted PR (\"we can just let people read the officer chat. I don't care one bit how it looks\"). His one-liners carried more policy than most meetings: \"we are not the UN\"; \"Stoneshield is not something one pops for personal parsing.\"</p><p>He was also the merger's honest observer. It was Pawsz who noted the irony that the supposedly weaker Sleep brought the stricter rules, and Pawsz who refused to let September's departures become a Ninjas-versus- Sleep story: \"We are not sat here pointing at <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> either — why make this about Ninjas and Sleep again?\" His final logged Dusk raid was on 24 September, and outside reports begin five days later. A targeted pass finds 108 later reports across sixty-six dates, most often alongside <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> and <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>. The reports run through several uploaders and include explicit PUG titles, supporting a stable raid circuit rather than a named destination guild. The archive does not preserve a departure message.</p>"
   },
+  "phrkica": {
+   "name": "Phrkica",
+   "html": "<p>Phrkica was a druid in Sleep with twenty-nine guild raids and one personal PUG from May through July 2020. Twenty-one documented awards begin with three Cenarion pieces on his first night and trace a concentrated gearing run through the summer.</p><p>Three outside reports overlap the tenure. Two more on 22 July are the only later activity found.</p>"
+  },
+  "piromanzu": {
+   "name": "Piromanzu",
+   "html": "<p>Piromanzu was a rogue in Ascension's opening roster with twelve guild raids from October through December 2019. No outside report appears anywhere in the completed character search.</p>"
+  },
   "pnats": {
    "name": "Pnats",
-   "html": "<p>Pnats was a resto druid, <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>'s brother, and the officer chat's conscience. With 144 raids behind him he had the standing to say uncomfortable things, and he used it. When <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> was benched in December, it was Pnats who opened the debate: the value the man had brought to Sleep and Dusk deserved better. When the officers needed someone to state the hard truth about <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a>, he did that too, in words that were kinder in intent than on the page.</p><p>He was one of the few constants across all three guilds. He healed Sleep's raids from 2019. The first surviving nomination for a healing-leader role came from <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> on 15 March 2020: \"maybe pnats would be good.\" Pnats became a Dusk officer at the September meeting, worried constantly about healer recruitment (\"we lost so many healers\"), and kept the loot log honest. He also supplied the archive's comic relief (the discovery that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> was not, in fact, a woman cost him a genuine crisis of confidence) and its most quoted line: on the day Dusk dissolved, he pinged the officers with \"BYE DUSK?\" and then, at midnight, wrote the era's epitaph: \"its been good Sleep &gt; Dusk &gt; Ascension, we've done it all =)\"</p><p>He raided on through Ascension's Naxxramas farm into 2021, logged onto his brother's warrior when the roster needed it, and stayed the person people forwarded screenshots to when something dramatic happened — which, in this guild, was often.</p>",
+   "html": "<p>Pnats was a resto druid, <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>'s brother, and the officer chat's conscience. With 132 raids behind him he had the standing to say uncomfortable things, and he used it. When <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> was benched in December, it was Pnats who opened the debate: the value the man had brought to Sleep and Dusk deserved better. When the officers needed someone to state the hard truth about <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a>, he did that too, in words that were kinder in intent than on the page.</p><p>He was one of the few constants across the whole run, from Sleep through Dusk and into the first joint raid under Ascension. He healed Sleep's raids from 2 January 2020. The first surviving nomination for a healing-leader role came from <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> on 15 March 2020: \"maybe pnats would be good.\" Pnats became a Dusk officer at the September meeting, worried constantly about healer recruitment (\"we lost so many healers\"), and kept the loot log honest. He also supplied the archive's comic relief (the discovery that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> was not, in fact, a woman cost him a genuine crisis of confidence) and its most quoted line: on the day Dusk dissolved, he pinged the officers with \"BYE DUSK?\" and then, at midnight, wrote the era's epitaph: \"its been good Sleep &gt; Dusk &gt; Ascension, we've done it all =)\"</p><p>He remained through the first joint Dusk-Ascension raid on 20 December 2020, logged onto his brother's warrior when the roster needed it, and stayed the person people forwarded screenshots to when something dramatic happened — which, in this guild, was often.</p>",
    "roles": [
     {
      "role": "Officer",
@@ -482,9 +1078,25 @@
     }
    ]
   },
+  "poison": {
+   "name": "Poison",
+   "html": "<p>Poison was a rogue in Ninjas with twenty guild raids from March through May 2020. Nine outside reports predate that tenure and eight overlap it. After nearly a year of silence, one report on 16 May 2021 provides the only later trace.</p>"
+  },
+  "potema": {
+   "name": "Potema",
+   "html": "<p>Potema's first appearance in the surviving guild records is a set of three Blackwing Lair awards on 13 May 2020. On 5 June, <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a> discussed bringing him into the roster as a new warlock. Potema went on to raid 46 times for Dusk and Sleep. Two personal PUGs and one joint Dusk-Ascension raid bring his total to 49, including the first Dusk-only Naxxramas raid on 6 December. He drew twenty-five loot awards across Molten Core, Blackwing Lair and Ahn'Qiraj, more than almost any other warlock in this batch.</p><p>He was good enough at the class to be a fixture of officer log reviews: in August 2020 <a style=\"color:#FF7D0A\" href=\"players.html#Pawsz\">Pawsz</a> praised how fast he reacted with Searing Pain to keep threat off the healers during Chromaggus practice. By autumn he had become part of the small warlock core, alongside <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a>, <a style=\"color:#9482C9\" href=\"players.html#Mounaros\">Mounaros</a> and <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a>, that the officers rotated through a single lock spot every week, a rotation <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> and Decretum discussed at length in December as Naxxramas attendance tightened. Nine outside reports precede the June recruitment discussion, two more overlap the run, and eleven pick up again in March and April 2021 without naming a guild.</p>"
+  },
+  "powerranger": {
+   "name": "Powerranger",
+   "html": "<p>Powerranger was a paladin in Ninjas with twenty-seven guild raids from February through July 2020. Fifteen outside reports precede the local tenure and twelve overlap it, showing an established raid history before Ninjas. No later appearance has been found.</p>"
+  },
   "pricelez": {
    "name": "Pricelez",
    "html": "<p>Pricelez was a rogue with 98 logged raids between 13 November 2019 and 2 September 2020, 94 with Sleep and four with Dusk. The first appearance is Sleep's earliest surviving 10/10 Molten Core report, followed days later by the first surviving logged Onyxia kill; Pricelez also attended the first Nefarian kill. Six recorded awards include four Bloodfang pieces, Band of Accuria, and Vek'lor's Diadem.</p><p>When the rogue class-leader position opened in July, Anders asked Pricelez to take it, but Pricelez declined. The archive does not preserve a departure message and therefore does not establish why the final logged raid falls where it does. Two outside reports precede the Sleep span and one follows it, evidence of activity rather than a destination guild.</p>"
+  },
+  "priestå": {
+   "name": "Priestå",
+   "html": "<p>Priestå raided as a priest across Ninjas, Dusk, and joint Dusk-Ascension groups, for 55 raids between 6 August 2020 and 13 January 2021 (36 with Dusk, five each with Ascension and joint raids, five personal PUGs, four still under the Ninjas banner). He caught the first C'Thun and Ouro kills on 23 August, the 9/9 Ahn'Qiraj clear on 3 September, both Naxxramas firsts in December, and the Kel'Thuzad kill itself, drawing thirteen loot awards including four Naxxramas tier pieces in his final month.</p><p>He came out of Ninjas with a reputation attached: Decretum recalled in December 2020 that he'd once ragequit after a careless pull wiped a raid and cost him his Dark Master's Tarot buff. <a style=\"color:#FFFFFF\" href=\"players.html#Supplier\">Supplier</a> pushed to give him a formal Dusk raider spot that October, arguing the guild needed the extra priest more than another warlock. Priestå wanted to reroll shadow that November, but <a style=\"color:#FFFFFF\" href=\"players.html#Supplier\">Supplier</a> and <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> decided a proven healer was worth more than an unproven third shadow priest, so he stayed holy and instead earned nominations for the Twisting Nether trinket and Sapphiron's Right Eye. His healing wasn't flawless: on the first Loatheb attempt that December, <a style=\"color:#FFFFFF\" href=\"players.html#Supplier\">Supplier</a> noted he started his heal eight seconds late because a lingering debuff had thrown off the timing. Eight outside reports predate his local run and eight more overlap it, ending 3 December 2020, with none afterward.</p>"
   },
   "proctologist": {
    "name": "Proctologist",
@@ -497,9 +1109,28 @@
     }
    ]
   },
+  "progres": {
+   "name": "Progres",
+   "html": "<p>Progres was a warrior in Ascension with twenty-five guild raids from January through April 2020. Sixteen outside reports predate the local run and fourteen overlap it. The completed search finds no later appearance.</p>"
+  },
   "propalica": {
    "name": "Propalica",
    "html": "<p>Propalica was a Ret paladin trying to fit into a roster whose four paladin spots were reserved for healers. He worked shifts around raids, but still watched newer players reach raider rank first despite arriving prepared. His protest was direct: if attendance could never overcome class composition, what message did the rank system send?</p><p>The argument with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> ranged from Onyxia heads to what loot was for. <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> said it should go where it helped the guild most. Propalica answered that mechanics and preparation mattered too, especially for a Ret paladin who also healed and dispelled. They did not agree on every premise, but they settled the dispute.</p><p>In May work made regular raiding impossible. Propalica asked to be demoted rather than leave the guild planning around him. <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> thanked him for being the first person to say so instead of simply disappearing.</p>"
+  },
+  "psxycho": {
+   "name": "Psxycho",
+   "html": "<p>Psxycho was a rogue in Ninjas. He completed thirty-four guild raids from February through July 2020 and appears once more in a personal PUG. Eighteen outside reports overlap that tenure. Four later reports, all in the following twelve days, show a short continuation but not a named destination.</p>"
+  },
+  "psykos": {
+   "name": "Psykos",
+   "html": "<p>Psykos raided as a druid for Ascension 62 times between 6 October 2019 and 3 January 2021, including two personal PUGs and one joint Dusk-Ascension raid. Thirty-two outside reports overlap the run, from 13 November 2019 to 18 November 2020, with none before or after. No landmark or loot award is documented.</p>"
+  },
+  "qiqi": {
+   "name": "Qiqi",
+   "html": "<p>Qiqi played a warlock main with a rogue alt, <a style=\"color:#FFF569\" href=\"players.html#Zizy\">Zizy</a>, confirmed by a loot-workbook comment naming Qiqi on one of <a style=\"color:#FFF569\" href=\"players.html#Zizy\">Zizy</a>'s rows. As Qiqi he raided 48 times for Sleep between 20 November 2019 and 6 May 2020, present for the first Nefarian kill and the first full Zul'Gurub clear, and drew five loot awards including Mantle of the Blackwing Cabal and two Ebony Flame Gloves-tier drops.</p><p>He raided well enough, and geared up fast enough, that it became a talking point. <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a>'s loot log shows him picking up Ebony Flame Gloves in March 2020 and pursuing a matching Tier 2 shoulder piece alongside <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a> the following month; by late April, Shakey was telling Anders that officers were \"pumping Qiqi with items\" to the point that the guild's shadow priest \"wont even get a look in.\" No outside reports exist before, during, or after his run.</p>",
+   "alts": [
+    "Zizy"
+   ]
   },
   "ragie": {
    "name": "Ragie",
@@ -515,6 +1146,14 @@
   "jack": {
    "name": "Ragie",
    "html": "<p>Ragie, Jack on Discord and <a style=\"color:#FF7D0A\" href=\"players.html#Pnats\">Pnats</a>'s brother, was the guild's tank spine across every era. <a style=\"color:#69CCF0\" href=\"players.html#Exclus\">Exclus</a> referred him on 23 October 2019 as \"a really good tank,\" before Ragie's first logged raid. He inherited the main-tank mantle when <a style=\"color:#C79C6E\" href=\"players.html#Kugel\">Kugel</a> vanished in early 2020, and from then on the records rarely show a serious raid without him. An outside healer sent Sleep a tank-switch video during the first BWL week; Ragie turned the advice into positioning, then crafted the Dark Iron pieces that got the tanks through Firemaw. By the Dusk era he held the formal tank-leader role and ran Sunday raids alongside Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a>.</p><p>He is also half of the guild's longest loot argument. What does a main tank deserve first claim on: mitigation gear, crafting materials, a Thunderfury? The question put him repeatedly opposite <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a>, whose complaint that \"Ragie gets anything he wants\" dates to March 2020. The archive is fairer to both men than they were to each other. Ragie's gearing was policy, argued openly in officer channels, and the binding runs that completed Thunderfuries were organised for him and others by name.</p><p>He was in the first Four Horsemen kill and the 15/15, made the move to Ascension on migration day (<a style=\"color:#FF7D0A\" href=\"players.html#Pnats\">Pnats</a> pinged him to take one last look at the dying Dusk channel), and kept tanking into 2022 in the guild's afterlife.</p>"
+  },
+  "rakaiah": {
+   "name": "Rakaiah",
+   "html": "<p>Rakaiah played priest through Ascension's final year, raiding 51 times between 12 July 2020 and 11 April 2021, two of them joint Dusk-Ascension runs, and stood in the roster for the Kel'Thuzad kill on 20 December.</p><p>She left Ascension before the eventual split was even announced, telling the post-Ascension officer chat in May 2021 that she'd gone \"due to the amount of toxic people I don't want anything to do with.\" In the weeks after, while officers debated what to call the new guild forming out of Dusk and Ascension's remnants, she supplied the name Sanguine (\"my favourite gecko\"), joked about appointing herself guild master, and admitted she wasn't sure she wanted to stay a priest for the Burning Crusade expansion because she'd lost motivation. Six outside reports predate her local run, 23 overlap it, and nine more continue into May 2021, matching her visible presence in that same officer chat.</p>"
+  },
+  "ramlösa": {
+   "name": "Ramlösa",
+   "html": "<p>Ramlösa raided as a mage for Ascension across 48 raids between 23 February and 26 July 2020, one of them a personal PUG. Eight outside reports overlap the run, from 26 February to 1 May 2020, with none before or after. No landmark or loot award is documented.</p>"
   },
   "randyfist": {
    "name": "Randyfist",
@@ -552,9 +1191,25 @@
    "name": "Rangah",
    "html": "<p>Rangah was a hunter in the Ascension lineage, logging 107 raids from 15 January 2020 through 14 April 2021. The record contains 102 Ascension sessions and five joint Dusk–Ascension raids, including the first joint Naxxramas night and the first Kel'Thuzad kill. Rangah received a Desecrated Girdle on 16 December. After the clear, <a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> reported that Rangah wanted the other hunters to take further Tier 3 pieces first because Rangah already had Rank 13 gear. Outside reports add 16 appearances before the span, 29 during it, and two afterward, but do not establish guild affiliation.</p>"
   },
+  "rat": {
+   "name": "Rat",
+   "html": "<p>Rat was a rogue in Sleep with twelve guild raids during March 2020. The Head of Nefarian is his sole documented award. One outside report precedes the local debut by three days; none overlaps the tenure or follows it.</p>"
+  },
+  "ravna": {
+   "name": "Ravna",
+   "html": "<p>Ravna was a hunter on Sleep's original surviving roster. His twenty-eight guild raids begin with the first complete Molten Core report on 13 November 2019. Four days later he joined the first logged Onyxia kill, and in February he was present for the first Nefarian kill.</p><p>No outside report appears in the completed character search, so those local milestones define the entire surviving record.</p>"
+  },
+  "redang": {
+   "name": "Redang",
+   "html": "<p>Redang healed as a priest for 54 raids between 13 February and 23 August 2020, 51 of them under the Ninjas banner and three after the Dusk merger, and was there for the first C'Thun and Ouro kills on 23 August.</p><p>Officers rated him one of their most dependable healers. In April 2020, Silveh named him alongside <a style=\"color:#FFFFFF\" href=\"players.html#Dragonslay\">Dragonslay</a> as the two candidates for priest class leader; a month later Dan singled him out after a clean Molten Core run, writing that \"Redang is always on top of MC dispels\" and that he was sad whenever Redang missed a raid. By September, a departing officer summed him up simply as \"such a good healer who has been with us almost 100% of the time.\" Eleven outside reports predate his run, 18 overlap it, ending 28 June 2020, with none afterward.</p>"
+  },
   "reiner": {
    "name": "Reiner",
    "html": "<p>Reiner was a rogue with 132 logged raids between the first on 8 December 2019 and the last on 11 April 2021. Most belong to Sleep and Dusk, followed by 23 Ascension raids and five joint Dusk–Ascension sessions. Reiner attended the first Nefarian kill, Dusk's opening Naxxramas raid, the first joint raid, and the first Kel'Thuzad kill. Sixteen documented loot awards trace that progression from Bloodfang pieces and Band of Accuria to Chromatically Tempered Sword and a Desecrated Helmet.</p>"
+  },
+  "rendhammer": {
+   "name": "Rendhammer",
+   "html": "<p>Rendhammer was a paladin in early Ascension. His thirty-one guild raids run from October 2019 through March 2020, with seven outside reports overlapping the same period. No report appears before the local record or after his final raid.</p>"
   },
   "rockafella": {
    "name": "Rockafella",
@@ -568,6 +1223,14 @@
    "html": "<p>Rockafella was a warlock and one of the guild's institutionalists. He asked Anders for an Alterac Valley queue bot in December 2019, covered officer meetings for warlock leader <a style=\"color:#9482C9\" href=\"players.html#Amandil\">Amandil</a>, and later coordinated the class loot with <a style=\"color:#9482C9\" href=\"players.html#Lyvana\">Lyvana</a>. When the mages debated replacing <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>, Rockafella gave <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> the strongest peer endorsement: he had \"always been wondering why he wasnt the Class Leader from the beginning.\"</p><p>In Dusk he was the voice that said the quiet part about governance out loud: \"Class leaders think they are officers. If the class leaders could shut their mouths and run their class and let the officers manage the guild, we wouldn't have this shit.\" Within the hour, the officers split the chat in two. Few messages in the archive changed more structure faster.</p><p>He shows up wherever the record needs a witness with standing: talking <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a>'s case through with <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> and establishing that the infamous AQ20 \"ninja pull\" was a hearthstone misunderstanding; holding the line in the Band of Accuria fight (\"we're trying to move away from a culture where the one who shouts loudest is right\"); and tanking in the first Four Horsemen kill. He wanted a guild run by its officers, and mostly, after September, he got one.</p><p>During the December collapse he kept mailing alchemy materials to the benched <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>. At 23:31 on migration night, while Dusk disappeared around them, Rockafella was still asking whether Anders could make two flasks.</p>",
    "main": "Rockafella"
   },
+  "roddish": {
+   "name": "Roddish",
+   "html": "<p>Roddish raided as a rogue for Ascension across 43 raids between 15 January and 19 July 2020. Fifteen outside reports predate the run and 13 more overlap it, ending 8 April 2020, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "rotato": {
+   "name": "Rotato",
+   "html": "<p>Rotato was a warlock in Ascension with fifteen guild raids from June through September 2020. One outside report overlaps that tenure. No activity has been found before the local opening or after the final raid.</p>"
+  },
   "ryba": {
    "name": "Ryba",
    "html": "<p>Ryba was a mage whose 71 logged raids, every one classified to Ascension, run from 15 January to 7 December 2020. The inventory records no landmark raid or loot award for the character. A broader report search found seventeen appearances before the logged span, between 6 November 2019 and 8 January 2020, and 21 external reports running from 23 February to 18 November 2020, evidence of activity rather than a named guild.</p>"
@@ -576,9 +1239,29 @@
    "name": "Saltyhead",
    "html": "<p>Saltyhead was a rogue from the Ascension side of the archive, with 121 logged raids between 20 November 2019 and 11 April 2021. Of those, 114 are Ascension sessions, five are joint Dusk–Ascension raids, and two are personal pugs. Saltyhead attended the first joint Naxxramas raid and the first Kel'Thuzad kill, receiving Desecrated Pauldrons on 9 December and Kiss of the Spider four days later. The outside-report probe also found 51 external reports during the logged span and one afterward, evidence of activity rather than membership in any particular guild.</p>"
   },
+  "saltylock": {
+   "name": "Saltylock",
+   "html": "<p>Saltylock was a priest with twenty-two Ascension guild raids and seven personal PUGs between April 2020 and April 2021. Thirteen reports predate that local span and thirty-six overlap it, showing that most of his raid history lived outside the collected Ascension reports.</p><p>Six later appearances continue into May 2021. They document activity but do not identify another guild.</p>"
+  },
+  "schokur": {
+   "name": "Schokur",
+   "html": "<p>Schokur was a priest in Ascension's opening roster with ten guild raids from November through December 2019. Two outside reports predate the local run and two overlap it. No later appearance has been found.</p>"
+  },
   "seax": {
    "name": "Seax",
    "html": "<p>Seax was a rogue from the Ninjas line. When he was still fighting for a regular Blackwing Lair place, <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a> described him as motivated, prepared him for the bosses and offered his own seat so Seax could prove himself. He went on to complete fifty-six Ninjas and Dusk raids, including the first C'Thun kill and the first full Ahn'Qiraj clear.</p><p>Seax's final Dusk raid was 24 September 2020. His later trail contains fifty-four reports across thirty-three dates, with <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a> present on twenty-seven. Forty-five reports across twenty-six dates match Warcraft Logs' historical guild feed for Agile, confirming the destination from 6 October through February 2021. Later appearances shift into PUG and GDKP runs.</p>"
+  },
+  "selephie": {
+   "name": "Selephie",
+   "html": "<p>Selephie raided as an Ascension paladin for 49 raids between 29 March 2020 and 11 April 2021, five of them joint Dusk-Ascension runs including the first on 9 December, and stood in the roster for the Kel'Thuzad kill eleven days later.</p><p>The archive shows an unusually active parallel life alongside the guild raids: 82 outside reports overlap the local tenure, far more than typical for this batch, on top of four personal PUG raids inside the guild's own logs, suggesting a player who filled spare nights with pickup groups alongside the scheduled Ascension roster. In December 2020, during a gear-level discussion, Trenfentson used Selephie's 75 item level as the reference point for how much a couple of item levels could matter. One outside report predates the run and 13 more continue from mid-April into May 2021, with no destination guild named.</p>"
+  },
+  "servus": {
+   "name": "Servus",
+   "html": "<p>Servus was a rogue in Sleep with thirteen guild raids during the summer of 2020. Bloodfang Gloves and Nightslayer Bracelets are his two documented awards. One report precedes the tenure, one overlaps it, and one isolated appearance follows in April 2021.</p>"
+  },
+  "shadowheart": {
+   "name": "Shadowheart",
+   "html": "<p>Shadowheart was a warlock in Sleep who made one further appearance after the Dusk merger. His thirty-three guild raids run from April through August 2020. Eleven documented awards chart a fast gearing path that began with Felheart Robes and Nemesis Leggings and included Azuresong Mageblade.</p><p>No outside report appears anywhere in the completed character search, so his entire surviving history comes from the local archive.</p>"
   },
   "shakeyhealer": {
    "name": "Shakeyhealer",
@@ -600,6 +1283,38 @@
     }
    ]
   },
+  "shaolin": {
+   "name": "Shaolin",
+   "html": "<p>Shaolin healed as an Ascension paladin for 70 raids between 29 December 2019 and 3 January 2021, three of them joint Dusk-Ascension runs including the first one on 9 December 2020, and was in the raid for the Kel'Thuzad kill eleven days later. His single logged loot award, an Eye of Diminution, came from that same Naxxramas night.</p><p>He carried officer-level weight without an official title: Stormcat described him in mid-December as \"just a healer and officer, not a specific healer officer,\" and Decretum had to ask around to confirm he was even Ascension's healing lead. His healing wasn't immune to review, either; on the first Loatheb attempt that December, <a style=\"color:#FFFFFF\" href=\"players.html#Supplier\">Supplier</a> logged that Shaolin started casting his heal eight seconds after <a style=\"color:#FFFFFF\" href=\"players.html#Priest%C3%A5\">Priestå</a>, with <a style=\"color:#FF7D0A\" href=\"players.html#Hedara\">Hedara</a> shapeshifting to cover the gap. Twenty-nine outside reports overlap his entire run, from 9 January to 28 December 2020, with none afterward.</p>"
+  },
+  "shaoxin": {
+   "name": "Shaoxin",
+   "html": "<p>Shaoxin was a druid who completed twenty-three Ninjas raids and eleven Dusk raids in the summer of 2020. He was present for the first C'Thun and Ouro kills and Dusk's first complete Ahn'Qiraj clear. Ten outside reports overlap the tenure, while one final report follows three days after his last Dusk raid.</p>"
+  },
+  "shosanna": {
+   "name": "Shosanna",
+   "html": "<p>Shosanna was a priest whose nineteen guild raids touched Sleep, Ninjas and Dusk. She joined Dusk's first complete Ahn'Qiraj clear and received Band of Dark Dominion followed by Cloak of Clarity. Three reports predate her local tenure, four overlap it, and one final appearance follows in September.</p>"
+  },
+  "sickness": {
+   "name": "Sickness",
+   "html": "<p>Sickness was a warlock in Ascension with twenty-four guild raids from February through April 2020. One outside report predates the local record and ten overlap it. The completed search finds no later appearance.</p>"
+  },
+  "sitor": {
+   "name": "Sitor",
+   "html": "<p>Sitor was a warrior in Ninjas with fifteen guild raids from March through April 2020. Eight outside reports overlap the tenure. Nine later appearances begin immediately afterward and stretch into May 2021, but the sparse trail does not identify a destination guild.</p>"
+  },
+  "skogsluwder": {
+   "name": "Skogsluwder",
+   "html": "<p>Skogsluwder was a druid in Ascension with ten guild raids from May through June 2020. Two outside reports overlap the tenure. No activity has been found before the local opening or after the final raid.</p>"
+  },
+  "smacky": {
+   "name": "Smacky",
+   "html": "<p>Smacky was a warrior in Ninjas with seventeen guild raids from late April through June 2020. Four external reports overlap that short tenure. The completed search finds no activity before the local opening or after the final raid.</p>"
+  },
+  "smeggleswart": {
+   "name": "Smeggleswart",
+   "html": "<p>Smeggleswart raided as a mage for Ascension across 50 raids between 15 January and 16 September 2020. Sixteen outside reports predate the run and 16 more overlap it, ending 9 September 2020, with none afterward. No landmark or loot award is documented.</p>"
+  },
   "smucky": {
    "name": "Smucky",
    "html": "<p>Smucky was a warrior from the Ninjas line who continued into Dusk, logging 73 raids from 13 February to 24 September 2020, split 57 to Ninjas and 15 to Dusk with one personal pug. Smucky was in the raid for the first C'Thun and Ouro kills and the first complete 9/9 Ahn'Qiraj clear, though no loot award is currently documented. A September 2020 Discord admin-role review named Smucky, alongside <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, <a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a>, <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a>, and <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>, among the longtime members whose server admin rights were flagged for removal. Smucky's final logged raid, 24 September 2020, falls on the date research into the era identifies as the point when nearly the entire former-Ninjas core stopped appearing in Dusk's logs. Eleven external reports predate the logged span, 25 more run alongside it, and one follows on 27 September 2020; they show activity, not a named destination guild.</p>"
@@ -612,9 +1327,25 @@
    "name": "Snjór",
    "html": "<p>Jón Snjór, Snjór in the raid and Fantur on his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank. That kick is the one act the record can't soften, and the one he was restored from within a day once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>"
   },
-  "fantur": {
-   "name": "Snjór",
-   "html": "<p>Jón Snjór, Snjór in the raid and Fantur on his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank. That kick is the one act the record can't soften, and the one he was restored from within a day once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>"
+  "sofiero": {
+   "name": "Sofiero",
+   "html": "<p>Sofiero raided as a hunter for Ascension across 57 raids between 27 November 2019 and 6 September 2020. One outside report predates the run and eight more overlap it, ending 23 August 2020, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "sokrush": {
+   "name": "Sokrush",
+   "html": "<p>Sokrush was a mage who completed fourteen Sleep raids and five Dusk raids, plus one personal PUG, between May and December 2020. He stayed through Dusk's first guild-only Naxxramas night. Seventeen awards include Netherwind Crown and Fire Runed Grimoire.</p><p>Five reports predate his local arrival and eight overlap it. One joint Dusk-Ascension report on 9 December is the final outside appearance found.</p>"
+  },
+  "sokrushl": {
+   "name": "Sokrushl",
+   "html": "<p>Sokrushl was a warlock who completed ten Sleep raids and eighteen Dusk raids from July through November 2020. Fifteen documented awards include Shadow Wing Focus Staff and Band of Dark Dominion from his first Blackwing Lair weeks.</p><p>Three outside reports overlap the local tenure. No later activity has been found after his final Dusk appearance.</p>"
+  },
+  "sonofglóin": {
+   "name": "Sonofglóin",
+   "html": "<p>Sonofglóin was a warrior in Ascension with twenty-one guild raids from March through May 2020. Eighteen outside reports predate his local arrival and three overlap the tenure. The wider search finds no later activity.</p>"
+  },
+  "sourcer": {
+   "name": "Sourcer",
+   "html": "<p>Sourcer was a paladin in Ascension with thirty-seven guild raids from March through October 2020. Six outside reports predate his local arrival and seven overlap it. The larger story comes later: fifty-four reports run from December into May 2021. They prove a substantial second chapter of raiding, but the currently resolved evidence does not name its guild.</p>"
   },
   "spaxi": {
    "name": "Spaxi",
@@ -623,6 +1354,10 @@
   "specting": {
    "name": "Specting",
    "html": "<p>Specting raided as a warlock for Ascension, logging 80 raids between 6 October 2019 and 3 March 2021, 78 of them Ascension sessions and two on the joint Dusk–Ascension roster. The record carries no landmark raid or loot award for the character. Fourteen external reports fall inside that span, from 17 November 2019 to 17 February 2021, evidence of continued Warcraft activity rather than membership in another guild.</p>"
+  },
+  "stahlmarck": {
+   "name": "Stahlmarck",
+   "html": "<p>Stahlmarck was a warrior in Ascension with thirty-one guild raids between January and June 2020. Seven outside reports predate his local arrival and eight overlap the tenure. The wider search contains no later appearance.</p>"
   },
   "steewiee": {
    "name": "Steewiee",
@@ -640,9 +1375,21 @@
    "name": "Ströheim",
    "html": "<p>Ströheim was a warrior from the Ninjas line. He logged forty-eight Ninjas and Dusk guild raids from February through 24 September 2020, including the first C'Thun and Ouro kills and the first full Ahn'Qiraj clear. By July the officers counted him among only six active damage warriors.</p><p>Outside reports resume three days after his final Dusk raid. The later history contains seventy-nine reports across sixty-eight dates, with forty-four later dates also appearing in <a style=\"color:#FFF569\" href=\"players.html#Spaxi\">Spaxi</a>'s post-tenure trail. Synai uploaded most of their Naxxramas run, while later reports move into explicit PUG and GDKP titles. Ströheim also appears throughout the named Safe Haven BWL series. Neither community has a matching Razorgore guild record, so the archive does not assign him a destination guild.</p>"
   },
+  "stuntz": {
+   "name": "Stuntz",
+   "html": "<p>Stuntz was a warrior in Ascension's original recorded roster. His nineteen guild raids span October through December 2019. No outside report appears anywhere in the completed character search.</p>"
+  },
   "stylgar": {
    "name": "Stylgar",
    "html": "<p>Stylgar raided as a paladin for Ascension, logging 71 raids from 15 January to 7 December 2020, all but one of them Ascension sessions and the remainder a personal pug. The record shows no landmark raid and no loot award for the character. Seventeen external reports run alongside the logged span, from 12 February to 30 November 2020, and 34 more follow from 14 December 2020 to 29 April 2021. They establish continued activity, not a named destination guild.</p>"
+  },
+  "sudeki": {
+   "name": "Sudeki",
+   "html": "<p>Sudeki was a druid in Dusk's final roster. Eighteen Dusk raids, one joint night and one Ascension raid form his guild record, with three personal PUGs also preserved. He joined Dusk's first guild-only Naxxramas run, and eleven awards include Stormrage Boots and Shroud of Pure Thought.</p><p>Two reports predate his local arrival and five overlap it. Two isolated appearances on 13 May 2021 are the only later activity found.</p>"
+  },
+  "supervillain": {
+   "name": "Supervillain",
+   "html": "<p>Supervillain was a warlock in Ascension with sixteen guild raids from October through December 2019. One outside report overlaps the tenure. Thirty-three later reports resume in March and continue through June 2020, showing sustained activity without a named destination.</p>"
   },
   "supplier": {
    "name": "Supplier",
@@ -659,9 +1406,17 @@
    "name": "Supplier",
    "html": "<p>Supplier earned his name. Across three years and nearly a thousand messages with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, he was the guild's consumables economy in human form: flasks, protection potions, world-buff logistics, the LBRS venom-sack supply chain that made Viscidus killable. If a raid had what it needed, odds are Supplier had something to do with it.</p><p>He was Norwegian, precise, and allergic to sloppy thinking. He asked what a poll was actually <em>for</em> before letting anyone run it. He told his fellow priests exactly how their channel would be run (\"take it up with me directly\"), and he de-escalated the guild's worst arguments by explaining what an expression had actually meant in context. He was named Healing Officer at the September 2020 meeting and stayed in that seat through the December merge.</p><p>Two footnotes belong to him. His dry one-liner \"<a style=\"color:#FFFFFF\" href=\"players.html#Shosanna\">Shosanna</a> was the only priest that got an item yesterday, fyi\" became the last straw in <a style=\"color:#F58CBA\" href=\"players.html#Orish\">Orish</a>'s dramatic exit; his whole reaction to the fallout was \"Allright, nice to meet ya\". And in May 2021 he posted the \"Dusk list\": a set of tribute video links, one per guildmate, the closest thing the guild ever made to its own memorial before this site.</p>"
   },
+  "syressa": {
+   "name": "Syressa",
+   "html": "<p>Syressa was a warrior with fifteen Ascension guild raids and four personal PUGs from August through November 2020. Ten reports precede the guild window and seven overlap it. No activity has been found after the final local appearance.</p>"
+  },
   "szata": {
    "name": "Szata",
    "html": "<p>Szata was an experienced priest from the Ninjas line. The local archive contains twelve of his raids from February through 1 May 2020. Near the end of that run, <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> proposed that Szata take temporary charge of the priests, with another officer reinforcing his calls. It was a brief recorded tenure, but he had already become the standard for experience in that class group.</p><p>Five weeks after his final Ninjas report, Szata appears in Agile's historical Warcraft Logs feed. Sixty-seven of his ninety-one later reports belong to Agile, covering forty dates from 6 June 2020 through 18 February 2021. The trail runs from Blackwing Lair and Ahn'Qiraj into a fixed Naxxramas schedule, often alongside <a style=\"color:#FFF569\" href=\"players.html#Celed\">Celed</a>, <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> and <a style=\"color:#FFF569\" href=\"players.html#Seax\">Seax</a>.</p>"
+  },
+  "tahansfamilj": {
+   "name": "Tahansfamilj",
+   "html": "<p>Tahansfamilj was a warrior in Ascension with eighteen guild raids and one personal PUG between May and September 2020. Four outside reports overlap that period. The completed search finds nothing before it or after it.</p>"
   },
   "tanasus": {
    "name": "Tanasus",
@@ -670,6 +1425,10 @@
   "tantum": {
    "name": "Tantum",
    "html": "<p>Tantum was a mage in the Ascension lineage, logging 95 raids from 15 January 2020 to 11 April 2021. Eighty-seven of those sessions are Ascension raids, with five more on the joint Dusk–Ascension roster and three personal pugs. Tantum was in the raid for the first joint Naxxramas night on 9 December 2020 and for the first Kel'Thuzad kill eleven days later, where Tantum received Desecrated Sandals. A wider report search adds eleven appearances before the logged span, 39 external reports running through it to 4 April 2021, and two more shortly after the last raid; those reports establish activity, not membership in another guild.</p>"
+  },
+  "taptum": {
+   "name": "Taptum",
+   "html": "<p>Taptum was a warlock in Ascension's Naxxramas roster. His thirty-six guild raids include three joint nights with Dusk, the first of those on 9 December, and the first Kel'Thuzad kill. The Naxxramas awards record Desecrated Sandals, Desecrated Robe and Cloak of the Necropolis.</p><p>Twenty-four reports predate his local arrival and twenty-one overlap the tenure. Another twenty-two continue after the final Ascension raid through 15 May 2021, showing sustained later activity without a confirmed destination guild.</p>"
   },
   "thepaladin": {
    "name": "Thepaladin",
@@ -686,13 +1445,37 @@
    "name": "Thepaladin",
    "html": "<p>Thepaladin, Durm on Discord, was Sleep's paladin class leader for six weeks in the spring of 2020, and his 232-message thread with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> is one of the archive's richest seams. He was rich (the guild leader once asked, half in awe, where all the money came from), an alchemist, and the owner of the guild's first Sulfuron Hammer, forged by <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a>, which put him first in line for the Eye of Sulfuras. Then <a style=\"color:#F58CBA\" href=\"players.html#Panadin\">Panadin</a> got a hammer too, the rule became \"everyone with the hammer rolls,\" and Durm's protest (\"That doesnt make me happy ... Retadin mainspec tho and was first and so on\") is the purest specimen of the guild's endless argument between earned priority and equal chance.</p><p>He got the class-leader job on 5 March (\"It's your job now :p\") and spent it designing debuff priorities and Lok'amir queues. He also bought a Nightfall after the officers had rejected funding a second one, then confessed that it had been sitting in his bags for a week. Sleep tested it in Molten Core on 15 March. The uptime was poor, Thepaladin did about 200 damage per second, and <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> concluded a regular damage dealer would do 300. The legendary experiment lost to the spreadsheet.</p><p>The four paladin raid spots were all healers, which left Ret players arguing for a path into the roster. Thepaladin fought hard for first place in the Eye queue and won it after <a style=\"color:#F58CBA\" href=\"players.html#Panadin\">Panadin</a> accepted the second Eye. Then he lost everything to a hacker in mid-April. Someone logged into his account, the tickets went nowhere, and the thief even quit the guild on his character while <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> and Shakey watched. <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> covered the class temporarily. His raid log simply stops on 8 April 2020, mid-story. More Classic careers ended his way than any other: not in drama, in a support queue.</p>"
   },
+  "thermi": {
+   "name": "Thermi",
+   "html": "<p>Thermi was an Ascension warrior whose thirty-one guild raids stretch from January into October 2020. Sixteen external reports predate the local run and twenty-one overlap it. Despite that substantial earlier activity, no report has been found after his last Ascension appearance.</p>"
+  },
   "thomas": {
    "name": "Thomas",
    "html": "<p>Thomas raided as a mage for Ascension, appearing in 79 logged raids between 30 October 2019 and 19 August 2020, 78 of them Ascension sessions and one a personal pug. The character's record includes no landmark raid and no loot award. Twelve external reports run alongside the logged span, from 13 November 2019 to 19 August 2020, showing activity rather than proving membership in another guild.</p>"
   },
+  "tikiwikiboom": {
+   "name": "Tikiwikiboom",
+   "html": "<p>Tikiwikiboom was a hunter in Ascension's opening roster, completing seventeen guild raids from October through December 2019. Two outside reports overlap the tenure and four more follow into January 2020.</p>"
+  },
   "tomboi": {
    "name": "Tomboi",
    "html": "<p>Tomboi was a hunter whose 108 logged raids all belong to the Ascension lineage, from the first on 6 October 2019 to the last on 11 November 2020. No loot award or named progression landmark is currently attached to Tomboi in the inventory. The outside Warcraft Logs probe found 16 external reports during the same period and one after the final logged raid, showing further activity without establishing guild membership.</p>"
+  },
+  "torkir": {
+   "name": "Torkir",
+   "html": "<p>Torkir was a druid in the Ninjas roster, completing thirty-nine guild raids between February and June 2020. Eleven outside reports precede his local tenure and eighteen overlap it. The record ends with the Ninjas period: there is no later Warcraft Logs appearance in the completed character search.</p>"
+  },
+  "toxii": {
+   "name": "Toxii",
+   "html": "<p>Toxii was a mage in Ascension with eleven guild raids from January through February 2020. Seventeen outside reports predate the local tenure and four overlap it. No later appearance has been found.</p>"
+  },
+  "traviar": {
+   "name": "Traviar",
+   "html": "<p>Traviar was a mage in Sleep with ten guild raids from April through May 2020. Six documented awards began with two Primal Hakkari tokens and the Heart of Hakkar in Zul'Gurub. Two outside reports predate the local tenure; none overlaps it or follows it.</p>"
+  },
+  "tripaloski": {
+   "name": "Tripaloski",
+   "html": "<p>Tripaloski was a warrior on Sleep's original surviving roster. His twenty guild raids begin with the first complete Molten Core report in November 2019 and continue through February 2020. No outside report appears anywhere in the completed search.</p>"
   },
   "tsakimo": {
    "name": "Tsakimo",
@@ -713,6 +1496,10 @@
    "name": "Tsakimo",
    "html": "<p>Tsakimo's first raid was BWL on 26 February 2020. His connection failed, the raid replaced him, and Anders apologized for not waiting longer. \"Dont worry bro im chill person,\" Tsakimo answered. It was his first raid anywhere, and he liked that Sleep explained what to do. He was promoted to raider on 18 March.</p><p>The calm had limits. In July the new rogue leader Twx replaced <a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a>'s round-robin system with performance loot. Tsakimo could not match the world-buff demands around work and family, so he quit on the 23rd. <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> quietly recruited him back before Dusk formed. On 19 August, the first Dusk AQ40 night, Tsakimo asked for spreadsheet access and resumed recording loot. By November his message had changed to \"parse time 99.\"</p><p>He ran the Wednesday rogues through the Dusk era, working the queue with <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a> across the two teams. His class-leader philosophy was transactional in the best sense: \"loot is the reward, you make the effort, you focus, you pay for consumables, then you get loot.\" He handled the <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> telephone-game with more patience than it deserved (\"I will not take part in the insanity\") and got a taste of the job's real burden when a relayed conversation turned out to have two versions. \"Now you can feel how it's working,\" <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> told him, and he laughed.</p><p>He was blunt about standards (sign up by Friday or lose your spot, \"no exceptions\") and blunt about himself, always discounting his own parses before anyone else could. The rogues under him stayed drama-free, which was the only metric he cared about.</p>"
   },
+  "tutpalacu": {
+   "name": "Tutpalacu",
+   "html": "<p>Tutpalacu was a paladin whose twenty guild raids divide evenly between Dusk and Ascension. He joined Dusk's first guild-only Naxxramas night. Eight documented awards include Vek'lor's Diadem, Skin of the Great Sandworm and Wormscale Blocker from the same November Ahn'Qiraj run.</p><p>Nine outside reports overlap the tenure. No report follows the final Ascension appearance.</p>"
+  },
   "twx": {
    "name": "Twx",
    "html": "<p>Twx joined Sleep in July 2020 with three raids behind him and a clear idea of how rogues should work. Seniority would not matter. Parses, world buffs, the right spec, and consumables would decide loot. Anders warned that Sleep was not a hardcore guild, then gave class leaders room to run their own class. Twx accepted the job on 13 July.</p><p>The experiment lasted about three weeks. Twx awarded himself two tier pieces, put sword rogues first, and told the class that better performers would receive priority. <a style=\"color:#FFF569\" href=\"players.html#Tsakimo\">Tsakimo</a> left over the system. <a style=\"color:#FFF569\" href=\"players.html#Ntekapaz\">Ntekapaz</a> brought the complaints to Anders, who checked the performance claim against the logs and wished aloud for someone who could restore <a style=\"color:#FFF569\" href=\"players.html#Kodf\">Kodf</a>'s queues.</p><p>Twx also pursued a Thunderfury, at one point planning to buy a Binding from a pug for 5,000 gold. He later claimed to own one already, but the officers never verified it. By the time Dusk formed he was gone, leaving behind the shortest and sharpest class-leader era in Sleep's record.</p>",
@@ -724,9 +1511,60 @@
     }
    ]
   },
+  "táyto": {
+   "name": "Táyto",
+   "html": "<p>Táyto was a warrior in Sleep with fourteen guild raids from March through May 2020. Six awards include Obsidian Edged Blade, Breastplate of Might and the Head of Onyxia. One outside report overlaps the tenure; none appears before it or after it.</p>"
+  },
   "ulfhild": {
    "name": "Ulfhild",
    "html": "<p>Ulfhild was the guild's best hunter and made no apology for what that took: world buffs, full consumables, and total focus, every raid, for a character whose job was the damage meter. The Thursday team built its expectations around him, and he delivered so consistently that his one famous lapse became a governance crisis: on 17 September 2020, when a botched pull at the Ahn'Qiraj entrance wasted the buffs he'd spent hours collecting, he quit the raid on the spot.</p><p>The three-day officer argument that followed used his name as shorthand for a whole worldview. His defenders — and they were loud — pointed out that a near-perfect raider had been failed by the raid, not the other way around; his critics said no one player's buffs outweigh thirty-nine people's evening. He apologized in private, was back the next week, and kept doing what he always did: pulling, as one officer put it, more than his share. If everyone had pumped like Ulfhild, the mage leader mused that autumn, AQ would take forty-five minutes.</p><p>His final logged Dusk raid was 24 September. The later trail contains seventy-one reports across thirty-seven dates, forty-two uploaded by Ulfhild himself. <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a>, <a style=\"color:#C79C6E\" href=\"players.html#Katdrovrsn\">Katdrovrsn</a>, and <a style=\"color:#F58CBA\" href=\"players.html#Mikadrovrsn\">Mikadrovrsn</a> appear occasionally, but the recurring roster is mostly a separate outside circle. The record supports an independent raid community, not a named destination guild or a wholesale re-formation of Ninjas.</p>"
+  },
+  "verdish": {
+   "name": "Verdish",
+   "html": "<p>Verdish was a warrior in Ascension's opening roster with thirteen guild raids from November through December 2019. Two outside reports overlap the tenure and seven more continue into February 2020.</p>"
+  },
+  "végeta": {
+   "name": "Végeta",
+   "html": "<p>Végeta was a rogue in Ninjas with twelve guild raids from February through April 2020. Eleven outside reports predate that tenure and eleven overlap it. No later appearance has been found.</p>"
+  },
+  "wackd": {
+   "name": "Wackd",
+   "html": "<p>Wackd was a mage in Sleep with sixteen guild raids from December 2019 through February 2020. One outside report predates his local debut. Three later appearances are spread from the following week to March 2021, too sparse to define another raid community.</p>"
+  },
+  "wapposo": {
+   "name": "Wapposo",
+   "html": "<p>Wapposo was a mage in Ascension with twenty-four guild raids from February through May 2020. Five reports predate his local arrival and seven overlap the tenure. No activity has been found after the final Ascension raid.</p>"
+  },
+  "wauki": {
+   "name": "Wauki",
+   "html": "<p>Wauki was a warlock with fourteen Ascension guild raids and four personal PUGs spread from March 2020 through March 2021. Two reports predate the local record and twenty-five overlap it. No appearance follows the final raid.</p>"
+  },
+  "weeksea": {
+   "name": "Weeksea",
+   "html": "<p>Weeksea was a warlock with fifteen Sleep raids, one Dusk appearance and one personal PUG. Fifteen documented awards begin with Felheart Horns, Felheart Slippers and Nemesis Leggings on the same March night. Four outside reports overlap the tenure; none follows it.</p>"
+  },
+  "wehnergok": {
+   "name": "Wehnergok",
+   "html": "<p>Wehnergok raided as a rogue for Ascension across 47 raids between 15 January and 26 August 2020. Sixteen outside reports predate the run and 11 more overlap it, ending 23 August 2020, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "wetfarter": {
+   "name": "Wetfarter",
+   "html": "<p>Wetfarter was a hunter with eleven Ascension guild raids and one personal PUG from June through September 2020. Two outside reports predate the guild tenure and six overlap it. No later appearance has been found.</p>"
+  },
+  "xroth": {
+   "name": "Xroth",
+   "html": "<p>Xroth raided as a warlock for Ascension 54 times between 9 February and 23 August 2020, two of those personal PUGs. Four outside reports predate the run and 14 more overlap it, ending the same day as his final logged raid, with none afterward. No landmark or loot award is documented.</p>"
+  },
+  "yealof": {
+   "name": "Yealof",
+   "html": "<p>Yealof was a paladin who completed six Ninjas raids and sixteen Dusk raids, plus two personal PUGs, during the Ahn'Qiraj summer. He joined the first C'Thun and Ouro kills. Five documented awards include Neretzek, The Blood Drinker and Boots of the Redeemed Prophecy.</p><p>Ten reports predate the local tenure and five overlap it. No later appearance has been found.</p>",
+   "roles": [
+    {
+     "role": "Paladin class leader",
+     "period": "from Sep 2020",
+     "guild": "Dusk"
+    }
+   ]
   },
   "yeat": {
    "name": "Yeat",
@@ -739,9 +1577,21 @@
     }
    ]
   },
+  "yogini": {
+   "name": "Yogini",
+   "html": "<p>Yogini was a mage in Ascension with thirty-six guild raids from December 2019 through April 2020. Five reports predate the local record and three overlap it. One final outside appearance follows on 1 May; no broader later history has been found.</p>"
+  },
+  "yumï": {
+   "name": "Yumï",
+   "html": "<p>Yumï was a hunter in Ninjas with eleven guild raids from May through July 2020. Three outside reports overlap that tenure. One isolated appearance on 26 February 2021 is the only later trace.</p>"
+  },
   "yungflexin": {
    "name": "Yungflexin",
    "html": "<p>Yungflexin was a paladin whose 80 logged raids, every one of them classified to Ascension, run from 23 October 2019 to 7 December 2020. Neither a landmark raid nor a loot award is currently on record for the character. A broader report search found 21 external appearances between 13 November 2019 and 9 September 2020, establishing activity during that window rather than membership in a named guild.</p>"
+  },
+  "yúna": {
+   "name": "Yúna",
+   "html": "<p>Yúna raided as a rogue for Ascension thirty-seven times between February and June 2020. Eighteen reports predate that tenure and twelve overlap it, placing Ascension inside a longer existing raid history. Three appearances continue into August, but no named destination is preserved.</p>"
   },
   "zados": {
    "name": "Zados",
@@ -762,6 +1612,10 @@
     "Akaraz"
    ]
   },
+  "zarin": {
+   "name": "Zarin",
+   "html": "<p>Zarin raided as a rogue for Ascension across 52 raids between 27 November 2019 and 17 June 2020. One outside report predates the run, nine overlap it, and seven more continue from September through November 2020 without naming a destination guild. No landmark or loot award is documented.</p>"
+  },
   "zhèna": {
    "name": "Zhèna",
    "html": "<p>Zhèna was Jørgen from Nittedal, a warrior who kept ending up in front of the boss when nobody else could. He became a full member on 16 February 2020 and stepped up as temporary main tank in the gap <a style=\"color:#C79C6E\" href=\"players.html#Kugel\">Kugel</a> left. By July the Thunderfury plan had him next for a right-hand Binding after <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> and <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>. He was still the tank the Thursday team missed months later, when a busy Wednesday forced an undergeared Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> in front of the Twin Emperors. <a style=\"color:#FF7D0A\" href=\"players.html#Fnats\">Fnats</a> named him among the players who most deserved the Drake Fang Talisman: \"top of the meters constantly, with attendance, consumables, world buffs.\"</p><p>He was also one of the guild's top damage dealers whenever he wasn't tanking, a two-hander enthusiast, and part of the Nittedal thread that runs through the whole story: his DM transcript with Anders covers BWL preparation, binding-queue politics, and the ordinary friendship underneath (\"I bought Diablo 4. I should never have done that,\" a later message confesses, from another game and another decade of the same crew).</p>"
@@ -774,32 +1628,21 @@
    "name": "Zhèna",
    "html": "<p>Zhèna was Jørgen from Nittedal, a warrior who kept ending up in front of the boss when nobody else could. He became a full member on 16 February 2020 and stepped up as temporary main tank in the gap <a style=\"color:#C79C6E\" href=\"players.html#Kugel\">Kugel</a> left. By July the Thunderfury plan had him next for a right-hand Binding after <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> and <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>. He was still the tank the Thursday team missed months later, when a busy Wednesday forced an undergeared Jón <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> in front of the Twin Emperors. <a style=\"color:#FF7D0A\" href=\"players.html#Fnats\">Fnats</a> named him among the players who most deserved the Drake Fang Talisman: \"top of the meters constantly, with attendance, consumables, world buffs.\"</p><p>He was also one of the guild's top damage dealers whenever he wasn't tanking, a two-hander enthusiast, and part of the Nittedal thread that runs through the whole story: his DM transcript with Anders covers BWL preparation, binding-queue politics, and the ordinary friendship underneath (\"I bought Diablo 4. I should never have done that,\" a later message confesses, from another game and another decade of the same crew).</p>"
   },
-  "yealof": {
-   "name": "yealof",
-   "html": "",
-   "roles": [
-    {
-     "role": "Paladin class leader",
-     "period": "from Sep 2020",
-     "guild": "Dusk"
-    }
-   ]
+  "zimmermann": {
+   "name": "Zimmermann",
+   "html": "<p>Zimmermann was a mage who completed thirteen Sleep raids and twenty Dusk raids from June through December 2020. He stayed through Dusk's first guild-only Naxxramas night. Fourteen recorded awards include <a style=\"color:#9482C9\" href=\"players.html#Mana\">Mana</a> Igniting Cord and the Molten Core pieces that built his early set.</p><p>Two reports predate the local tenure and one overlaps it. No later activity has been found after the final Dusk appearance.</p>"
   },
-  "dejvid": {
-   "name": "dejvid",
-   "html": "",
-   "roles": [
-    {
-     "role": "Founder",
-     "period": "2019",
-     "guild": "Sleep"
-    },
-    {
-     "role": "Guild Master",
-     "period": "2019 – Feb 2020",
-     "guild": "Sleep"
-    }
-   ]
+  "zwift": {
+   "name": "Zwift",
+   "html": "<p>Zwift was a rogue with fourteen Sleep raids and one Dusk appearance in the summer of 2020. His three documented awards include Bloodfang Boots and the Head of Nefarian.</p><p>Forty-eight outside reports predate his local arrival, evidence of a substantial earlier raid history whose context remains unresolved. Ten later reports continue from August through October without identifying another guild.</p>"
+  },
+  "zyaya": {
+   "name": "Zyaya",
+   "html": "<p>Zyaya was a rogue who entered during Dusk's Ahn'Qiraj season and continued into Ascension. Eighteen Dusk raids and seventeen Ascension raids form the guild record, with three additional personal PUGs. He was present for Dusk's first guild-only Naxxramas night and received eight documented awards, including Dragonfang Blade and Huhuran's Stinger.</p><p>Nine reports predate his local tenure and twenty-three outside reports overlap it through March 2021. None falls after the final local appearance, so the evidence shows parallel activity rather than a later destination.</p>"
+  },
+  "òllz": {
+   "name": "Òllz",
+   "html": "<p>Òllz hunted for 47 raids between 13 February and 24 September 2020, 42 with Ninjas and five after the Dusk merger, and was present for the 9/9 Ahn'Qiraj clear on 3 September.</p><p>He also did quiet Discord administration for the officer team, adjusting channel permissions and roles between raids, and had opinions on loot fairness beyond his own class: in May 2020 he argued that a contested drop should simply have gone to whichever warlocks and mages needed it, regardless of who had raised the complaint. He was a good sport about his own class's turn in the rotation too, joking when Drake Fang Talisman priority came up for hunters that he'd \"like to see some people cry.\" Eight outside reports predate his run, 30 overlap it, and seven more continue from November 2020 through April 2021 with no destination guild named.</p>"
   },
   "exclusafk": {
    "name": "exclusafk",
@@ -847,13 +1690,6 @@
    "name": "Zizy",
    "html": "",
    "main": "Qiqi"
-  },
-  "qiqi": {
-   "name": "Qiqi",
-   "html": "",
-   "alts": [
-    "Zizy"
-   ]
   },
   "devouboi": {
    "name": "Devouboi",
