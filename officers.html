@@ -20,6 +20,7 @@
   .chain { display: inline-flex; flex-wrap: wrap; gap: 6px; align-items: baseline; font-size: 13.5px; }
   .chain .arrow { opacity: .45; margin: 0 2px; }
   .chain .period { font-size: 11px; opacity: .55; font-family: ui-monospace, Menlo, monospace; }
+  .chainscope h4 { margin: 12px 4px 2px; font-size: 13px; opacity: .7; }
 </style>
 </head>
 <body>
@@ -27,7 +28,9 @@
   <div class="card">
     <h2>Officers &amp; leadership</h2>
     <p class="sub">Everyone who ran the guild — guild masters, officers, and the
-    class leaders who did the daily work. Click a role to see everyone who held it.</p>
+    class leaders who did the daily work. Roles are historical: a badge means
+    the character held that responsibility during the documented period, not
+    that it was their final rank. Click a role to see everyone who held it.</p>
     <div id="groups"><div class="loading">loading…</div></div>
   </div>
 </main>
@@ -53,39 +56,61 @@ function roleWeight(role) {
   return 4;
 }
 // Loose chronological start for period strings like "Feb – Sep 2020",
-// "until Mar 2020", "from Sep 2020", "Oct 2019 – Jul 2020", "2020".
+// "until Mar 2020", "from Sep 2020", and "Oct 2019 – Jul 2020".
 function periodStart(period) {
   const MONTHS = { jan:1, feb:2, mar:3, apr:4, may:5, jun:6, jul:7, aug:8, sep:9, oct:10, nov:11, dec:12 };
   const p = period.toLowerCase();
   if (p.startsWith("until")) return 0;
   const year = (p.match(/(20\d\d)/) ?? [])[1];
-  const month = (p.match(/^(?:from )?([a-z]{3})/) ?? [])[1];
+  const start = p.match(/^(?:from )?(?:(\d{1,2}) )?([a-z]{3})/);
+  const day = Number(start?.[1] ?? 0);
+  const month = start?.[2];
+  if (!month) return null;
   const y = year ? Number(year) : 2020;
-  const m = MONTHS[month] ?? 6;
-  return y * 12 + m;
+  return y * 372 + MONTHS[month] * 31 + day;
+}
+
+function successionScope(entry) {
+  const team = entry.role.match(/\((Wednesday|Thursday)\)/i)?.[1];
+  if (team) return `${entry.guild} · ${team}`;
+  if (entry.guild === "Sleep" || entry.guild === "Sleep & Dusk") return "Sleep → Dusk";
+  return entry.guild;
 }
 
 function successionSection(entries, classes) {
-  const chains = new Map(); // lineage label -> [{name, period, start}]
+  const scopes = new Map();
   for (const e of entries) {
     const m = e.role.match(/^(\w+) class leader/i);
-    const label = m ? m[1] : (/healing officer/i.test(e.role) ? "Healing" : null);
+    const label = m ? m[1] : (/heal(?:er|ing) (?:officer|leader)/i.test(e.role) ? "Healing" : null);
     if (!label) continue;
+    const scope = successionScope(e);
+    if (!scopes.has(scope)) scopes.set(scope, new Map());
+    const chains = scopes.get(scope);
     if (!chains.has(label)) chains.set(label, []);
-    chains.get(label).push({ name: e.name, period: e.period, start: periodStart(e.period) });
+    for (const period of e.period.split(";").map((part) => part.trim())) {
+      const start = periodStart(period);
+      if (start === null) continue;
+      if (!chains.get(label).some((entry) => entry.name === e.name && entry.start === start)) {
+        chains.get(label).push({ name: e.name, period, start });
+      }
+    }
   }
-  const rows = [...chains.entries()]
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([label, list]) => {
-      list.sort((a, b) => a.start - b.start);
-      const color = CLASS_COLORS[label] ?? "#e0af68";
-      const chain = list.map((e) => {
-        const name = e.name.charAt(0).toUpperCase() + e.name.slice(1);
-        return `<span class="link"><a style="color:${CLASS_COLORS[classes[e.name.toLowerCase()]] ?? "inherit"}" href="players.html#${encodeURIComponent(name)}">${esc(name)}</a> <span class="period">${esc(e.period)}</span></span>`;
-      }).join(`<span class="arrow">→</span>`);
-      return `<div class="chainrow"><span class="chainlabel" style="color:${color}">${esc(label)}</span><span class="chain">${chain}</span></div>`;
-    }).join("");
-  return `<div class="grp"><h3>Successions</h3><p class="sub" style="margin:0 0 8px">Who handed the job to whom, class by class.</p>${rows}</div>`;
+  const scopeRows = [...scopes.entries()].map(([scope, chains]) => {
+    const rows = [...chains.entries()]
+      .sort((a, b) => a[0].localeCompare(b[0]))
+      .map(([label, list]) => {
+        list.sort((a, b) => a.start - b.start);
+        if (list.length < 2 || new Set(list.map((e) => e.start)).size !== list.length) return "";
+        const color = CLASS_COLORS[label] ?? "#e0af68";
+        const chain = list.map((e) => {
+          const name = e.name.charAt(0).toUpperCase() + e.name.slice(1);
+          return `<span class="link"><a style="color:${CLASS_COLORS[classes[e.name.toLowerCase()]] ?? "inherit"}" href="players.html#${encodeURIComponent(name)}">${esc(name)}</a> <span class="period">${esc(e.period)}</span></span>`;
+        }).join(`<span class="arrow">→</span>`);
+        return `<div class="chainrow"><span class="chainlabel" style="color:${color}">${esc(label)}</span><span class="chain">${chain}</span></div>`;
+      }).join("");
+    return rows ? `<div class="chainscope"><h4>${esc(scope)}</h4>${rows}</div>` : "";
+  }).join("");
+  return `<div class="grp"><h3>Documented succession lines</h3><p class="sub" style="margin:0 0 8px">Chronological class-leadership lines within the same guild continuity. Parallel and imprecisely dated tenures remain in the tables below.</p>${scopeRows}</div>`;
 }
 
 Promise.all([grab("data/bios.json"), grab("data/classes.json")]).then(([b, c]) => {
@@ -98,7 +123,7 @@ Promise.all([grab("data/bios.json"), grab("data/classes.json")]).then(([b, c]) =
     for (const r of entry.roles) {
       const g = r.guild ?? "Sleep";
       if (!groups.has(g)) groups.set(g, []);
-      groups.get(g).push({ name: entry.name, role: r.role, period: r.period, hasBio: !!entry.html });
+      groups.get(g).push({ name: entry.name, role: r.role, period: r.period, guild: g, hasBio: !!entry.html });
     }
   }
   const allEntries = [...groups.values()].flat();

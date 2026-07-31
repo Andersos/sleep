@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T19:26:11.680Z",
+ "generatedAt": "2026-07-31T20:28:01.822Z",
  "count": 316,
  "bios": {
   "aggro": {
@@ -8,7 +8,14 @@
   },
   "akikiie": {
    "name": "Akikiie",
-   "html": "<p>Aki, Silveh on Discord, built the house the Dusk era lived in: the first message in the entire officer-chat archive is him setting up the Ninjas server in April 2020, gated roles and class channels and all. He was a Ninjas officer, a warrior with fifty-eight raids, and a steady tactical voice through the AQ progression, explaining Huhuran nature-resistance splits in paragraphs while others argued in fragments.</p><p>His guild life ended on a single pull. On 17 September 2020 he pulled at the Ahn'Qiraj entrance with nobody ready. The world buffs died, <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> rage-quit, and three days of officer warfare followed. Aki owned it completely: \"I'll happily apologise and take the blame for it. It's not my intent to hide from it.\" Then he asked the question underneath the whole affair, whether he actually enjoyed a game where a single wipe could ruin forty people's evening. He decided he didn't, and left within the week. The archive remembers him as the architect of the guild's home and the first casualty of its seriousness.</p>"
+   "html": "<p>Aki, Silveh on Discord, built the house the Dusk era lived in: the first message in the entire officer-chat archive is him setting up the Ninjas server in April 2020, gated roles and class channels and all. He was a Ninjas officer, a warrior with fifty-eight raids, and a steady tactical voice through the AQ progression, explaining Huhuran nature-resistance splits in paragraphs while others argued in fragments.</p><p>His guild life ended on a single pull. On 17 September 2020 he pulled at the Ahn'Qiraj entrance with nobody ready. The world buffs died, <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> rage-quit, and three days of officer warfare followed. Aki owned it completely: \"I'll happily apologise and take the blame for it. It's not my intent to hide from it.\" Then he asked the question underneath the whole affair, whether he actually enjoyed a game where a single wipe could ruin forty people's evening. He decided he didn't, and left within the week. The archive remembers him as the architect of the guild's home and the first casualty of its seriousness.</p>",
+   "roles": [
+    {
+     "role": "Officer",
+     "period": "until Sep 2020",
+     "guild": "Ninjas & Dusk"
+    }
+   ]
   },
   "aki": {
    "name": "Akikiie",
@@ -32,7 +39,14 @@
   },
   "amandil": {
    "name": "Amandil",
-   "html": "<p>Amandil raided as a warlock through Sleep's founding stretch, 41 raids between 13 November 2019 and 22 March 2020. He was there for the very first surviving 10/10 Molten Core clear on the opening night, the first surviving Onyxia kill four days later, and the first Nefarian kill the following February, three of the earliest \"first\" landmarks the archive records.</p><p>He also shows up in the guild's day-to-day logistics: in February 2020 <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a> substituted for him at an officer meeting when he couldn't make it, and in March he took part in an open Discord conversation with <a style=\"color:#FFFFFF\" href=\"players.html#Docthor\">Docthor</a> and Shakey about how the guild was running. No outside reports exist before, during, or after his tenure, so the record has nothing to say about where he went once his raids stopped.</p>"
+   "html": "<p>Amandil raided as a warlock through Sleep's founding stretch, 41 raids between 13 November 2019 and 22 March 2020. He was there for the very first surviving 10/10 Molten Core clear on the opening night, the first surviving Onyxia kill four days later, and the first Nefarian kill the following February, three of the earliest \"first\" landmarks the archive records.</p><p>He also shows up in the guild's day-to-day logistics: in February 2020 <a style=\"color:#ABD473\" href=\"players.html#Rocka\">Rocka</a> substituted for him at an officer meeting when he couldn't make it, and in March he took part in an open Discord conversation with <a style=\"color:#FFFFFF\" href=\"players.html#Docthor\">Docthor</a> and Shakey about how the guild was running. No outside reports exist before, during, or after his tenure, so the record has nothing to say about where he went once his raids stopped.</p>",
+   "roles": [
+    {
+     "role": "Warlock class leader",
+     "period": "until Mar 2020",
+     "guild": "Sleep"
+    }
+   ]
   },
   "amarah": {
    "name": "Amarah",
@@ -61,20 +75,20 @@
   "antzi": {
    "name": "Antzi",
    "html": "<p>Antzi ran the rogues — before the merger in Ninjas, after it in Dusk — and brought to the officer chat a philosophy he repeated until everyone could recite it: focus is respect. He didn't care if you came unbuffed; he cared if you wasted thirty-nine other people's evening. \"I play this game for the community,\" he wrote in one of the autumn's better manifestos, and meant it literally — his rogues never once made loot drama, a record he defended with visible pride.</p><p>His temper was the cost of the conviction. The September crises pulled him into shouting matches with <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> (\"no brain pull\"), with <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> (\"stick to ur lock\"), and into the Band of Accuria blowup where he heard himself called stupid and demanded it never happen again. But the record consistently shows the anger pointing somewhere real: at carelessness, at gift-loot logic, at anything that treated the raid's time as free. When he admitted he'd talked his rogues out of quitting \"with arguments I don't even believe,\" it was the most honest sentence of the whole autumn.</p><p>His final logged Dusk raid was 24 September. Sixty later reports cover forty dates through 16 May 2021, with <a style=\"color:#FF7D0A\" href=\"players.html#Pawsz\">Pawsz</a> present on thirty-four and <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> on twenty-nine. The changing uploaders and repeated PUG titles show that they continued raiding together in a stable PUG circuit after Dusk. None matches Decimation's thirty-eight-report historical guild feed, so the logs do not identify a later guild Antzi joined.</p>",
-   "alts": [
-    "Cosyz"
-   ]
-  },
-  "antzisical": {
-   "name": "Antzi",
-   "html": "<p>Antzi ran the rogues — before the merger in Ninjas, after it in Dusk — and brought to the officer chat a philosophy he repeated until everyone could recite it: focus is respect. He didn't care if you came unbuffed; he cared if you wasted thirty-nine other people's evening. \"I play this game for the community,\" he wrote in one of the autumn's better manifestos, and meant it literally — his rogues never once made loot drama, a record he defended with visible pride.</p><p>His temper was the cost of the conviction. The September crises pulled him into shouting matches with <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> (\"no brain pull\"), with <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> (\"stick to ur lock\"), and into the Band of Accuria blowup where he heard himself called stupid and demanded it never happen again. But the record consistently shows the anger pointing somewhere real: at carelessness, at gift-loot logic, at anything that treated the raid's time as free. When he admitted he'd talked his rogues out of quitting \"with arguments I don't even believe,\" it was the most honest sentence of the whole autumn.</p><p>His final logged Dusk raid was 24 September. Sixty later reports cover forty dates through 16 May 2021, with <a style=\"color:#FF7D0A\" href=\"players.html#Pawsz\">Pawsz</a> present on thirty-four and <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> on twenty-nine. The changing uploaders and repeated PUG titles show that they continued raiding together in a stable PUG circuit after Dusk. None matches Decimation's thirty-eight-report historical guild feed, so the logs do not identify a later guild Antzi joined.</p>",
    "roles": [
     {
      "role": "Rogue class leader",
      "period": "2020",
      "guild": "Ninjas & Dusk"
     }
+   ],
+   "alts": [
+    "Cosyz"
    ]
+  },
+  "antzisical": {
+   "name": "Antzi",
+   "html": "<p>Antzi ran the rogues — before the merger in Ninjas, after it in Dusk — and brought to the officer chat a philosophy he repeated until everyone could recite it: focus is respect. He didn't care if you came unbuffed; he cared if you wasted thirty-nine other people's evening. \"I play this game for the community,\" he wrote in one of the autumn's better manifestos, and meant it literally — his rogues never once made loot drama, a record he defended with visible pride.</p><p>His temper was the cost of the conviction. The September crises pulled him into shouting matches with <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> (\"no brain pull\"), with <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> (\"stick to ur lock\"), and into the Band of Accuria blowup where he heard himself called stupid and demanded it never happen again. But the record consistently shows the anger pointing somewhere real: at carelessness, at gift-loot logic, at anything that treated the raid's time as free. When he admitted he'd talked his rogues out of quitting \"with arguments I don't even believe,\" it was the most honest sentence of the whole autumn.</p><p>His final logged Dusk raid was 24 September. Sixty later reports cover forty dates through 16 May 2021, with <a style=\"color:#FF7D0A\" href=\"players.html#Pawsz\">Pawsz</a> present on thirty-four and <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> on twenty-nine. The changing uploaders and repeated PUG titles show that they continued raiding together in a stable PUG circuit after Dusk. None matches Decimation's thirty-eight-report historical guild feed, so the logs do not identify a later guild Antzi joined.</p>"
   },
   "appelflap": {
    "name": "Appelflap",
@@ -129,7 +143,7 @@
    "html": "<p>Banamahs led the Thursday mages and thought about guilds the way an economist thinks about fisheries: the resource is your members' time and goodwill, and every scuffed raid overfishes it. \"Longevity is the key to this game,\" he wrote in September, \"but if you burn resources too quickly, people quit.\" He said it about continuation raids, about split-run chaos, about consumable costs — and the autumn kept proving him right.</p><p>He was the calm half of the Ninjas bloc: building loot-overview spreadsheets other class leaders copied, absorbing a mage exodus (three top-geared mages gone in a week) with recruitment plans instead of drama, and cutting through the era's worst arguments with lines like \"this wasn't a case of afk players — we were not ready to pull.\" His tribute to <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> doubles as his own epitaph for the era: if everyone pumped that hard, the raid would take forty-five minutes.</p><p>On 3 October he announced that he was leaving, but kept his alt Banama in Dusk \"to be able to catch up.\" Nine minutes later <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> called him \"another Decimation recruit.\" The economist had followed his own warning: once the group's goodwill was spent, he moved on.</p><p>The later logs add a second, separate thread: seventy-one reports across forty-four dates, with <a style=\"color:#FF7D0A\" href=\"players.html#Pawsz\">Pawsz</a> present on thirty-five and <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a> on twenty-nine. Those reports belong to a stable PUG circuit under several uploaders. None matches Decimation's thirty-eight-report historical guild feed. The contemporary recruitment message, not these later raids, remains the evidence for Banamahs's guild destination.</p>",
    "roles": [
     {
-     "role": "Mage class leader",
+     "role": "Mage class leader (Thursday)",
      "period": "2020",
      "guild": "Ninjas & Dusk"
     }
@@ -252,6 +266,13 @@
   "crok": {
    "name": "Crok",
    "html": "<p>Crok was a mage with 162 raids in the logs — one of the most-attended players in the whole archive — and the pragmatist in the officer chat. When rosters ran short he suggested filling with pugs and recruiting the good ones (\"worked in the past\"); when December's crisis meetings ran hot he stayed practical. His DM thread with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> spans the guild's whole life, from a February 2020 recruit conversation to three days after the Kel'Thuzad kill. He farmed venom sacks on the night crew, carried the Ring of Spiritual Fervor out of the 12-wipe Horsemen night, and made the jump to Ascension with the rest. During migration week he also relayed alchemy materials between <a style=\"color:#9482C9\" href=\"players.html#Rockafella\">Rockafella</a> and the benched <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, keeping the consumables line moving while the guild changed names.</p>",
+   "roles": [
+    {
+     "role": "Mage class leader",
+     "period": "Aug – Dec 2020",
+     "guild": "Sleep & Dusk"
+    }
+   ],
    "alts": [
     "Poesje"
    ]
@@ -322,7 +343,7 @@
     },
     {
      "role": "Guild Master",
-     "period": "Aug – Dec 2020",
+     "period": "Aug – Sep; Oct – Dec 2020",
      "guild": "Dusk"
     }
    ],
@@ -356,7 +377,14 @@
   },
   "dragonslay": {
    "name": "Dragonslay",
-   "html": "<p>Dragonslay healed as a priest for Ninjas and, briefly, Dusk: 44 raids between 13 February and 27 August 2020, all but two of them logged under the Ninjas identity.</p><p>She was one of Ninjas' class leaders, running raid two's healing assignments, and by April 2020 Dan flagged her as a strong contender for more responsibility even though she was \"frustrated with the priests atm,\" simply because the others weren't buffing and left her doing all the legwork. In July, <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> said he wanted her \"more involved with the management of the guild\" as part of a wider push to treat members better, but by August she had stepped back and was taking a break from raid healing. She surfaces once more at the end of September, when <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> asked <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a> whether the person behind a piece of guild drama was \"dragonslay\" and got a one-word yes, and when Stormcat, asked what stood in the way of salvaging Dusk's two raid teams, answered with just her name. Thirteen outside reports predate her run, 21 overlap it, and one more appears on 3 January 2021.</p>"
+   "html": "<p>Dragonslay healed as a priest for Ninjas and, briefly, Dusk: 44 raids between 13 February and 27 August 2020, all but two of them logged under the Ninjas identity.</p><p>She was one of Ninjas' class leaders, running raid two's healing assignments, and by April 2020 Dan flagged her as a strong contender for more responsibility even though she was \"frustrated with the priests atm,\" simply because the others weren't buffing and left her doing all the legwork. In July, <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> said he wanted her \"more involved with the management of the guild\" as part of a wider push to treat members better, but by August she had stepped back and was taking a break from raid healing. She surfaces once more at the end of September, when <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> asked <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a> whether the person behind a piece of guild drama was \"dragonslay\" and got a one-word yes, and when Stormcat, asked what stood in the way of salvaging Dusk's two raid teams, answered with just her name. Thirteen outside reports predate her run, 21 overlap it, and one more appears on 3 January 2021.</p>",
+   "roles": [
+    {
+     "role": "Healing class leader",
+     "period": "until Aug 2020",
+     "guild": "Ninjas & Dusk"
+    }
+   ]
   },
   "drekka": {
    "name": "Drekka",
@@ -409,6 +437,13 @@
   "exclus": {
    "name": "Exclus",
    "html": "<p>Exclus came from the Nittedal group as a mage. His holy paladin alt <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> joined a roster whose four paladin spots were all healers. The two characters account for nearly one hundred logged raids between them.</p><p>He was also a connector. On 23 October 2019 he vouched for <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> as \"a really good tank,\" bringing in the player who would anchor the guild's front line.</p><p>When <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> lost access to his account, <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> covered the class-leader job from 15 to 22 April 2020. Exclus declined the permanent seat because he was not playing enough, and <a style=\"color:#F58CBA\" href=\"players.html#Randyfist\">Randyfist</a> took over. A month later <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> tried to recruit the paladin alt onto a warrior, creating a brief boundary fight between the tank and paladin leaders. <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> kept raiding through September.</p>",
+   "roles": [
+    {
+     "role": "Paladin class leader (temporary, as Exclusafk)",
+     "period": "15 Apr – 22 Apr 2020",
+     "guild": "Sleep"
+    }
+   ],
    "alts": [
     "Exclusafk"
    ]
@@ -423,7 +458,7 @@
   },
   "fantur": {
    "name": "Snjór",
-   "html": "<p>Snjór, with Fantur as his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank. That kick is the one act the record can't soften, and the one he was restored from within a day once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>"
+   "html": "<p>Snjór, with Fantur as his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September. <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a> said someone then reinvited him and that he, or his alt, kicked her; his later account disputed the surrounding blame. The archive establishes the opening kick and the restriction of kick powers that followed, but not the full sequence or authorization. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>"
   },
   "fatale": {
    "name": "Fatale",
@@ -431,7 +466,14 @@
   },
   "ferrua": {
    "name": "Ferrua",
-   "html": "<p>Ferrua was a warlock from the Ninjas side with a talent for being the adult in the room. He is the officer whose loot judgment aged best (\"turns out Ferrua was right not to give Mika the Rejuv Gem,\" <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> conceded months later) and the one who ran healer loot on zero notice the day <a style=\"color:#F58CBA\" href=\"players.html#Orish\">Orish</a> quit. \"Does this mean I decide healer loot today?\" he asked. He did it well enough that nobody complained, which in this guild counts as a standing ovation.</p><p>His interventions were short and usually decisive: on rage-quitting (\"imagine if ten people rage quit, we have no raid\"), on second chances, and in defence of <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> when criticism turned personal. He argued for diverse raid comps on principle. \"Imagine if we only had warriors and paladins. That would suck.\"</p>"
+   "html": "<p>Ferrua was a warlock from the Ninjas side with a talent for being the adult in the room. He is the officer whose loot judgment aged best (\"turns out Ferrua was right not to give Mika the Rejuv Gem,\" <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> conceded months later) and the one who ran healer loot on zero notice the day <a style=\"color:#F58CBA\" href=\"players.html#Orish\">Orish</a> quit. \"Does this mean I decide healer loot today?\" he asked. He did it well enough that nobody complained, which in this guild counts as a standing ovation.</p><p>His interventions were short and usually decisive: on rage-quitting (\"imagine if ten people rage quit, we have no raid\"), on second chances, and in defence of <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> when criticism turned personal. He argued for diverse raid comps on principle. \"Imagine if we only had warriors and paladins. That would suck.\"</p>",
+   "roles": [
+    {
+     "role": "Healing officer (stand-in)",
+     "period": "Sep 2020",
+     "guild": "Dusk"
+    }
+   ]
   },
   "filippoberio": {
    "name": "Filippoberio",
@@ -443,14 +485,7 @@
   },
   "fizzi": {
    "name": "Fizzi",
-   "html": "<p>Fizzi was a warrior who treated raid rosters like an engineering problem. By late 2020 he was the Dusk officer doing the unglamorous math: how many hunter spots a merged raid could carry, which classes were oversubscribed, who could tank Four Horsemen if <a style=\"color:#C79C6E\" href=\"players.html#Boxya\">Boxya</a> disappeared again (he kept <a style=\"color:#C79C6E\" href=\"players.html#Edomedo\">Edomedo</a> warm as the contingency). When the December merge happened, he was one of the two tanks Dusk protected in the first brutal cut. He had earned it; he'd tanked C'Thun with <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> just weeks earlier.</p><p>His philosophy was stated plainly in the December debates: comp plus parse — with limited spots you bring the players who perform, and \"bench decisions… I have no problem making hard calls if needed.\" But the same person argued for alt-and-member loot parity in November, defended benched players' access to gear, and did the tedious work of maintaining signup tabs and week-three spreadsheets that fairness actually runs on.</p><p>He was in the first Four Horsemen kill and the Kel'Thuzad clear, and carried on into Ascension's farm era — one of the people whose December choices the story judges gently, because the archive shows how much thought went into them.</p>",
-   "roles": [
-    {
-     "role": "Officer",
-     "period": "2020",
-     "guild": "Dusk"
-    }
-   ]
+   "html": "<p>Fizzi was a warrior who treated raid rosters like an engineering problem. By late 2020 he was the Dusk officer doing the unglamorous math: how many hunter spots a merged raid could carry, which classes were oversubscribed, who could tank Four Horsemen if <a style=\"color:#C79C6E\" href=\"players.html#Boxya\">Boxya</a> disappeared again (he kept <a style=\"color:#C79C6E\" href=\"players.html#Edomedo\">Edomedo</a> warm as the contingency). When the December merge happened, he was one of the two tanks Dusk protected in the first brutal cut. He had earned it; he'd tanked C'Thun with <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> just weeks earlier.</p><p>His philosophy was stated plainly in the December debates: comp plus parse — with limited spots you bring the players who perform, and \"bench decisions… I have no problem making hard calls if needed.\" But the same person argued for alt-and-member loot parity in November, defended benched players' access to gear, and did the tedious work of maintaining signup tabs and week-three spreadsheets that fairness actually runs on.</p><p>He was in the first Four Horsemen kill and the Kel'Thuzad clear, and carried on into Ascension's farm era — one of the people whose December choices the story judges gently, because the archive shows how much thought went into them.</p>"
   },
   "flameboy": {
    "name": "Flameboy",
@@ -585,7 +620,7 @@
   },
   "henne": {
    "name": "Henne",
-   "html": "<p>Henne (Linda) came over from the Ninjas side and was one of the voices that bridged the two cultures. Her place in the story is collateral damage from the strangest day of the Dusk era: on September 30th 2020, <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> was kicked without warning and used his alt's rank to kick Henne in retaliation before anyone could react. The protest gquits that followed nearly took the guild apart. <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>'s first message to her that afternoon opens one of the archive's DM threads: let's find out what happened and find a fair solution.</p><p>She was restored along with everyone else once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the mess, and the incident forced the reform that outlived it: kick rights were restricted, and \"if you don't have time to explain, you should not have time to kick people\" became guild doctrine. Few players did less to deserve their place in the drama, which is why her name is on the reform.</p><p>Henne's last logged Dusk raid was 18 October. Her later history contains seventy-nine reports across thirty-three dates, with GDKP and PUG titles under several uploaders. <a style=\"color:#C79C6E\" href=\"players.html#Katdrovrsn\">Katdrovrsn</a> and <a style=\"color:#F58CBA\" href=\"players.html#Mikadrovrsn\">Mikadrovrsn</a> each share seven of those dates, while <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> shares six. Nine reports across seven dates match Decimation's historical guild feed, showing that she raided with Decimation as well as maintaining contact with the old circle.</p>"
+   "html": "<p>Henne (Linda) came over from the Ninjas side and was one of the voices that bridged the two cultures. Her place in the story is collateral damage from the strangest day of the Dusk era: on September 30th 2020, <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a>. Henne said someone then reinvited <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> and that he, or his alt, kicked her; <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a>'s later account disputed the surrounding blame. The protest gquits that followed nearly took the guild apart. <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>'s first message to her that afternoon opens one of the archive's DM threads: let's find out what happened and find a fair solution.</p><p>She was restored along with everyone else once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the mess, and the incident forced the reform that outlived it: kick rights were restricted, and \"if you don't have time to explain, you should not have time to kick people\" became guild doctrine. Few players did less to deserve their place in the drama, which is why her name is on the reform.</p><p>Henne's last logged Dusk raid was 18 October. Her later history contains seventy-nine reports across thirty-three dates, with GDKP and PUG titles under several uploaders. <a style=\"color:#C79C6E\" href=\"players.html#Katdrovrsn\">Katdrovrsn</a> and <a style=\"color:#F58CBA\" href=\"players.html#Mikadrovrsn\">Mikadrovrsn</a> each share seven of those dates, while <a style=\"color:#ABD473\" href=\"players.html#Ulfhild\">Ulfhild</a> shares six. Nine reports across seven dates match Decimation's historical guild feed, showing that she raided with Decimation as well as maintaining contact with the old circle.</p>"
   },
   "herberd": {
    "name": "Herberd",
@@ -797,7 +832,7 @@
     {
      "role": "Officer",
      "period": "Sep – Dec 2020",
-     "guild": "Sleep & Dusk"
+     "guild": "Dusk"
     }
    ],
    "alts": [
@@ -880,6 +915,13 @@
   "missdotty": {
    "name": "Missdotty",
    "html": "<p>Missdotty, Dotty for short and Decretum on Discord, was a warlock, the Thursday team's off-boss tank when a fight demanded one, and the officer chat's investigator-in-chief. When idols went missing from the guild bank pipeline, Dotty traced them mailbox by mailbox (\"the investigator!\"). When arguments ran to 150 messages, Dotty arrived late, sighed \"99% shit, 1% information, as usual,\" and set up a poll. The Among Us jokes wrote themselves, and Dotty leaned in.</p><p>The record also holds a running comedy of mistaken identity: half the guild spent months assuming Missdotty was a woman, a discovery that cost <a style=\"color:#FF7D0A\" href=\"players.html#Pnats\">Pnats</a> a genuine crisis (\"She's not?\" / \"I can be, if you want\"). Behind the jokes sat a reliable officer, hardline in the <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> debate, generous in the Tear queue, and the one who kept Discord's machinery of polls and roles and tags actually working.</p>",
+   "roles": [
+    {
+     "role": "Guild Master (temporary)",
+     "period": "from Sep 2020",
+     "guild": "Dusk"
+    }
+   ],
    "alts": [
     "Benevolence"
    ]
@@ -1002,8 +1044,8 @@
    "roles": [
     {
      "role": "Healing officer",
-     "period": "Aug – Sep 2020",
-     "guild": "Dusk"
+     "period": "until Aug 2020",
+     "guild": "Ninjas & Dusk"
     }
    ]
   },
@@ -1057,7 +1099,14 @@
   },
   "pawsz": {
    "name": "Pawsz",
-   "html": "<p>Pawsz was a druid, a Ninjas officer, and the closest thing the officer chat had to a house intellectual — the one running the numbers on venom sac consumption per Viscidus attempt, proposing member polls with properly phrased questions, and arguing for radical transparency when everyone else wanted PR (\"we can just let people read the officer chat. I don't care one bit how it looks\"). His one-liners carried more policy than most meetings: \"we are not the UN\"; \"Stoneshield is not something one pops for personal parsing.\"</p><p>He was also the merger's honest observer. It was Pawsz who noted the irony that the supposedly weaker Sleep brought the stricter rules, and Pawsz who refused to let September's departures become a Ninjas-versus- Sleep story: \"We are not sat here pointing at <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> either — why make this about Ninjas and Sleep again?\" His final logged Dusk raid was on 24 September, and outside reports begin five days later. A targeted pass finds 108 later reports across sixty-six dates, most often alongside <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> and <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>. The reports run through several uploaders and include explicit PUG titles, supporting a stable raid circuit rather than a named destination guild. None matches Decimation's thirty-eight-report historical guild feed. The archive does not preserve a departure message.</p>"
+   "html": "<p>Pawsz was a druid, a Ninjas officer, and the closest thing the officer chat had to a house intellectual — the one running the numbers on venom sac consumption per Viscidus attempt, proposing member polls with properly phrased questions, and arguing for radical transparency when everyone else wanted PR (\"we can just let people read the officer chat. I don't care one bit how it looks\"). His one-liners carried more policy than most meetings: \"we are not the UN\"; \"Stoneshield is not something one pops for personal parsing.\"</p><p>He was also the merger's honest observer. It was Pawsz who noted the irony that the supposedly weaker Sleep brought the stricter rules, and Pawsz who refused to let September's departures become a Ninjas-versus- Sleep story: \"We are not sat here pointing at <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a> either — why make this about Ninjas and Sleep again?\" His final logged Dusk raid was on 24 September, and outside reports begin five days later. A targeted pass finds 108 later reports across sixty-six dates, most often alongside <a style=\"color:#69CCF0\" href=\"players.html#Banamahs\">Banamahs</a> and <a style=\"color:#FFF569\" href=\"players.html#Antzi\">Antzi</a>. The reports run through several uploaders and include explicit PUG titles, supporting a stable raid circuit rather than a named destination guild. None matches Decimation's thirty-eight-report historical guild feed. The archive does not preserve a departure message.</p>",
+   "roles": [
+    {
+     "role": "Officer",
+     "period": "until Sep 2020",
+     "guild": "Ninjas & Dusk"
+    }
+   ]
   },
   "phrkica": {
    "name": "Phrkica",
@@ -1072,8 +1121,18 @@
    "html": "<p>Pnats was a resto druid, <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>'s brother, and the officer chat's conscience. With 132 raids behind him he had the standing to say uncomfortable things, and he used it. When <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> was benched in December, it was Pnats who opened the debate: the value the man had brought to Sleep and Dusk deserved better. When the officers needed someone to state the hard truth about <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a>, he did that too, in words that were kinder in intent than on the page.</p><p>He was one of the few constants across the whole run, from Sleep through Dusk and into the first joint raid under Ascension. He healed Sleep's raids from 2 January 2020. The first surviving nomination for a healing-leader role came from <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> on 15 March 2020: \"maybe pnats would be good.\" Pnats became a Dusk officer at the September meeting, worried constantly about healer recruitment (\"we lost so many healers\"), and kept the loot log honest. He also supplied the archive's comic relief (the discovery that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> was not, in fact, a woman cost him a genuine crisis of confidence) and its most quoted line: on the day Dusk dissolved, he pinged the officers with \"BYE DUSK?\" and then, at midnight, wrote the era's epitaph: \"its been good Sleep &gt; Dusk &gt; Ascension, we've done it all =)\"</p><p>He remained through the first joint Dusk-Ascension raid on 20 December 2020, logged onto his brother's warrior when the roster needed it, and stayed the person people forwarded screenshots to when something dramatic happened — which, in this guild, was often.</p>",
    "roles": [
     {
+     "role": "Healer leader",
+     "period": "Apr – Jul 2020",
+     "guild": "Sleep"
+    },
+    {
+     "role": "Healing officer",
+     "period": "Aug – Sep 2020",
+     "guild": "Dusk"
+    },
+    {
      "role": "Officer",
-     "period": "Sep – Dec 2020",
+     "period": "Sep – Oct 2020",
      "guild": "Dusk"
     }
    ]
@@ -1160,14 +1219,14 @@
    "html": "<p>Randyfist, Randy, Trenfentson on Discord, is one of the archive's quiet constants. He was brought into officer meetings in December 2019 and led the paladins before <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>. Burned out, he stepped away on 2 March 2020 before the planned Nightfall could be crafted for him. He returned in April and accepted the class-leader job again on the 22nd, after <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a> lost his account.</p><p>The return was not quiet. Eight days into the job he announced a Ret switch and challenged <a style=\"color:#F58CBA\" href=\"players.html#Panadin\">Panadin</a>'s Eye of Sulfuras queue, while <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> and <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> backed the earlier agreement. A month later <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> tried to recruit <a style=\"color:#F58CBA\" href=\"players.html#Exclusafk\">Exclusafk</a> out of Randy's paladin roster and onto a warrior. Randy called it \"Warrior Syndrome\": the best class, he said, had the worst manners. The disagreement ended without a rupture.</p><p>By late Dusk he had become the officer chat's resident hawk. When the December merge talks began, his counsel was piracy: \"poach the benched Ascension raiders, cancel the merge, Ascension implodes, we get half their shit. Just like a good ol' divorce.\" Nobody took the advice. Everybody quoted it.</p><p>He recruited paladins when nobody else would (\"Recruit yourself, Randy,\" <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> shot back), then rerolled hunter and fell in love with the class. On 14 December he tanked the first Four Horsemen kill and received Corrupted Ashbringer from its chest. Two days later he asked the question that ended Dusk: \"When we leaving and merging?\" He answered it himself within twenty minutes. \"Fuck it, get it over and done with.\" His OCD, he explained, flared at unresolved things.</p>",
    "roles": [
     {
-     "role": "Healing officer",
-     "period": "until Mar 2020",
+     "role": "Paladin class leader",
+     "period": "until 4 Mar 2020; 22 Apr – Aug 2020",
      "guild": "Sleep"
     },
     {
-     "role": "Paladin class leader",
-     "period": "until Mar; Apr – Sep 2020",
-     "guild": "Sleep"
+     "role": "Healing leader",
+     "period": "Jul – Aug 2020",
+     "guild": "Sleep & Dusk"
     }
    ],
    "alts": [
@@ -1214,6 +1273,13 @@
   "rockafella": {
    "name": "Rockafella",
    "html": "<p>Rockafella was a warlock and one of the guild's institutionalists. He asked <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> for an Alterac Valley queue bot in December 2019, covered officer meetings for warlock leader <a style=\"color:#9482C9\" href=\"players.html#Amandil\">Amandil</a>, and later coordinated the class loot with <a style=\"color:#9482C9\" href=\"players.html#Lyvana\">Lyvana</a>. When the mages debated replacing <a style=\"color:#69CCF0\" href=\"players.html#Proctologist\">Proctologist</a>, Rockafella gave <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> the strongest peer endorsement: he had \"always been wondering why he wasnt the Class Leader from the beginning.\"</p><p>In Dusk he was the voice that said the quiet part about governance out loud: \"Class leaders think they are officers. If the class leaders could shut their mouths and run their class and let the officers manage the guild, we wouldn't have this shit.\" Within the hour, the officers split the chat in two. Few messages in the archive changed more structure faster.</p><p>He shows up wherever the record needs a witness with standing: talking <a style=\"color:#FF7D0A\" href=\"players.html#Nayla\">Nayla</a>'s case through with <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> and establishing that the infamous AQ20 \"ninja pull\" was a hearthstone misunderstanding; holding the line in the Band of Accuria fight (\"we're trying to move away from a culture where the one who shouts loudest is right\"); and tanking in the first Four Horsemen kill. He wanted a guild run by its officers, and mostly, after September, he got one.</p><p>During the December collapse he kept mailing alchemy materials to the benched <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>. At 23:31 on migration night, while Dusk disappeared around them, Rockafella was still asking whether <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> could make two flasks.</p>",
+   "roles": [
+    {
+     "role": "Warlock class leader",
+     "period": "Mar – Dec 2020",
+     "guild": "Sleep & Dusk"
+    }
+   ],
    "alts": [
     "Rocka"
    ]
@@ -1265,23 +1331,23 @@
   },
   "shakeyhealer": {
    "name": "Shakeyhealer",
-   "html": "<p>Shakey was a priest, an officer, and one of the guild's steady hands — the kind of presence who appears in every era's records without ever being the problem. In the <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> affair he was one of the two named supporters (\"<a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> and Shakey has always been for you,\" <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> told <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> on the night he quit), and his healing anchored the December raids: he is in the first Four Horsemen kill roster and stayed through the clear. His DM thread with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> is one of the largest in the archive — 562 messages of guild logistics across the whole of 2020 — and one of the least dramatic, which is its own kind of biography. When a stranger logged into <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>'s stolen account and quit the guild, Shakey and <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> were the two who noticed and warned him.</p>"
-  },
-  "shakey": {
-   "name": "Shakeyhealer",
    "html": "<p>Shakey was a priest, an officer, and one of the guild's steady hands — the kind of presence who appears in every era's records without ever being the problem. In the <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> affair he was one of the two named supporters (\"<a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> and Shakey has always been for you,\" <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> told <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> on the night he quit), and his healing anchored the December raids: he is in the first Four Horsemen kill roster and stayed through the clear. His DM thread with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> is one of the largest in the archive — 562 messages of guild logistics across the whole of 2020 — and one of the least dramatic, which is its own kind of biography. When a stranger logged into <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>'s stolen account and quit the guild, Shakey and <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> were the two who noticed and warned him.</p>",
    "roles": [
+    {
+     "role": "Priest class leader",
+     "period": "until Jun 2020",
+     "guild": "Sleep"
+    },
     {
      "role": "Officer",
      "period": "2020",
      "guild": "Sleep & Dusk"
-    },
-    {
-     "role": "Priest class leader",
-     "period": "2019 – 2020",
-     "guild": "Sleep"
     }
    ]
+  },
+  "shakey": {
+   "name": "Shakeyhealer",
+   "html": "<p>Shakey was a priest, an officer, and one of the guild's steady hands — the kind of presence who appears in every era's records without ever being the problem. In the <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> affair he was one of the two named supporters (\"<a style=\"color:#ABD473\" href=\"players.html#Zados\">Zados</a> and Shakey has always been for you,\" <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> told <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> on the night he quit), and his healing anchored the December raids: he is in the first Four Horsemen kill roster and stayed through the clear. His DM thread with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> is one of the largest in the archive — 562 messages of guild logistics across the whole of 2020 — and one of the least dramatic, which is its own kind of biography. When a stranger logged into <a style=\"color:#F58CBA\" href=\"players.html#Thepaladin\">Thepaladin</a>'s stolen account and quit the guild, Shakey and <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> were the two who noticed and warned him.</p>"
   },
   "shaolin": {
    "name": "Shaolin",
@@ -1321,7 +1387,14 @@
   },
   "snjór": {
    "name": "Snjór",
-   "html": "<p>Snjór, with Fantur as his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September and he retaliated through his alt's rank. That kick is the one act the record can't soften, and the one he was restored from within a day once <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> untangled the accusations. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>"
+   "html": "<p>Snjór, with Fantur as his warrior alt, came from Iceland with the Ninjas, held their raid leadership, and owned the Dusk Discord server itself. His tank career is the guild's clearest document of what off-tanking actually cost in Classic. Asked to hold Twin Emperors on a second-string gear set, he laid out the math (5,000 gold of Edgemaster's, double consumables, 5,900 health against 5,000-damage strikes) and then delivered the year's most quietly devastating line: \"I've been saying this for weeks, and the answer was like, yeah, we can get someone else to do it.\"</p><p>He led Sunday raids, recruited half the server's strays, took responsibility for things that weren't his fault (\"I told them to direct their anger at me\"), and became the center of the era's worst day when <a style=\"color:#C79C6E\" href=\"players.html#Yeat\">Yeat</a> kicked him on 30 September. <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a> said someone then reinvited him and that he, or his alt, kicked her; his later account disputed the surrounding blame. The archive establishes the opening kick and the restriction of kick powers that followed, but not the full sequence or authorization. His summary of guild philosophy outlived all of it: \"the mentality we set in Ninjas was always entertainment before some purple pixels.\"</p><p>On 1 October <a style=\"color:#FF7D0A\" href=\"players.html#Luivi\">Luivi</a> wrote that <a style=\"color:#9482C9\" href=\"players.html#Missdotty\">Missdotty</a> had told him Snjór joined Agile. The next message separated the fate of his warrior: \"No idea if Fantur stays or leaves.\" The logs complete that small split ending. Snjór's outside reports begin on 29 September, while Fantur continued raiding with Dusk through 21 October.</p>",
+   "roles": [
+    {
+     "role": "Officer",
+     "period": "until Sep 2020",
+     "guild": "Ninjas & Dusk"
+    }
+   ]
   },
   "sofiero": {
    "name": "Sofiero",
@@ -1392,6 +1465,11 @@
    "html": "<p>Supplier earned his name. Across three years and nearly a thousand messages with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>, he was the guild's consumables economy in human form: flasks, protection potions, world-buff logistics, the LBRS venom-sack supply chain that made Viscidus killable. If a raid had what it needed, odds are Supplier had something to do with it.</p><p>He was Norwegian, precise, and allergic to sloppy thinking. He asked what a poll was actually <em>for</em> before letting anyone run it. He told his fellow priests exactly how their channel would be run (\"take it up with me directly\"), and he de-escalated the guild's worst arguments by explaining what an expression had actually meant in context. He was named Healing Officer at the September 2020 meeting and stayed in that seat through the December merge.</p><p>Two footnotes belong to him. His dry one-liner \"<a style=\"color:#FFFFFF\" href=\"players.html#Shosanna\">Shosanna</a> was the only priest that got an item yesterday, fyi\" became the last straw in <a style=\"color:#F58CBA\" href=\"players.html#Orish\">Orish</a>'s dramatic exit; his whole reaction to the fallout was \"Allright, nice to meet ya\". And in May 2021 he posted the \"Dusk list\": a set of tribute video links, one per guildmate, the closest thing the guild ever made to its own memorial before this site.</p>",
    "roles": [
     {
+     "role": "Priest class leader",
+     "period": "Jun – Aug 2020",
+     "guild": "Sleep"
+    },
+    {
      "role": "Healing officer",
      "period": "Sep – Dec 2020",
      "guild": "Dusk"
@@ -1432,7 +1510,7 @@
    "roles": [
     {
      "role": "Paladin class leader",
-     "period": "Mar – Apr 2020",
+     "period": "4 Mar – 15 Apr 2020",
      "guild": "Sleep"
     }
    ]
@@ -1560,12 +1638,22 @@
   },
   "yeat": {
    "name": "Yeat",
-   "html": "<p>Yeat was the Thursday team's raid leader and master looter — the warrior who actually ran the nights, kept the loot in his bags between raids (occasionally to the guild banker's despair), and dialed in from work trips with lines like \"please make preparations as if I'm not there.\" His raid-leading philosophy hardened after the September pull crisis: stricter comms, less fun on the mic, \"I don't want that in my raid, full stop.\"</p><p>His name is attached to the era's strangest day. On 30 September 2020 he kicked <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> from the guild without consulting anyone — entangled in an accusation <a style=\"color:#69CCF0\" href=\"players.html#Divinestorm\">Divinestorm</a> privately doubted — and the retaliation and protest quits that followed nearly cracked the guild. The reform that came out of it restricted kick powers for good. Yet the same record shows why he held the job: steady on loot fairness, first to volunteer for unglamorous logistics, and holder of the in-game guild-master character during the transition — which is how a mid-conflict kick became constitutionally possible in the first place.</p>",
+   "html": "<p>Yeat was the Thursday team's raid leader and master looter — the warrior who actually ran the nights, kept the loot in his bags between raids (occasionally to the guild banker's despair), and dialed in from work trips with lines like \"please make preparations as if I'm not there.\" His raid-leading philosophy hardened after the September pull crisis: stricter comms, less fun on the mic, \"I don't want that in my raid, full stop.\"</p><p>His name is attached to the era's strangest day. On 30 September 2020 he kicked <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> from the guild; that opening act is the one point both participant accounts share. The reinvite, <a style=\"color:#ABD473\" href=\"players.html#Henne\">Henne</a>'s subsequent kick, and the protest quits that followed nearly cracked the guild, but the surviving accounts do not establish the full sequence or blame. The reform that came out of it restricted kick powers for good. Yet the same record shows why he held the job: steady on loot fairness, first to volunteer for unglamorous logistics, and holder of the in-game guild-master character during the transition — which is how a mid-conflict kick became constitutionally possible in the first place.</p>",
    "roles": [
     {
      "role": "Raid leader & master looter",
      "period": "2020",
      "guild": "Ninjas & Dusk"
+    },
+    {
+     "role": "Officer",
+     "period": "Sep 2020",
+     "guild": "Dusk"
+    },
+    {
+     "role": "Guild Master (temporary)",
+     "period": "until Sep 2020",
+     "guild": "Dusk"
     }
    ]
   },
@@ -1591,13 +1679,13 @@
    "roles": [
     {
      "role": "Hunter class leader",
-     "period": "from Jul 2020",
+     "period": "Jul – Dec 2020",
      "guild": "Sleep & Dusk"
     },
     {
      "role": "Officer",
      "period": "2020",
-     "guild": "Sleep & Dusk"
+     "guild": "Sleep"
     }
    ],
    "alts": [
@@ -1610,7 +1698,14 @@
   },
   "zhèna": {
    "name": "Zhèna",
-   "html": "<p>Zhèna was a warrior from the Nittedal circle who kept ending up in front of the boss when nobody else could. He became a full member on 16 February 2020 and stepped up as temporary main tank in the gap <a style=\"color:#C79C6E\" href=\"players.html#Kugel\">Kugel</a> left. By July the Thunderfury plan had him next for a right-hand Binding after <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> and <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>. He was still the tank the Thursday team missed months later, when a busy Wednesday forced an undergeared <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> in front of the Twin Emperors. <a style=\"color:#FF7D0A\" href=\"players.html#Fnats\">Fnats</a> named him among the players who most deserved the Drake Fang Talisman: \"top of the meters constantly, with attendance, consumables, world buffs.\"</p><p>He was also one of the guild's top damage dealers whenever he wasn't tanking, a two-hander enthusiast, and part of the Nittedal thread that runs through the whole story: his DM transcript with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> covers BWL preparation, binding-queue politics, and the ordinary friendship underneath (\"I bought Diablo 4. I should never have done that,\" a later message confesses, from another game and another decade of the same crew).</p>"
+   "html": "<p>Zhèna was a warrior from the Nittedal circle who kept ending up in front of the boss when nobody else could. He became a full member on 16 February 2020 and stepped up as temporary main tank in the gap <a style=\"color:#C79C6E\" href=\"players.html#Kugel\">Kugel</a> left. By July the Thunderfury plan had him next for a right-hand Binding after <a style=\"color:#C79C6E\" href=\"players.html#Glory\">Glory</a> and <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>. He was still the tank the Thursday team missed months later, when a busy Wednesday forced an undergeared <a style=\"color:#69CCF0\" href=\"players.html#Snj%C3%B3r\">Snjór</a> in front of the Twin Emperors. <a style=\"color:#FF7D0A\" href=\"players.html#Fnats\">Fnats</a> named him among the players who most deserved the Drake Fang Talisman: \"top of the meters constantly, with attendance, consumables, world buffs.\"</p><p>He was also one of the guild's top damage dealers whenever he wasn't tanking, a two-hander enthusiast, and part of the Nittedal thread that runs through the whole story: his DM transcript with <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a> covers BWL preparation, binding-queue politics, and the ordinary friendship underneath (\"I bought Diablo 4. I should never have done that,\" a later message confesses, from another game and another decade of the same crew).</p>",
+   "roles": [
+    {
+     "role": "Officer (temporary main tank)",
+     "period": "Jun – Aug 2020",
+     "guild": "Sleep"
+    }
+   ]
   },
   "zhena": {
    "name": "Zhèna",
@@ -1631,18 +1726,6 @@
   "òllz": {
    "name": "Òllz",
    "html": "<p>Òllz hunted for 47 raids between 13 February and 24 September 2020, 42 with Ninjas and five after the Dusk merger, and was present for the 9/9 Ahn'Qiraj clear on 3 September.</p><p>He also did quiet Discord administration for the officer team, adjusting channel permissions and roles between raids, and had opinions on loot fairness beyond his own class: in May 2020 he argued that a contested drop should simply have gone to whichever warlocks and mages needed it, regardless of who had raised the complaint. He was a good sport about his own class's turn in the rotation too, joking when Drake Fang Talisman priority came up for hunters that he'd \"like to see some people cry.\" Eight outside reports predate his run, 30 overlap it, and seven more continue from November 2020 through April 2021. A contemporary officer message said Òllz was an officer in Decimation and bringing the departing group there; two reports from one later date match Decimation's historical guild feed, showing that he raided with them.</p>"
-  },
-  "exclusafk": {
-   "name": "exclusafk",
-   "html": "",
-   "roles": [
-    {
-     "role": "Paladin class leader (temporary)",
-     "period": "Apr 2020",
-     "guild": "Sleep"
-    }
-   ],
-   "main": "Exclus"
   },
   "lege": {
    "name": "Lege",
@@ -1678,6 +1761,11 @@
    "name": "Zizy",
    "html": "",
    "main": "Qiqi"
+  },
+  "exclusafk": {
+   "name": "Exclusafk",
+   "html": "",
+   "main": "Exclus"
   },
   "devouboi": {
    "name": "Devouboi",
