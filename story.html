@@ -32,6 +32,14 @@
   .archive-list { margin: 0; padding: 0 14px 12px 34px; columns: 2; column-gap: 28px; }
   .archive-list li { break-inside: avoid; margin: 4px 0; font-size: 13px; }
   @media (max-width: 560px) { .archive-list { columns: 1; } }
+  .video-gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; margin: 18px 0 24px; }
+  .youtube-card { overflow: hidden; border: 1px solid var(--grid); border-radius: 8px; background: var(--surface); color: inherit; text-decoration: none; transition: border-color .15s, transform .15s; }
+  .youtube-card:hover { border-color: #e0af68; transform: translateY(-1px); }
+  .youtube-thumb { position: relative; display: block; aspect-ratio: 16 / 9; background: radial-gradient(circle at center, #292523, #111 70%); }
+  .youtube-play { position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 48px; height: 34px; border-radius: 9px; background: rgba(200, 32, 32, .92); color: #fff; font-size: 18px; line-height: 1; padding-left: 2px; box-shadow: 0 3px 14px rgba(0, 0, 0, .45); }
+  .youtube-title { display: block; padding: 9px 11px; font-size: 12.5px; line-height: 1.4; }
+  .youtube-player { overflow: hidden; aspect-ratio: 16 / 9; border: 1px solid var(--grid); border-radius: 8px; background: #000; }
+  .youtube-player iframe { width: 100%; height: 100%; border: 0; display: block; }
   .chapter .divider { text-align: center; color: #e0af68; opacity: .6; margin: 28px 0; letter-spacing: .5em; }
   .chapter figure { margin: 20px 0; }
   .chapter figure img { width: 100%; border-radius: 8px; border: 1px solid var(--grid, #2a2c3a); display: block; cursor: zoom-in; }
@@ -53,7 +61,7 @@
     <div class="kicker">The story of Sleep</div>
     <h1 style="font-size:28px">Contents</h1>
     <ol class="toclist">
-      <li><a href="#ch1"><strong>The Second Time Around</strong></a> <span>— a hunter named Diod, a launch queue, and a guild built on a spreadsheet · autumn 2019 – spring 2020</span></li>
+      <li><a href="#ch1"><strong>The Second Time Around</strong></a> <span>— a hunter named <a href="players.html#Artimis">Diod</a>, a launch queue, and a guild built on a spreadsheet · autumn 2019 – spring 2020</span></li>
       <li><a href="#ch2"><strong>Dusk</strong></a> <span>— the guild given away, the merger that was secretly an absorption, and one crisis a fortnight · summer – autumn 2020</span></li>
       <li><a href="#ch3"><strong>Fourteen Days in December</strong></a> <span>— the last raid of Classic, and what it cost to clear it · December 2020</span></li>
     </ol>
@@ -62,21 +70,31 @@
   <div class="card chapter" id="ch1">
     <div class="kicker">The story of Sleep · Chapter one</div>
     <h1>The Second Time Around</h1>
-    <p class="standfirst">A night elf hunter named Diod, a launch-day queue,
+    <p class="standfirst">A night elf hunter named <a href="players.html#Artimis">Diod</a>, a launch-day queue,
     and how a guild called Sleep assembled itself around a spreadsheet.
     Autumn 2019 to spring 2020.</p>
 
-    <h2>Diod</h2>
+    <h2><a href="players.html#Artimis">Diod</a></h2>
     <p>The story starts fifteen years before the first log. In 2005, a
-    teenager in Nittedal played the original World of Warcraft as Diod, a
+    teenager in Nittedal played the original World of Warcraft as
+    <a href="players.html#Artimis">Diod</a>, a
     night elf hunter on Frostwhisper — an era of carrying computers to each
     other's houses and losing whole afternoons in Stranglethorn Vale.
     Nobody understood gear. That was
-    never the point. When Classic launched on 27 August 2019, Artimis came
+    never the point. When Classic launched on 27 August 2019, <a href="players.html#Artimis">Artimis</a> came
     back to recreate that feeling as another night elf hunter — and half of Nittedal came with
     him. The first archived message of the whole story is
     <a href="players.html#Fnats">Fnats</a>, level 10, asking from the launch-day
     queue: "Er du i queue?"</p>
+    <p>The queue was not a metaphor. On 27 August 2019, <a href="players.html#Artimis">Artimis</a> and <a href="players.html#Fnats">Fnats</a>
+    were each stuck in it for hours on the new realm, Razorgore, trading
+    messages while the login screen refused to move — a smaller, more
+    solitary echo of the LAN nights fifteen years earlier, minus the
+    shared living room. <a href="players.html#Fnats">Fnats</a> would later misremember the realm's name as
+    "Razorgrove"; close enough. Neither man was chasing a raid schedule
+    that week. They were chasing the version of the game where nobody
+    understood gear yet, and for a few days of queueing and slow leveling,
+    Classic delivered exactly that.</p>
 
     <h2>Sleep</h2>
     <p>The guild he found — probably through a recruitment shout in
@@ -84,7 +102,7 @@
     ran Awake, Light Sleeper, Deep Sleeper, REM Sleeper, Dreamer. Its
     founder was the priest <a href="players.html#Dejvid">Dejvid</a>,
     and his pitch was a helpful community for newcomers and veterans alike.
-    Artimis joined to collect hunter tier pieces. Within a month he was in
+    <a href="players.html#Artimis">Artimis</a> joined to collect hunter tier pieces. Within a month he was in
     the officer meetings, running the hunter channel and the
     tranquilizing-shot rotation. He also volunteered for the signup
     sheets, which turned out to decide the rest of his Classic career. The guild's practical
@@ -92,77 +110,167 @@
     a nearly full room gathering before Magmadar, guild tags still mixed,
     a team assembling itself in real time.</p>
     <figure><img src="img/first-mc-2019-10-02.jpg" loading="lazy" alt="A nearly full Molten Core raid gathered before Magmadar, 2 October 2019">
-    <figcaption>2 October 2019, 22:09 — Sleep's practical first Molten Core raid gathers before Magmadar. Guild tags are still mixed; Artimis, Dejvid, Divinestorm, Kodf and Jellopy are all in the room.</figcaption></figure>
+    <figcaption>2 October 2019, 22:09 — Sleep's practical first Molten Core raid gathers before Magmadar. Guild tags are still mixed; <a href="players.html#Artimis">Artimis</a>, <a href="players.html#Dejvid">Dejvid</a>, <a href="players.html#Divinestorm">Divinestorm</a>, <a href="players.html#Kodf">Kodf</a> and <a href="players.html#Jellopy">Jellopy</a> are all in the room.</figcaption></figure>
+    <p>The job that came with those signup sheets showed itself first in
+    small arbitrations, not spreadsheets. By 10 November, <a href="players.html#Knedlica">Knedlica</a> had
+    already won a better hunter gun while <a href="players.html#Ravna">Ravna</a> and <a href="players.html#Nereb">Nereb</a> were still
+    carrying weaker bows; <a href="players.html#Artimis">Artimis</a> asked whether the two of them could
+    take the next <a href="item.html#18703">Ancient Petrified Leaves</a> first, and <a href="players.html#Knedlica">Knedlica</a> agreed,
+    then supplied his own weapon-speed theorycraft to help the case.
+    <a href="players.html#Artimis">Artimis</a> finished his own <a href="https://www.wowhead.com/classic/item=18713" rel="noopener">Rhok'delar</a> around 11 November. He had joined
+    for the bow. He was learning the guild's loot policy and its raid
+    mechanics in the same conversation, one polite hunter-channel
+    negotiation at a time.</p>
     <p>Then, on 11 November 2019, a hunter named
     <a href="players.html#Zados">Zados</a> sent his class leader a polite
     suggestion: nobody from the guild was uploading to Warcraft Logs;
-    perhaps the officers should look into it? "Sorry to bother you," he
-    signed off. Artimis turned on advanced combat logging the next day.
+    perhaps the officers should look into it? The next morning, after
+    helping with the setup, he signed off: "Sorry to bother you."
+    <a href="players.html#Artimis">Artimis</a> turned on advanced combat logging that day.
     Five hundred and five raids are searchable on this site because
     of that message.</p>
     <p>The Nittedal circle becomes visible in those first logs rather than
     in one surviving recruitment post. The 13 November full clear includes
-    Artimis, <a href="players.html#Fnats">Fnats</a>,
+    <a href="players.html#Artimis">Artimis</a>, <a href="players.html#Fnats">Fnats</a>,
     <a href="players.html#Deliz">Deliz</a>,
     <a href="players.html#Ragie">Ragie</a> and
-    <a href="players.html#Exclus">Exclus</a>. After New Year,
+    <a href="players.html#Exclus">Exclus</a> — <a href="players.html#Ragie">Ragie</a>'s own first logged
+    raid, three weeks after <a href="players.html#Exclus">Exclus</a>, already at home in the guild, vouched
+    for him in the mage channel as "a really good tank." After New Year,
     <a href="players.html#Pnats">Pnats</a> and
     <a href="players.html#Galidia">Galidia</a> appear too. These are first
     surviving raid dates, not necessarily the nights they joined. What had
-    started as Artimis returning to an old game was becoming a home crew
+    started as <a href="players.html#Artimis">Artimis</a> returning to an old game was becoming a home crew
     inside a much larger guild.</p>
 
     <h2>Onyxia and Ragnaros</h2>
     <p>Progress came faster than the surviving logs suggest. On 13 October
     Sleep recorded its first documented <a href="boss.html#1001/onyxia">Onyxia
     kill</a> and finished the Molten Core run at eight bosses out of ten.
-    A month later, the first complete report preserved by Zados's
+    A month later, the first complete report preserved by <a href="players.html#Zados">Zados</a>'s
     suggestion shows <a href="raid.html#15">all ten Molten Core bosses dying
-    without a wipe</a>. Artimis remembers 13 November as probably the first
-    Ragnaros kill, but no earlier encounter logs survive to prove it.
+    without a wipe</a>. A surviving recording is titled
+    <a href="https://www.youtube.com/watch?v=HruA4w78WQI" rel="noopener">Sleep's
+    first Ragnaros kill</a>, and <a href="players.html#Artimis">Artimis</a> remembers 13 November as probably
+    that night; the video itself does not settle the date.
     What began as a mixed group in the Magmadar corridor had become a
     full-clear raid in six weeks.</p>
+    <div class="video-gallery" aria-label="Ragnaros first-kill video">
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=HruA4w78WQI" data-youtube="HruA4w78WQI" data-title="Sleep's first Ragnaros kill">Sleep's first Ragnaros kill</a>
+    </div>
+    <p>By spring, Onyxia was familiar enough that a failure could become a
+    souvenir rather than a disaster. <a href="players.html#Artimis">Artimis</a>'s
+    <a href="https://classic.warcraftlogs.com/reports/km9LRZj2hc1ftWA3?boss=-3&amp;difficulty=0" rel="noopener">11 March Onyxia report</a>
+    identifies the raid in which <a href="players.html#Ragie">Ragie</a>
+    disconnected while tanking her
+    and the rest of Sleep improvising long enough to survive the pull. The
+    video was uploaded the next day; what it preserves is the room
+    recovering together when its tank simply stopped moving.</p>
+    <div class="video-gallery" aria-label="Ragie's Onyxia disconnect video">
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=aCxFbXFPkyw" data-youtube="aCxFbXFPkyw" data-title="Onyxia disconnect — 11 March">Onyxia disconnect — 11 March</a>
+    </div>
     <p>Onyxia settled into double groups and Molten Core became routine.
     Then the loot gave the farm nights a story of their own. On 29 December
     another <a href="boss.html#1000/ragnaros">Ragnaros kill</a> produced the
-    Choker of the Fire Lord, one of the rarest drops in the raid and
+    <a href="item.html#18814">Choker of the Fire Lord</a>, one of the rarest drops in the raid and
     best-in-slot for every caster and every healer in it. The young loot
     rules gave damage casters priority, on the reasonable argument that
     damage clears content. The healers noticed. Nobody said much that
     night; the argument the necklace started would outlive the guild that
-    looted it. Five weeks later <a href="players.html#Deliz">Deliz</a> — Nittedal,
+    looted it. Whether that specific December drop was the one <a href="players.html#Deliz">Deliz</a>
+    later pointed to is not itself certain — no surviving message names
+    the item directly — but the timing and the grievance match everything
+    else in the record. It resurfaced five weeks later as an
+    officer-agenda line — "<a href="item.html#18814">Priest Rag Choker</a>," logged on both 3 and 5
+    February — with <a href="players.html#Artimis">Artimis</a> proposing a transparent roll queue after
+    noting that <a href="players.html#Deliz">Deliz</a> seemed unhappy. The fix, if it was one, arrived a
+    beat too late. On the night of the 5th,
+    <a href="players.html#Deliz">Deliz</a> — Nittedal,
     healer, one of the guild's own — quit the game entirely over how
-    healers were treated, the Choker policy named among his reasons. He was
+    healers were treated, the <a href="item.html#18814">Choker</a> policy named among his reasons. He was
     the story's first fairness casualty. His question, what a raid owes
     the people who keep it alive but never top a meter, came back in every
     crisis the guild ever had.</p>
     <figure class="archive-card">
       <figcaption>Reconstructed from private messages quoted with permission · names normalized to in-game characters · 5 February 2020</figcaption>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Deliz</strong><time datetime="2020-02-05T23:06">23:06</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Deliz">Deliz</a></strong><time datetime="2020-02-05T23:06">23:06</time></div>
         <p lang="no">Det er vel egentlig ikke det dette handler om<br>
         Handler mer om at man får shit nesten hvert raid fordi folk blamer healers. og når man ikke får lov til å rolle på bis gear etter man har vært på nesten hvert raid siden starten. Har raider status</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Deliz</strong><time datetime="2020-02-05T23:20">23:20</time></div>
-        <p lang="no">setter pris på at du prøver [Artimis], men jeg sier meg ferdig. Har gått veldig lei av å logge på for å få dritt og ikke noe ut av det. spillet blir veldig for ikke veldig morsomt da</p>
+        <div class="archive-message-meta"><strong><a href="players.html#Deliz">Deliz</a></strong><time datetime="2020-02-05T23:20">23:20</time></div>
+        <p lang="no">setter pris på at du prøver [<a href="players.html#Artimis">Artimis</a>], men jeg sier meg ferdig. Har gått veldig lei av å logge på for å få dritt og ikke noe ut av det. spillet blir veldig for ikke veldig morsomt da</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Deliz</strong><time datetime="2020-02-05T23:25">23:25</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Deliz">Deliz</a></strong><time datetime="2020-02-05T23:25">23:25</time></div>
         <p lang="no">Jeg vet ikke om du forsto meg, men jeg er ferdig med wow</p>
       </div>
     </figure>
+    <p>The friendship outlasted the exit. DMs between <a href="players.html#Deliz">Deliz</a> and <a href="players.html#Artimis">Artimis</a>
+    kept running for years afterward — game recommendations, life
+    updates, the occasional piece of guild news passed back in from the
+    outside — an ordinary thread quietly underneath the guild's harder
+    history.</p>
 
-    <h2>The handover</h2>
-    <p>On 1 February 2020, Dejvid transferred the Discord and stepped back;
-    Artimis, already the guild's engine, became its leader in name as well.
-    His first fortnight set the tone for the year. He accidentally recruited
-    his most loyal tank by mailing a cloak to a stranger he had mistaken
-    for someone else, then inviting him to Blackwing Lair anyway. The stranger was
+    <h2>The paperwork catches up</h2>
+    <p>By January 2020 the paperwork was behind the reality. <a href="players.html#Dejvid">Dejvid</a> had
+    taken on more responsibility at work and was playing less; <a href="players.html#Artimis">Artimis</a>,
+    already running the hunter channel, the tranq rotation and the
+    signup sheets, was the one members asked when something needed
+    deciding. On 29 January <a href="players.html#Dejvid">Dejvid</a> handed him Discord admin. The next
+    day <a href="players.html#Thepaladin">Thepaladin</a> opened a
+    tank-planning message with "since you took Dejvids place now" and
+    briefed him on the missing main tank — a member addressing <a href="players.html#Artimis">Artimis</a>
+    as the leader two days before the leadership itself formally changed
+    hands. Around the same time <a href="players.html#Artimis">Artimis</a> asked <a href="players.html#Dejvid">Dejvid</a> whether the guild
+    bank could fund <a href="players.html#Ragie">Ragie</a>'s gear and a
+    run of <a href="https://www.wowhead.com/classic/item=15138" rel="noopener">Onyxia Scale Cloaks</a>; <a href="players.html#Dejvid">Dejvid</a>'s reply was that he was "super
+    happy" someone was taking care of the guild. On 1 February, <a href="players.html#Artimis">Artimis</a>
+    asked him to transfer server ownership outright, so he could
+    reorganize the roles an absent main tank had left behind. <a href="players.html#Dejvid">Dejvid</a>'s
+    answer was one word: "Done." The title had simply followed the work
+    that was already being done.</p>
+    <p>His first fortnight in the job set the tone for the year. He
+    accidentally recruited his most loyal tank by mailing a cloak to a
+    stranger he had mistaken for someone else, then inviting him to
+    Blackwing Lair anyway. The stranger was
     <a href="players.html#Glory">Glory</a>. The same month,
     <a href="players.html#Glorya">Glorya</a> — another player from the Nittedal circle — was recruited
-    into the healer gap Deliz left behind. The confusion between their
+    into the healer gap <a href="players.html#Deliz">Deliz</a> left behind. The confusion between their
     names torments this archive to this day.</p>
+
+    <h2>The tank goes missing</h2>
+    <p>The absent main tank <a href="players.html#Thepaladin">Thepaladin</a> had briefed <a href="players.html#Artimis">Artimis</a> about was
+    <a href="players.html#Kugel">Kugel</a>, the warrior the guild's first
+    raids had been built around, and the man who had personally recruited
+    <a href="players.html#Thepaladin">Thepaladin</a> into Sleep. "He brought me to guild," <a href="players.html#Thepaladin">Thepaladin</a> wrote,
+    "hope he will come back, first person i got to know." By late January
+    <a href="players.html#Kugel">Kugel</a> had gone twenty-three days without logging in; <a href="players.html#Artimis">Artimis</a> warned
+    that if he stayed silent through the following week they would have
+    to consider him a "gonner" and find a new main tank. Nobody in the
+    surviving record ever explains where he went. In March, after two
+    months offline, he was quietly removed from the roster.</p>
+    <p>The vacancy handed the tank mantle to
+    <a href="players.html#Ragie">Ragie</a>, <a href="players.html#Exclus">Exclus</a>'s referral from three
+    weeks before <a href="players.html#Kugel">Kugel</a>'s last login, and it wrote a rule into the guild's
+    loot doctrine: from then on, legendary priority went with reliability
+    and long-term commitment, not simply whoever happened to be holding
+    an item when someone disappeared. <a href="players.html#Kugel">Kugel</a> had been given an early
+    <a href="https://www.wowhead.com/classic/search?q=Bindings%20of%20the%20Windseeker" rel="noopener">Binding of the Windseeker</a> on the obvious logic that a legendary
+    component belongs with the main tank; when he vanished, the <a href="https://www.wowhead.com/classic/search?q=Bindings%20of%20the%20Windseeker" rel="noopener">Binding</a>
+    went with him. The same promotion planted the guild's longest-running
+    loot argument: <a href="players.html#Glory">Glory</a>'s complaint
+    that "<a href="players.html#Ragie">Ragie</a> gets anything he wants" already dates to that March, and
+    it put the mild-mannered tank leader repeatedly opposite the guild's
+    most soft-spoken warrior for the rest of the year, on a question
+    neither man ever fully won: what a main tank deserves first claim on.
+    <a href="players.html#Zhèna">Zhèna</a>, another
+    Nittedal warrior, became a full member on 16 February and started
+    filling the same gap on short notice — one of several players who
+    would each, in turn, carry the front line through an undergeared week
+    over the year that followed, because the guild had learned not to
+    build itself around one person.</p>
 
     <h2>Ten days in Blackwing Lair</h2>
     <p>Blackwing Lair opened on 13 February and Sleep entered on day one.
@@ -171,36 +279,104 @@
     the first. Then <a href="raid.html#235">Firemaw stopped the raid eleven times</a>.
     They left with the drake at fifteen percent and their first real wall
     of the new tier.</p>
-    <p>On 19 February Firemaw died on the first attempt. Sleep cleared the
-    remaining drakes and <a href="raid.html#237">finished the night with
+    <p>The wall did not break by itself. A healer from another guild,
+    impressed enough by what he had seen to reach out, sent <a href="players.html#Ragie">Ragie</a> a
+    tank-switch video and offered to coach the positioning; between raid
+    nights the guild pooled the ore for several Dark Iron pieces so its
+    tanks could survive the drake's flame. Even the Onyxia-head world
+    buff was scheduled by the hour, until one player killed the NPC early
+    and forced the reset himself. None of it was elegant. All of it was
+    the same instinct that had produced the attendance workbook: solve
+    the problem directly in front of you, then write down how.</p>
+    <p>On 19 February
+    <a href="https://www.youtube.com/watch?v=56cAQ5GvDjI" rel="noopener">Firemaw
+    died on the first attempt</a>. Sleep cleared the remaining drakes and
+    <a href="raid.html#237">finished the night with
     Chromaggus</a>, leaving only the throne room. Four days later,
     <a href="raid.html#241">Nefarian died on the second pull</a>. Blackwing
     Lair was eight bosses long and ten days old. For a guild built around
     helping newcomers, clearing it that quickly was the first proof that
     being welcoming and being capable were not opposites.</p>
+    <div class="video-gallery" aria-label="Firemaw first-kill video">
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=56cAQ5GvDjI" data-youtube="56cAQ5GvDjI" data-title="Sleep's first Firemaw kill">Sleep's first Firemaw kill</a>
+    </div>
+    <p>Some of that competence came from outside the guild. Starting in
+    December 2019, Sleep and a guild called Ninjas had quietly begun
+    trading favours: Sleep crafted <a href="https://www.wowhead.com/classic/item=15138" rel="noopener">Onyxia Scale Cloaks</a> for Ninjas, <a href="players.html#Artimis">Artimis</a>
+    referred a mage their way, and by February the two guilds were
+    lending each other spare priests, paladins and warriors for
+    Blackwing Lair without shorting either roster's own loot. A Ninjas
+    officer, <a href="players.html#Snj%C3%B3r">Snjór</a>, shared detailed Nefarian tactics before Sleep's
+    own kill and called the arrangement, simply, "the alliance." Eight
+    months later, that same relationship would decide what the guild
+    became next.</p>
 
     <h2>The machine</h2>
     <p>What made Sleep unusual wasn't its kill times — it was its
     paperwork. The attendance workbook. <a href="players.html#Ragie">Ragie</a>'s
     gear-weight formulas, sketched in January DMs: parses, consumables,
-    enchants, attendance, all scored. The loot log, born 29 March 2020
-    with a plea that every class leader record every drop. A raider-rank
-    system that promised, in writing, that showing up mattered. The
-    spreadsheets were the guild's constitution, and like all constitutions
-    they created their own politics. When
-    <a href="players.html#Kugel">Kugel</a> vanished for twenty-three days
-    with a legendary Binding,     <a href="players.html#Zhèna">Zhèna</a> stepped into the tank gap and became part of the
-    replacement plan. The paladin leader
-    <a href="players.html#Thepaladin">Durm</a> then lost his account to a
-    hacker days after winning the argument over the Eye of Sulfuras.
-    <a href="players.html#Exclus">Exclus</a> covered the class-leader gap
-    for a week on Exclusafk.</p>
-    <p>The Eye debate brought another friend from home into the record.
-    <a href="players.html#Panadin">Panadin</a> accepted second
-    place behind Thepaladin and kept showing up. Then, on 18 March,
-    <a href="players.html#Shakeyhealer">Shakey</a> won the roll for the first
-    Rejuvenating Gem and Fnats — who had fought two months for a fairer
-    queue — paused the game the same evening, on good terms and out of
+    enchants, attendance, all scored. A raider-rank system that promised,
+    in writing, that showing up mattered. And the loot log: its very
+    first row, 25 March 2020, credits <a href="players.html#Galidia">Galidia</a>
+    with <a href="item.html#16959">Bracelets of Wrath</a> from Blackwing Lair — the dependable warrior
+    of this whole story, present in the ledger's opening line the same
+    quiet way he was present everywhere else, without ever needing the
+    credit for it. Four days later <a href="players.html#Artimis">Artimis</a> made the exercise official
+    with a plea that every class leader record every drop, and
+    everything the loot pages on this site know now descends from that
+    one row. The spreadsheets were the guild's constitution, and like all
+    constitutions they created their own politics. The paladin
+    class-leader chair itself changed hands twice in ten weeks: <a href="players.html#Thepaladin">Thepaladin</a>
+    took it from <a href="players.html#Randyfist">Randyfist</a> on 5
+    March — "Its your job now :p" — after <a href="players.html#Randyfist">Randyfist</a> stepped away burned out,
+    before the <a href="https://www.wowhead.com/classic/item=19169" rel="noopener">Nightfall</a> planned for him could even be crafted. Weeks
+    later, days after finally winning the argument over the <a href="item.html#17204">Eye</a> of
+    Sulfuras, <a href="players.html#Thepaladin">Thepaladin</a> lost his own account to a hacker — someone
+    logged into his character and even gquit the guild with it, while
+    <a href="players.html#Luivi">Luivi</a> and <a href="players.html#Shakeyhealer">Shakeyhealer</a> watched it happen
+    and could only warn him afterward.
+    <a href="players.html#Exclus">Exclus</a>, who split his raids between
+    his mage and a holy paladin alt, <a href="players.html#Exclusafk">Exclusafk</a> — the two characters
+    logged nearly a hundred raids between them over the guild's life —
+    covered the class-leader gap for a week, then declined the permanent
+    seat because he wasn't playing enough. <a href="players.html#Randyfist">Randyfist</a> accepted it back on
+    22 April.</p>
+    <p>The raider-rank promise kept sharpening through the same weeks.
+    Raiders reserved a place by signing up twenty-four hours ahead of a
+    raid and risked demotion if their attendance fell below sixty percent
+    over the last ten raids; promotion from member to raider originally
+    needed ten logged raids and an open class slot, a bar <a href="players.html#Artimis">Artimis</a> lowered
+    to six on 15 March once it was clearly filtering out ordinary people
+    rather than filtering in effort. Only class leaders could bench a
+    player, and anyone who signed up, showed up prepared, and was then
+    officially benched still kept the attendance credit. None of it was
+    hardcore in spirit. It was forty people needing a repeatable answer
+    to the same weekly argument: who plays, and who decides.</p>
+    <p>The <a href="item.html#17204">Eye</a> debate brought another friend from home into the record.
+    By 27 March <a href="players.html#Panadin">Panadin</a> had gathered
+    all fifty <a href="https://www.wowhead.com/classic/item=12360" rel="noopener">Arcanite Bars</a> for his own <a href="https://www.wowhead.com/classic/item=17193" rel="noopener">Sulfuron Hammer</a>, which under the
+    guild's existing rule meant he could roll on the <a href="item.html#17204">Eye</a> too. <a href="players.html#Thepaladin">Thepaladin</a>,
+    first in the queue for months, did not hide how little he liked
+    sharing it:</p>
+    <blockquote><p>That doesnt make me happy... Retadin mainspec tho and
+    was first and so on.</p><cite>— <a href="players.html#Thepaladin">Thepaladin</a>, 22 March 2020</cite></blockquote>
+    <p>He asked the officers directly whether he was being "very selfish"
+    to resent it, or whether there was actually a rule to be made, then
+    closed with the line that made the whole argument survivable: "But I
+    will understand any decision we make." <a href="players.html#Artimis">Artimis</a> and <a href="players.html#Ragie">Ragie</a> held the
+    original order — <a href="players.html#Panadin">Panadin</a> kept the second <a href="item.html#17204">Eye</a> place because <a href="players.html#Thepaladin">Thepaladin</a>
+    was raiding more, not because his own hammer had arrived later — and
+    <a href="players.html#Panadin">Panadin</a> accepted it and kept showing up, at raids and at the Among Us
+    evenings he organized for the group outside them.</p>
+    <p>A few days earlier, on 18 March,
+    <a href="players.html#Shakeyhealer">Shakeyhealer</a> — the priest leader
+    <a href="players.html#Dejvid">Dejvid</a> had appointed before <a href="players.html#Artimis">Artimis</a> ever took over — won the roll for
+    the first <a href="item.html#19395">Rejuvenating Gem</a>. <a href="players.html#Fnats">Fnats</a> had spent two months trying to get
+    the gem's priority settled, and eight days waiting for an answer
+    about the healer-officer role he had applied for on 10 March, with a
+    cooldown-assignment sheet built from his own prior mythic raiding.
+    <a href="players.html#Artimis">Artimis</a> offered him the role that same evening — a few hours too
+    late. <a href="players.html#Fnats">Fnats</a> paused the game instead, on good terms and out of
     patience, with a sentence every guild leader knows: "as guild leader,
     you unfortunately stand in the crossfire."</p>
     <p>The Gem was wanted by every healing class and stayed useful across
@@ -208,66 +384,87 @@
     each class qualify for the roll. It sounded fair until the first one
     dropped and every unresolved question arrived with it. Who qualified,
     and who decided? Could months of work create a claim the rules could
-    not express? Fnats had helped design priorities for items like
+    not express? <a href="players.html#Fnats">Fnats</a> had helped design priorities for items like
     this and never received one. His exams and accumulated frustration,
     not the single roll, were why he stepped away. Still, the timing made
     the lesson difficult to miss. A transparent process could distribute
-    an item without resolving what people believed they deserved. Fnats
+    an item without resolving what people believed they deserved. <a href="players.html#Fnats">Fnats</a>
     later returned; his final local raid log is 30 August, not the night
     he first stepped back.</p>
     <p>The spreadsheet could say no even to a legendary. On 12 March
-    <a href="players.html#Thepaladin">Thepaladin</a> admitted he had secretly bought Nightfall after the officers
+    <a href="players.html#Thepaladin">Thepaladin</a> admitted he had secretly bought <a href="https://www.wowhead.com/classic/item=19169" rel="noopener">Nightfall</a> after the officers
     rejected funding a second axe. Three days later Sleep tested it in
     Molten Core and measured the debuff uptime. His damage was then
     compared with a regular melee spot. <a href="players.html#Artimis">Artimis</a>'s
-    verdict was plain: "Does not seem worth it." Thepaladin kept the axe.
+    verdict was plain: "Does not seem worth it." <a href="players.html#Thepaladin">Thepaladin</a> kept the axe.
     The raid kept the numbers.</p>
     <h2>The people inside the machine</h2>
-    <p>Calling Artimis the guild leader makes the story tidier than the
+    <p>Calling <a href="players.html#Artimis">Artimis</a> the guild leader makes the story tidier than the
     guild ever was. Sleep worked because responsibility spread outward.
-    <a href="players.html#Luivi">Luivi</a> was tracking druid loot before Artimis
-    became Guild Master. <a href="players.html#Pnats">Pnats</a> turned healing
-    from individual meters into timed tank assignments and raid coverage.
-    Zados brought in Warcraft Logs, then helped build the hunter gear
-    packages that kept every hunter from waiting for the same drop.
-    The systems belonged to the people willing to maintain them.</p>
-    <p><a href="players.html#Supplier">Supplier</a> arrived because Sleep needed
-    healers. The exact invitation is lost, but the speed of what followed
-    is not. By 8 March he had respecced Holy and completed his Molten Core
-    attunement. His first Sleep signup followed. On the 23rd he received
-    the Eye of Divinity and completed the Benediction event on his first
-    attempt. Within days of joining he was already diagnosing weak dispels
-    and overhealing. He recommended new addons, then proposed clearer
-    assignments. He had not so much joined the healing team as begun
-    repairing it.</p>
-    <p>Some of the Nittedal contribution was quieter.
-    <a href="players.html#Galidia">Galidia</a> was the dependable warrior
-    officers named when a tank was needed at short notice.
-    <a href="players.html#Neptun">Neptun</a>, a mage, first appears in the
-    logs on 29 March and stayed into the Naxxramas core. Neither has a
-    documented recruitment announcement, so the logs mark their presence
-    rather than the date they joined.</p>
-    <p>By June Supplier was the priest leader, publishing loot priorities
+    <a href="players.html#Luivi">Luivi</a> was tracking druid loot before <a href="players.html#Artimis">Artimis</a>
+    became Guild Master. <a href="players.html#Pnats">Pnats</a>'s path
+    into the healing-officer chair took about a month. <a href="players.html#Thepaladin">Thepaladin</a>
+    nominated him on 15 March ("maybe <a href="players.html#Pnats">Pnats</a> would be good"); <a href="players.html#Pnats">Pnats</a>
+    declined for the moment on the 19th, after a confused Vaelastrasz
+    pull, then applied himself on the 28th once passive coordination
+    started costing wipes. His first raid running the role, on 1 April,
+    meant reviewing the Vaelastrasz, Firemaw and Nefarian assignments the
+    morning after; by the 2nd he had already drafted a cross-class
+    healer-loot list for the next tier. <a href="players.html#Zados">Zados</a> brought in Warcraft Logs,
+    then helped build the hunter gear packages that kept every hunter
+    from waiting for the same drop. The systems belonged to the people
+    willing to maintain them.</p>
+    <p><a href="players.html#Supplier">Supplier</a> arrived because Sleep
+    needed healers and <a href="players.html#Artimis">Artimis</a> asked a close friend for help. The exact
+    invitation is lost, but the speed of what followed is not. <a href="players.html#Artimis">Artimis</a>
+    linked him a priest trinket on 22 February; by 8 March he had
+    respecced Holy, completed his Molten Core attunement, signed for his
+    first Sleep raid, and been promoted to member. On the 23rd he
+    received the <a href="item.html#17204">Eye</a> of Divinity and completed the <a href="https://www.wowhead.com/classic/item=18608" rel="noopener">Benediction</a> event on
+    his first attempt; two days later he made raider. Within days of
+    joining he was diagnosing weak dispels and overhealing, recommending
+    new addons, proposing clearer assignments. He had not so much joined
+    the healing team as begun repairing it.</p>
+    <p>Some of the Nittedal contribution stayed quiet by nature.
+    <a href="players.html#Glorya">Glorya</a> kept healing raids all
+    spring without much fuss, the kind of steady presence the logs
+    remember better than the drama ever does.
+    <a href="players.html#Neptun">Neptun</a>, <a href="players.html#Ragie">Ragie</a>'s
+    girlfriend, first appears in the logs on 29 March and stayed into the
+    Naxxramas core. She was another member of the Nittedal circle whose
+    place in the story becomes clearest near the end. Neither she nor
+    <a href="players.html#Galidia">Galidia</a> has a documented recruitment announcement, so the logs mark their
+    presence rather than the date they joined.</p>
+    <p>By June <a href="players.html#Supplier">Supplier</a> was the priest leader, publishing loot priorities
     before raids and offering to bench himself if all five priests showed
-    up. <a href="players.html#Divinestorm">Divinestorm</a> had risen the same
-    way. Before anyone considered him for Guild Master, he noticed that
-    mage coordination depended on three people, respected the existing
-    class leader's authority, then built the roster and loot document when
-    the job became his. In Sleep, leadership was usually an appointment
-    made after someone had already started doing the work.</p>
-    <p>By early summer the machine was humming and its operator was tired.
-    Sleep was clearing everything Classic had opened, recruiting faster
-    than it lost people, and quietly wearing out the handful of people who
-    ran it. The next chapter of this story is what happened when Artimis
-    tried to give it away — twice — and what the guild became instead.</p>
+    up. <a href="players.html#Divinestorm">Divinestorm</a> had risen the
+    same way, months before anyone considered him for Guild Master. In
+    April he noticed that mage coordination depended on three people, but
+    rather than campaign around the sitting class leader, Procto, he
+    waited; a nine-minute call with <a href="players.html#Artimis">Artimis</a> on 26 April made the
+    promotion official, and only then did he build the mage roster,
+    attendance and loot document, fix the Mageblade priorities, and
+    delegate to <a href="players.html#Jumanzy">Jumanzy</a> whenever work travel took him offline. In Sleep,
+    leadership was usually an appointment made after someone had already
+    started doing the work.</p>
+    <p>By early summer the machine was humming and its operator was
+    tired. In July, <a href="players.html#Zados">Zados</a> succeeded
+    <a href="players.html#Artimis">Artimis</a> as hunter leader in the same low-key way almost everyone else
+    had been promoted — a formal title for a job he had effectively been
+    sharing since the Warcraft Logs message that started this whole
+    record. Sleep was clearing everything Classic had opened, recruiting
+    faster than it lost people, and quietly wearing out the handful of
+    people who ran it. The next chapter of this story is what happened
+    when <a href="players.html#Artimis">Artimis</a> tried to give it away — twice — and what the guild
+    became instead.</p>
 
     <div class="divider">✦ ✦ ✦</div>
     <p class="sourcenote">Sources: the raid archive from 2019-10-02 onward,
     the Sleep Discord export, guild documents (ranks, raider rules), the
-    2019–2020 private messages of Fnats, Zados, Ragie, Deliz and Glory
-    (quoted with permission), Supplier's archived raid-preparation thread,
-    and Artimis's own recollections — marked as memory where the records are
-    silent.</p>
+    2019–2020 private messages of <a href="players.html#Fnats">Fnats</a>, <a href="players.html#Zados">Zados</a>, <a href="players.html#Ragie">Ragie</a>, <a href="players.html#Deliz">Deliz</a>, <a href="players.html#Glory">Glory</a>,
+    <a href="players.html#Thepaladin">Thepaladin</a> and <a href="players.html#Pnats">Pnats</a> (quoted with permission), <a href="players.html#Supplier">Supplier</a>'s archived
+    raid-preparation thread, and <a href="players.html#Artimis">Artimis</a>'s own recollections — marked as
+    memory where the records are silent.</p>
   </div>
 
   <div class="card chapter" id="ch2">
@@ -284,75 +481,145 @@
     job is permanent unless you make it stop. His first attempt was
     <a href="players.html#Kodf">Kodf</a>, the rogue leader whose loot system ran so
     cleanly it became proverbial — offered the guild outright, he
-    declined, and on 9 July followed his own road elsewhere. The
-    second attempt changed history: in July, Sleep offered the guild-master
-    seat to <a href="players.html#Luivi">Luivi</a>, the druid leader. He didn't have
-    time for it either — but instead of just saying no, he asked his
-    contacts in a guild called Ninjas whether they'd consider merging.</p>
+    declined, and on 9 July followed his own road elsewhere, to a guild
+    called Conviction. Even from there he kept coaching his old guild
+    through the Ninjas merger, world-buff routes and, weeks later,
+    Viscidus preparation. The second attempt changed history: in July, Sleep
+    offered the guild-master seat to <a href="players.html#Luivi">Luivi</a>, the
+    druid leader. Between hospital shifts and the rest of his real life he
+    didn't have time for it either — but instead of just saying no, he asked
+    his contacts in a guild called Ninjas whether they'd consider merging.</p>
     <figure class="archive-card">
       <figcaption>Reconstructed from private messages quoted with permission · 9 July 2020</figcaption>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Artimis</strong><time datetime="2020-07-09T18:19">18:19</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Artimis">Artimis</a></strong><time datetime="2020-07-09T18:19">18:19</time></div>
         <p>You can take over Sleep and make it to the guild you want it to instead if you want too.</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Kodf</strong><time datetime="2020-07-09T18:23">18:23</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Kodf">Kodf</a></strong><time datetime="2020-07-09T18:23">18:23</time></div>
         <p>no man, i cant. i hate to do it to you guys, and it wouldnt be right to ask everyone else to change. To be honest it lifted a lot of weight off my shoulders to give up the management role. I was getting very stressed and worn out</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Kodf</strong><time datetime="2020-07-09T18:44">18:44</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Kodf">Kodf</a></strong><time datetime="2020-07-09T18:44">18:44</time></div>
         <p>well you know, its mainly that i feel there has been very minor progress in terms of how well we clear raids and stuff, and people are a bit too hesitant to try to learn... It sounds harsh when you put it that way, i know.</p>
       </div>
     </figure>
-    <p>Kodf's departure exposed how much of Sleep's stability had lived in
+    <p><a href="players.html#Kodf">Kodf</a>'s departure exposed how much of Sleep's stability had lived in
     one class leader. The senior rogues declined the vacancy, so a newcomer
     named <a href="players.html#Twx">Twx</a> took it after three raids and replaced
-    seniority with performance loot. Within two weeks he had awarded
-    himself tier pieces and <a href="players.html#Tsakimo">Tsakimo</a> had quit.
-    <a href="players.html#Ntekapaz">Ntekapaz</a> was asking for Kodf's system back.
-    Twx was gone before Dusk formed. The merger did not begin with two
-    stable guilds; Sleep was already trying to replace one of the people
-    who made its rules work.</p>
+    seniority with performance loot: parses, world buffs, spec and
+    consumables would now decide who got gear, not who had shown up
+    longest. Within two weeks he had awarded himself two tier pieces, and
+    <a href="players.html#Tsakimo">Tsakimo</a> — one of the class's steadiest
+    raiders — had quit rather than chase the new terms.
+    <a href="players.html#Ntekapaz">Ntekapaz</a> brought the complaints to <a href="players.html#Artimis">Artimis</a>,
+    who checked Twx's performance claims against the raid logs and found
+    they didn't hold up; his private wish that week was simply for "some
+    rogue that can do <a href="players.html#Kodf">Kodf</a>'s system." Twx, separately chasing a <a href="https://www.wowhead.com/classic/item=19019" rel="noopener">Thunderfury</a>
+    of his own, at one point weighed a five-thousand-gold pug <a href="https://www.wowhead.com/classic/search?q=Bindings%20of%20the%20Windseeker" rel="noopener">Binding</a>
+    purchase and later claimed to already own one, a claim the officers
+    never verified. He was gone before Dusk formed. The merger did not
+    begin with two stable guilds; Sleep was already trying to replace one
+    of the people who made its rules work.</p>
     <p>Ninjas said yes in public and something else in private. Their
     officer chat from those weeks — preserved in full — is a study in
     swagger: "to call it a merger is a meme, since we don't need them at
-    all. Better to call it absorbing their guild." Bandito, after watching a Sleep raid
+    all. Better to call it absorbing their guild." They were not even
+    short of options — a rival suitor called BABOONS had floated its own
+    merger a fortnight earlier, which made picking Sleep feel, from their
+    side, like a favour. Bandito, after watching a Sleep raid
     to scout the merchandise, reported back: "I highly doubt they've got
-    the quality to clear AQ." The Ninjas officers took a formal vote by
-    emoji on 15 August. The proposal carried.</p>
+    the quality to clear AQ." Even so, one of their own noticed the
+    asymmetry running the other way: <a href="players.html#Pawsz">Pawsz</a> would
+    later admit he was "a bit surprised" the merger imported stricter
+    raider-tier rules from the side everyone assumed was weaker. The
+    Ninjas officers took a formal vote by emoji on 15 August. The proposal
+    carried.</p>
+    <p>On the Ninjas side the idea reached back further than the emoji
+    vote: <a href="players.html#Snjór">Snjór</a> told his own officers on 12 July that Sleep's approach
+    amounted to a guild "open to merge and have 2 raid groups," and
+    <a href="players.html#Pawsz">Pawsz</a> made the case just as plainly — "sleep needs 3 garr bindings,
+    we need 2 geddons," meaning more <a href="https://www.wowhead.com/classic/search?q=Bindings%20of%20the%20Windseeker" rel="noopener">Bindings of the Windseeker</a> toward both
+    sides' unfinished <a href="https://www.wowhead.com/classic/item=19019" rel="noopener">Thunderfury</a>. The bargain kept that shape once the
+    two AQ teams were running: <a href="players.html#Snjór">Snjór</a>, asked that autumn to off-tank
+    the Twin Emperors undergeared, complained he now had to "pay for
+    double consumables… or possibly [tell] wednesday raid team soz" — the
+    same fight <a href="players.html#Glory">Glory</a> had already lost on the Sleep side, just in
+    Ninjas' colours. Two guilds sharing a calendar solved everyone's loot
+    math; nobody's gear budget came free.</p>
 
     <h2>The handover</h2>
-    <p>Between those two dates, Artimis staged the most graceful exit the
-    story contains. On the evening of 2 August 2020, Nefarian died twice.
-    Artimis remembers telling the raid after the kill that he was going to
+    <p>Between those two dates, <a href="players.html#Artimis">Artimis</a> staged the most graceful exit the
+    story contains. <a href="players.html#Divinestorm">Divinestorm</a> was not an instant yes either: weeks
+    earlier he had hesitated over his own work commitments and offered
+    only to take loot duties off <a href="players.html#Artimis">Artimis</a>'s plate, before agreeing, after
+    Blackwing Lair on 2 August, that he was ready for the rest of the job.
+    On the evening of 2 August 2020, Nefarian died twice.
+    <a href="players.html#Artimis">Artimis</a> remembers telling the raid after the kill that he was going to
     be a father and that <a href="players.html#Divinestorm">Divinestorm</a>
     would be the new Guild Master. The spoken announcement has not been
     recovered, but the guild-system handoff, the congratulations and
-    Artimis's public farewell all survive. Memory and record meet on the
+    <a href="players.html#Artimis">Artimis</a>'s public farewell all survive. Memory and record meet on the
     same evening: a planned abdication, mid-raid, after a boss kill.</p>
     <figure><img src="img/gm-handoff-2020-08-02.jpg" loading="lazy" alt="Guild system message: Artimis has made Divinestorm the new Guild Master, 2 August 2020">
     <figcaption>2 August 2020, 20:52 — the guild-system message records the handoff after the Nefarian kill.</figcaption></figure>
     <figure class="archive-card">
       <figcaption>Reconstructed from the Sleep Discord archive · 2 August 2020</figcaption>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Pnats</strong><time datetime="2020-08-02T22:18">22:18</time></div>
-        <p>Thank you Artimis for a wonderful job on being the GM! Good luck to Divinestorm!</p>
+        <div class="archive-message-meta"><strong><a href="players.html#Pnats">Pnats</a></strong><time datetime="2020-08-02T22:18">22:18</time></div>
+        <p>Thank you <a href="players.html#Artimis">Artimis</a> for a wonderful job on being the GM! Good luck to <a href="players.html#Divinestorm">Divinestorm</a>!</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Artimis</strong><time datetime="2020-08-02T22:40">22:40</time></div>
-        <p>Thank you all for trusting me in being your guild leader for 64 raids. I hope you all had fun and have enjoyed raiding with Sleep. I have tried to do my best, even thought its not always an easy job. I hope it lived up to all your expectations! My goal was that it would be a friendly, transparent and fair guild. Im passing the position over to Divinestorm and Im sure he will do a really good job! Thanks for All the Fish! (will keep raiding)</p>
+        <div class="archive-message-meta"><strong><a href="players.html#Artimis">Artimis</a></strong><time datetime="2020-08-02T22:40">22:40</time></div>
+        <p>Thank you all for trusting me in being your guild leader for 64 raids. I hope you all had fun and have enjoyed raiding with Sleep. I have tried to do my best, even thought its not always an easy job. I hope it lived up to all your expectations! My goal was that it would be a friendly, transparent and fair guild. Im passing the position over to <a href="players.html#Divinestorm">Divinestorm</a> and Im sure he will do a really good job! Thanks for All the Fish! (will keep raiding)</p>
       </div>
     </figure>
+    <p>The public record is warmer than the private one. In the same raid,
+    in voice, <a href="players.html#Artimis">Artimis</a> told the group he was going to be a father;
+    screenshots from that minute catch <a href="players.html#Pnats">Pnats</a>
+    whispering "GRATS!" and "Didnt know," while <a href="players.html#Jumanzy">Jumanzy</a> asked, in
+    character, what class the baby would be. <a href="players.html#Pnats">Pnats</a>'s written message
+    needled <a href="players.html#Artimis">Artimis</a> not to "do a <a href="players.html#Dejvid">Dejvid</a>" — quit right after handing over
+    the guild, a callback only the founding era would catch. <a href="players.html#Artimis">Artimis</a> did
+    the opposite: he kept raiding and kept teaching <a href="players.html#Divinestorm">Divinestorm</a> the
+    attendance and loot spreadsheets for weeks afterward. Privately, the
+    same evening, he was less settled. Telling a departing guildmate that
+    the merger decision now belonged to the officers who wanted it and was
+    "out of my hands," he admitted he wouldn't have chosen it himself; the
+    reply he got back was blunt with experience — mergers, in that
+    player's telling, usually cost a guild its people. Twelve days later,
+    Sleep became Dusk.</p>
 
     <h2>A new name</h2>
-    <p>The merged guild needed a name neither side owned, so they polled
+    <p><a href="players.html#Artimis">Artimis</a> had titled the negotiation itself "Project Libra," and on
+    3 August members were told plainly what it meant: not one guild
+    swallowing the other, but an entirely new guild built around two
+    Ahn'Qiraj teams, with everyone's standing carried over intact. Three
+    days later members were asked, formally, whether to simply join
+    Ninjas or build the new guild instead. The merged guild needed a name
+    neither side owned, so they polled
     one into existence: <strong>Dusk</strong>. It was a new guild on paper —
     both rosters walked into it. The poll made the principle visible:
-    neither Sleep nor Ninjas would absorb the other.</p>
+    neither Sleep nor Ninjas would absorb the other. When <a href="players.html#Crok">Crok</a> objected
+    during the poll that any name built on "ninja" implied stealing
+    loot, <a href="players.html#Divinestorm">Divinestorm</a> gave the answer he gave everyone: Dusk was a subtle
+    nod to both sides, "the darker stage of twilight," in <a href="players.html#Artimis">Artimis</a>'s own
+    definition, not a winner's flag.</p>
     <figure><img src="img/2020-08-07-dusk-name-poll.png" loading="lazy" alt="Zados posts a poll with eight possible names for the merged guild">
-    <figcaption>7 August 2020, 20:19 — Zados posts eight possible names for the merged guild. Dusk is one of them.</figcaption></figure>
+    <figcaption>7 August 2020, 20:19 — <a href="players.html#Zados">Zados</a> posts eight possible names for the merged guild. Dusk is one of them.</figcaption></figure>
     <figure><img src="img/2020-08-17-sleep-farewell.png" loading="lazy" alt="Divinestorm's final announcement in the Sleep Discord">
-    <figcaption>17 August 2020, 22:07 — Divinestorm's final Sleep announcement explains the move to Dusk while promising that the same raiding group will continue.</figcaption></figure>
+    <figcaption>17 August 2020, 22:07 — <a href="players.html#Divinestorm">Divinestorm</a>'s final Sleep announcement explains the move to Dusk while promising that the same raiding group will continue.</figcaption></figure>
+    <p>The fairness had to be engineered, not just declared. <a href="players.html#Divinestorm">Divinestorm</a>
+    privately recommended that Sleep stand up the actual in-game guild
+    while Ninjas migrated its own Discord server, a division of labor
+    meant to keep either side from looking like it had taken control. The
+    seam still showed that first week: on the new guild's opening AQ40
+    night, <a href="players.html#Exclusafk">Exclusafk</a> couldn't even sign up,
+    because he had no role yet on the Dusk Discord, while the old Sleep
+    server still ran a parallel signup sheet. <a href="players.html#Divinestorm">Divinestorm</a>'s own summary of
+    his time as Sleep's guild master, offered the week Dusk went live, was
+    drier than anyone's: he had been GM of Sleep briefly, he said, and
+    would be GM of Dusk even more briefly.</p>
 
     <h2>The doubters answered</h2>
     <p>Dusk had something to prove immediately because the Ninjas doubts
@@ -361,25 +628,62 @@
     Twin Emperors stopped the advance. Two nights later the Twins fell on
     the third pull. C'Thun survived four attempts; one reached seven
     percent health.</p>
-    <p>When the raid returned on 23 August,
-    <a href="raid.html#437">C'Thun died on the first pull</a>. Ouro followed
-    the same way. Five days after Dusk's first raid, the boss that had
-    defined the tier was dead. Only Viscidus held out. Killing that poison
-    elemental required roughly eight hundred and forty venom sacs,
-    collected from Lower Blackrock Spire by a volunteer supply chain. On
+    <p>When the Thursday raid — built mostly around the old Ninjas roster —
+    returned on 23 August, <a href="raid.html#437">C'Thun died on the first
+    pull</a>. Ouro followed the same way. Five days after Dusk's first
+    raid, the boss that had defined the tier was dead, for one of Dusk's
+    two teams. Only Viscidus held out. Killing that poison elemental
+    required a volunteer supply chain: roughly eight hundred and forty
+    venom sacs, farmed from Lower Blackrock Spire by night-crew regulars
+    like <a href="players.html#Crok">Crok</a>, with advice relayed from
+    <a href="players.html#Kodf">Kodf</a> even though he'd left the guild a
+    month earlier, while <a href="players.html#Pawsz">Pawsz</a> tracked
+    consumption per attempt so the effort wouldn't be wasted twice. On
     3 September, after two more wipes, <a href="raid.html#445">Viscidus
-    dissolved on the third attempt</a>. Dusk was 9/9 sixteen days after it
-    began raiding. The doubters had their answer, and to their credit, they
-    continued as if they had never doubted.</p>
+    dissolved on the third attempt</a>. The Thursday team was 9/9 sixteen
+    days after Dusk's first raid — a number good enough that nobody
+    advertising it mentioned the other team.</p>
+    <p>That other team met almost nobody's attention, which was rather the
+    point of the whole arrangement. The Wednesday raid, built around
+    <a href="players.html#Artimis">Artimis</a>'s own group, ran the same instance on its own separate
+    nights: an opening on 19 August, then
+    <a href="raid.html#439">C'Thun on 26 August</a>, four days behind the
+    Thursday kill. <a href="players.html#Tsakimo">Tsakimo</a>, who had quit Sleep in July over Twx's loot
+    system, came back for that first Wednesday night and asked for
+    spreadsheet access before he'd finished resettling into the guild.
+    The Wednesday team didn't reach its own 9/9 until
+    <a href="raid.html#447">9 September</a>, a full week after the
+    Thursday side, once Ouro and Viscidus both fell the same evening. Two
+    AQ teams, two separate finish lines, one guild advertising a single
+    triumphant number — the arrangement sold as fairness in August was
+    already, by September, running as two guilds sharing a Discord server
+    and not much else. The doubters had their answer anyway, and to their
+    credit, they continued as if they had never doubted.</p>
 
     <h2>One crisis a fortnight</h2>
     <p>What AQ couldn't do to Dusk, Dusk nearly did to itself. The autumn
     officer channel reads like a guild getting tested every two weeks and
-    barely passing. Late August: the <a href="players.html#Nayla">Nayla</a> case — an apparent
-    ninja pull that turned out to be a misunderstanding, stacked on older
-    friction, argued through a full night of officer philosophy ("judge,
-    jury and executioner" versus "loyalty you can't buy") and settled as
-    "one final chance with punishment — call it a fresh start for Dusk."</p>
+    barely passing. Late August: the <a href="players.html#Nayla">Nayla</a> case.
+    What began as an apparent ninja pull in AQ20 was described by
+    <a href="players.html#Divinestorm">Divinestorm</a> and <a href="players.html#Rockafella">Rockafella</a>, after they spoke with him directly, as a
+    hearthstone-while-teleported misunderstanding; the surviving evidence
+    cannot independently establish whether that account fully cleared
+    him. The case also included an accusation that he had been overly
+    flirtatious toward two other members and rage-quit the run. It still
+    reopened older friction, and
+    the officers split along predictable lines:
+    <a href="players.html#Missdotty">Missdotty</a> wanted him gone ("his
+    behavior is very toxic"), <a href="players.html#Luivi">Luivi</a> offered a "third or fourth chance,"
+    and <a href="players.html#Orish">Orish</a> argued the opposite case on
+    principle — "any man willing to take a punishment on the chin... has
+    loyalty you can't buy." The verdict split the difference: "one final
+    chance with punishment — call it a fresh start for Dusk." The
+    telephone game continued past the verdict: on 9 September <a href="players.html#Nayla">Nayla</a> told
+    <a href="players.html#Tsakimo">Tsakimo</a> he'd lost his tanking spot and would reroll rogue, which <a href="players.html#Luivi">Luivi</a>
+    had never said and <a href="players.html#Nayla">Nayla</a> himself later denied saying. "It's <a href="players.html#Nayla">Nayla</a>,"
+    <a href="players.html#Divinestorm">Divinestorm</a> shrugged, "I doubt the guy remembers what he said half
+    the time" — a line that closed the incident without resolving
+    whether anyone had actually told <a href="players.html#Nayla">Nayla</a> anything at all.</p>
     <p>Two older Sleep names disappear from the raid record before the
     loudest crisis arrived. <a href="players.html#Pricelez">Pricelez</a>'s
     last guild raid was 2 September, after ninety-eight logged appearances;
@@ -387,7 +691,7 @@
     ninety-five. Neither left a surviving goodbye. Their dates belong to
     the attrition story, but the archive cannot say whether the coming
     disputes caused either departure.</p>
-    <p>17 September: <a href="players.html#Akikiie">Aki</a>, a tank and the man who had built the Ninjas'
+    <p>17 September: <a href="players.html#Akikiie">Akikiie</a>, a tank and the man who had built the Ninjas'
     Discord server, pulled at the AQ entrance with nobody ready. The world
     buffs evaporated. <a href="players.html#Ulfhild">Ulfhild</a>, the guild's best
     hunter and a man who played for the parse, quit the raid on the spot.
@@ -395,86 +699,188 @@
     class leader, admitted afterwards that he'd talked them into staying
     with arguments he didn't believe. The fight that followed ran three
     days and came down to one question: is this a hardcore guild or a
-    home? Nobody settled it. Aki apologised, wondered out loud if he even
-    enjoyed the game anymore, and left the guild that week.</p>
-    <figure><img src="img/2020-09-18-aki-apology.png" loading="lazy" alt="Aki apologises for the accidental pull and questions whether he still enjoys the game">
-    <figcaption>18 September 2020, 16:48 — Aki takes responsibility for the pull and wonders whether he still enjoys playing.</figcaption></figure>
-    <figure><img src="img/2020-09-18-artimis-aki-response.png" loading="lazy" alt="Artimis proposes a clearer raid-start process after Aki's apology">
-    <figcaption>18 September 2020, 17:08 — Artimis answers with a practical raid-start process and asks the guild to treat the wipe as a learning opportunity.</figcaption></figure>
+    home? <a href="players.html#Divinestorm">Divinestorm</a> staked out the guild's identity plainly — "we are
+    not a hardcore guild… what example does it set if nothing happens?" —
+    while <a href="players.html#Pawsz">Pawsz</a> worried the pull had "felt close to raid sabotage." When
+    <a href="players.html#Òllz">Òllz</a> told <a href="players.html#Divinestorm">Divinestorm</a> to "fuck off" rather
+    than back down from defending <a href="players.html#Ulfhild">Ulfhild</a>, <a href="players.html#Artimis">Artimis</a> stepped in with the
+    only reprimand of its kind in the whole archive: "Please moderate
+    your language, <a href="players.html#%C3%92llz">Òllz</a>. We don't speak to each other like that." Nobody
+    settled the underlying question. <a href="players.html#Akikiie">Akikiie</a> apologised, wondered out loud if he even
+    enjoyed the game anymore, and left the guild that week. <a href="players.html#Snj%C3%B3r">Snjór</a>'s private
+    postmortem was more forgiving than the public argument had been: <a href="players.html#Akikiie">Akikiie</a>
+    "left cause of his immaturity," he said, "but I don't want to drag him
+    through the mud." Two days later, almost as if to prove the drama and
+    the progression ran on separate tracks, the raid
+    <a href="raid.html#428">killed Ossirian</a> and closed out Ruins of
+    Ahn'Qiraj without him.</p>
+    <figure><img src="img/2020-09-18-aki-apology.png" loading="lazy" alt="Akikiie apologises for the accidental pull and questions whether he still enjoys the game">
+    <figcaption>18 September 2020, 16:48 — <a href="players.html#Akikiie">Akikiie</a> takes responsibility for the pull and wonders whether he still enjoys playing.</figcaption></figure>
+    <figure><img src="img/2020-09-18-artimis-aki-response.png" loading="lazy" alt="Artimis proposes a clearer raid-start process after Akikiie's apology">
+    <figcaption>18 September 2020, 17:08 — <a href="players.html#Artimis">Artimis</a> answers with a practical raid-start process and asks the guild to treat the wipe as a learning opportunity.</figcaption></figure>
     <p>A week later, <a href="players.html#Orish">Orish</a> quit live in the
-    officer channel. He was the Thursday raid's healing brain and the
-    leadership's fiercest internal critic, and his last message was
+    officer channel. He was the Thursday raid's healing brain — a player
+    who had leveled three separate warlocks purely so other people's
+    world buffs would have someone to summon them — and the leadership's
+    fiercest internal critic. He collided with <a href="players.html#Divinestorm">Divinestorm</a> over a chaotic
+    split Sunday run, and his last message was
     "Leadership's going to run this guild into the ground, I'm out before
     it gets much worse." That made two ex-Ninjas officers gone in seven
-    days.</p>
+    days. By afternoon <a href="players.html#Ferrua">Ferrua</a> was running
+    healer loot with zero notice — "Does this mean I decide healer loot
+    today?" — and doing it well enough that nobody complained.</p>
     <figure><img src="img/2020-09-24-orish-exit.png" loading="lazy" alt="Orish announces his departure during an argument in the Dusk officer channel">
-    <figcaption>24 September 2020, 07:41 — Orish quits in the officer channel; the discussion immediately confirms that he removed all his alts too.</figcaption></figure>
-    <p>The response, within the hour, was structural: class leaders lost their seats in the inner
-    room, and the officer chat split in two. And on the 30th of September
+    <figcaption>24 September 2020, 07:41 — <a href="players.html#Orish">Orish</a> quits in the officer channel; the discussion immediately confirms that he removed all his alts too.</figcaption></figure>
+    <p>The response, within the hour, was structural, and
+    <a href="players.html#Rockafella">Rockafella</a> supplied the argument that
+    decided it: "class leaders think they are officers... if the class
+    leaders could shut their mouth and run their class and let the
+    officers manage the guild decisions, we wouldn't have this shit."
+    Class leaders lost their seats in the inner
+    room, and the officer chat split in two.</p>
+    <p>The split reopened an older argument: how much of any of this the
+    ordinary membership should ever see. <a href="players.html#Pawsz">Pawsz</a> floated radical
+    transparency — "cropping the last 3 days of officer chat and posting
+    them on a pastebin would achieve the same at max transparency" — but
+    <a href="players.html#Pnats">Pnats</a> worried about handling "another <a href="players.html#Nayla">Nayla</a> situation if we allow
+    the chat to be public," and <a href="players.html#Zados">Zados</a> predicted only that "we would just
+    have people trying to influence our decisions." The same week showed
+    how little the merger had actually merged: <a href="players.html#Luivi">Luivi</a> still drew the
+    line at "ex ninjas members… ex sleep raid is fine," and <a href="players.html#Pnats">Pnats</a>
+    admitted the plainer truth — "our members think its down to us (Sleep)
+    atm because two of you (Ninjas) left."</p>
+    <p>The new arrangement didn't end the friction, it just moved it
+    downstairs. Three days later, someone floated giving the Band of
+    Accuria to <a href="players.html#Jangera">Jangera</a> as a reward for
+    reaching Rank 14 in the honor system; <a href="players.html#Antzi">Antzi</a>
+    detonated at the suggestion, told <a href="players.html#Rockafella">Rockafella</a> to "stick to ur lock,"
+    and then felt accused of stupidity by an officer in the same
+    exchange. <a href="players.html#Supplier">Supplier</a> talked it back down.
+    <a href="players.html#Snj%C3%B3r">Snjór</a>'s verdict on the whole culture doubled as a farewell to his own
+    guild's founding spirit: "I'm seeing three different chat discussions
+    about some item that's going to increase their DPS by 0.0000001%…
+    the mentality we set in Ninjas was always entertainment before some
+    purple pixels." And on the 30th of September
     the autumn delivered its finale. The surviving accounts agree on the
     opening act: <a href="players.html#Yeat">Yeat</a> kicked
-    <a href="players.html#Snjór">Snjór</a>. Henne said someone then
-    reinvited Snjór and that he, or his alt, used the restored rank to
-    kick <a href="players.html#Henne">Henne</a>. Snjór's account four days
-    later agreed that Yeat had kicked him but disputed the surrounding
+    <a href="players.html#Snjór">Snjór</a>. <a href="players.html#Henne">Henne</a> said someone then
+    reinvited <a href="players.html#Snj%C3%B3r">Snjór</a> and that he, or his alt, used the restored rank to
+    kick <a href="players.html#Henne">Henne</a>. <a href="players.html#Snj%C3%B3r">Snjór</a>'s account four days
+    later agreed that <a href="players.html#Yeat">Yeat</a> had kicked him but disputed the surrounding
     blame. The archive does not establish who authorized the reinvite or
     the second kick, nor why each person in the protest wave left.</p>
-    <p>The consequences are clearer than the cause. Yeat transferred Guild
+    <p>The consequences are clearer than the cause. <a href="players.html#Yeat">Yeat</a> transferred Guild
     Master to <a href="players.html#Missdotty">Missdotty</a> and left.
     By the next morning, thirty-two people were signed for the coming raid
-    and eight of those names belonged to people who had left. Divinestorm,
+    and eight of those names belonged to people who had left. <a href="players.html#Divinestorm">Divinestorm</a>,
     mediating from a work trip, handled member communication while
-    Missdotty restricted kick access. Henne's own condition for peace was
-    the tersest in the archive: "Keep Snjór away from me and he can take the
+    <a href="players.html#Missdotty">Missdotty</a> restricted kick access. <a href="players.html#Henne">Henne</a> told others that same day she
+    meant to follow <a href="players.html#Katdrovrsn">Katdrovrsn</a>,
+    <a href="players.html#Mikadrovrsn">Mikadrovrsn</a> and <a href="players.html#%C3%92llz">Òllz</a> out of the guild; four
+    days later <a href="players.html#Snj%C3%B3r">Snjór</a> reported that she and <a href="players.html#%C3%92llz">Òllz</a> were staying after all.
+    <a href="players.html#Henne">Henne</a>'s own condition for peace was
+    the tersest in the archive: "Keep <a href="players.html#Snj%C3%B3r">Snjór</a> away from me and he can take the
     drama with him. And I'm good." The reform that outlived the mess became
-    guild doctrine, written by Artimis in the class-leader channel: if you
+    guild doctrine, written by <a href="players.html#Artimis">Artimis</a> in the class-leader channel: if you
     don't have time to explain, you don't have time to kick people.</p>
     <figure class="archive-card">
       <figcaption>Reconstructed from private messages quoted with permission · names normalized to in-game characters · 30 September 2020</figcaption>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Henne</strong><time datetime="2020-09-30T13:54">13:54</time></div>
-        <p>i dont really have anything to say than that [Snjór] is quite manipulative. Now im his target, have fun with that.</p>
+        <div class="archive-message-meta"><strong><a href="players.html#Henne">Henne</a></strong><time datetime="2020-09-30T13:54">13:54</time></div>
+        <p>i dont really have anything to say than that [<a href="players.html#Snj%C3%B3r">Snjór</a>] is quite manipulative. Now im his target, have fun with that.</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Henne</strong><time datetime="2020-09-30T13:56">13:56</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Henne">Henne</a></strong><time datetime="2020-09-30T13:56">13:56</time></div>
         <p>I def dont need thees shit. Ive been in Ninjas and Dusk for a long time. Never had any issues around me. Im gonna carry on playing with the ppl that i care about.</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Henne</strong><time datetime="2020-09-30T14:04">14:04</time></div>
-        <p>Keep [Snjór] away from me and he can take the drama with him.<br>and im good</p>
+        <div class="archive-message-meta"><strong><a href="players.html#Henne">Henne</a></strong><time datetime="2020-09-30T14:04">14:04</time></div>
+        <p>Keep [<a href="players.html#Snj%C3%B3r">Snjór</a>] away from me and he can take the drama with him.<br>and im good</p>
       </div>
     </figure>
 
     <h2>The quiet erosion</h2>
     <p>Under the fireworks, something slower was happening: the old Sleep
     establishment was losing the building. In the September admin
-    reshuffle, the founders' names — Artimis, <a href="players.html#Zados">Zados</a>,
+    reshuffle, the founders' names — <a href="players.html#Artimis">Artimis</a>, <a href="players.html#Zados">Zados</a>,
     <a href="players.html#Celed">Celed</a> — were flagged off the server-admin list,
-    and when Divinestorm deleted a channel Zados liked, his reply is the
+    and when <a href="players.html#Divinestorm">Divinestorm</a> deleted a channel <a href="players.html#Zados">Zados</a> liked, his reply is the
     driest sentence Dusk produced: "I guess I'm not an officer anymore, so
-    whatever." Divinestorm, meanwhile, had become the guild's center of
+    whatever." <a href="players.html#Divinestorm">Divinestorm</a>, meanwhile, had become the guild's center of
     gravity. He mediated the crises, wrote the loot doctrine (attendance,
     world buffs, consumes, consistency), and personally ran the idol
     economy, item by item. He also absorbed abuse that would have broken
-    a pettier leader. By November the transformation was complete in all but
-    ceremony: Dusk was Divinestorm's guild, run well, by a mage the Sleep
-    founders had recruited eight months earlier.</p>
+    a pettier leader. The loot doctrine even got a quiet vindication in
+    those same weeks: after a <a href="item.html#19395">Rejuvenating Gem</a> awarded to an alt gave
+    <a href="players.html#Artimis">Artimis</a> and <a href="players.html#Zados">Zados</a> one more spark for the September argument, <a href="players.html#Luivi">Luivi</a>
+    conceded on 1 October that, in hindsight,
+    <a href="players.html#Ferrua">Ferrua</a> had been right to withhold a
+    <a href="item.html#19395">Rejuvenating Gem</a> from
+    <a href="players.html#Mikadrovrsn">Mikadrovrsn</a> in the first place. By November the
+    transformation was complete in all but
+    ceremony: Dusk was <a href="players.html#Divinestorm">Divinestorm</a>'s guild, run well, by a mage the Sleep
+    founders had recruited eight months earlier. <a href="players.html#Celed">Celed</a>, one of those
+    flagged-off founders, didn't outlast the season either: his own last
+    guild raid fell on 24 September, the same day as the wider ex-Ninjas
+    exodus.</p>
+    <p>Where the departed went afterward is only partly recoverable.
+    Warcraft Logs' historical guild feeds confirm that <a href="players.html#Celed">Celed</a>,
+    <a href="players.html#Snjór">Snjór</a>, <a href="players.html#Seax">Seax</a> and
+    <a href="players.html#Szata">Szata</a> resurfaced in a guild called Agile, and
+    that <a href="players.html#Banamahs">Banamahs</a> joined Decimation — <a href="players.html#Luivi">Luivi</a> called
+    him "another Decimation recruit" within minutes of the announcement.
+    <a href="players.html#Antzi">Antzi</a> insisted on 1 October that he hadn't left at all, only paused;
+    his later reports, like <a href="players.html#Pawsz">Pawsz</a>'s, <a href="players.html#Henne">Henne</a>'s, <a href="players.html#Ulfhild">Ulfhild</a>'s,
+    <a href="players.html#Yeat">Yeat</a>'s and <a href="players.html#Orish">Orish</a>'s,
+    continue in the logs but never
+    match a guild's own historical feed closely enough to name a
+    destination. <a href="players.html#Yeat">Yeat</a>, who gave up the guild-master rank the same day he
+    left, has no destination in the record either, and <a href="players.html#Orish">Orish</a>'s
+    first outside report is more than three weeks after he quit live in
+    the channel. For most of
+    the people this chapter loses, the record can prove they kept raiding
+    somewhere. It cannot always prove where.</p>
+    <p>One more departure closes the way <a href="players.html#Celed">Celed</a>, <a href="players.html#Snjór">Snjór</a>, <a href="players.html#Seax">Seax</a>
+    and <a href="players.html#Szata">Szata</a> did. <a href="players.html#Jangera">Jangera</a>, gone chasing bigger AQ40 GDKP gold
+    that October, resurfaces thirty-one times against Melon's own
+    historical guild feed once that first circuit ends — a destination
+    the record can confirm, not merely infer. For the longer list from
+    that same autumn — <a href="players.html#Pawsz">Pawsz</a>, <a href="players.html#Henne">Henne</a>,
+    <a href="players.html#Ulfhild">Ulfhild</a>, <a href="players.html#Antzi">Antzi</a>, <a href="players.html#Yeat">Yeat</a>,
+    <a href="players.html#Orish">Orish</a>, <a href="players.html#Tsakimo">Tsakimo</a> — the identical cross-check comes
+    back empty: not proof they stopped playing, only that wherever they
+    landed left no trace to catch.</p>
     <p>The Nittedal circle was thinning too, but not through one shared
-    goodbye. Panadin's last local raid is 12 July. Fnats last appears on
-    30 August, Exclus on 20 September, and Galidia and Zhèna on 7 October.
+    goodbye. <a href="players.html#Panadin">Panadin</a>'s last local raid is 12 July. <a href="players.html#Fnats">Fnats</a> last appears on
+    30 August, <a href="players.html#Exclus">Exclus</a> on 20 September, and <a href="players.html#Galidia">Galidia</a> and <a href="players.html#Zh%C3%A8na">Zhèna</a> on 7 October.
     None of those dates comes with a preserved departure message, so they
-    are boundaries in the logs, not explanations. Deliz remained the
+    are boundaries in the logs, not explanations — unlike <a href="players.html#Akikiie">Akikiie</a>, <a href="players.html#Orish">Orish</a> or
+    <a href="players.html#Yeat">Yeat</a>, none of them argued their way out; the guild simply stopped
+    seeing them on the signup sheet. <a href="players.html#Deliz">Deliz</a> remained the
     exception: the one friend whose exit survives in his own words.</p>
+    <p><a href="players.html#Nayla">Nayla</a>'s ending had a fuller private context than the November
+    accusation alone suggests. On 18 November, the date of his last
+    tracked raid, he told officers he had felt disliked ever since an
+    earlier incident pulling a dragon into Stormwind, that other tanks
+    received raid assist he didn't, and that he had experienced "tyranny,
+    disrespect" building for months rather than one incident. The
+    officers' reply cited loot and assist records for <a href="players.html#Ragie">Ragie</a>, <a href="players.html#Glory">Glory</a> and
+    <a href="players.html#Boxya">Boxya</a> to argue the treatment had been equal; <a href="players.html#Artimis">Artimis</a> asked directly
+    why <a href="players.html#Nayla">Nayla</a> was leaving and received no answer. Neither account is a
+    verdict — the archive preserves the grievance and the rebuttal, not
+    which one was right. Two days later <a href="players.html#Divinestorm">Divinestorm</a> told the officer
+    channel that <a href="players.html#Nayla">Nayla</a> had joined a guild called Inheritance.</p>
     <p>November gave the era its two closing images. On the 7th,
-    <a href="players.html#Glory">Glory</a>'s second Binding dropped and the guild
-    announced a completed <em>Thunderfury</em> the same evening: the
-    loyalist's crowning, three weeks before his heartbreak. And
-    <a href="players.html#Nayla">Nayla</a>'s last tracked raid was eleven
-    days later, on the 18th. Later that evening Artimis was already saying
-    he was sorry to see Nayla go; Nayla did not answer the question of why. On the 25th, already
-    accepted by a new guild, he sent an image and accused Dusk's leader of
-    a "last desperate act of evilness." The image's context is incomplete,
-    so it documents the bitterness of the ending, not its immediate cause.
+    <a href="players.html#Glory">Glory</a>'s second <a href="https://www.wowhead.com/classic/search?q=Bindings%20of%20the%20Windseeker" rel="noopener">Binding</a> dropped and the guild
+    announced a completed <em><a href="https://www.wowhead.com/classic/item=19019" rel="noopener">Thunderfury</a></em> the same evening: the
+    loyalist's crowning, three weeks before his heartbreak. <a href="players.html#Nayla">Nayla</a>'s own
+    ending landed eleven days later. On the 25th, already in his new
+    guild, he sent an image and accused Dusk's leader of
+    a "last desperate act of evilness." <a href="players.html#Artimis">Artimis</a> later identified the
+    reference as the earlier AQ20 disruption case. The officers had
+    reconstructed that incident as a hearthstone-while-teleported
+    misunderstanding; whether that fully cleared <a href="players.html#Nayla">Nayla</a> or was simply the
+    gentlest available explanation remains unresolved.
     Behind both endings, quietly, stood Naxxramas — frost-resistance
     spreadsheets filling in, a contingency tank being groomed, and a raid
     that had no idea it had fourteen days of existence left. That story is
@@ -482,7 +888,7 @@
     <figure class="archive-card">
       <figcaption>Reconstructed from a message forwarded into the Dusk officer channel · 25 November 2020</figcaption>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Nayla</strong><time datetime="2020-11-25T19:57">19:57</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Nayla">Nayla</a></strong><time datetime="2020-11-25T19:57">19:57</time></div>
         <p>Look what your leader is doing,its last desperate act of evilness</p>
       </div>
     </figure>
@@ -490,8 +896,9 @@
     <div class="divider">✦ ✦ ✦</div>
     <p class="sourcenote">Sources: the Dusk officer channel (13,902
     messages, both the Ninjas era and the merged guild), the Sleep server
-    export, raid logs, and the private messages of Luivi, Kodf, Zados,
-    Henne and Nayla, quoted with permission. The Ninjas quotations are
+    export, raid logs, the Warcraft Logs destination-guild audit, and the
+    private messages of <a href="players.html#Luivi">Luivi</a>, <a href="players.html#Kodf">Kodf</a>, <a href="players.html#Zados">Zados</a>,
+    <a href="players.html#Henne">Henne</a> and <a href="players.html#Nayla">Nayla</a>, quoted with permission. The Ninjas quotations are
     from their own officer channel, preserved in the merged server.</p>
   </div>
 
@@ -505,32 +912,61 @@
 
     <h2>The wall</h2>
     <p>On the first Sunday of December 2020, <a href="raid.html#481">Dusk walked into
-    Naxxramas alone</a> and killed three bosses. By any earlier standard of the
+    Naxxramas alone</a> and killed three bosses — Anub'Rekhan, Grand Widow
+    Faerlina and Noth the Plaguebringer. By any earlier standard of the
     guild it was a fine night — <a href="players.html#Artimis">Artimis</a> clipped the
     <a href="https://www.youtube.com/watch?v=y8B_KV_Lxx8" rel="noopener">Faerlina kill</a>,
     which would turn out to be the last recording of Dusk raiding as itself.
     But Naxxramas was built to punish exactly what Dusk was: a community
-    first and a roster second. Divinestorm's review of the run, in the officer channel, was two words: "utter shit".</p>
-    <p>The next evening the floor gave way. <a href="players.html#Edomedo">Edomedo</a> — the quiet warrior the
-    officers had been grooming as their contingency tank — told
+    first and a roster second. <a href="players.html#Divinestorm">Divinestorm</a>'s review of the run, in the officer channel, was two words: "utter shit".</p>
+    <div class="video-gallery" aria-label="Dusk's first Naxxramas kill videos">
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=y8B_KV_Lxx8" data-youtube="y8B_KV_Lxx8" data-title="Grand Widow Faerlina — 6 December">Grand Widow Faerlina — 6 December</a>
+    </div>
+    <p>Dusk did not know it yet, but the same week held a preview of where
+    this was going. Unconnected to Dusk's raid, Ascension's own
+    thirty-nine-player team killed five bosses that same evening in a
+    <a href="raid.html#482">separate Naxxramas raid</a> — Anub'Rekhan, Faerlina,
+    Maexxna, Noth and Heigan the Unclean, a fight Dusk's own raid never
+    reached that night. The next night Ascension's raid
+    <a href="raid.html#483">added five more</a>: Loatheb, Patchwerk, Grobbulus,
+    Gluth and Thaddius. Ten distinct bosses in two nights, against Dusk's
+    three — the gap the merger would soon close.</p>
+    <p>The next evening the floor gave way. <a href="players.html#Edomedo">Edomedo</a> — the quiet warrior
+    <a href="players.html#Fizzi">Fizzi</a> had flagged a month earlier as the
+    contingency plan ("if the situation with <a href="players.html#Boxya">Boxya</a> happens again or worse
+    we have a potential tank lined up at least") — told
     <a href="players.html#Divinestorm">Divinestorm</a> he was quitting the game.
-    Divinestorm looked at the roster that night and reached the conclusion
+    Four Horsemen needs four tanks working in parallel, not four turns of a
+    well-drilled strategy; Dusk had two proven ones in <a href="players.html#Ragie">Ragie</a> and <a href="players.html#Fizzi">Fizzi</a>, and
+    had spent November building <a href="players.html#Edomedo">Edomedo</a> into the third. Even fully staffed,
+    the thirty-six raiders Dusk fielded on the 6th were four short of the
+    forty Naxxramas assumed.
+    <a href="players.html#Divinestorm">Divinestorm</a> looked at the roster that night and reached the conclusion
     that ended an era: there were no tanks for the Four Horsemen, and no way
     to make any inside the guild.</p>
 
     <h2>The pivot</h2>
-    <p>What happened next took about a day. On December 8th Divinestorm laid
+    <p>The tone of the turn survives in <a href="players.html#Divinestorm">Divinestorm</a>'s own dark joke on
+    the 8th, tossed off in the same message as the deal itself: he had
+    collected Sleep and Dusk, he said, and would soon have Ascension too.
+    It read as gallows humor from a man who had called the previous raid
+    "utter shit" two days earlier and was now brokering the guild's third
+    identity in under five months.</p>
+    <p>What happened next took about a day. On December 8th <a href="players.html#Divinestorm">Divinestorm</a> laid
     out the case in officer chat and reported the solution he had already
     found: Ascension — a guild the archive had barely met, except as a
     world-chat troll to be ignored back in September — was "prepared to
     bench down to 20 people on Wednesday and give us 20 slots." Their
     officers had names now, <a href="players.html#Devou">Devou</a> the warrior and
     <a href="players.html#Hedara">Hedara</a> the druid, and they were candid about the
-    endgame: they would like to stay Ascension, and absorb Dusk. Not everyone
+    endgame: they would like to stay Ascension, and absorb Dusk. <a href="players.html#Divinestorm">Divinestorm</a>
+    reported the need ran both ways, not as charity: their GM, he said, had
+    told him bluntly "we need this more than you," rather than see Ascension
+    dissolve into "random players in goons etc." Not everyone
     was charmed — <a href="players.html#Zados">Zados</a> registered "a pretty bad
     impression of ascension players so far" — but nobody had a second plan.</p>
     <p>No Ascension negotiation transcript survives. Their position reaches
-    this archive through Divinestorm's report of the call and through what
+    this archive through <a href="players.html#Divinestorm">Divinestorm</a>'s report of the call and through what
     their officers did next. <a href="players.html#Devou">Devou</a>
     controlled the joint composition and, when his own warrior could not
     attend on 9 December, offered Dusk a third hunter place. The raid log
@@ -538,19 +974,51 @@
     forty-player team built from twenty returning Dusk raiders and twenty
     Ascension players, with one substitution. It proves the arrangement,
     not every claim made while negotiating it.</p>
+    <p>Building that template still meant choosing who among each guild's
+    own regulars made the cut, and Ascension controlled the finer print.
+    <a href="players.html#Fizzi">Fizzi</a> did the calculation that mattered most for his own class —
+    "atm Ascension only has 2 hunters," he told the officers — which meant
+    Dusk's three hunters were negotiating for room against a partner that
+    barely needed the position at all. <a href="players.html#Devou">Devou</a>, running composition
+    from the Ascension side, stayed just as firm when a fourth hunter
+    spot was floated later in the month: two was the number, and the
+    answer never moved. The template treated both
+    twenty-name rosters as fixed pools to be defended, not one combined
+    list to be freely optimized, which is exactly why the cuts kept
+    landing on the same handful of classes.</p>
     <p>Twenty spots meant twenty benches, and the cut fell hardest on the
     classes Ascension already had. The hunters got the worst arithmetic:
     Ascension wanted two hunter spots in a forty-man raid; Dusk had three
-    hunters who had carried the guild for a year. Zados, handed the
+    hunters who had carried the guild for a year. "I'd feel like a dick
+    picking who dies," <a href="players.html#Zados">Zados</a> said while the math was still being drawn,
+    "since they aren't that far apart, all bringing the required
+    consumables, trying their best." <a href="players.html#Zados">Zados</a>, handed the
     impossible job of choosing, negotiated it into a three-week rotation
-    between himself, <a href="players.html#Nereb">Nereb</a> and Artimis — and Artimis,
+    between himself, <a href="players.html#Nereb">Nereb</a> and <a href="players.html#Artimis">Artimis</a> — and <a href="players.html#Artimis">Artimis</a>,
     whose first child was due on the 28th, took the first bench to line his
     absence up with the hospital.</p>
-    <p>Pnats accepted the arithmetic and removed himself from it. After
+    <p>The document that would decide who sat had <a href="players.html#Artimis">Artimis</a>'s own fingerprints
+    on it. That same morning he built the shared spreadsheet the officers
+    used to sort the raid ("Help me see how this will look here"), argued
+    the merger was worth the risk even if the first joint run went roughly,
+    and told the room where to draw the line if a class leader couldn't
+    decide: "If a class leader find it hard who to bench then look at
+    attendance at least." He wrote the rule six days before it was used
+    against him. He also kept proposing patches rather than just accepting
+    the math: for the heaviest healing checks, he suggested, he and <a href="players.html#Zados">Zados</a>
+    could swap onto their paladin and priest alts and free two ranged-DPS
+    slots for extra healers. Nothing came of it, but it captured his
+    instinct through the whole crisis — solve the arithmetic before it
+    solves you.</p>
+    <p><a href="players.html#Pnats">Pnats</a> accepted the arithmetic and removed himself from it. After
     reading the proposal he wrote that Dusk's current team would most
     likely never survive to clear Naxxramas and called the merger "100% the
     only way to go." Then he stepped out, unable to promise the weekly
-    consumable farm while playing Shadowlands too. The merger was not only
+    consumable farm while playing Shadowlands too. <a href="players.html#Supplier">Supplier</a> had made the
+    same case hours earlier, and more bluntly: "If you don't put in the
+    effort or have the skills to clear Naxx, there is no reason you should
+    be carried through Naxx" — and offered his own name first: "I am also
+    happy to self-bench if needed." The merger was not only
     leaders cutting other people; some of the people who agreed with it
     chose themselves for the bench.</p>
 
@@ -558,76 +1026,176 @@
     <p>It worked. On December 9th the <a href="raid.html#484">first joint raid</a>
     killed six new bosses in one evening — Patchwerk, Grobbulus, Gluth,
     Thaddius, Heigan, Razuvious — and the kill videos carried both guild
-    names in their titles. Artimis even got to be there: Devou's warrior
+    names in their titles. <a href="players.html#Artimis">Artimis</a> even got to be there: <a href="players.html#Devou">Devou</a>'s warrior
     couldn't make it, and the 21st spot passed to him. "Don't thank me,"
-    Divinestorm told him afterwards. "Thank Devou for understanding how much
+    <a href="players.html#Divinestorm">Divinestorm</a> told him afterwards. "Thank <a href="players.html#Devou">Devou</a> for understanding how much
     we wanted a 3rd hunter spot."</p>
+    <div class="video-gallery" aria-label="First joint Dusk and Ascension Naxxramas kill videos">
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=ltCXvuwqW-k" data-youtube="ltCXvuwqW-k" data-title="Noth the Plaguebringer — 9 December">Noth the Plaguebringer — 9 December</a>
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=8r8cVPBOTC0" data-youtube="8r8cVPBOTC0" data-title="Patchwerk — 9 December">Patchwerk — 9 December</a>
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=TCWNExvdW4A" data-youtube="TCWNExvdW4A" data-title="Thaddius — 9 December">Thaddius — 9 December</a>
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=kCEDQDm6LzU" data-youtube="kCEDQDm6LzU" data-title="Instructor Razuvious — 9 December">Instructor Razuvious — 9 December</a>
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=00gfm627JX0" data-youtube="00gfm627JX0" data-title="Heigan the Unclean — hunter view">Heigan the Unclean — hunter view</a>
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=yrU03e1GB68" data-youtube="yrU03e1GB68" data-title="Instructor Razuvious — priest tank view">Instructor Razuvious — priest tank view</a>
+    </div>
     <p>But the same speed that vindicated the merge hardened its logic.
     "Comp plus parse," as <a href="players.html#Fizzi">Fizzi</a> put it — with
-    limited spots you bring the players who perform. Attendance, the currency
+    limited spots you bring the players who perform. His own place in that
+    first raid made the point better than any policy memo: three weeks
+    earlier <a href="players.html#Fizzi">Fizzi</a> and <a href="players.html#Glory">Glory</a> had tanked C'Thun side by side, and only one of
+    them survived the cut into Naxxramas. Attendance, the currency
     the guild had minted for a year, quietly stopped being legal tender. On
-    the 12th, Artimis found out Divinestorm wouldn't spare him Frozen Runes
+    the 12th, <a href="players.html#Artimis">Artimis</a> found out <a href="players.html#Divinestorm">Divinestorm</a> wouldn't spare him <a href="https://www.wowhead.com/classic/item=22682" rel="noopener">Frozen Runes</a>
     for frost-resistance gear, and heard he'd been passed over for players
     with four and nine raids to their names against his hundred and twenty.
-    His fury went to Zados in private, and Zados, who agreed with him,
+    His fury went to <a href="players.html#Zados">Zados</a> in private, and <a href="players.html#Zados">Zados</a>, who agreed with him,
     could only answer: "They have a hard-on for limiting hunter spots. I'll
     do what I can."</p>
-    <p>At eight minutes past midnight on December 14th, Zados delivered a
-    message that would echo: Divinestorm said he'll bench you for Wednesday
-    if you don't come tomorrow. Asked whether he agreed, Zados wrote: "I
+    <p>The Sunday session that produced the fury was the same one that
+    exposed the tank math: twelve wipes on the Horsemen in
+    <a href="raid.html#486">that Sunday's raid</a>, the best attempt stalling
+    at forty-four percent, while both <a href="players.html#Artimis">Artimis</a> and <a href="players.html#Glory">Glory</a> watched from
+    outside. That evening <a href="players.html#Pnats">Pnats</a> opened the officer channel with the
+    complaint that mattered: leaving <a href="players.html#Artimis">Artimis</a> out felt "a bit... harsh,"
+    given "the value the dude has brought to Sleep & Dusk" — benched, in
+    <a href="players.html#Pnats">Pnats</a>'s words, "for a low attendance Warrior." <a href="players.html#Divinestorm">Divinestorm</a>'s answer
+    pointed past the name everyone assumed: "he's not benching for <a href="players.html#Maniaz">Maniaz</a>,
+    he's benching for Tansus, or <a href="players.html#Barin">Barin</a>, or <a href="players.html#Biterx">Biterx</a>. That 21st spot wasn't
+    ours to begin with." <a href="players.html#Supplier">Supplier</a>'s reply was the plainest sentence in the
+    whole dispute: "We still choose our 20 guys in the end."</p>
+    <p>At eight minutes past midnight on December 14th, <a href="players.html#Zados">Zados</a> delivered a
+    message that would echo: <a href="players.html#Divinestorm">Divinestorm</a> said he'll bench you for Wednesday
+    if you don't come tomorrow. Asked whether he agreed, <a href="players.html#Zados">Zados</a> wrote: "I
     don't agree, no. But he does have the final say. Unfortunately."</p>
 
     <h2>The letter</h2>
-    <p>Artimis spent the morning of the 14th writing. The letter made five demands: raiders before members, a spot held for
+    <p><a href="players.html#Glory">Glory</a> arrived at this week already holding the guild's proof of
+    concept. Five weeks earlier his second <a href="https://www.wowhead.com/classic/search?q=Bindings%20of%20the%20Windseeker" rel="noopener">Binding of the Windseeker</a> had
+    dropped and the guild had forged him a completed <a href="https://www.wowhead.com/classic/item=19019" rel="noopener">Thunderfury</a> — the
+    raider-rank promise made physical: show up, do the unglamorous work,
+    and the guild builds you the most famous weapon in the game. He had
+    studied Ascension's own
+    <a href="https://www.youtube.com/watch?v=_0qM_DqGE2o" rel="noopener">Four
+    Horsemen kill video</a> frame by frame and planned a respec to deep
+    Protection for the survivability the fight demanded. None of it bought
+    him a pull.</p>
+    <div class="video-gallery" aria-label="Four Horsemen reference kill video">
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=_0qM_DqGE2o" data-youtube="_0qM_DqGE2o" data-title="The Four Horsemen — Ascension reference kill">The Four Horsemen — Ascension reference kill</a>
+    </div>
+    <p><a href="players.html#Artimis">Artimis</a>'s letter was not his first move. At 19:57 the night before, he
+    had already asked <a href="players.html#Glorya">Glorya</a> directly — noting her own perfect attendance —
+    to simply not show up for Wednesday's raid, naming <a href="players.html#Pnats">Pnats</a> and
+    <a href="players.html#Supplier">Supplier</a> as already committed and hoping <a href="players.html#Ragie">Ragie</a> and
+    <a href="players.html#Luivi">Luivi</a> would follow. <a href="players.html#Ragie">Ragie</a>'s answer became the caution that
+    shaped everything after it: members shouldn't be displaced by
+    newcomers, he agreed, but organising behind <a href="players.html#Divinestorm">Divinestorm</a>'s back was the
+    wrong tool, and two guilds were still sharing one roster. Past
+    midnight, when word of <a href="players.html#Divinestorm">Divinestorm</a>'s benching threat reached him
+    secondhand, <a href="players.html#Artimis">Artimis</a> forwarded the screenshot to <a href="players.html#Glorya">Glorya</a> with his own
+    verdict attached, in Norwegian: "Trussler er ikke bra" — threats
+    aren't good. The morning's five-point letter gave that same anger a
+    form that could finally be argued instead of whispered.</p>
+    <p><a href="players.html#Artimis">Artimis</a> spent the morning of the 14th writing. The letter made five demands: raiders before members, a spot held for
     the whole lockout, a place at least every other week for raider rank,
     bench decisions made collectively, and the optional Monday raid
     staying truly optional. It ended with a call for the members of Dusk
-    to strike on Wednesday the 16th. He sent it to <a href="players.html#Shakeyhealer">Shakey</a>
+    to strike on Wednesday the 16th. He sent it to <a href="players.html#Shakeyhealer">Shakeyhealer</a>
     at 11:02 and to <a href="players.html#Glory">Glory</a> at 11:20 — the tank who had
     been benched through every Four Horsemen wipe, and who had been told
     that afternoon he finally had a spot.</p>
     <blockquote><p>Only go on strike if your demands dont get a fair
     hearing. Risking losing far more than you gain. Of course i agree, more
-    or less.</p><cite>— Glory, 14 December 2020</cite></blockquote>
+    or less.</p><cite>— <a href="players.html#Glory">Glory</a>, 14 December 2020</cite></blockquote>
     <p>The strike never fired, and the archive can now say exactly why. In
-    the officers' channel that same morning, Divinestorm had opened his
-    own reckoning: the twenty-plus-one spot mess, the hunter rotation, an
-    admission of his own mix-ups. Meanwhile
-    <a href="players.html#Pnats">Pnats</a> begged Artimis to bring the five points
+    the officers' channel that same morning, <a href="players.html#Divinestorm">Divinestorm</a> opened his own
+    reckoning: an admission that he had asked <a href="players.html#Maniaz">Maniaz</a> to cover Sunday
+    "without remembering we had 21 people for the first run," and the
+    hunter math sitting underneath the whole argument — "Ascension want a
+    total of 2 hunter spots in the full raid. We want 4." Then he went
+    further than policy required: "I'll never feel really good about this
+    unless we have <a href="players.html#Artimis">Artimis</a> on the team… I can give up my spot for him."</p>
+    <p><a href="players.html#Pnats">Pnats</a> backed <a href="players.html#Artimis">Artimis</a> by name in the same channel — "<a href="players.html#Artimis">Artimis</a> is a
+    special case, so is <a href="players.html#Zados">Zados</a> and <a href="players.html#Nereb">Nereb</a>… one of the near-founders of the
+    Guild" — in the same message where he reached for <a href="players.html#Glory">Glory</a> as the
+    counter-example, an aside he half-apologised for even as he made it.
+    Minutes later, in a verdict never delivered to <a href="players.html#Glory">Glory</a>'s face, <a href="players.html#Pnats">Pnats</a> told
+    the other officers plainly: "<a href="players.html#Glory">Glory</a> has had a year and a half trial, and
+    not improved"; "he isn't good enough." <a href="players.html#Zados">Zados</a> made the same case from a
+    different angle, naming the replacement who hadn't earned his spot:
+    "We brought <a href="players.html#Juud">Juud</a> instead of someone like <a href="players.html#Artimis">Artimis</a>, yet he
+    didnt do shit as a tank." <a href="players.html#Supplier">Supplier</a> pulled the argument back to
+    principle: "this is not about <a href="players.html#Artimis">Artimis</a> per se. It's the general respect
+    of our raiders, how they are treated in accordance with the rules we
+    set." <a href="players.html#Luivi">Luivi</a>, watching from the sidelines,
+    made the simplest argument of all: the players who had started this
+    journey together should be the ones who finished it.</p>
+    <p><a href="players.html#Pnats">Pnats</a>, mediating from inside the same channel, asked the harder
+    question before he backed anyone at all: had <a href="players.html#Artimis">Artimis</a> actually
+    spoken to <a href="players.html#Divinestorm">Divinestorm</a> directly before agreeing to any of this? He
+    supported raider-over-member priority, attendance and whole-lockout
+    places, but rejected automatic rotation for players he judged unable
+    to execute Naxxramas progression, and said plainly that years of
+    avoiding hard rank decisions had finally caught up with the guild.</p>
+    <p>Not everyone wanted compromise. The day before, <a href="players.html#Randyfist">Randyfist</a>
+    had floated an even blunter version — let Ascension and a rival guild
+    merge instead, and Dusk could "take their good players after they
+    implode" — before arguing the same case again in the officer channel:
+    "poach the benched Ascension raiders, cancel the merge,
+    Ascension implodes, we get half their shit — just like a good ol'
+    divorce." Nobody took the advice. That same night, he was the one
+    holding the raid's mythic reward.</p>
+    <p>In a separate private thread that same day, <a href="players.html#Pnats">Pnats</a> begged <a href="players.html#Artimis">Artimis</a> to bring the five points
     into the open: "You have many points. Which everyone should see."
-    Artimis refused, with the sentence that explains the whole December
+    <a href="players.html#Artimis">Artimis</a> refused, with the sentence that explains the whole December
     record: <em>"If I involve myself, it will only become about me."</em>
-    Shakey worked the back channel instead, taking the points to Divinestorm
+    <a href="players.html#Shakeyhealer">Shakeyhealer</a> worked the back channel instead, taking the points to <a href="players.html#Divinestorm">Divinestorm</a>
     softly — and privately confessed he might not make the move to Ascension
-    at all. By late afternoon Divinestorm was chasing Artimis directly: "I
+    at all. By late afternoon <a href="players.html#Divinestorm">Divinestorm</a> was chasing <a href="players.html#Artimis">Artimis</a> directly: "I
     know you've been keeping up with the CL chat. I know your points. Let's
     just do this tonight and talk." At 18:34, they talked.</p>
-    <p>Supplier turned the private anger into a policy intervention. He had
+    <p>That instinct — rules over favors — hardened into a formal proposal
+    by afternoon. <a href="players.html#Supplier">Supplier</a> turned the private anger into a policy intervention. He had
     initially agreed to join a protest, then asked for concrete demands and
     warned against language that could destroy the guild. He carried a
-    revised version to Divinestorm: rank priority subject to role minimums,
+    revised version to <a href="players.html#Divinestorm">Divinestorm</a>: rank priority subject to role minimums,
     whole-lockout places, rotation for retained Raiders, collective bench
-    decisions, and a genuinely optional Monday. He even offered Artimis his
-    own priest place on Lege. Artimis declined; the point was a rule others
+    decisions, and a genuinely optional Monday. He even offered <a href="players.html#Artimis">Artimis</a> his
+    own priest place on <a href="players.html#Lege">Lege</a>. <a href="players.html#Artimis">Artimis</a> declined; the point was a rule others
     could rely on, not a private exception for himself.</p>
     <p>And then December did the most December thing in the whole story.
-    Artimis, conciliatory after the call, went out for his evening walk and
+    <a href="players.html#Artimis">Artimis</a>, conciliatory after the call, went out for his evening walk and
     offered to log on when he got back. The raid filled without him — and
     the Four Horsemen, the fight that had eaten twelve pulls on Sunday, died
-    on the first attempt of the night at 19:42. Glory, whose promised spot
+    on the first attempt of the night at 19:42. <a href="players.html#Glory">Glory</a>, whose promised spot
     had evaporated when a full forty showed up, listened to the winning
-    briefing from the bench. Artimis watched <a href="players.html#Ragie">Ragie</a>'s stream. "Happy to be
+    briefing from the bench. <a href="players.html#Artimis">Artimis</a> watched <a href="players.html#Ragie">Ragie</a>'s stream. "Happy to be
     part of a 13/15 team," he wrote. How much of that was sincere is
-    anyone's guess. That night, Divinestorm invited him into
-    the joint officer chat with Ascension. He accepted, and listened.</p>
-    <p>The first-pull chest held Corrupted Ashbringer. It went to
+    anyone's guess. That night, <a href="players.html#Divinestorm">Divinestorm</a> invited him into
+    the joint officer chat with Ascension. He accepted, and listened.
+    When <a href="players.html#Hedara">Hedara</a> finally spoke with him
+    directly, weeks later, he opened with a small proof of how tight the
+    local scene already was: "You're from Norway, right? Your voice is
+    familiar."</p>
+    <p>The first-pull chest held <a href="item.html#22691">Corrupted Ashbringer</a>. It went to
     <a href="players.html#Randyfist">Randyfist</a>, and at 20:52
     <a href="players.html#Artimis">Artimis</a> sent congratulations with a
-    warning not to carry it into Light's Hope.
-    The night of the strike letter ended with one of the game's most
-    famous swords.</p>
-    <p><a href="players.html#Neptun">Neptun</a> was in the winning Four
-    Horsemen roster. It is his last local raid log, on 14 December; the
+    warning not to carry it into Light's Hope. At 21:34, in an offhand
+    message to an outside raid leader, <a href="players.html#Artimis">Artimis</a> mentioned his guild had just
+    killed the Four Horsemen — the detail that independently fixes the kill
+    to that night, before the archive had time to turn it into a milestone.
+    The raid kept going and found its harder truth soon after: Sapphiron
+    ate eleven more wipes before <a href="raid.html#487">the night ended</a>,
+    the best attempt stalling at sixty-five percent. The night of the
+    strike letter ended with one of the game's most famous swords, and its
+    next boss still unsolved.</p>
+    <p>The same 8 December planning message that had carved out the hunter
+    rotation also named who the officers meant to protect elsewhere:
+    <a href="players.html#Divinestorm">Divinestorm</a> told the room that he and <a href="players.html#Crok">Crok</a> did not want to cut
+    <a href="players.html#Neptun">Neptun</a>, <a href="players.html#Jumanzy">Jumanzy</a> or <a href="players.html#Electro">Electro</a>, all three good
+    enough to "perform very well" every week — he'd rather rotate his own
+    spot away than lose theirs, he said, the same logic <a href="players.html#Pnats">Pnats</a> and <a href="players.html#Supplier">Supplier</a>
+    would apply to themselves days later. <a href="players.html#Neptun">Neptun</a> was in the winning Four
+    Horsemen roster. It is her last local raid log, on 14 December; the
     archive preserves no goodbye or reason for what followed.</p>
 
     <h2>The change</h2>
@@ -636,41 +1204,53 @@
     <figure class="archive-card">
       <figcaption>Reconstructed from the Dusk Discord archive · officer channel · 16 December 2020</figcaption>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Randyfist</strong><time datetime="2020-12-16T16:31">16:31</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Randyfist">Randyfist</a></strong><time datetime="2020-12-16T16:31">16:31</time></div>
         <p>When we leaving and merging?</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Divinestorm</strong><time datetime="2020-12-16T16:38">16:38</time></div>
-        <p>thats a deep question randy</p>
+        <div class="archive-message-meta"><strong><a href="players.html#Divinestorm">Divinestorm</a></strong><time datetime="2020-12-16T16:38">16:38</time></div>
+        <p>thats a deep question <a href="players.html#Randyfist">Randyfist</a></p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Zados</strong><time datetime="2020-12-16T16:40">16:40</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Zados">Zados</a></strong><time datetime="2020-12-16T16:40">16:40</time></div>
         <p>today would be good</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Randyfist</strong><time datetime="2020-12-16T16:40">16:40</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Randyfist">Randyfist</a></strong><time datetime="2020-12-16T16:40">16:40</time></div>
         <p>I'ma do it after Ony</p>
         <p>Fuck it get it over and done with</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Divinestorm</strong><time datetime="2020-12-16T16:41">16:41</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Divinestorm">Divinestorm</a></strong><time datetime="2020-12-16T16:41">16:41</time></div>
         <p>we can just do it whenever maybe before the raid or something</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Pnats</strong><time datetime="2020-12-16T16:42">16:42</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Pnats">Pnats</a></strong><time datetime="2020-12-16T16:42">16:42</time></div>
         <p>BYE DUSK?</p>
       </div>
     </figure>
-    <p>Divinestorm's plan was to have everyone leave Dusk together as
-    they zoned into the raid. At a quarter to midnight, Pnats wrote the
+    <p><a href="players.html#Divinestorm">Divinestorm</a>'s plan was to have everyone leave Dusk together as
+    they zoned into the raid. <a href="players.html#Randyfist">Randyfist</a> had forced the question that
+    afternoon and answered it himself within minutes — unresolved things
+    needled at him, he later explained, until he acted. He explained the
+    order behind the impulse in the same breath he committed to it: "Gonna
+    do it there now, i think its good to have some officers already in
+    there before the migration" — the last operational instruction Dusk's
+    leadership gave as Dusk, fittingly logistical to the end. <a href="players.html#Pnats">Pnats</a>, mid-migration,
+    pinged his brother <a href="players.html#Ragie">Ragie</a> to take one last
+    look at the channel before it emptied. At a quarter to midnight, <a href="players.html#Pnats">Pnats</a> wrote the
     era its epitaph:</p>
     <figure><img src="img/2020-12-16-pnats-epitaph.png" loading="lazy" alt="Pnats says goodbye to Dusk and writes that Sleep, Dusk and Ascension have done it all">
-    <figcaption>16 December 2020, 23:47 — Pnats looks back at the disappearing Dusk channel and writes the era's epitaph.</figcaption></figure>
+    <figcaption>16 December 2020, 23:47 — <a href="players.html#Pnats">Pnats</a> looks back at the disappearing Dusk channel and writes the era's epitaph.</figcaption></figure>
     <p>At 23:31, while the migration was happening,
     <a href="players.html#Rockafella">Rockafella</a> was still mailing materials
     to the benched <a href="players.html#Artimis">Artimis</a> and asking for two flasks.
-    The guild could dissolve faster than its consumables pipeline.</p>
-    <p>Glory left the same evening, "better to go during the change": a
+    The guild could dissolve faster than its consumables pipeline. The
+    officer channel itself barely outlived the decision: within a day it
+    goes quiet, and every conversation from the night of the clear onward
+    happened inside Ascension's own Discord — a record this archive never
+    received.</p>
+    <p><a href="players.html#Glory">Glory</a> left the same evening, "better to go during the change": a
     hundred-and-twenty-raid tank who was never given a single Horsemen
     pull, saying the guild had been his home and that a spot every other
     week would have kept him. Within a week he was tanking the Four Horsemen
@@ -678,56 +1258,109 @@
     <figure class="archive-card">
       <figcaption>Reconstructed from private messages quoted with permission · names normalized to in-game characters · 16 December 2020</figcaption>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:05">22:05</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Glory">Glory</a></strong><time datetime="2020-12-16T22:05">22:05</time></div>
         <p>Decided to leave so i get regular raids - hurts me a lot but no rotation solution seems coming</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:06">22:06</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Glory">Glory</a></strong><time datetime="2020-12-16T22:06">22:06</time></div>
         <p>all a bit of a mess but better to go during the changfe</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:07">22:07</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Glory">Glory</a></strong><time datetime="2020-12-16T22:07">22:07</time></div>
         <p>of course<br>id put up with a raid every couple of weeks</p>
       </div>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Glory</strong><time datetime="2020-12-16T22:07">22:07</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Glory">Glory</a></strong><time datetime="2020-12-16T22:07">22:07</time></div>
         <p>but cant just sit there while i hear of others exploits<br>
-        i worked hard but [Divinestorm] never had a great impression of me<br>
+        i worked hard but [<a href="players.html#Divinestorm">Divinestorm</a>] never had a great impression of me<br>
         and i accept i need to do better<br>
         if im good enough to get a spot ill come back we this was my home</p>
       </div>
     </figure>
+    <p>The raid did not pause to grieve. That same evening, under its new
+    name, the roster went back into Naxxramas and cleared eleven bosses
+    without a single wipe (<a href="raid.html#488">Anub'Rekhan through
+    Instructor Razuvious</a>), first pull after first pull. Whatever the
+    migration had cost socially, it had not touched the raid's execution.</p>
 
     <h2>Fifteen of fifteen</h2>
+    <p>The four days before the clear went into frost resistance, not
+    politics. <a href="players.html#Supplier">Supplier</a> handed <a href="players.html#Artimis">Artimis</a> two
+    guild-bank <a href="https://www.wowhead.com/classic/item=22682" rel="noopener">Frozen Runes</a> on the 16th and 17th so he could finish the
+    legs and ring the fight demanded. <a href="players.html#Zados">Zados</a>
+    coordinated an emergency <a href="https://www.wowhead.com/classic/item=22661" rel="noopener">Polar Tunic</a> crafting run and combat-log
+    coverage. <a href="players.html#Luivi">Luivi</a> spent the same window
+    building resistance gear for <a href="players.html#Ilove">Ilove</a>, then
+    logged in for the final night despite his father's car accident the day
+    before — the raid briefly waited on him rather than start a druid
+    short.</p>
+    <p>None of that scramble started from zero. <a href="players.html#Supplier">Supplier</a> had been
+    mapping priest and druid set choices for Naxxramas boss by boss since
+    7 November, and had already leveled a profession alt purely to keep
+    materials flowing for the guild's own tier pieces. The four days
+    between the migration and the clear were a sprint finish, not the
+    whole race.</p>
     <p>Four days later it was done. <a href="raid.html#489">Sapphiron died at
     19:53 and Kel'Thuzad at 21:23</a> on December 20th. The last boss of
     vanilla World of Warcraft was dead fourteen days after Dusk first
     stepped into Naxxramas alone. Three wipes on the night; forty-three
     names in the log.
-    Artimis <a href="https://www.youtube.com/watch?v=ROgpva-Ldvo" rel="noopener">streamed
+    <a href="players.html#Artimis">Artimis</a> <a href="https://www.youtube.com/watch?v=ROgpva-Ldvo" rel="noopener">streamed
     all of it</a>, died early to a spell-batched ice block, and uploaded the
     video anyway — "I'll take credit for uploading it even if that's how I
-    die." A few minutes past midnight Pnats sent him, verbatim:
-    "Deiliiiig. We did it all!" — and Artimis answered "Bra jobba!!! Sykt
+    die." A few minutes past midnight <a href="players.html#Pnats">Pnats</a> sent him, verbatim:
+    "Deiliiiig. We did it all!" — and <a href="players.html#Artimis">Artimis</a> answered "Bra jobba!!! Sykt
     kult at vi klarte det. Hadde ikke trodd det." Great job. Insanely cool
     that we made it. I didn't think we would.</p>
+    <div class="video-gallery" aria-label="Sapphiron and Kel'Thuzad kill videos">
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=sceAnSwQJ9E" data-youtube="sceAnSwQJ9E" data-title="Sapphiron — 20 December">Sapphiron — 20 December</a>
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=6lYpQRxSiiI" data-youtube="6lYpQRxSiiI" data-title="Kel'Thuzad — kill">Kel'Thuzad — kill</a>
+      <a class="youtube-card" href="https://www.youtube.com/watch?v=ROgpva-Ldvo" data-youtube="ROgpva-Ldvo" data-title="Kel'Thuzad — all three attempts and the kill">Kel'Thuzad — all three attempts and the kill</a>
+    </div>
+    <p><a href="players.html#Pnats">Pnats</a> nearly missed the moment he had helped build toward: he
+    dropped to two or three percent of his own health on the kill attempt,
+    after tanking two stray Nerubian adds on the wipe before it. He was
+    also the one who asked <a href="players.html#Artimis">Artimis</a> to upload Sapphiron and Kel'Thuzad in
+    full, wipes included, so even the messy nights would survive as
+    memory. <a href="players.html#Jumanzy">Jumanzy</a>, in the same round of
+    post-raid screenshots, thanked <a href="players.html#Artimis">Artimis</a> simply for leading them through
+    Sleep, Dusk and Ascension.</p>
     <p>Five people from Nittedal stood in that forty-three-name log:
-    Artimis, <a href="players.html#Glorya">Glorya</a>,
+    <a href="players.html#Artimis">Artimis</a>, <a href="players.html#Glorya">Glorya</a>,
     <a href="players.html#Pnats">Pnats</a>,
     <a href="players.html#Ragie">Ragie</a> and
-    <a href="players.html#Supplier">Supplier</a>. For Artimis, Pnats and
-    Ragie it was the last local guild raid. Supplier appears once more in
-    early January, while Glorya's logs continue into February. It was not
+    <a href="players.html#Supplier">Supplier</a>. <a href="players.html#Ragie">Ragie</a> tanked the kill the
+    same way he had tanked every progression fight before it, from the
+    front, his brother healing behind him. For <a href="players.html#Artimis">Artimis</a>, <a href="players.html#Pnats">Pnats</a> and
+    <a href="players.html#Ragie">Ragie</a> it was the last local guild raid. <a href="players.html#Supplier">Supplier</a> appears once more in
+    early January, while <a href="players.html#Glorya">Glorya</a>'s logs continue into February. It was not
     a single group departure. The friends who had arrived in layers faded
     from the raid archive the same way.</p>
     <p>The epilogue happened quietly. Several of those who had stayed for
     the clear left the game within days, as they had said they would.
-    Artimis's child arrived at the turn of the year ("Grattis som far!"
+    <a href="players.html#Shakeyhealer">Shakeyhealer</a> had said as much around the migration, telling
+    <a href="players.html#Artimis">Artimis</a>
+    privately he might simply call it a day rather than follow the guild
+    into Ascension at all, careful to add it wasn't a decision made in
+    anger — and careful, days later, to check that <a href="players.html#Artimis">Artimis</a> was still
+    inside the officer conversation and not quietly sidelined. He kept close to his word: by his own later account he stopped
+    playing around the same time as <a href="players.html#Artimis">Artimis</a> and <a href="players.html#Supplier">Supplier</a> and never
+    carried a character into the Burning Crusade. The
+    next day, <a href="players.html#Divinestorm">Divinestorm</a> asked <a href="players.html#Artimis">Artimis</a> whether he wanted to keep raiding
+    as Hunter or switch to Priest, noting that holiday availability and the
+    same rotation agreement should open further spots either way — the
+    rotation logic that had started the whole fight, now offered back as a
+    small peace.
+    <a href="players.html#Artimis">Artimis</a>'s child arrived at the turn of the year ("Grattis som far!"
     reads the January message) and he kept raiding into the spring on
     whichever character was needed. And on the 11th of April 2021, in
-    Glory's final local report, the guild's most-attended raider got
+    <a href="players.html#Glory">Glory</a>'s final local report, the guild's most-attended raider got
     the kill history had skipped him for: <a href="players.html#Glory">Glory's
-    own Kel'Thuzad</a>.</p>
+    own Kel'Thuzad</a>. He killed it alongside <a href="players.html#Divinestorm">Divinestorm</a>,
+    <a href="players.html#Fizzi">Fizzi</a>, <a href="players.html#Zados">Zados</a>, <a href="players.html#Jumanzy">Jumanzy</a>,
+    <a href="players.html#Amarah">Amarah</a>, <a href="players.html#Electro">Electro</a> and <a href="players.html#Devou">Devou</a>
+    — the same names December had put together, four months and one boss
+    later, finishing the job as a group.</p>
     <p>The local archive has one more entry, a small Ascension raid on
     14 April. The wider logs continue after that. On 25 April,
     <a href="players.html#Divinestorm">Divinestorm</a> appears in two
@@ -735,60 +1368,69 @@
     <a href="players.html#Bearinpants">Bearinpants</a>,
     <a href="players.html#Ihide">Ihide</a>,
     <a href="players.html#Mikasalord">Mikasalord</a> and
-    <a href="players.html#Taptum">Taptum</a>.</p>
-    <p>On 12 May, Supplier posted one final inventory of Dusk: twenty-nine
+    <a href="players.html#Taptum">Taptum</a> — the same December pairing of
+    Dusk and Ascension names, still raiding together four months on.</p>
+    <p>On 12 May, <a href="players.html#Supplier">Supplier</a> posted one final inventory of Dusk: twenty-nine
     names, each paired with a tribute video.</p>
     <details class="archive-card">
-      <summary>Supplier's “Dusk list” · 12 May 2021, 11:08</summary>
+      <summary><a href="players.html#Supplier">Supplier</a>'s “Dusk list” · 12 May 2021, 11:08</summary>
       <div class="archive-message">
-        <div class="archive-message-meta"><strong>Supplier</strong><time datetime="2021-05-12T11:08">11:08</time></div>
+        <div class="archive-message-meta"><strong><a href="players.html#Supplier">Supplier</a></strong><time datetime="2021-05-12T11:08">11:08</time></div>
         <p>Dusk list<br>Dusk -</p>
       </div>
       <ul class="archive-list">
-        <li>Supplier — <a href="https://youtu.be/iw3rxz3CEXk" rel="noopener">video</a></li>
-        <li>Shakey — <a href="https://youtu.be/aKuivabiOns" rel="noopener">video</a></li>
-        <li>Glorya — <a href="https://youtu.be/nNEb2k_EmMg" rel="noopener">video</a></li>
-        <li>Carmelia — <a href="https://youtu.be/AQtQFtVdON0" rel="noopener">video</a></li>
-        <li>Wandolina — <a href="https://www.youtube.com/watch?v=_iiYHJdjyzE" rel="noopener">video</a></li>
-        <li>Priestå — <a href="https://www.youtube.com/watch?v=dIZqr8TxMTo" rel="noopener">video</a></li>
-        <li>Pnats — <a href="https://youtu.be/qWVO4loULc4" rel="noopener">video</a></li>
-        <li>Luivi — <a href="https://youtu.be/DwxNYMcPGwk" rel="noopener">video</a></li>
-        <li>Sudeki — <a href="https://www.youtube.com/watch?v=ZTa1BpiasSo" rel="noopener">video</a></li>
-        <li>Nayla — <a href="https://www.youtube.com/watch?v=wZUc9iQ_7cg" rel="noopener">video</a></li>
-        <li>Palaman — <a href="https://youtu.be/QQ6NOuwZmKs" rel="noopener">video</a></li>
-        <li>Randyfist — <a href="https://youtu.be/hA_uPJ2vQQ0" rel="noopener">video</a></li>
-        <li>Artimis — <a href="https://youtu.be/_3DAsqvgQZk" rel="noopener">video</a></li>
-        <li>Jangera — <a href="https://www.youtube.com/watch?v=I7H6wGy5zf4" rel="noopener">video</a></li>
-        <li>Pasmaarop — <a href="https://www.youtube.com/watch?v=hcMzsCmCyhE" rel="noopener">video</a></li>
-        <li>Ragie — <a href="https://youtu.be/8ptbbFJWEts" rel="noopener">video</a></li>
-        <li>Glory — <a href="https://youtu.be/HUZOKvYcx_o" rel="noopener">video</a></li>
-        <li>Naru — <a href="https://youtu.be/q6uLaU3gpzo" rel="noopener">video</a></li>
-        <li>Zhèna — <a href="https://youtu.be/zyWzKW7jxoc" rel="noopener">video</a></li>
-        <li>Jumanzy — <a href="https://youtu.be/UTxxVvit7yY" rel="noopener">video</a></li>
-        <li>Divinestorm — <a href="https://youtu.be/XCB7eciR5cA" rel="noopener">video</a></li>
-        <li>Sokrush — <a href="https://youtu.be/ysJ8FTJfGk0" rel="noopener">video</a></li>
-        <li>Crok — <a href="https://youtu.be/I6kd3GnAGZg" rel="noopener">video</a></li>
-        <li>Gnogaine — <a href="https://www.youtube.com/watch?v=J9_k8AwgQ4M" rel="noopener">video</a></li>
-        <li>Belzebab — <a href="https://www.youtube.com/watch?v=5BeYXjBfrdg" rel="noopener">video</a></li>
-        <li>Neptun — <a href="https://www.youtube.com/watch?v=yqgNaS56A2c" rel="noopener">video</a></li>
-        <li>Shadowheart — <a href="https://youtu.be/zhfA9A7-J5c" rel="noopener">video</a></li>
-        <li>Rockafella — <a href="https://youtu.be/jMpM4FAExKg" rel="noopener">video</a></li>
-        <li>Flyx — <a href="https://www.youtube.com/watch?v=p2cQSPRTdhg" rel="noopener">video</a></li>
+        <li><a href="players.html#Supplier">Supplier</a> — <a href="https://youtu.be/iw3rxz3CEXk" rel="noopener">video</a></li>
+        <li><a href="players.html#Shakeyhealer">Shakeyhealer</a> — <a href="https://youtu.be/aKuivabiOns" rel="noopener">video</a></li>
+        <li><a href="players.html#Glorya">Glorya</a> — <a href="https://youtu.be/nNEb2k_EmMg" rel="noopener">video</a></li>
+        <li><a href="players.html#Carmelia">Carmelia</a> — <a href="https://youtu.be/AQtQFtVdON0" rel="noopener">video</a></li>
+        <li><a href="players.html#Wandolina">Wandolina</a> — <a href="https://www.youtube.com/watch?v=_iiYHJdjyzE" rel="noopener">video</a></li>
+        <li><a href="players.html#Priest%C3%A5">Priestå</a> — <a href="https://www.youtube.com/watch?v=dIZqr8TxMTo" rel="noopener">video</a></li>
+        <li><a href="players.html#Pnats">Pnats</a> — <a href="https://youtu.be/qWVO4loULc4" rel="noopener">video</a></li>
+        <li><a href="players.html#Luivi">Luivi</a> — <a href="https://youtu.be/DwxNYMcPGwk" rel="noopener">video</a></li>
+        <li><a href="players.html#Sudeki">Sudeki</a> — <a href="https://www.youtube.com/watch?v=ZTa1BpiasSo" rel="noopener">video</a></li>
+        <li><a href="players.html#Nayla">Nayla</a> — <a href="https://www.youtube.com/watch?v=wZUc9iQ_7cg" rel="noopener">video</a></li>
+        <li><a href="players.html#Palaman">Palaman</a> — <a href="https://youtu.be/QQ6NOuwZmKs" rel="noopener">video</a></li>
+        <li><a href="players.html#Randyfist">Randyfist</a> — <a href="https://youtu.be/hA_uPJ2vQQ0" rel="noopener">video</a></li>
+        <li><a href="players.html#Artimis">Artimis</a> — <a href="https://youtu.be/_3DAsqvgQZk" rel="noopener">video</a></li>
+        <li><a href="players.html#Jangera">Jangera</a> — <a href="https://www.youtube.com/watch?v=I7H6wGy5zf4" rel="noopener">video</a></li>
+        <li><a href="players.html#Pasmaarop">Pasmaarop</a> — <a href="https://www.youtube.com/watch?v=hcMzsCmCyhE" rel="noopener">video</a></li>
+        <li><a href="players.html#Ragie">Ragie</a> — <a href="https://youtu.be/8ptbbFJWEts" rel="noopener">video</a></li>
+        <li><a href="players.html#Glory">Glory</a> — <a href="https://youtu.be/HUZOKvYcx_o" rel="noopener">video</a></li>
+        <li><a href="players.html#Naru">Naru</a> — <a href="https://youtu.be/q6uLaU3gpzo" rel="noopener">video</a></li>
+        <li><a href="players.html#Zh%C3%A8na">Zhèna</a> — <a href="https://youtu.be/zyWzKW7jxoc" rel="noopener">video</a></li>
+        <li><a href="players.html#Jumanzy">Jumanzy</a> — <a href="https://youtu.be/UTxxVvit7yY" rel="noopener">video</a></li>
+        <li><a href="players.html#Divinestorm">Divinestorm</a> — <a href="https://youtu.be/XCB7eciR5cA" rel="noopener">video</a></li>
+        <li><a href="players.html#Sokrush">Sokrush</a> — <a href="https://youtu.be/ysJ8FTJfGk0" rel="noopener">video</a></li>
+        <li><a href="players.html#Crok">Crok</a> — <a href="https://youtu.be/I6kd3GnAGZg" rel="noopener">video</a></li>
+        <li><a href="players.html#Gnogaine">Gnogaine</a> — <a href="https://www.youtube.com/watch?v=J9_k8AwgQ4M" rel="noopener">video</a></li>
+        <li><a href="players.html#Belzebab">Belzebab</a> — <a href="https://www.youtube.com/watch?v=5BeYXjBfrdg" rel="noopener">video</a></li>
+        <li><a href="players.html#Neptun">Neptun</a> — <a href="https://www.youtube.com/watch?v=yqgNaS56A2c" rel="noopener">video</a></li>
+        <li><a href="players.html#Shadowheart">Shadowheart</a> — <a href="https://youtu.be/zhfA9A7-J5c" rel="noopener">video</a></li>
+        <li><a href="players.html#Rockafella">Rockafella</a> — <a href="https://youtu.be/jMpM4FAExKg" rel="noopener">video</a></li>
+        <li><a href="players.html#Flyx">Flyx</a> — <a href="https://www.youtube.com/watch?v=p2cQSPRTdhg" rel="noopener">video</a></li>
       </ul>
       <p class="archive-source">Reconstructed from the Dusk Discord archive; names normalized to in-game characters.</p>
     </details>
     <p>A 15 May Naxxramas GDKP
-    still carries <a href="players.html#Hadara">Hadara</a>, Hedara,
+    still carries <a href="players.html#Hadara">Hadara</a>, <a href="players.html#Hedara">Hedara</a>,
     <a href="players.html#Docthor">Docthor</a>,
-    <a href="players.html#Saltylock">Saltylock</a> and Taptum. They are
+    <a href="players.html#Saltylock">Saltylock</a> and <a href="players.html#Taptum">Taptum</a>. They are
     traces of people continuing to play together, not proof that the old
     guild survived under another name.</p>
+    <p>The Discord server itself outlived every guild name ever attached
+    to it. The channel a Ninjas officer built in April 2020, and Dusk
+    inherited that August, never actually closed — it still exists today
+    under yet another name, its rename history as unrecoverable as
+    everything else the archive never received, and the account that once
+    ran Sleep and Dusk still holds a seat inside it. Nobody planned that
+    kind of survival. It was simply easier to keep a server running than
+    to keep a guild alive.</p>
 
     <div class="divider">✦ ✦ ✦</div>
     <p class="sourcenote">Sources: the canonical raid archive (Warcraft
     Logs), the Dusk officer channel, and private messages quoted with
-    permission — Glory, Zados, Shakey, Luivi, Pnats, Supplier and Divinestorm's
-    conversations with Artimis, December 2020. Dates and kill times are from
+    permission — <a href="players.html#Glory">Glory</a>, <a href="players.html#Zados">Zados</a>, <a href="players.html#Shakeyhealer">Shakeyhealer</a>, <a href="players.html#Luivi">Luivi</a>, <a href="players.html#Pnats">Pnats</a>, <a href="players.html#Supplier">Supplier</a> and <a href="players.html#Divinestorm">Divinestorm</a>'s
+    conversations with <a href="players.html#Artimis">Artimis</a>, December 2020. Dates and kill times are from
     the local and external logs; where memories and records disagree, the
     records won.
     Corrections welcome — this is a living document.</p>
@@ -809,6 +1451,36 @@ fetch("data/classes.json").then((r) => r.json()).then(({ classes }) => {
     if (color) a.style.color = color;
   }
 });
+for (const card of document.querySelectorAll(".youtube-card[data-youtube]")) {
+  const id = card.dataset.youtube;
+  const title = card.dataset.title;
+  const thumb = document.createElement("span");
+  thumb.className = "youtube-thumb";
+  const play = document.createElement("span");
+  play.className = "youtube-play";
+  play.setAttribute("aria-hidden", "true");
+  play.textContent = "▶";
+  const label = document.createElement("span");
+  label.className = "youtube-title";
+  label.textContent = title;
+  thumb.append(play);
+  card.replaceChildren(thumb, label);
+  card.setAttribute("aria-label", `Play ${title}`);
+  card.addEventListener("click", (event) => {
+    event.preventDefault();
+    const player = document.createElement("div");
+    player.className = "youtube-player";
+    const frame = document.createElement("iframe");
+    frame.src = `https://www.youtube-nocookie.com/embed/${id}?autoplay=1`;
+    frame.title = title;
+    frame.allow = "accelerometer; autoplay; encrypted-media; picture-in-picture";
+    frame.referrerPolicy = "strict-origin-when-cross-origin";
+    frame.allowFullscreen = true;
+    player.appendChild(frame);
+    card.replaceWith(player);
+    frame.focus();
+  });
+}
 const lb = document.createElement("div");
 lb.id = "lightbox";
 lb.innerHTML = "<img alt=\"\">";

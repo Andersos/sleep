@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T20:28:01.822Z",
+ "generatedAt": "2026-08-01T18:30:10.599Z",
  "count": 316,
  "bios": {
   "aggro": {
@@ -976,7 +976,7 @@
   },
   "neptun": {
    "name": "Neptun",
-   "html": "<p>Neptun was a mage in the December core, one of the names the officers refused to cut when the merge math got brutal (\"we don't want to cut Neptun or <a style=\"color:#69CCF0\" href=\"players.html#Jumanzy\">Jumanzy</a> or <a style=\"color:#69CCF0\" href=\"players.html#Electro\">Electro</a> — all three of them in a good raid team will perform very well\"), and part of the first Four Horsemen kill and the Kel'Thuzad clear. His inclusion in the Nittedal circle remains unconfirmed; the logs only know the character.</p>"
+   "html": "<p>Neptun was <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>'s girlfriend and part of the Nittedal circle. She was a mage in the December core, one of the names the officers refused to cut when the merge math got brutal (\"we don't want to cut Neptun or <a style=\"color:#69CCF0\" href=\"players.html#Jumanzy\">Jumanzy</a> or <a style=\"color:#69CCF0\" href=\"players.html#Electro\">Electro</a> — all three of them in a good raid team will perform very well\"), and part of the first Four Horsemen kill and the Kel'Thuzad clear.</p>"
   },
   "nereb": {
    "name": "Nereb",
@@ -1848,7 +1848,7 @@
    },
    {
     "name": "Neptun",
-    "who": "Mage in the first Four Horsemen kill and the December core; inclusion in this circle remains to be confirmed."
+    "who": "Ragie's girlfriend; mage in the first Four Horsemen kill and the December core."
    },
    {
     "name": "Exclus",

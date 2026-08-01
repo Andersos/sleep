@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T20:28:22.751Z",
+ "generatedAt": "2026-08-01T18:36:48.653Z",
  "count": 25,
  "milestones": [
   {
@@ -73,13 +73,13 @@
    "videos": []
   },
   {
-   "date": "2020-03-12",
+   "date": "2020-03-11",
    "title": "Ragie disconnects on Onyxia",
    "titleHtml": "<a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a> disconnects on Onyxia",
    "major": 0,
    "blurb": "A routine Onyxia pull survives because the tank disconnects.",
    "blurbHtml": "A routine Onyxia pull survives because the tank disconnects.",
-   "html": "<p>The clip is titled as <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>'s disconnect pull and was uploaded on 12 March 2020. The video does not encode the pull date, and the available raid reports do not identify the correct run safely, so this milestone uses the publication date instead. The moment is early Sleep in miniature: a technical failure met by a room full of improvisation. Someone liked the mistake enough to preserve it.</p>",
+   "html": "<p>The clip is titled as <a style=\"color:#C79C6E\" href=\"players.html#Ragie\">Ragie</a>'s disconnect pull. <a style=\"color:#ABD473\" href=\"players.html#Artimis\">Artimis</a>'s Warcraft Logs report `km9LRZj2hc1ftWA3`, titled \"Onyxia 11.3\" and created on 11 March 2020, <a href=\"https://classic.warcraftlogs.com/reports/km9LRZj2hc1ftWA3?boss=-3&amp;difficulty=0\">identifies the raid</a>.</p><p>The moment is early Sleep in miniature: a technical failure met by a room full of improvisation. Someone liked the mistake enough to preserve it the next day.</p>",
    "videos": [
     "aCxFbXFPkyw"
    ]
@@ -203,8 +203,7 @@
    "blurbHtml": "Three bosses on the first night.",
    "html": "<p>Noth, Anub'Rekhan and Grand Widow Faerlina fell on Dusk's first night in the citadel — but the run convinced the leadership the guild could not clear Naxxramas alone. The internal review afterwards was blunt, and within forty-eight hours the first conversation with Ascension had happened. The Faerlina kill video is the last recording of Dusk raiding as itself.</p>",
    "videos": [
-    "y8B_KV_Lxx8",
-    "ltCXvuwqW-k"
+    "y8B_KV_Lxx8"
    ]
   },
   {
@@ -216,9 +215,12 @@
    "blurbHtml": "Exactly 20 from each guild, picking the strongest players.",
    "html": "<p>Six new bosses died on the first joint evening — Patchwerk, Grobbulus, Gluth, Thaddius, Heigan and Instructor Razuvious — vindicating the partnership overnight and hardening the roster math that had benched twenty people to make it possible. The kill videos from this night carry both guild names in their titles; eleven days later the titles just said Ascension.</p>",
    "videos": [
+    "ltCXvuwqW-k",
     "8r8cVPBOTC0",
     "TCWNExvdW4A",
-    "kCEDQDm6LzU"
+    "kCEDQDm6LzU",
+    "00gfm627JX0",
+    "yrU03e1GB68"
    ]
   },
   {
